@@ -13,7 +13,11 @@ Plataforma de ensino com base de conhecimento própria. A IA é complementar: ca
 | `test/engine.test.cjs` | Testes do Engine e do conteúdo (cada solução de referência passa; cada código inicial falha) |
 | `test/e2e.test.cjs` | Testes de ponta a ponta com jsdom, banco em memória e IA indisponível |
 
-## Comandos
+## Requisitos
+Para instalar e executar o projeto localmente, é necessário ter instalado:
+`Node.js`
+
+## Instalação
 ```
 npm install
 npm run seed
