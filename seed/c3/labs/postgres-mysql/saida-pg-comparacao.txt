@@ -1,0 +1,54 @@
+psql:<stdin>:1: NOTICE:  schema "lab" does not exist, skipping
+                                                       version                                                        
+----------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 17.12 (Debian 17.12-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+(1 row)
+
+ transaction_isolation 
+-----------------------
+ read committed
+(1 row)
+
+ divisao |      decimal       | pipes 
+---------+--------------------+-------
+       2 | 2.5000000000000000 | ab
+(1 row)
+
+ id | nome 
+----+------
+(0 rows)
+
+psql:<stdin>:8: ERROR:  new row for relation "produtos" violates check constraint "produtos_preco_check"
+DETAIL:  Failing row contains (4, Negativo, -1.00, t, 2026-11-25 11:44:50.416286+00).
+psql:<stdin>:9: ERROR:  column "produtos.nome" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT nome, count(*) FROM produtos GROUP BY preco;
+               ^
+ cliente 
+---------
+ a
+ b
+ 
+(3 rows)
+
+ cliente 
+---------
+ 
+ b
+ a
+(3 rows)
+
+ tabela_ddl_teste 
+------------------
+ 
+(1 row)
+
+ id 
+----
+  1
+(1 row)
+
+psql:<stdin>:15: ERROR:  date/time field value out of range: "2026-02-30"
+LINE 1: SELECT CAST('2026-02-30' AS date);
+                    ^
+psql:<stdin>:16: ERROR:  value too long for type character varying(50)
+psql:<stdin>:17: ERROR:  division by zero

@@ -1,0 +1,2 @@
+/bloqueia  | a requisição lenta levou 607 ms | /rapida (enviada 50 ms depois, por outro processo) levou 558 ms | atraso máximo do event loop do servidor 605 ms
+/worker    | a requisição lenta levou 913 ms | /rapida (enviada 50 ms depois, por outro processo) levou 5 ms | atraso máximo do event loop do servidor 12 ms

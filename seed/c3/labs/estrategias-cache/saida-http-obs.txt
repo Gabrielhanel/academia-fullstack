@@ -1,0 +1,8 @@
+== cabeçalhos HTTP: ETag e revalidação condicional (servidor Node local)
+1ª requisição: 200 | bytes do corpo: 8884 | ETag: "6c550e085a363c7b"
+2ª com If-None-Match: 304 | bytes do corpo: 0
+3ª com ETag diferente: 200
+
+== métricas do Redis: keyspace_hits e keyspace_misses
+keyspace_hits = 9 | keyspace_misses = 3 | taxa de acerto = 75.0%
+evicted_keys = 0 | expired_keys = 0

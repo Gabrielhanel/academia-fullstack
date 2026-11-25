@@ -1,0 +1,68 @@
+name: testes
+on:
+  pull_request:
+  push:
+    branches: [main]
+concurrency:
+  group: testes-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  unitarios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [24, 26]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - run: npm run test:vitest -- --coverage
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cobertura-node-${{ matrix.node }}
+          path: coverage
+  api:
+    runs-on: ubuntu-latest
+    needs: unitarios
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - run: npm run test:api
+  e2e:
+    runs-on: ubuntu-latest
+    needs: api
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test --shard=${{ matrix.shard }}/2
+        env:
+          TRACE: ${{ runner.debug == '1' && '1' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: traces-shard-${{ matrix.shard }}
+          path: test-results
+          retention-days: 7

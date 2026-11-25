@@ -1,0 +1,1 @@
+{ "name": "Lab PWA", "short_name": "Lab", "start_url": "/lab3.html", "scope": "/", "display": "standalone", "background_color": "#ffffff", "theme_color": "#0b5fff", "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }

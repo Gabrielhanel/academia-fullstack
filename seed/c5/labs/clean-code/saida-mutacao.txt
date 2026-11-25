@@ -1,0 +1,6 @@
+== mutação manual: trocar > por >= em aplicarDescontoFixo (refatorado)
+✖ failing tests:
+✖ refatorado (mesmo comportamento): exatamente 500 não desconta (3.765738ms)
+ℹ fail 1
+ℹ pass 35
+ℹ tests 36

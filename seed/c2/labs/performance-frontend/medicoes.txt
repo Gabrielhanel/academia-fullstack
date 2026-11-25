@@ -1,0 +1,23 @@
+=== Lighthouse 13.6.0 (Chrome 157 headless, perfil móvel padrão com throttling simulado), 4 execuções ===
+ruim | nota 92 | FCP 2.7 s | LCP 2.7 s | CLS 0 | TBT 30 ms | SI 2.7 s
+bom  | nota 100 | FCP 0.6 s | LCP 1.2 s | CLS 0 | TBT 90 ms | SI 1.2 s
+ruim | nota 93 | FCP 2.6 s | LCP 2.6 s | CLS 0 | TBT 0 ms | SI 2.6 s
+bom  | nota 100 | FCP 0.6 s | LCP 1.2 s | CLS 0 | TBT 30 ms | SI 1.1 s
+(ruim: CSS e script bloqueantes com 300 ms de atraso cada, imagem JPEG de 184 kB com 500 ms de atraso e sem preload;
+ bom: CSS inline, imagem WebP de 66 kB com preload, fetchpriority=high e dimensões. O TBT variou entre execuções (0 a 90 ms): ruído.)
+=== Puppeteer + PerformanceObserver (viewport 390 px) ===
+cls-ruim.html (imagem sem dimensões, 500 ms de atraso): CLS 0.012 | LCP 628 ms
+cls-bom.html  (imagem com width/height):                  CLS 0     | LCP 592 ms
+inp-lento.html (handler de clique com laço de 350 ms):    duração dos eventos de interação: 368 ms
+inp-dividido.html (handler curto; trabalho em fatias de 50 ms com setTimeout): nenhum evento acima de 16 ms
+=== Formatos de imagem (gradiente sintético 1200x630, sharp 0.35.5; NÃO representa fotos reais) ===
+hero.jpg q92: 184054 B | hero.webp q70: 65894 B | hero.avif q50: 52168 B | hero-600.webp (600 px): 24138 B
+=== Vite 8.3.8 + React 19.3.1 (build de produção) ===
+tree shaking: a função naoUsada de util.js não aparece no bundle (0 ocorrências)
+sem lazy: index 365.35 kB (gzip 87.15 kB)
+com lazy: index 221.41 kB (gzip 69.35 kB) + chunk Relatorio 145.74 kB (gzip 16.93 kB)
+com um módulo pequeno (0,35 kB) a divisão não compensou: index 221.41 kB contra 219.96 kB sem lazy
+=== Memoização (React 19.3.1, jsdom; 5 cliques que mudam só o estado n) ===
+montagem: filhoSemMemo 1, memo+callback novo 1, memo+callback estável 1, cálculo sem useMemo 1000, com useMemo 1000
+extras: filhoSemMemo 5 | memo com callback inline 5 | memo com useCallback 0 | cálculo sem useMemo 5000 | com useMemo 0
+custo do filtro de 100000 itens (Node/jsdom): ~26 ms por execução

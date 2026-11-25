@@ -1,0 +1,16 @@
+N = 2000 pedidos | falhas injetadas: estoque 194 | cobrança 321 (sorteio determinístico)
+
+== 1. sem saga: executa os passos em sequência e, se um falha, só marca o pedido como erro
+{"confirmados":1513,"cancelados":487,"pendentes":0,"confirmadosSemReserva":0,"confirmadosSemCobranca":0,"canceladosComReserva":293,"canceladosCobradosSemEstorno":0}
+(ordem invertida: cobrar antes de reservar) {"confirmados":1513,"cancelados":487,"pendentes":0,"confirmadosSemReserva":0,"confirmadosSemCobranca":0,"canceladosComReserva":0,"canceladosCobradosSemEstorno":166}
+
+== 2. saga orquestrada com compensações (sem quedas)
+{"confirmados":1513,"cancelados":487,"pendentes":0,"confirmadosSemReserva":0,"confirmadosSemCobranca":0,"canceladosComReserva":0,"canceladosCobradosSemEstorno":0}
+efeitos aplicados: estoque 2099 | pagamentos 1513
+
+== 3. saga com quedas do orquestrador (3% dos pedidos caem após um passo) e retomada pelo log, com os passos idempotentes
+quedas: 46 | retomadas: 46 | {"confirmados":1513,"cancelados":487,"pendentes":0,"confirmadosSemReserva":0,"confirmadosSemCobranca":0,"canceladosComReserva":0,"canceladosCobradosSemEstorno":0}
+estados finais das sagas no log: {"COMPENSADA":487,"CONCLUIDA":1513}
+
+== 4. compensação idempotente: executar a compensação duas vezes não estorna duas vezes
+efeitos de pagamento após cobrar + estornar x2: 2 (2 = cobrar e um estorno) | efeitos de estoque após liberar x2 sem reserva: 0

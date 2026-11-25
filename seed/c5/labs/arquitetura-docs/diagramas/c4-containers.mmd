@@ -1,0 +1,15 @@
+C4Container
+  title Contêineres: Loja Online
+  Person(cliente, "Cliente")
+  System_Boundary(loja, "Loja Online") {
+    Container(spa, "SPA", "React", "Interface de compra")
+    Container(api, "API de Pedidos", "Node.js, Express", "Regras de pedido e pagamento")
+    ContainerDb(db, "Banco de Pedidos", "PostgreSQL", "Pedidos, itens e clientes")
+    Container(fila, "Fila de Jobs", "Redis, BullMQ", "E-mails e relatórios")
+  }
+  System_Ext(gateway, "Gateway de Pagamento")
+  Rel(cliente, spa, "Usa", "HTTPS")
+  Rel(spa, api, "Chama", "JSON/HTTPS")
+  Rel(api, db, "Lê e grava", "SQL")
+  Rel(api, fila, "Enfileira", "Redis")
+  Rel(api, gateway, "Cobra", "HTTPS")

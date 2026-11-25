@@ -1,0 +1,18 @@
+BullMQ 6.7.10 | Redis 8.12.0
+== 1. intervalos entre tentativas: fixo x exponencial (attempts 5, delay 100 ms; o job falha 4 vezes e conclui na 5ª)
+fixed        intervalos entre tentativas (ms): 132, 202, 202, 202
+exponential  intervalos entre tentativas (ms): 112, 302, 504, 807
+
+== 2. backoff com jitter personalizado (strategy do worker)
+atrasos sorteados (metade da base + aleatório até a base): 81, 200, 224 | tentativas feitas: 4 | estado final: failed
+
+== 3. mensagem venenosa e fila de mensagens mortas (DLQ)
+processados com sucesso: 1,3,5 | falharam na fila principal: 2 | na DLQ: 2
+conteúdo da DLQ: {"id":2,"motivo":"payload inválido","tentativas":3} | {"id":4,"motivo":"payload inválido","tentativas":3}
+depois de corrigir o problema, a DLQ foi reprocessada: 2,4
+
+== 4. job travado (stalled): o trabalhador bloqueia o event loop e perde a trava
+execuções do mesmo job: 2 | evento stalled: 1 | estado final: completed | erros do worker: Missing lock for job 1. moveToFinished (laço síncrono de 2,5 s com lockDuration 500 ms: a trava expirou, o job foi reentregue e a primeira execução não conseguiu finalizar)
+
+== 5. idempotência do processador: o mesmo job executado duas vezes, um único efeito
+duas entregas do mesmo trabalho: aplicado, ignorado | efeitos distintos: 1

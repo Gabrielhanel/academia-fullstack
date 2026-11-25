@@ -1,0 +1,389 @@
+== 01 NULL e três valores
+ nome | email 
+------+-------
+(0 rows)
+
+ nome  | email 
+-------+-------
+ Bruno | 
+(1 row)
+
+ total | com_email | com_cidade 
+-------+-----------+------------
+     4 |         3 |          3
+(1 row)
+
+ nome  
+-------
+ Bruno
+(1 row)
+
+ nome  
+-------
+ Bruno
+ Diego
+(2 rows)
+
+== 02 SELECT/WHERE/ORDER
+  nome  | preco 
+--------+-------
+ Caneta |  3.50
+ Lápis  |  2.00
+(2 rows)
+
+  nome   
+---------
+ Caneta
+ Garrafa
+ Mochila
+(3 rows)
+
+  nome   | preco 
+---------+-------
+ Garrafa | 45.00
+ Caderno | 18.90
+(2 rows)
+
+ categoria  
+------------
+ acessorios
+ papelaria
+(2 rows)
+
+ nome  |    cidade     
+-------+---------------
+ Bruno | Caxias do Sul
+ Ana   | Porto Alegre
+ Carla | Porto Alegre
+ Diego | 
+(4 rows)
+
+ nome  |    cidade     
+-------+---------------
+ Diego | 
+ Bruno | Caxias do Sul
+ Ana   | Porto Alegre
+ Carla | Porto Alegre
+(4 rows)
+
+  nome   
+---------
+ Caneta
+ Caderno
+ Garrafa
+(3 rows)
+
+ id | com_reajuste | arred 
+----+--------------+-------
+  1 |        3.850 |   3.9
+  3 |      132.000 | 132.0
+(2 rows)
+
+== 03 DML
+ id | nome 
+----+------
+  5 | Eva
+(1 row)
+
+ id | preco 
+----+-------
+  1 |  3.85
+  2 | 20.79
+  5 |  2.20
+(3 rows)
+
+ id 
+----
+  5
+(1 row)
+
+ clientes_apos_rollback 
+------------------------
+                      4
+(1 row)
+
+ id | nome 
+----+------
+  7 | Gil2
+(1 row)
+
+== 04 JOINs
+ nome  | pedido |  status   
+-------+--------+-----------
+ Ana   |     10 | pago
+ Ana   |     11 | aberto
+ Bruno |     12 | pago
+ Carla |     13 | cancelado
+(4 rows)
+
+ nome  | pedido 
+-------+--------
+ Ana   |     10
+ Ana   |     11
+ Bruno |     12
+ Carla |     13
+ Diego |       
+(5 rows)
+
+ nome  
+-------
+ Diego
+(1 row)
+
+ nome  | id 
+-------+----
+ Ana   | 10
+ Bruno | 12
+ Carla |   
+ Diego |   
+(4 rows)
+
+ nome  | id 
+-------+----
+ Ana   | 10
+ Bruno | 12
+(2 rows)
+
+ linhas_cross 
+--------------
+           20
+(1 row)
+
+ produto | quantidade | pedido | cliente 
+---------+------------+--------+---------
+ Caneta  |         10 |     10 | Ana
+ Caderno |          2 |     10 | Ana
+ Mochila |          1 |     11 | Ana
+ Caderno |          1 |     12 | Bruno
+ Garrafa |          2 |     12 | Bruno
+ Lápis   |         20 |     13 | Carla
+(6 rows)
+
+ cliente_a | cliente_b 
+-----------+-----------
+ Ana       | Carla
+(1 row)
+
+ nome  | pedido 
+-------+--------
+ Ana   |     10
+ Bruno |     12
+ Carla |       
+ Diego |       
+       |     11
+       |     13
+(6 rows)
+
+== 05 duplicação em JOIN
+ total_correto 
+---------------
+        341.70
+(1 row)
+
+ pedidos_vezes_itens 
+---------------------
+                   6
+(1 row)
+
+ pedidos 
+---------
+       4
+(1 row)
+
+== 06 agregações
+ categoria  | n | media |  min  |  max   
+------------+---+-------+-------+--------
+ acessorios | 2 | 82.50 | 45.00 | 120.00
+ papelaria  | 3 |  8.13 |  2.00 |  18.90
+(2 rows)
+
+  status   | pedidos | valor  
+-----------+---------+--------
+ pago      |       4 | 181.70
+ aberto    |       1 | 120.00
+ cancelado |       1 |  40.00
+(3 rows)
+
+ nome  | gasto  
+-------+--------
+ Ana   | 192.80
+ Bruno | 108.90
+(2 rows)
+
+ todas | com_cidade | cidades_distintas 
+-------+------------+-------------------
+     4 |          3 |                 2
+(1 row)
+
+ categoria  | caros 
+------------+-------
+ acessorios |     2
+ papelaria  |     1
+(2 rows)
+
+ soma_vazia 
+------------
+           
+(1 row)
+
+ soma_vazia_zero 
+-----------------
+               0
+(1 row)
+
+== 07 subqueries
+  nome   
+---------
+ Mochila
+ Garrafa
+(2 rows)
+
+ nome  
+-------
+ Ana
+ Bruno
+(2 rows)
+
+ nome  
+-------
+ Diego
+(1 row)
+
+ nome  
+-------
+ Diego
+(1 row)
+
+ nome 
+------
+(0 rows)
+
+  nome   | preco  | media_cat 
+---------+--------+-----------
+ Caneta  |   3.50 |      8.13
+ Caderno |  18.90 |      8.13
+ Mochila | 120.00 |     82.50
+ Garrafa |  45.00 |     82.50
+ Lápis   |   2.00 |      8.13
+(5 rows)
+
+ categoria | n 
+-----------+---
+ papelaria | 3
+(1 row)
+
+ id 
+----
+  3
+  4
+(2 rows)
+
+== 08 CTEs
+ nome  | total  
+-------+--------
+ Ana   | 192.80
+ Bruno | 108.90
+(2 rows)
+
+ soma_1_a_5 
+------------
+         15
+(1 row)
+
+ nivel |                caminho                
+-------+---------------------------------------
+     0 | Eletrônicos
+     1 | Eletrônicos > Celulares
+     2 | Eletrônicos > Celulares > Smartphones
+     0 | Livros
+(4 rows)
+
+ pagos 
+-------
+     2
+(1 row)
+
+== 09 ordem lógica e injeção
+    n    
+---------
+ Caderno
+(1 row)
+
+  nome  
+--------
+ Caneta
+(1 row)
+
+ nome 
+------
+(0 rows)
+
+ texto | divisao_inteira |  divisao_decimal   |    cast_numeric    
+-------+-----------------+--------------------+--------------------
+ x     |               2 | 2.5000000000000000 | 2.5000000000000000
+(1 row)
+
+ ok_data 
+---------
+ t
+(1 row)
+
+== 10 extras de agregação e JOIN
+  status   | linhas_de_item | pedidos_distintos 
+-----------+----------------+-------------------
+ aberto    |              1 |                 1
+ cancelado |              1 |                 1
+ pago      |              4 |                 2
+(3 rows)
+
+ nome  | pedidos 
+-------+---------
+ Ana   |       2
+ Bruno |       1
+ Carla |       1
+ Diego |       0
+(4 rows)
+
+ nome  | errado 
+-------+--------
+ Ana   |      2
+ Bruno |      1
+ Carla |      1
+ Diego |      1
+(4 rows)
+
+ categoria  | count 
+------------+-------
+ acessorios |     2
+(1 row)
+
+ categoria  | media_sem_arredondar 
+------------+----------------------
+ acessorios |  82.5000000000000000
+ papelaria  |   8.1333333333333333
+(2 rows)
+
+         nomes          
+------------------------
+ Caderno, Caneta, Lápis
+(1 row)
+
+ nome | id 
+------+----
+(0 rows)
+
+ id | status 
+----+--------
+(0 rows)
+
+== 11 injeção por concatenação
+ linhas_com_texto_malicioso_concatenado 
+----------------------------------------
+                                      5
+(1 row)
+
+ linhas_parametrizado 
+----------------------
+                    0
+(1 row)
+

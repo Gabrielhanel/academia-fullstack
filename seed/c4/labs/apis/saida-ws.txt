@@ -1,0 +1,18 @@
+ws 8.23.0
+== 1. autenticação no upgrade (verifyClient por token e Origin)
+origem e token corretos: aceito
+token errado: recusado: HTTP 401
+origem errada: recusado: HTTP 403
+
+== 2. limite de tamanho da mensagem (maxPayload 1 MiB)
+mensagem de 2 MiB -> {"code":1009,"reason":""} | erro emitido no socket do servidor: WS_ERR_UNSUPPORTED_MESSAGE_LENGTH (sem o ouvinte de 'error', a primeira versão deste teste derrubou o processo com RangeError WS_ERR_UNSUPPORTED_MESSAGE_LENGTH)
+
+== 3. heartbeat: detectar cliente morto (ping a cada 150 ms, prazo de 1 ciclo)
+clientes conectados no servidor: 1 | encerrados por falta de pong: [2] | saudável ainda aberto: true
+
+== 4. broadcast para 300 clientes (latência até o recebimento)
+mensagens entregues: 1500 (esperado 1500) | latência mediana: 29.32 ms | p95: 54.63 ms
+
+== 5. consumidor lento: bufferedAmount cresce no servidor
+enviados: 400 x 256 KiB (~100 MiB) para um cliente que não lê | bufferedAmount máximo no servidor: 98 MiB
+política possível: se bufferedAmount > limite, descartar mensagens ou fechar o socket (código 1013, "try again later")

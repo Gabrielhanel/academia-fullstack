@@ -1,0 +1,14 @@
+== idempotência dos métodos
+POST duas vezes: 201 {"id":2,"nome":"Bia","versao":1} | location: /usuarios/2 || 201 {"id":3,"nome":"Bia","versao":1} | location: /usuarios/3 | recursos criados: 2
+GET: 200 {"id":1,"nome":"Ana","versao":1} | etag: "602cf0a63079" | cache-control: private, max-age=0, must-revalidate
+GET com If-None-Match igual: 304 (sem corpo)
+GET com Accept: application/xml: 406 {"erro":"só application/json"}
+GET inexistente: 404 {"erro":"não encontrado"}
+PUT sem If-Match: 428 {"erro":"If-Match obrigatório"}
+PUT com If-Match correto: 200 {"id":1,"nome":"Ana 2","versao":2} | etag: "dd0e07bde099"
+PUT repetido com o ETag antigo (outro cliente já alterou): 412 {"erro":"versão desatualizada"}
+PUT repetido com o mesmo conteúdo e o ETag atual: versão 2 -> 2 | mesmo ETag: true (o estado final é o mesmo: idempotente)
+DELETE: 204 (sem corpo) | DELETE de novo: 404 (sem corpo)
+PATCH em recurso (rota não implementada para PATCH): 405 {"erro":"método não permitido"} | allow: GET, PUT, DELETE
+HEAD: 200 | corpo vazio: true
+OPTIONS (sem CORS configurado): 405 | allow: GET, PUT, DELETE

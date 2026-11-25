@@ -1,0 +1,16 @@
+== 1. validar a própria especificação
+OpenAPI 3.1.0 válida: /pedidos, /pedidos/{id}
+referência quebrada recusada: Missing $ref pointer "#/components/schemas/NaoExiste". Token "NaoExiste" does not exist.
+
+== 2. validar requisições com Ajv a partir do schema
+válido                         válido
+campo extra                    inválido: / must NOT have additional properties
+sku fora do padrão e qtd 0     inválido: /itens/0/sku must match pattern "^[A-Z]{2}-\d{3}$" | /itens/0/qtd must be >= 1
+email inválido e itens vazios  inválido: /email must match format "email" | /itens must NOT have fewer than 1 items
+sem cliente                    inválido: / must have required property 'cliente'
+
+== 3. teste de contrato da resposta (deriva do schema)
+boa             respeita o contrato
+campo-removido  VIOLA o contrato: / must have required property 'total'
+tipo-mudou      VIOLA o contrato: /id must be integer
+valor-novo      VIOLA o contrato: /status must be equal to one of the allowed values

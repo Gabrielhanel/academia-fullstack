@@ -1,0 +1,51 @@
+== pg_dump/pg_restore
+20724384
+NOTICE:  database "restaurado" does not exist, skipping
+
+
+pg_restore: warning: errors ignored on restore: 2
+500000
+18
+== mysqldump
+2307
+4
+== replicação por streaming (PostgreSQL)
+replica
+10
+== réplica por streaming
+server started
+t
+42
+ERROR:  cannot execute INSERT in a read-only transaction
+t|streaming|async
+0
+== segundo restore (erros)
+NOTICE:  database "restaurado2" does not exist, skipping
+pg_restore: error: could not execute query: ERROR:  data type integer has no default operator class for access method "gist"
+HINT:  You must specify an operator class for the index or define a default operator class for the data type.
+Command was: ALTER TABLE ONLY tuning.reservas2
+    ADD CONSTRAINT reservas2_sala_periodo_excl EXCLUDE USING gist (sala WITH =, periodo WITH &&);
+
+
+== correção: extensão antes do restore (banco restaurado3)
+NOTICE:  database "restaurado3" does not exist, skipping
+pg_restore: error: could not execute query: ERROR:  operator class "tuning.gin_trgm_ops" does not exist for access method "gin"
+Command was: CREATE INDEX idx_codigo_trgm ON tuning.pedidos USING gin (codigo tuning.gin_trgm_ops);
+
+
+pg_restore: warning: errors ignored on restore: 1
+exit=0
+500000
+19
+1
+== correção 2: extensões no esquema tuning (banco restaurado4)
+NOTICE:  database "restaurado4" does not exist, skipping
+pg_restore: error: could not execute query: ERROR:  schema "tuning" already exists
+Command was: CREATE SCHEMA tuning;
+
+
+pg_restore: warning: errors ignored on restore: 1
+500000
+20
+pg_trgm|tuning
+btree_gist|tuning

@@ -1,0 +1,17 @@
+name: invalido
+on: [pull_request]
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    needs: inexistente
+    strategy:
+      matrix:
+        node: [24, 26]
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.nodee }}
+      - run: echo "${{ github.evnt.name }}"
+  b:
+    steps:
+      - run: echo oi

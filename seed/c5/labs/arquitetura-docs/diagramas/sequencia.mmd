@@ -1,0 +1,20 @@
+sequenceDiagram
+  autonumber
+  actor U as Cliente
+  participant W as Web
+  participant A as API de Pedidos
+  participant E as Estoque
+  participant P as Pagamento
+  U->>W: finalizar compra
+  W->>A: POST /pedidos
+  A->>E: reservar(itens)
+  E-->>A: ok
+  A->>P: cobrar(valor)
+  alt aprovado
+    P-->>A: aprovado
+    A-->>W: 201 Created
+  else recusado
+    P-->>A: recusado
+    A->>E: liberar(itens)
+    A-->>W: 402 Payment Required
+  end

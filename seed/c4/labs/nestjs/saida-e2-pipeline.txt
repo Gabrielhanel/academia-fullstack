@@ -1,0 +1,27 @@
+== pipes e validação
+DTO válido (idade "30" como texto, transform:true): 201 {"ok":true,"tipoIdade":"number","dto":{"nome":"Ana","email":"ana@x.com","idade":30}}
+DTO inválido: 400 {"message":["nome must be longer than or equal to 3 characters","email must be an email","idade must not be less than 18"],"error":"Bad Request","statusCode":400}
+campo extra com forbidNonWhitelisted: 400 {"message":["property admin should not exist"],"error":"Bad Request","statusCode":400}
+ParseIntPipe "abc": 400 {"message":"Validation failed (numeric string is expected)","error":"Bad Request","statusCode":400}
+ParseIntPipe "42": 200 {"id":42,"tipo":"number"}
+ParseUUIDPipe inválido: 400 {"message":"Validation failed (uuid is expected)","error":"Bad Request","statusCode":400}
+DefaultValuePipe + ParseIntPipe sem query: 200 {"pagina":1,"limite":10} | com ?pagina=3&limite=5: 200 {"pagina":3,"limite":5}
+
+== guards
+sem papel: 403 {"message":"Forbidden resource","error":"Forbidden","statusCode":403}
+papel user: 403 {"message":"Forbidden resource","error":"Forbidden","statusCode":403}
+papel admin: 200 área admin
+
+== ordem de execução
+guard -> interceptor:antes -> pipe -> handler -> interceptor:depois
+
+== interceptors
+envelope: 200 {"dados":{"n":1}}
+timeout 100 ms em uma rota de 400 ms: 408 {"message":"tempo esgotado","error":"Request Timeout","statusCode":408} | levou 111 ms
+
+== filtros e exceções
+NotFoundException: 404 {"message":"usuário não existe","error":"Not Found","statusCode":404}
+HttpException com objeto: 418 {"erro":"custom","campos":["a"]}
+ErroDominio com filtro: 409 {"type":"https://exemplo.com/erros/saldo-insuficiente","title":"saldo insuficiente","status":409} | filtro executou: true
+bug (TypeError) sem filtro: 500 {"statusCode":500,"message":"Internal server error"}
+rota inexistente: 404 {"message":"Cannot GET /u/nada","error":"Not Found","statusCode":404}

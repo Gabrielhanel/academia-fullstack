@@ -1,0 +1,30 @@
+prom-client 15.1.3 | Node v26.13.1
+== 1. tipos de métrica e o formato de exposição
+# TYPE http_requests_total counter
+http_requests_total{rota="/pedidos",status="200"} 90
+http_requests_total{rota="/pedidos",status="500"} 10
+# TYPE http_requests_in_flight gauge
+# TYPE http_request_duration_seconds histogram
+http_request_duration_seconds_bucket{le="0.05",rota="/pedidos"} 741
+http_request_duration_seconds_bucket{le="0.1",rota="/pedidos"} 948
+http_request_duration_seconds_bucket{le="0.25",rota="/pedidos"} 1000
+http_request_duration_seconds_bucket{le="+Inf",rota="/pedidos"} 1000
+http_request_duration_seconds_sum{rota="/pedidos"} 39.77302818240355
+http_request_duration_seconds_count{rota="/pedidos"} 1000
+
+== 2. percentil estimado pelos buckets x exato (1.000 observações)
+p50 | exato: 29.7 ms | estimado pelos buckets (interpolação linear, como o histogram_quantile): 31.4 ms
+p95 | exato: 101.6 ms | estimado pelos buckets (interpolação linear, como o histogram_quantile): 105.8 ms
+p99 | exato: 164.1 ms | estimado pelos buckets (interpolação linear, como o histogram_quantile): 221.2 ms
+(a precisão depende da escolha dos buckets: o erro cresce onde os buckets são largos)
+
+== 3. cardinalidade: labels com valores ilimitados (userId)
+   100 séries | resposta de /metrics:      3 KiB | tempo para gerar:     2.5 ms | heap (aprox.): -0.2 MiB
+  1000 séries | resposta de /metrics:     31 KiB | tempo para gerar:    18.5 ms | heap (aprox.): 0.9 MiB
+ 10000 séries | resposta de /metrics:    321 KiB | tempo para gerar:    91.7 ms | heap (aprox.): 7.1 MiB
+ 50000 séries | resposta de /metrics:   1649 KiB | tempo para gerar:   426.1 ms | heap (aprox.): 23.9 MiB
+
+séries de um histograma por valor de label: buckets (8 + Inf) + sum + count = 11 séries por combinação de labels
+
+== 4. métricas padrão do processo (coletarDefault)
+quantidade: 31 | exemplos: process_cpu_user_seconds_total, process_resident_memory_bytes, nodejs_eventloop_lag_seconds, nodejs_heap_size_used_bytes, nodejs_gc_duration_seconds

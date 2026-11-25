@@ -1,0 +1,6 @@
+camada                        testes   duração (ms)   ms por teste
+unitários                         12            613           51.1 
+mocks do serviço                   5            346           69.2 
+integração (SQLite)                5            321           64.2 
+integração (HTTP+SQLite)           3            661          220.5 
+E2E (Chrome)                       3           2983          994.3 

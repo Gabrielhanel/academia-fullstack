@@ -1,0 +1,11 @@
+== 1. express-rate-limit 8.7.5: 5 requisições por janela de 2 s
+status das 8 requisições seguidas: 200 200 200 200 200 429 429 429
+cabeçalhos da última: ratelimit: limit=5, remaining=0, reset=2 | ratelimit-policy: 5;w=2 | retry-after: 2
+depois da janela: 200
+
+== 2. janela fixa x balde de fichas: a rajada na virada da janela (limite 10 por segundo)
+janela fixa          aceitas no fim da janela 1: 10 | aceitas no começo da janela 2: 10 | total em ~100 ms: 20
+balde de fichas      aceitas no fim da janela 1: 10 | aceitas no começo da janela 2: 1 | total em ~100 ms: 11
+
+== 3. limitação por chave: um cliente não consome a cota de outro
+chave A (5 requisições): 200 200 200 429 429 | chave B (2 requisições): 200 200

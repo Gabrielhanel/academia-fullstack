@@ -1,0 +1,13 @@
+✔ ADRs do exemplo são válidos e a cadeia de substituição é recíproca (16.168037ms)
+✔ exemplos inválidos acumulam 9 problemas (2.77717ms)
+✔ regras individuais (3.419939ms)
+✔ índice gerado a partir dos ADRs (3.108863ms)
+✔ matriz de decisão: ranking, margem e validações (4.147745ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 432.28994

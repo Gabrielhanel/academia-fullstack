@@ -1,0 +1,10 @@
+import express from 'express';
+const graceful = process.argv[2] !== 'simples';
+const fechar = process.argv[2] === 'graceful-connection-close';
+const app = express();
+let ocupadas = 0; let encerrando = false;
+if (fechar) app.use((req, res, next) => { res.on('finish', () => { if (encerrando) setImmediate(() => srv.closeIdleConnections()); }); next(); });
+app.get('/saude', (req, res) => res.json({ ok: !encerrando }));
+app.get('/lento', async (req, res) => { ocupadas++; await new Promise((r) => setTimeout(r, 1000)); ocupadas--; res.json({ ok: true }); });
+var srv = app.listen(0, '127.0.0.1', () => process.send({ port: srv.address().port }));
+if (graceful) process.on('SIGTERM', () => { encerrando = true; srv.close(() => { process.send?.({ fim: 'conexões drenadas' }); process.exit(0); }); srv.closeIdleConnections(); });

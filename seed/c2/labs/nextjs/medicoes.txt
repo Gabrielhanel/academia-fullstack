@@ -1,0 +1,58 @@
+=== APP 1 (config padrão, output standalone; next build + next start) ===
+--- GET / (cabeçalhos)
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+Cache-Control: s-maxage=31536000
+Content-Type: text/html; charset=utf-8
+--- GET /blog/a título
+<title>Post a | Lab</title>
+--- GET /blog/c (fora de generateStaticParams)
+200
+--- /painel sem cookie (proxy)
+307 -> http://localhost:3111/
+--- /painel com cookie
+dinâmico 
+x-lab: 1
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+--- Date.now em duas chamadas
+1795586909328
+1795586910418
+--- GET /api/ola?n=Ana
+{"ola":"Ana","t":1}
+--- POST json inválido
+{"erro":"json inválido"} [400]
+--- POST json válido
+{"recebido":{"a":1}} [201]
+--- /acoes: form action e id
+<form action="" encType="multipart/form-data" method="POST">
+name="$ACTION_ID_4007514da005a60d3b9ef83f7cc280d6486bfe3cef"
+--- tamanho do HTML / e bundle do cliente (/acoes)
+4804
+7
+--- standalone
+node_modules
+package.json
+server.js
+39M	.next/standalone
+
+=== APP 2 (cacheComponents + partialPrefetching) ===
+--- chamadas logo após iniciar (build já prerenderizou)
+
+--- 3 GET / e chamadas
+{"posts":0,"hora":0}
+--- tempos: primeiro byte x total de /
+ttfb=0.017412s total=1.532573s
+--- shell contém fallback?
+carregando agora...
+<h1>Shell</h1>
+--- lista antes
+<li>a</li><li>b</li><li>v1</li>
+--- revalidateTag(posts,max) e depois
+{"ok":true}
+<li>a</li><li>b</li><li>v1</li> (leitura 1)
+<li>a</li><li>b</li><li>v1</li> (leitura 2)
+<li>a</li><li>b</li><li>v1</li> (leitura 3)
+{"posts":1,"hora":0}
+--- revalidateTag('posts','max') seguido de 6 leituras em 12 s: conteúdo igual (contador reiniciado no processo, v1 nos dois casos); chamadas ao cache: posts=1

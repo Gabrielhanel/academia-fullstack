@@ -1,0 +1,49 @@
+== soft delete e unicidade
+psql:<stdin>:6: ERROR:  duplicate key value violates unique constraint "contas_email_ativo"
+DETAIL:  Key (email)=(a@x) already exists.
+ id | email | removida 
+----+-------+----------
+  1 | a@x   | t
+  3 | a@x   | f
+(2 rows)
+
+== histórico com validade (sem sobreposição)
+psql:<stdin>:13: ERROR:  duplicate key value violates unique constraint "contas_ingenua_email_key"
+DETAIL:  Key (email)=(a@x) already exists.
+psql:<stdin>:15: NOTICE:  extension "btree_gist" already exists, skipping
+psql:<stdin>:18: ERROR:  conflicting key value violates exclusion constraint "preco_hist_produto_id_validade_excl"
+DETAIL:  Key (produto_id, validade)=(1, ["2026-03-01 00:00:00+00","2026-04-01 00:00:00+00")) conflicts with existing key (produto_id, validade)=(1, ["2026-01-01 00:00:00+00","2026-06-01 00:00:00+00"))
+ preco 
+-------
+ 10.00
+(1 row)
+
+ preco 
+-------
+ 12.00
+(1 row)
+
+== hierarquia: adjacência x ltree
+              caminho              
+-----------------------------------
+ eletronicos
+ eletronicos.celulares
+ eletronicos.celulares.smartphones
+(3 rows)
+
+ nivel |              caminho              
+-------+-----------------------------------
+     1 | eletronicos
+     2 | eletronicos.celulares
+     3 | eletronicos.celulares.smartphones
+     1 | livros
+(4 rows)
+
+== EAV x colunas x JSONB
+ entidade |  cor  | peso 
+----------+-------+------
+        1 | azul  |    3
+        2 | verde |     
+(2 rows)
+
+psql:<stdin>:33: ERROR:  invalid input syntax for type integer: "pesado"

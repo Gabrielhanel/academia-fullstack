@@ -1,0 +1,16 @@
+Prometheus (contêiner prom/prometheus 3.16.0) pronto | scrape de 1 s | alvo up = (ainda sem coleta)
+
+== fase 1: 12 s a ~100 req/s com 2% de erros
+taxa de requisições (rate 10 s): 74.2 req/s
+razão de erros 5xx: 2.4%
+p95 (histogram_quantile sobre rate 10 s): 128 ms | p50: 37 ms
+alertas ativos: nenhum
+
+== fase 2: 12 s com 30% de erros (incidente)
+razão de erros 5xx: 31.4%
+alertas: TaxaDeErrosAlta → firing (Mais de 10% das requisições com erro 5xx)
+
+== fase 3: recuperação (2% de erros por 14 s)
+razão de erros 5xx: 2.1% | alertas: nenhum (resolvido)
+
+contadores acumulados na coleta: total 3720 | erros 417 | razão acumulada 11.21%

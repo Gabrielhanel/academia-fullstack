@@ -1,0 +1,19 @@
+Envoy 1.34.14 (contêiner oficial envoyproxy/envoy:v1.34-latest) como proxy sidecar didático | Node v26.13.1
+
+== 1. retentativas no sidecar: upstream que falha 50% das vezes
+direto ao serviço (500 requisições): sucesso = 47.8%
+via Envoy, requisições SEQUENCIAIS (400): sucesso = 95.3% | chamadas ao serviço: 779 (≈ 1.95 por requisição) | teórico com 3 retentativas: 93.75%
+   retentativas acumuladas no Envoy: {"cluster.instavel.upstream_rq_retry":"379","cluster.instavel.upstream_rq_retry_overflow":"0","cluster.instavel.upstream_rq_retry_success":"197"}
+via Envoy, 10 requisições SIMULTÂNEAS (500): sucesso = 56.6% | chamadas ao serviço: 581 (≈ 1.16 por requisição)
+   estatísticas acumuladas: {"cluster.instavel.upstream_rq_retry":"460","cluster.instavel.upstream_rq_retry_overflow":"209","cluster.instavel.upstream_rq_retry_success":"233"} → o disjuntor padrão do cluster limita as retentativas simultâneas (max_retries = 3): o excedente é recusado (upstream_rq_retry_overflow)
+
+== 2. timeout por tentativa: upstream que responde em 500 ms (per_try_timeout 0,2 s, 2 retentativas)
+resposta: 504 | tempo total: 632 ms | chamadas que chegaram ao serviço: 3 (o upstream continua trabalhando nas tentativas canceladas)
+estatísticas: {"cluster.lento.upstream_rq_per_try_timeout":"3","cluster.lento.upstream_rq_timeout":"0"}
+
+== 3. detecção de outliers: dois instâncias, uma sempre falha (consecutive_5xx 3)
+janela 1 (100 requisições): 200 = 97 | 503 = 3 | instância boa recebeu 97 | instância ruim recebeu 3
+janela 2 (100 requisições): 200 = 100 | 503 = 0 | instância boa recebeu 100 | instância ruim recebeu 0
+janela 3 (100 requisições): 200 = 100 | 503 = 0 | instância boa recebeu 100 | instância ruim recebeu 0
+janela 4 (100 requisições): 200 = 100 | 503 = 0 | instância boa recebeu 100 | instância ruim recebeu 0
+estatísticas: {"cluster.par.outlier_detection.ejections_active":"1","cluster.par.outlier_detection.ejections_consecutive_5xx":"1","cluster.par.outlier_detection.ejections_detected_consecutive_5xx":"1","cluster.par.outlier_detection.ejections_enforced_total":"1"}

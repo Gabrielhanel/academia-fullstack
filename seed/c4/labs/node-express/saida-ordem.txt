@@ -1,0 +1,6 @@
+módulo CJS: código síncrono -> nextTick -> promise.then -> setTimeout 0 -> setImmediate
+dentro de um callback de I/O: setImmediate -> setTimeout 0
+módulo CJS: código síncrono -> nextTick -> promise.then -> setTimeout 0 -> setImmediate
+dentro de um callback de I/O: setImmediate -> setTimeout 0
+módulo CJS: código síncrono -> nextTick -> promise.then -> setImmediate -> setTimeout 0
+dentro de um callback de I/O: setImmediate -> setTimeout 0

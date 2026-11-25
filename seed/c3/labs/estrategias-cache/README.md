@@ -1,0 +1,6 @@
+# Laboratório: estratégias de cache (curso C3.8)
+
+- Ambiente: PostgreSQL 17.12 e Redis 8.12.0 (imagens oficiais, 127.0.0.1), Node.js 26.13, `pg` 8.23.1 e `ioredis` 6.1.0, em 2026-11-25.
+- Reexecutar: `npm i pg@8.23.1 ioredis@6.1.0`, subir `postgres:17` (porta 55432, banco `cachelab`) e `redis:8` (porta 56379) e rodar `node cache-exp.mjs`. A saída registrada está em `saida-cache.txt`.
+- Experimentos: A) latência banco x Redis x Map; B) cache-aside com 10.000 leituras e taxa de acerto; C) stampede com 50 requisições (sem proteção, single-flight, trava SET NX EX); D) obsolescência, invalidação e corrida leitor x escritor; E) avalanche com TTL fixo x com variação; F) cache negativo; G) escrita: só banco, write-through e write-behind (com simulação de perda); H) caches locais em duas instâncias e invalidação por pub/sub; I) memória JSON x hash.
+- Limitações: medianas (A) de 7 execuções após aquecimento; B, C, E, G e H são **uma execução** (a forma importa mais que os milissegundos). As "duas instâncias" do experimento H são dois objetos no mesmo processo (simulação, não dois servidores). A perda do write-behind foi simulada com FLUSHALL (não houve queda real do Redis). Tudo em uma máquina, com latência de rede local. Não executados: Redis Cluster, CDN e cache HTTP em navegador, Memcached, réplicas e failover do Redis, cache de segundo nível de ORMs.

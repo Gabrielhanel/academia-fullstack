@@ -1,0 +1,19 @@
+@startuml
+interface Pagamento {
+  +cobrar(valor): Resultado
+}
+class Pedido {
+  +id: string
+  +total(): number
+}
+class Item {
+  +sku: string
+  +qtd: int
+}
+class GatewayPix
+class GatewayCartao
+Pedido "1" *-- "1..*" Item
+Pedido ..> Pagamento : usa
+Pagamento <|.. GatewayPix
+Pagamento <|.. GatewayCartao
+@enduml

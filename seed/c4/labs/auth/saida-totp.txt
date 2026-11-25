@@ -1,0 +1,18 @@
+== 1. vetores de teste da RFC 6238 (SHA-1, 8 dígitos, segredo "12345678901234567890")
+T = 59          esperado 94287082 | obtido 94287082 | ok
+T = 1111111109  esperado 07081804 | obtido 07081804 | ok
+T = 1111111111  esperado 14050471 | obtido 14050471 | ok
+T = 1234567890  esperado 89005924 | obtido 89005924 | ok
+T = 2000000000  esperado 69279037 | obtido 69279037 | ok
+T = 20000000000 esperado 65353130 | obtido 65353130 | ok
+
+== 2. verificação com janela e proteção contra reuso
+código do passo atual: aceito (deslocamento 0)
+mesmo código de novo: recusado: código já usado (reuso)
+código do passo anterior (relógio atrasado 30 s) para outro usuário: aceito (deslocamento -1)
+código de 3 passos atrás (90 s): recusado
+código errado: recusado
+
+== 3. força bruta: espaço de 6 dígitos x tentativas permitidas
+chance de acertar com 5 tentativas por código: 0.0005% (cálculo); com janela de ±1 passo (3 códigos válidos) e 5 tentativas: 0.0015% (cálculo)
+URI de provisionamento (QR code): otpauth://totp/Exemplo:ana@exemplo.com?secret=T2OU2KI7…&issuer=Exemplo&algorithm=SHA1&digits=6&period=30

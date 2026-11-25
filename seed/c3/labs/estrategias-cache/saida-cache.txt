@@ -1,0 +1,45 @@
+PostgreSQL 17.12 | Redis 8.12.0
+
+== preparação: 500.000 produtos
+linhas: 500000
+
+== A. latência: banco x Redis x memória do processo
+relatório agregado no PostgreSQL (500 mil linhas)                mediana ms: 182.954
+relatório lido do Redis (GET + JSON.parse)                       mediana ms: 1.002
+relatório lido de um Map no processo                             mediana ms: 0.003
+produto por chave primária no PostgreSQL                         mediana ms: 1.798
+produto por chave primária lido do Redis                         mediana ms: 0.974
+ganho do Redis sobre o banco: relatório 183x | produto por PK 1.8x
+
+== B. cache-aside com 10.000 leituras (80% nos 20% mais populares de 1.000 produtos)
+sem cache: consultas ao banco 10000 | tempo ms 11100
+cache-aside: consultas ao banco 948 | acertos 9052 | taxa de acerto 90.5% | tempo ms 8190
+
+== C. cache stampede: 50 requisições simultâneas na chave fria do relatório
+sem proteção: execuções do relatório no banco = 50 | tempo total ms 6902
+single-flight no processo: execuções = 1 | tempo total ms 202
+trava distribuída (SET NX EX): execuções = 1 | tempo total ms 237
+
+== D. dados obsoletos e invalidação
+depois do UPDATE, sem invalidar: cache mostra 7.5 | banco tem 999
+depois de DEL (invalidação na escrita): releitura pelo cache-aside traz 999
+corrida leitor x escritor: banco = 20 | cache = 10 (obsoleto até o TTL de 60 s)
+write-through (banco e depois SET): cache = 30
+
+== E. avalanche: expiração simultânea x TTL com variação (jitter)
+máximo de chaves que expiraram em uma janela de ~100 ms: TTL fixo = 1000 | TTL com variação = 130
+
+== F. cache negativo: 1.000 consultas a um id inexistente
+sem cache negativo: consultas ao banco = 1000 | com cache negativo (TTL 30 s): consultas = 1
+
+== G. escrita: banco, write-through e write-behind (1.000 atualizações de preço)
+só banco ms: 2208 | write-through ms: 2898 | write-behind (resposta ao cliente) ms: 1108
+descarga em lote do write-behind: itens na fila 1000 | ids distintos 500 | 1 UPDATE em 23.2 ms
+simulação de perda (FLUSHALL antes da descarga): preço no banco do id 9 = 708 (a atualização 5555 foi perdida)
+
+== H. caches locais em duas instâncias e invalidação por pub/sub
+A invalidou só a própria cópia: A lê 2 | B lê 1 (obsoleto)
+com PUBLISH de invalidação: B lê 3 | propagação ms 3.6
+
+== I. memória: 1.000 produtos em JSON x hash
+média por objeto: string JSON = 88 B | hash = 82 B

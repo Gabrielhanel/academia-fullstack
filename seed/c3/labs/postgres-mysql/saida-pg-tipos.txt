@@ -1,0 +1,92 @@
+You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
+                                                                     List of databases
+    Name    |  Owner   | Encoding | Locale Provider |  Collate   |   Ctype    | Locale | ICU Rules | Access privileges |  Size  | Tablespace | Description 
+------------+----------+----------+-----------------+------------+------------+--------+-----------+-------------------+--------+------------+-------------
+ restaurado | postgres | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           |                   | 240 MB | pg_default | 
+(1 row)
+
+      List of schemas
+  Name  |       Owner       
+--------+-------------------
+ lab    | postgres
+ loja   | postgres
+ public | pg_database_owner
+ tuning | postgres
+ vendas | postgres
+(5 rows)
+
+                   List of relations
+ Schema |     Name      |       Type        |  Owner   
+--------+---------------+-------------------+----------
+ tuning | clientes      | table             | postgres
+ tuning | evt           | table             | postgres
+ tuning | log_p         | partitioned table | postgres
+ tuning | log_p_2026_01 | table             | postgres
+ tuning | log_p_2026_02 | table             | postgres
+ tuning | log_p_2026_03 | table             | postgres
+ tuning | pedidos       | table             | postgres
+ tuning | repl_teste    | table             | postgres
+ tuning | reservas      | table             | postgres
+ tuning | reservas2     | table             | postgres
+ tuning | v             | table             | postgres
+ tuning | w1            | table             | postgres
+ tuning | w2            | table             | postgres
+(13 rows)
+
+              Table "tuning.clientes"
+ Column |  Type   | Collation | Nullable | Default 
+--------+---------+-----------+----------+---------
+ id     | integer |           | not null | 
+ nome   | text    |           |          | 
+ uf     | text    |           |          | 
+Indexes:
+    "clientes_pkey" PRIMARY KEY, btree (id)
+    "idx_lower" btree (lower(nome))
+
+== tipos
+     float_soma      | numeric_soma | float_igual | numeric_igual 
+---------------------+--------------+-------------+---------------
+ 0.30000000000000004 |          0.3 | f           | t
+(1 row)
+
+      sem_fuso       |        com_fuso        
+---------------------+------------------------
+ 2026-03-01 12:00:00 | 2026-03-01 12:00:00-03
+(1 row)
+
+      sem_fuso       |        com_fuso        
+---------------------+------------------------
+ 2026-03-01 12:00:00 | 2026-03-01 15:00:00+00
+(1 row)
+
+ uuid_ok | tipo_uuid 
+---------+-----------
+ t       | uuid
+(1 row)
+
+   arr   | segundo | contem 
+---------+---------+--------
+ {1,2,3} |       2 | t
+(1 row)
+
+   t1    |   t2    |            t3            |   t4    |   t5    
+---------+---------+--------------------------+---------+---------
+ integer | numeric | timestamp with time zone | unknown | boolean
+(1 row)
+
+ caracteres | bytes 
+------------+-------
+          4 |     6
+(1 row)
+
+psql:<stdin>:18: ERROR:  integer out of range
+ bigint_ok  
+------------
+ 2147483648
+(1 row)
+
+ corta | char_pad 
+-------+----------
+       | abc|
+(1 row)
+

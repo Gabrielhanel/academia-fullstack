@@ -1,0 +1,10 @@
+import express from 'express'; import helmet from 'helmet'; import cors from 'cors';
+const mk = (...mws) => { const a = express(); mws.forEach((m) => a.use(m)); a.get('/x', (req, res) => res.json({ ok: 1 })); return new Promise((ok) => { const s = a.listen(0, '127.0.0.1', () => ok({ s, base: 'http://127.0.0.1:' + s.address().port })); }); };
+let { s, base } = await mk();
+let r = await fetch(base + '/x'); console.log('sem helmet: x-powered-by =', r.headers.get('x-powered-by'), '| x-content-type-options =', r.headers.get('x-content-type-options'), '| content-security-policy =', r.headers.get('content-security-policy')); s.close();
+({ s, base } = await mk(helmet()));
+r = await fetch(base + '/x'); console.log('com helmet: x-powered-by =', r.headers.get('x-powered-by'), '| x-content-type-options =', r.headers.get('x-content-type-options'), '| strict-transport-security =', r.headers.get('strict-transport-security'), '| content-security-policy começa com:', (r.headers.get('content-security-policy') || '').slice(0, 30)); s.close();
+({ s, base } = await mk(cors({ origin: 'https://app.exemplo.com' })));
+r = await fetch(base + '/x', { headers: { origin: 'https://app.exemplo.com' } }); const ok = r.headers.get('access-control-allow-origin');
+r = await fetch(base + '/x', { headers: { origin: 'https://outro.com' } }); console.log('CORS: origem permitida ->', ok, '| origem não permitida ->', r.headers.get('access-control-allow-origin'), '(a resposta ainda é', r.status + '; quem bloqueia é o navegador)');
+r = await fetch(base + '/x', { method: 'OPTIONS', headers: { origin: 'https://app.exemplo.com', 'access-control-request-method': 'DELETE' } }); console.log('pré-voo OPTIONS:', r.status, '| allow-methods =', r.headers.get('access-control-allow-methods')); s.close();

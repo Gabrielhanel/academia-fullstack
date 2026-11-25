@@ -1,0 +1,2836 @@
+{
+ "https://www.gnu.org/software/coreutils/manual/coreutils.html": {
+  "status": 0,
+  "error": "fetch failed",
+  "at": "2026-11-18"
+ },
+ "https://refspecs.linuxfoundation.org/fhs.shtml": {
+  "status": 200,
+  "page": "FHS Referenced Specifications",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/hier.7.html": {
+  "status": 200,
+  "page": "hier(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.kernel.org/admin-guide/mm/concepts.html": {
+  "status": 200,
+  "page": "Concepts overview &#8212; The Linux Kernel documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.kernel.org/admin-guide/ext4.html": {
+  "status": 200,
+  "page": "ext4 General Information &#8212; The Linux Kernel documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/path_resolution.7.html": {
+  "status": 200,
+  "page": "path_resolution(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/credentials.7.html": {
+  "status": 200,
+  "page": "credentials(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man2/chmod.2.html": {
+  "status": 200,
+  "page": "chmod(2) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/pthreads.7.html": {
+  "status": 200,
+  "page": "pthreads(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/inode.7.html": {
+  "status": 200,
+  "page": "inode(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/epoll.7.html": {
+  "status": 200,
+  "page": "epoll(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/pipe.7.html": {
+  "status": 200,
+  "page": "pipe(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man8/ss.8.html": {
+  "status": 200,
+  "page": "ss(8) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man2/fork.2.html": {
+  "status": 200,
+  "page": "fork(2) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.gnu.org/software/grep/manual/grep.html": {
+  "status": 0,
+  "error": "fetch failed",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man1/free.1.html": {
+  "status": 200,
+  "page": "free(1) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man5/proc.5.html": {
+  "status": 200,
+  "page": "proc(5) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/signal.7.html": {
+  "status": 200,
+  "page": "signal(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man7/cgroups.7.html": {
+  "status": 200,
+  "page": "cgroups(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man2/execve.2.html": {
+  "status": 200,
+  "page": "execve(2) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man2/open.2.html": {
+  "status": 200,
+  "page": "open(2) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man1/strace.1.html": {
+  "status": 200,
+  "page": "strace(1) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html": {
+  "status": 200,
+  "page": "Shell Command Language",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html": {
+  "status": 200,
+  "page": "systemd.timer",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://man7.org/linux/man-pages/man8/mount.8.html": {
+  "status": 200,
+  "page": "mount(8) - Linux manual page",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.gnu.org/software/findutils/manual/html_mono/find.html": {
+  "status": 0,
+  "error": "fetch failed",
+  "at": "2026-11-18"
+ },
+ "https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html": {
+  "status": 200,
+  "page": "systemd.service",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.freedesktop.org/software/systemd/man/latest/journalctl.html": {
+  "status": 200,
+  "page": "journalctl",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.gnu.org/software/bash/manual/bash.html": {
+  "status": 0,
+  "error": "fetch failed",
+  "at": "2026-11-18"
+ },
+ "https://pubs.opengroup.org/onlinepubs/9799919799/idx/utilities.html": {
+  "status": 200,
+  "page": "Utilities",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://pubs.opengroup.org/onlinepubs/9799919799/utilities/grep.html": {
+  "status": 200,
+  "page": "grep",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://pubs.opengroup.org/onlinepubs/9799919799/utilities/find.html": {
+  "status": 200,
+  "page": "find",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://tiswww.case.edu/php/chet/bash/bashref.html": {
+  "status": 200,
+  "page": "Bash Reference Manual",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Howto/How_the_web_works": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc768.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://letsencrypt.org/docs/": {
+  "status": 200,
+  "page": "Documentation - Let&#39;s Encrypt",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc1918.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc4632.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API": {
+  "status": 200,
+  "page": "WebSocket API (WebSockets) - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+  "status": 200,
+  "page": "HTTP: Hypertext Transfer Protocol | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status": {
+  "status": 200,
+  "page": "HTTP response status codes - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8200.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc791.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name": {
+  "status": 200,
+  "page": "What is a Domain Name? - Learn web development | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching": {
+  "status": 200,
+  "page": "HTTP caching - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc7838.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6265.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc1035.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc1034.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6455.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9111.html": {
+  "status": 200,
+  "page": "RFC 9111: HTTP Caching",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://grpc.io/docs/what-is-grpc/core-concepts/": {
+  "status": 200,
+  "page": "Core concepts, architecture and lifecycle | gRPC",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9112.html": {
+  "status": 200,
+  "page": "RFC 9112: HTTP/1.1",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9114.html": {
+  "status": 200,
+  "page": "RFC 9114: HTTP/3",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9293.html": {
+  "status": 200,
+  "page": "RFC 9293: Transmission Control Protocol (TCP)",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9113.html": {
+  "status": 200,
+  "page": "RFC 9113: HTTP/2",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8446.html": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://curl.se/docs/manpage.html": {
+  "status": 200,
+  "page": "curl - How To Use",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9000.html": {
+  "status": 200,
+  "page": "RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9110.html": {
+  "status": 200,
+  "page": "RFC 9110: HTTP Semantics",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://html.spec.whatwg.org/multipage/server-sent-events.html": {
+  "status": 200,
+  "page": "HTML Standard",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works": {
+  "status": 200,
+  "page": "How the web works - Learn web development | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://editorconfig.org/": {
+  "status": 200,
+  "page": "EditorConfig",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://microsoft.github.io/language-server-protocol/": {
+  "status": 200,
+  "page": "Official page for Language Server Protocol",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger": {
+  "status": 200,
+  "page": "debugger - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/console": {
+  "status": 200,
+  "page": "console - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll": {
+  "status": 200,
+  "page": "String.prototype.matchAll() - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nodejs.org/en/learn/getting-started/debugging": {
+  "status": 200,
+  "page": "Debugging Node.js | Node.js Learn",
+  "final": "https://nodejs.org/learn/getting-started/debugging",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace": {
+  "status": 200,
+  "page": "String.prototype.replace() - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions": {
+  "status": 200,
+  "page": "Regular expressions - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp": {
+  "status": 200,
+  "page": "RegExp - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Cheatsheet": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Assertions": {
+  "status": 200,
+  "page": "Assertions - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://eslint.org/docs/latest/use/configure/configuration-files": {
+  "status": 200,
+  "page": "Configuration Files - ESLint - Pluggable JavaScript Linter",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Groups_and_backreferences": {
+  "status": 200,
+  "page": "Groups and backreferences - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://eslint.org/docs/latest/rules/": {
+  "status": 200,
+  "page": "Rules Reference - ESLint - Pluggable JavaScript Linter",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nodejs.org/api/cli.html": {
+  "status": 200,
+  "page": "Command-line API | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nodejs.org/api/process.html": {
+  "status": 200,
+  "page": "Process | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://eslint.org/docs/latest/use/getting-started": {
+  "status": 200,
+  "page": "Getting Started with ESLint - ESLint - Pluggable JavaScript Linter",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes": {
+  "status": 200,
+  "page": "Character classes - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers": {
+  "status": 200,
+  "page": "Quantifiers - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://code.visualstudio.com/docs/debugtest/debugging": {
+  "status": 200,
+  "page": "Debug code with Visual Studio Code",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.npmjs.com/cli/v11/configuring-npm/package-json": {
+  "status": 200,
+  "page": "package.json | npm Docs",
+  "final": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/",
+  "at": "2026-11-18"
+ },
+ "https://developer.chrome.com/docs/devtools": {
+  "status": 200,
+  "page": "Chrome DevTools &nbsp;|&nbsp; Chrome for Developers",
+  "final": "https://developer.chrome.com/docs/devtools?hl=bn",
+  "at": "2026-11-18"
+ },
+ "https://git-scm.com/docs/githooks": {
+  "status": 200,
+  "page": "Git - githooks Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://prettier.io/docs/": {
+  "status": 200,
+  "page": "What is Prettier? · Prettier",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.chrome.com/docs/devtools/javascript": {
+  "status": 200,
+  "page": "Depurar o JavaScript &nbsp;|&nbsp; Chrome DevTools &nbsp;|&nbsp; Chrome for Developers",
+  "final": "https://developer.chrome.com/docs/devtools/javascript?hl=pt-br",
+  "at": "2026-11-18"
+ },
+ "https://typicode.github.io/husky/": {
+  "status": 200,
+  "page": "Husky",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://git-scm.com/docs/git-config": {
+  "status": 200,
+  "page": "Git - git-config Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.npmjs.com/cli/v11/using-npm/scripts": {
+  "status": 200,
+  "page": "Scripts | npm Docs",
+  "final": "https://docs.npmjs.com/cli/v11/using-npm/scripts/",
+  "at": "2026-11-18"
+ },
+ "https://prettier.io/docs/rationale": {
+  "status": 200,
+  "page": "Rationale · Prettier",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS": {
+  "status": 200,
+  "page": "Regular expression Denial of Service - ReDoS | OWASP Foundation",
+  "final": "https://community.owasp.org/attacks/Regular_expression_Denial_of_Service_-_ReDoS",
+  "at": "2026-11-18"
+ },
+ "https://developer.chrome.com/docs/devtools/network/reference": {
+  "status": 200,
+  "page": "Referencia de las funciones de red &nbsp;|&nbsp; Chrome DevTools &nbsp;|&nbsp; Chrome for Developers",
+  "final": "https://developer.chrome.com/docs/devtools/network/reference?hl=es-419",
+  "at": "2026-11-18"
+ },
+ "https://prettier.io/docs/integrating-with-linters": {
+  "status": 200,
+  "page": "Integrating with Linters · Prettier",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://github.com/lint-staged/lint-staged": {
+  "status": 200,
+  "page": "GitHub - lint-staged/lint-staged: 🚫💩 — Run tasks like formatters and linters against files staged in Git · G",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://tc39.es/ecma262/#sec-regexp-regular-expression-objects": {
+  "status": 200,
+  "page": "ECMAScript® 2027 Language Specification",
+  "final": "https://tc39.es/ecma262/",
+  "at": "2026-11-18"
+ },
+ "https://code.visualstudio.com/docs/getstarted/tips-and-tricks": {
+  "status": 200,
+  "page": "Visual Studio Code tips and tricks",
+  "final": "https://code.visualstudio.com/docs/editing/getting-started/tips-and-tricks",
+  "at": "2026-11-18"
+ },
+ "https://code.visualstudio.com/docs/editing/editingevolved": {
+  "status": 200,
+  "page": "Code Navigation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://tiswww.case.edu/php/chet/bash/bashref.html#Command-Line-Editing": {
+  "status": 200,
+  "page": "Bash Reference Manual",
+  "final": "https://tiswww.case.edu/php/chet/bash/bashref.html",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet": {
+  "status": 200,
+  "page": "Regular expression syntax cheat sheet - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nodejs.org/api/worker_threads.html": {
+  "status": 200,
+  "page": "Worker threads | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/Recursion": {
+  "status": 200,
+  "page": "Recursion - Glossary | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API": {
+  "status": 200,
+  "page": "Web Workers API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone": {
+  "status": 200,
+  "page": "Window: structuredClone() method - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics": {
+  "status": 200,
+  "page": "Atomics - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function": {
+  "status": 200,
+  "page": "First-class function - Glossary | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer": {
+  "status": 200,
+  "page": "SharedArrayBuffer - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise": {
+  "status": 200,
+  "page": "Promise - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures": {
+  "status": 200,
+  "page": "Closures - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements": {
+  "status": 200,
+  "page": "Private elements - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array": {
+  "status": 200,
+  "page": "Array - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze": {
+  "status": 200,
+  "page": "Object.freeze() - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain": {
+  "status": 200,
+  "page": "Inheritance and the prototype chain - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal": {
+  "status": 200,
+  "page": "AbortSignal - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/classes.html": {
+  "status": 200,
+  "page": "TypeScript: Documentation - Classes",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick": {
+  "status": 200,
+  "page": "The Node.js Event Loop | Node.js Learn",
+  "final": "https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop": {
+  "status": 200,
+  "page": "JavaScript execution model - JavaScript | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes": {
+  "status": 200,
+  "page": "Classes - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://go.dev/blog/waza-talk": {
+  "status": 200,
+  "page": "Concurrency is not parallelism - The Go Programming Language",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://go.dev/blog/codelab-share": {
+  "status": 200,
+  "page": "Share Memory By Communicating - The Go Programming Language",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies": {
+  "status": 200,
+  "page": "Using HTTP cookies - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events": {
+  "status": 200,
+  "page": "Introduction to events - Learn web development | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria": {
+  "status": 200,
+  "page": "Storage quotas and eviction criteria - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps": {
+  "status": 200,
+  "page": "Progressive web apps | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API": {
+  "status": 200,
+  "page": "Background Synchronization API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events": {
+  "status": 200,
+  "page": "Using server-sent events - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm": {
+  "status": 200,
+  "page": "The structured clone algorithm - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable": {
+  "status": 200,
+  "page": "Making PWAs installable - Progressive web apps | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API": {
+  "status": 200,
+  "page": "IndexedDB API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API": {
+  "status": 200,
+  "page": "Web Storage API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent/respondWith": {
+  "status": 200,
+  "page": "FetchEvent: respondWith() method - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/EventSource": {
+  "status": 200,
+  "page": "EventSource - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects": {
+  "status": 200,
+  "page": "Transferable objects - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API": {
+  "status": 200,
+  "page": "Service Worker API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Cache": {
+  "status": 200,
+  "page": "Cache - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers": {
+  "status": 200,
+  "page": "Using Service Workers - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest": {
+  "status": 200,
+  "page": "Web application manifest - Progressive web apps | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB": {
+  "status": 200,
+  "page": "Using IndexedDB - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling": {
+  "status": 200,
+  "page": "Event bubbling - Learn web development | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers": {
+  "status": 200,
+  "page": "Using Web Workers - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager": {
+  "status": 200,
+  "page": "StorageManager - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.w3.org/TR/appmanifest/": {
+  "status": 200,
+  "page": "Web Application Manifest",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "HTML5 Security - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.w3.org/TR/service-workers/": {
+  "status": 200,
+  "page": "Service Workers Nightly",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://html.spec.whatwg.org/multipage/": {
+  "status": 200,
+  "page": "HTML Standard",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://web.dev/learn/pwa/caching": {
+  "status": 200,
+  "page": "Caching &nbsp;|&nbsp; web.dev",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://web.dev/learn/pwa": {
+  "status": 200,
+  "page": "Learn PWA &nbsp;|&nbsp; web.dev",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://dom.spec.whatwg.org/#events": {
+  "status": 200,
+  "page": "DOM Standard",
+  "final": "https://dom.spec.whatwg.org/",
+  "at": "2026-11-18"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6455": {
+  "status": 200,
+  "page": "RFC 6455: The WebSocket Protocol | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc6455/",
+  "at": "2026-11-18"
+ },
+ "https://web.dev/articles/service-worker-lifecycle": {
+  "status": 200,
+  "page": "מחזור החיים של קובץ השירות (service worker) &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/service-worker-lifecycle?hl=he",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github": {
+  "status": 200,
+  "page": "About merge methods on GitHub - GitHub Docs",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners": {
+  "status": 200,
+  "page": "About code owners - GitHub Docs",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository": {
+  "status": 200,
+  "page": "Creating a pull request template for your repository - GitHub Docs",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/get-started/using-github/github-flow": {
+  "status": 200,
+  "page": "GitHub flow - GitHub Docs",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests": {
+  "status": 200,
+  "page": "Pull requests - GitHub Docs",
+  "final": "https://docs.github.com/en/pull-requests/reference/pull-requests",
+  "at": "2026-11-18"
+ },
+ "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request": {
+  "status": 200,
+  "page": "Reviewing proposed changes in a pull request - GitHub Docs",
+  "final": "https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/reviewing-proposed-changes-in-a-pull-request",
+  "at": "2026-11-18"
+ },
+ "https://semver.org/lang/pt-BR/": {
+  "status": 200,
+  "page": "Versionamento Semântico 2.0.0 | Semantic Versioning",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://google.github.io/eng-practices/review/": {
+  "status": 200,
+  "page": "Introduction {#intro} | eng-practices",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://git-scm.com/docs/git-request-pull": {
+  "status": 200,
+  "page": "Git - git-request-pull Documentation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://diataxis.fr/": {
+  "status": 200,
+  "page": "Diátaxis",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.conventionalcommits.org/en/v1.0.0/": {
+  "status": 200,
+  "page": "Conventional Commits",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://adr.github.io/": {
+  "status": 200,
+  "page": "Architectural Decision Records (ADRs) | Architectural Decision Records",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.writethedocs.org/guide/": {
+  "status": 200,
+  "page": "Software documentation guide &#8212; Write the Docs",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://mermaid.js.org/": {
+  "status": 200,
+  "page": "Mermaid | Diagramming and charting tool",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://keepachangelog.com/pt-BR/1.1.0/": {
+  "status": 200,
+  "page": "Mantenha um Changelog",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://nvie.com/posts/a-successful-git-branching-model/": {
+  "status": 200,
+  "page": "A successful Git branching model &raquo; nvie.com",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions": {
+  "status": 200,
+  "page": "Documenting Architecture Decisions",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://dora.dev/capabilities/trunk-based-development/": {
+  "status": 200,
+  "page": "DORA | Capabilities: Trunk-based development",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://scrumguides.org/scrum-guide.html": {
+  "status": 200,
+  "page": "Scrum Guide | Scrum Guides",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://agilemanifesto.org/iso/ptbr/manifesto.html": {
+  "status": 200,
+  "page": "Manifesto para Desenvolvimento Ágil de Software",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://trunkbaseddevelopment.com/": {
+  "status": 200,
+  "page": "Introduction",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/articles/feature-toggles.html": {
+  "status": 200,
+  "page": "Feature Toggles (aka Feature Flags)",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/PurposeOfEstimation.html": {
+  "status": 200,
+  "page": "Purpose Of Estimation",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://kanbanguides.org/english/": {
+  "status": 200,
+  "page": "The Kanban Guide | May 2025 (latest) | Kanban Guides",
+  "final": "https://kanbanguides.org/the-kanban-guide/2025.5/",
+  "at": "2026-11-18"
+ },
+ "https://www.iso.org/standard/72089.html": {
+  "status": 200,
+  "page": "ISO/IEC/IEEE 29148:2018 - Systems and software engineering — Life cycle processes — Requirements engineering",
+  "via": "navegador embutido (GET automático retornou 403)",
+  "at": "2026-11-18"
+ },
+ "https://www.mountaingoatsoftware.com/agile/user-stories": {
+  "status": 200,
+  "page": "User Stories: What They Are, How to Write Them, and Examples - Mountain Goat Software",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/GivenWhenThen.html": {
+  "status": 200,
+  "page": "Given When Then",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010": {
+  "status": 200,
+  "page": "ISO 25010",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cucumber.io/docs/bdd/better-gherkin/": {
+  "status": 200,
+  "page": "Writing better Gherkin | Cucumber",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.computer.org/education/bodies-of-knowledge/software-engineering": {
+  "status": 200,
+  "page": "Software Engineering Body of Knowledge (SWEBOK)",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cucumber.io/docs/bdd/": {
+  "status": 200,
+  "page": "Behaviour-Driven Development | Cucumber",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cucumber.io/docs/gherkin/reference/": {
+  "status": 200,
+  "page": "Reference | Cucumber",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://xp123.com/invest-in-good-stories-and-smart-tasks/": {
+  "status": 200,
+  "page": "INVEST in Good Stories, and SMART Tasks - XP123",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.eventstorming.com/": {
+  "status": 200,
+  "page": "EventStorming",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://leanpub.com/introducing_eventstorming": {
+  "status": 200,
+  "page": "Introducing EventStorming [Leanpub PDF/iPad/Kindle]",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.agilebusiness.org/dsdm-project-framework/moscow-prioritisation.html": {
+  "status": 200,
+  "page": "What is MoSCoW Prioritization? - Agile Business Consortium",
+  "final": "https://www.agilebusiness.org/resource/what-is-moscow-prioritization/",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/SpecificationByExample.html": {
+  "status": 200,
+  "page": "Specification By Example",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/DDD_Aggregate.html": {
+  "status": 200,
+  "page": "D D D_ Aggregate",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/BoundedContext.html": {
+  "status": 200,
+  "page": "Bounded Context",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/UbiquitousLanguage.html": {
+  "status": 200,
+  "page": "Ubiquitous Language",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.domainlanguage.com/ddd/reference/": {
+  "status": 200,
+  "page": "DDD Reference - Domain Language",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://github.com/cucumber/cucumber-js": {
+  "status": 200,
+  "page": "GitHub - cucumber/cucumber-js: Cucumber for JavaScript · GitHub",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/eaaDev/DomainEvent.html": {
+  "status": 200,
+  "page": "Domain Event",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/AnemicDomainModel.html": {
+  "status": 200,
+  "page": "Anemic Domain Model",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://martinfowler.com/bliki/ValueObject.html": {
+  "status": 200,
+  "page": "Value Object",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://en.wikipedia.org/wiki/Kano_model": {
+  "status": 200,
+  "page": "Kano model - Wikipedia",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/javascript-in-jsx-with-curly-braces": {
+  "status": 200,
+  "page": "JavaScript in JSX with Curly Braces – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/rendering-lists": {
+  "status": 200,
+  "page": "Rendering Lists – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/react-compiler/introduction": {
+  "status": 200,
+  "page": "Introduction – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/rules/rules-of-hooks": {
+  "status": 200,
+  "page": "Rules of Hooks – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/state-as-a-snapshot": {
+  "status": 200,
+  "page": "State as a Snapshot – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/typescript": {
+  "status": 200,
+  "page": "Using TypeScript – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/eslint-plugin-react-hooks": {
+  "status": 200,
+  "page": "eslint-plugin-react-hooks – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/writing-markup-with-jsx": {
+  "status": 200,
+  "page": "Writing Markup with JSX – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/start-a-new-react-project": {
+  "status": 200,
+  "page": "Creating a React App – React",
+  "final": "https://react.dev/learn/creating-a-react-app",
+  "at": "2026-11-18"
+ },
+ "https://vite.dev/guide/": {
+  "status": 200,
+  "page": "Getting Started | Vite",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/keeping-components-pure": {
+  "status": 200,
+  "page": "Keeping Components Pure – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/queueing-a-series-of-state-updates": {
+  "status": 200,
+  "page": "Queueing a Series of State Updates – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useSyncExternalStore": {
+  "status": 200,
+  "page": "useSyncExternalStore – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/passing-props-to-a-component": {
+  "status": 200,
+  "page": "Passing Props to a Component – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/describing-the-ui": {
+  "status": 200,
+  "page": "Describing the UI – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/sharing-state-between-components": {
+  "status": 200,
+  "page": "Sharing State Between Components – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/thinking-in-react": {
+  "status": 200,
+  "page": "Thinking in React – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/referencing-values-with-refs": {
+  "status": 200,
+  "page": "Referencing Values with Refs – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn": {
+  "status": 200,
+  "page": "Quick Start – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useMemo": {
+  "status": 200,
+  "page": "useMemo – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/memo": {
+  "status": 200,
+  "page": "memo – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/passing-data-deeply-with-context": {
+  "status": 200,
+  "page": "Passing Data Deeply with Context – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/responding-to-events": {
+  "status": 200,
+  "page": "Responding to Events – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/state-a-components-memory": {
+  "status": 200,
+  "page": "State: A Component&#x27;s Memory – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/preserving-and-resetting-state": {
+  "status": 200,
+  "page": "Preserving and Resetting State – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useCallback": {
+  "status": 200,
+  "page": "useCallback – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/manipulating-the-dom-with-refs": {
+  "status": 200,
+  "page": "Manipulating the DOM with Refs – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/FormData": {
+  "status": 200,
+  "page": "FormData - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useContext": {
+  "status": 200,
+  "page": "useContext – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react-dom/components/input": {
+  "status": 200,
+  "page": "&lt;input&gt; – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid": {
+  "status": 200,
+  "page": "ARIA: aria-invalid attribute - ARIA | MDN",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Cross Site Scripting Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useId": {
+  "status": 200,
+  "page": "useId – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/conditional-rendering": {
+  "status": 200,
+  "page": "Conditional Rendering – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/scaling-up-with-reducer-and-context": {
+  "status": 200,
+  "page": "Scaling Up with Reducer and Context – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react-dom/components/form": {
+  "status": 200,
+  "page": "&lt;form&gt; – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/updating-objects-in-state": {
+  "status": 200,
+  "page": "Updating Objects in State – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/you-might-not-need-an-effect": {
+  "status": 200,
+  "page": "You Might Not Need an Effect – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/synchronizing-with-effects": {
+  "status": 200,
+  "page": "Synchronizing with Effects – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react-dom/hooks/useFormStatus": {
+  "status": 200,
+  "page": "useFormStatus – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.w3.org/WAI/tutorials/forms/": {
+  "status": 200,
+  "page": "Forms Tutorial | Web Accessibility Initiative (WAI) | W3C",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useActionState": {
+  "status": 200,
+  "page": "useActionState – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/reference/react/useEffect": {
+  "status": 200,
+  "page": "useEffect – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/lifecycle-of-reactive-effects": {
+  "status": 200,
+  "page": "Lifecycle of Reactive Effects – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://www.w3.org/WAI/tutorials/forms/validation/": {
+  "status": 200,
+  "page": "Validating Input | Web Accessibility Initiative (WAI) | W3C",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://react.dev/learn/reusing-logic-with-custom-hooks": {
+  "status": 200,
+  "page": "Reusing Logic with Custom Hooks – React",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://zod.dev/": {
+  "status": 200,
+  "page": "Intro | Zod",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://testing-library.com/docs/react-testing-library/api/#renderhook": {
+  "status": 200,
+  "page": "API | Testing Library",
+  "final": "https://testing-library.com/docs/react-testing-library/api/",
+  "at": "2026-11-18"
+ },
+ "https://testing-library.com/docs/react-testing-library/intro/": {
+  "status": 200,
+  "page": "React Testing Library | Testing Library",
+  "final": "",
+  "at": "2026-11-18"
+ },
+ "https://styledictionary.com/": {
+  "status": 200,
+  "page": "Style Dictionary | Style Dictionary",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/": {
+  "status": 200,
+  "page": "Patterns | APG | WAI | W3C",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/installation/using-vite": {
+  "status": 200,
+  "page": "Installing Tailwind CSS with Vite - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/responsive-design": {
+  "status": 200,
+  "page": "Responsive design - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties": {
+  "status": 200,
+  "page": "Using CSS custom properties (variables) - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog": {
+  "status": 200,
+  "page": "&lt;dialog&gt; HTML dialog element - HTML | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://medium.com/eightshapes-llc/team-models-for-scaling-a-design-system-2cf9d03be6a0": {
+  "status": 200,
+  "page": "Team Models for Scaling a Design System | by Nathan Curtis | EightShapes | Medium",
+  "via": "navegador embutido (GET automático retornou 403)",
+  "at": "2026-11-18"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer": {
+  "status": 200,
+  "page": "@layer CSS at-rule - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@layer",
+  "at": "2026-11-25"
+ },
+ "https://www.radix-ui.com/primitives/docs/overview/introduction": {
+  "status": 200,
+  "page": "Introduction – Radix Primitives",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion": {
+  "status": 200,
+  "page": "prefers-reduced-motion CSS media feature - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries": {
+  "status": 200,
+  "page": "CSS container queries - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/dark-mode": {
+  "status": 200,
+  "page": "Dark mode - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/functions-and-directives": {
+  "status": 200,
+  "page": "Functions and directives - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/detecting-classes-in-source-files": {
+  "status": 200,
+  "page": "Detecting classes in source files - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/adding-custom-styles": {
+  "status": 200,
+  "page": "Adding custom styles - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/styling-with-utility-classes": {
+  "status": 200,
+  "page": "Styling with utility classes - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/packages.html": {
+  "status": 200,
+  "page": "Modules: Packages | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.designtokens.org/tr/drafts/format/": {
+  "status": 200,
+  "page": "Design Tokens Format Module 2025.10",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/upgrade-guide": {
+  "status": 200,
+  "page": "Upgrade guide - Getting started - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/TR/WCAG22/": {
+  "status": 200,
+  "page": "Web Content Accessibility Guidelines (WCAG) 2.2",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cva.style/docs": {
+  "status": 200,
+  "page": "Class Variance Authority | cva",
+  "final": "https://cva.style/",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/reusing-styles": {
+  "status": 200,
+  "page": "Styling with utility classes - Core concepts - Tailwind CSS",
+  "final": "https://tailwindcss.com/docs/styling-with-utility-classes",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/theme": {
+  "status": 200,
+  "page": "Theme variables - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs": {
+  "status": 200,
+  "page": "Get started with Storybook | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://esbuild.github.io/api/#tree-shaking": {
+  "status": 200,
+  "page": "esbuild - API",
+  "final": "https://esbuild.github.io/api/",
+  "at": "2026-11-25"
+ },
+ "https://docs.npmjs.com/cli/v10/configuring-npm/package-json": {
+  "status": 200,
+  "page": "package.json | npm Docs",
+  "final": "https://docs.npmjs.com/cli/v10/configuring-npm/package-json/",
+  "at": "2026-11-25"
+ },
+ "https://react-spectrum.adobe.com/react-aria/index.html": {
+  "status": 200,
+  "page": "React Aria",
+  "final": "https://react-aria.adobe.com/",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs/writing-tests/accessibility-testing": {
+  "status": 200,
+  "page": "Accessibility tests | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme": {
+  "status": 200,
+  "page": "prefers-color-scheme CSS media feature - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme",
+  "at": "2026-11-25"
+ },
+ "https://tailwindcss.com/docs/hover-focus-and-other-states": {
+  "status": 200,
+  "page": "Hover, focus, and other states - Core concepts - Tailwind CSS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs/writing-docs/autodocs": {
+  "status": 200,
+  "page": "Automatic documentation and Storybook | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs/writing-tests/interaction-testing": {
+  "status": 200,
+  "page": "Interaction tests | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs/api/csf": {
+  "status": 200,
+  "page": "Component Story Format (CSF) | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/rust-lang/rfcs": {
+  "status": 200,
+  "page": "GitHub - rust-lang/rfcs: RFCs for changes to Rust · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/dcastil/tailwind-merge": {
+  "status": 200,
+  "page": "GitHub - dcastil/tailwind-merge: Merge Tailwind CSS classes without style conflicts · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/changesets/changesets": {
+  "status": 200,
+  "page": "GitHub - changesets/changesets: 🦋 A tool to manage versioning and changelogs with a focus on monorepos · GitH",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/dequelabs/axe-core": {
+  "status": 200,
+  "page": "GitHub - dequelabs/axe-core: Accessibility engine for automated Web UI testing · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/lukeed/clsx": {
+  "status": 200,
+  "page": "GitHub - lukeed/clsx: A tiny (239B) utility for constructing `className` strings conditionally. · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/learn/react-developer-tools": {
+  "status": 200,
+  "page": "React Developer Tools – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://legacy.reactjs.org/docs/reconciliation.html": {
+  "status": 200,
+  "page": "Reconciliation – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/": {
+  "status": 200,
+  "page": "Tabs Pattern | APG | WAI | W3C",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/startTransition": {
+  "status": 200,
+  "page": "startTransition – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/learn/render-and-commit": {
+  "status": 200,
+  "page": "Render and Commit – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/cloneElement": {
+  "status": 200,
+  "page": "cloneElement – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/learn/understanding-your-ui-as-a-tree": {
+  "status": 200,
+  "page": "Understanding Your UI as a Tree – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/act": {
+  "status": 200,
+  "page": "act – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/lazy": {
+  "status": 200,
+  "page": "lazy – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/rsc/server-components": {
+  "status": 200,
+  "page": "Server Components – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/useLayoutEffect": {
+  "status": 200,
+  "page": "useLayoutEffect – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/useDeferredValue": {
+  "status": 200,
+  "page": "useDeferredValue – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/StrictMode": {
+  "status": 200,
+  "page": "&lt;StrictMode&gt; – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/blog/2022/03/29/react-v18": {
+  "status": 200,
+  "page": "React v18.0 – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/learn/extracting-state-logic-into-a-reducer": {
+  "status": 200,
+  "page": "Extracting State Logic into a Reducer – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/Activity": {
+  "status": 200,
+  "page": "&lt;Activity&gt; – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/": {
+  "status": 200,
+  "page": "Accordion Pattern (Sections With Show/Hide Functionality) | APG | WAI | W3C",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/Children": {
+  "status": 200,
+  "page": "Children – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/": {
+  "status": 200,
+  "page": "Combobox Pattern | APG | WAI | W3C",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/useTransition": {
+  "status": 200,
+  "page": "useTransition – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/use": {
+  "status": 200,
+  "page": "use – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.radix-ui.com/primitives/docs/guides/composition": {
+  "status": 200,
+  "page": "Composition – Radix Primitives",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/Suspense": {
+  "status": 200,
+  "page": "&lt;Suspense&gt; – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary": {
+  "status": 200,
+  "page": "Component – React",
+  "final": "https://react.dev/reference/react/Component",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import": {
+  "status": 200,
+  "page": "import() - JavaScript | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/generics.html": {
+  "status": 200,
+  "page": "TypeScript: Documentation - Generics",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/learn/choosing-the-state-structure": {
+  "status": 200,
+  "page": "Choosing the State Structure – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/getting-started/introduction": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux.js.org/usage/structuring-reducers/immutable-update-patterns": {
+  "status": 200,
+  "page": "Immutable Update Patterns | Redux",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/guides/slices-pattern": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/integrations/persisting-store-data": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux.js.org/usage/structuring-reducers/normalizing-state-shape": {
+  "status": 200,
+  "page": "Normalizing State Shape | Redux",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux.js.org/style-guide/": {
+  "status": 200,
+  "page": "Style Guide | Redux",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux.js.org/usage/deriving-data-selectors": {
+  "status": 200,
+  "page": "Deriving Data with Selectors | Redux",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/api/createAsyncThunk": {
+  "status": 200,
+  "page": "createAsyncThunk | Redux",
+  "final": "https://redux.js.org/toolkit/api/createAsyncThunk",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/rtk-query/overview": {
+  "status": 200,
+  "page": "RTK Query Overview | Redux",
+  "final": "https://redux.js.org/toolkit/rtk-query/overview",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/api/createSlice": {
+  "status": 200,
+  "page": "createSlice | Redux",
+  "final": "https://redux.js.org/toolkit/api/createSlice",
+  "at": "2026-11-25"
+ },
+ "https://github.com/reduxjs/redux-devtools": {
+  "status": 200,
+  "page": "GitHub - reduxjs/redux-devtools: DevTools for Redux with hot reloading, action replay, and customizable UI · G",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/introduction/getting-started": {
+  "status": 200,
+  "page": "Getting Started | Redux",
+  "final": "https://redux.js.org/toolkit/introduction/getting-started",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/api/createEntityAdapter": {
+  "status": 200,
+  "page": "createEntityAdapter | Redux",
+  "final": "https://redux.js.org/toolkit/api/createEntityAdapter",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/overview": {
+  "status": 200,
+  "page": "Overview | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/api/createListenerMiddleware": {
+  "status": 200,
+  "page": "createListenerMiddleware | Redux",
+  "final": "https://redux.js.org/toolkit/api/createListenerMiddleware",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/query-keys": {
+  "status": 200,
+  "page": "Query Keys | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/important-defaults": {
+  "status": 200,
+  "page": "Important Defaults | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates": {
+  "status": 200,
+  "page": "Optimistic Updates | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation": {
+  "status": 200,
+  "page": "Query Invalidation | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/infinite-queries": {
+  "status": 200,
+  "page": "Infinite Queries | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/mutations": {
+  "status": 200,
+  "page": "Mutations | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/ssr": {
+  "status": 200,
+  "page": "Server Rendering &amp; Hydration | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching": {
+  "status": 200,
+  "page": "Prefetching &amp; Router Integration | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/caching": {
+  "status": 200,
+  "page": "Caching Examples | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/learn/getting-started/introduction": {
+  "status": 200,
+  "page": "Introduction - Zustand Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/learn/guides/slices-pattern": {
+  "status": 200,
+  "page": "Slices Pattern - Zustand Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/reference/integrations/persisting-store-data": {
+  "status": 200,
+  "page": "Persisting store data - Zustand Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/server-actions": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/lazy-loading": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/server-and-client-boundary": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/rsc/use-client": {
+  "status": 200,
+  "page": "&#x27;use client&#x27; directive – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS": {
+  "status": 200,
+  "page": "Cross-Origin Resource Sharing (CORS) - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/sign": {
+  "status": 200,
+  "page": "SubtleCrypto: sign() method - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/installation": {
+  "status": 200,
+  "page": "Installation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/production-checklist": {
+  "status": 200,
+  "page": "How to optimize your Next.js application for production",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/deploying": {
+  "status": 200,
+  "page": "Deploying",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/self-hosting": {
+  "status": 200,
+  "page": "How to self-host your Next.js application",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/environment-variables": {
+  "status": 200,
+  "page": "How to use environment variables in Next.js",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Session Management - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/metadata-and-og-images": {
+  "status": 200,
+  "page": "Metadata and OG images",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/proxy": {
+  "status": 200,
+  "page": "Proxy",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/linking-and-navigating": {
+  "status": 200,
+  "page": "Linking and Navigating",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/layouts-and-pages": {
+  "status": 200,
+  "page": "Layouts and Pages",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/incremental-static-regeneration": {
+  "status": 200,
+  "page": "How to implement Incremental Static Regeneration (ISR)",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/route-handlers": {
+  "status": 200,
+  "page": "Route Handlers",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/project-structure": {
+  "status": 200,
+  "page": "Project structure and organization",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/scripts": {
+  "status": 200,
+  "page": "How to load and optimize scripts",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/server-and-client-components": {
+  "status": 200,
+  "page": "Server and Client Components",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/forms": {
+  "status": 200,
+  "page": "How to create forms with Server Actions",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/caching": {
+  "status": 200,
+  "page": "Caching",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/mutating-data": {
+  "status": 200,
+  "page": "Mutating Data",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/redirecting": {
+  "status": 200,
+  "page": "How to handle redirects in Next.js",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/data-security": {
+  "status": 200,
+  "page": "How to think about data security in Next.js",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/fetching-data": {
+  "status": 200,
+  "page": "Fetching Data",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/streaming": {
+  "status": 200,
+  "page": "Streaming",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/images": {
+  "status": 200,
+  "page": "Image Optimization",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/api-reference/directives/use-cache": {
+  "status": 200,
+  "page": "use cache",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/fonts": {
+  "status": 200,
+  "page": "Font Optimization",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/error-handling": {
+  "status": 200,
+  "page": "Error Handling",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/getting-started/revalidating": {
+  "status": 200,
+  "page": "Revalidating",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/authentication": {
+  "status": 200,
+  "page": "How to implement authentication in Next.js",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/instrumentation": {
+  "status": 200,
+  "page": "How to set up instrumentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nextjs.org/docs/app/guides/authentication-with-cache-components": {
+  "status": 200,
+  "page": "How to implement authentication with Cache Components",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.npmjs.com/package/jest-axe": {
+  "status": 403,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/user-event/intro/": {
+  "status": 200,
+  "page": "Introduction | Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/guiding-principles/": {
+  "status": 200,
+  "page": "Guiding Principles | Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/queries/about/#priority": {
+  "status": 200,
+  "page": "About Queries | Testing Library",
+  "final": "https://testing-library.com/docs/queries/about/",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/react-testing-library/setup/": {
+  "status": 200,
+  "page": "Setup | Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/queries/about/": {
+  "status": 200,
+  "page": "About Queries | Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mswjs.io/docs/best-practices/": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/": {
+  "status": 200,
+  "page": "Getting Started | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mswjs.io/docs/": {
+  "status": 200,
+  "page": "Introduction - Mock Service Worker",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/environment": {
+  "status": 200,
+  "page": "Test Environment | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://testing-library.com/docs/dom-testing-library/api-async/": {
+  "status": 200,
+  "page": "Async Methods | Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/mocking": {
+  "status": 200,
+  "page": "Mocking | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/coverage": {
+  "status": 200,
+  "page": "Coverage | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://jestjs.io/docs/getting-started": {
+  "status": 200,
+  "page": "Getting Started · Jest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mswjs.io/docs/integrations/browser": {
+  "status": 200,
+  "page": "Browser - Mock Service Worker",
+  "final": "https://mswjs.io/guides/integrations/browser",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/intro": {
+  "status": 200,
+  "page": "Installation | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles": {
+  "status": 200,
+  "page": "WAI-ARIA Roles - ARIA | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/pt/actions": {
+  "status": 200,
+  "page": "Documentação do GitHub Actions - Documentos do GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mswjs.io/docs/integrations/node": {
+  "status": 200,
+  "page": "Node.js - Mock Service Worker",
+  "final": "https://mswjs.io/guides/integrations/node",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/test-snapshots": {
+  "status": 200,
+  "page": "Visual comparisons | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/best-practices": {
+  "status": 200,
+  "page": "Best Practices | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/test-retries": {
+  "status": 200,
+  "page": "Retries | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/locators": {
+  "status": 200,
+  "page": "Locators | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications": {
+  "status": 200,
+  "page": "The Testing Trophy and Testing Classifications",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kentcdodds.com/blog/write-tests": {
+  "status": 200,
+  "page": "Write tests. Not too many. Mostly integration.",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library": {
+  "status": 200,
+  "page": "Common mistakes with React Testing Library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/mapbox/pixelmatch": {
+  "status": 200,
+  "page": "GitHub - mapbox/pixelmatch: The smallest, simplest and fastest JavaScript pixel-level image comparison library",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/nonDeterminism.html": {
+  "status": 200,
+  "page": "Eradicating Non-Determinism in Tests",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://storybook.js.org/docs/writing-tests": {
+  "status": 200,
+  "page": "How to test UIs with Storybook | Storybook docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mswjs.io/docs/best-practices": {
+  "status": 200,
+  "page": "Best practices - Mock Service Worker",
+  "final": "https://mswjs.io/guides/best-practices/",
+  "at": "2026-11-25"
+ },
+ "https://github.com/nickcolley/jest-axe": {
+  "status": 200,
+  "page": "GitHub - NickColley/jest-axe: Custom Jest matcher for aXe for testing accessibility ♿️🃏 · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vite.dev/guide/build": {
+  "status": 200,
+  "page": "Building for Production | Vite",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/lighthouse/performance/performance-budgets": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images": {
+  "status": 200,
+  "page": "Using responsive images in HTML - HTML | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload": {
+  "status": 200,
+  "page": "rel=&quot;preload&quot; HTML attribute value - HTML | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking": {
+  "status": 200,
+  "page": "Tree shaking - Glossary | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Critical_rendering_path": {
+  "status": 200,
+  "page": "Critical rendering path - Performance | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types": {
+  "status": 200,
+  "page": "Image file type and format guide - Media | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/crux": {
+  "status": 200,
+  "page": "Overview of CrUX &nbsp;|&nbsp; Chrome UX Report &nbsp;|&nbsp; Chrome for Developers",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon": {
+  "status": 200,
+  "page": "Navigator: sendBeacon() method - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display": {
+  "status": 200,
+  "page": "font-display CSS at-rule descriptor - CSS | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-display",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Prioritized_Task_Scheduling_API": {
+  "status": 200,
+  "page": "Prioritized Task Scheduling API - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/render-blocking-resources": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/inp": {
+  "status": 200,
+  "page": "Interaction to Next Paint (INP) &nbsp;|&nbsp; web.dev",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/optimize-cls": {
+  "status": 200,
+  "page": "Optimize Cumulative Layout Shift &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preconnect": {
+  "status": 200,
+  "page": "rel=&quot;preconnect&quot; HTML attribute value - HTML | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preconnect",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/lighthouse/overview": {
+  "status": 200,
+  "page": "Introduction to Lighthouse &nbsp;|&nbsp; Chrome for Developers",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/GoogleChrome/web-vitals": {
+  "status": 200,
+  "page": "GitHub - GoogleChrome/web-vitals: Essential metrics for a healthy site. · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/GoogleChrome/lighthouse-ci": {
+  "status": 200,
+  "page": "GitHub - GoogleChrome/lighthouse-ci: Automate running Lighthouse for every commit, viewing the changes, and pr",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/font-best-practices": {
+  "status": 200,
+  "page": "Best practice per i caratteri &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/font-best-practices?hl=it",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/lab-and-field-data-differences": {
+  "status": 200,
+  "page": "Warum sich Labor- und Felddaten voneinander unterscheiden (und was Sie dagegen tun können) &nbsp;|&nbsp; Artic",
+  "final": "https://web.dev/articles/lab-and-field-data-differences?hl=de",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/performance-budgets-101": {
+  "status": 200,
+  "page": "תקציבי ביצועים 101 &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/performance-budgets-101?hl=he",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/vitals": {
+  "status": 200,
+  "page": "Web Vitals &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/vitals?hl=it",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/fetch-priority": {
+  "status": 200,
+  "page": "Otimizar o carregamento de recursos com a API Fetch Preview &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/fetch-priority?hl=pt-br",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/reduce-javascript-payloads-with-code-splitting": {
+  "status": 200,
+  "page": "تقليل حمولات JavaScript من خلال تقسيم الرمز &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/reduce-javascript-payloads-with-code-splitting?hl=ar",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/lcp": {
+  "status": 200,
+  "page": "سرعة عرض أكبر محتوى مرئي (LCP) &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/lcp?hl=ar",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/virtualize-long-lists-react-window": {
+  "status": 200,
+  "page": "Virtualizzare elenchi di grandi dimensioni con la finestra di reazione &nbsp;|&nbsp; Articles &nbsp;|&nbsp; we",
+  "final": "https://web.dev/articles/virtualize-long-lists-react-window?hl=it",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/optimize-long-tasks": {
+  "status": 200,
+  "page": "針對長時間工作進行最佳化調整 &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/optimize-long-tasks?hl=zh-tw",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/optimize-inp": {
+  "status": 200,
+  "page": "Tối ưu hoá tương tác cho thời gian hiển thị tiếp theo &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/optimize-inp?hl=vi",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/devtools/memory-problems": {
+  "status": 200,
+  "page": "Khắc phục sự cố về bộ nhớ &nbsp;|&nbsp; Chrome DevTools &nbsp;|&nbsp; Chrome for Developers",
+  "final": "https://developer.chrome.com/docs/devtools/memory-problems?hl=vi",
+  "at": "2026-11-25"
+ },
+ "https://web.dev/articles/cls": {
+  "status": 200,
+  "page": "Cumulative Layout Shift (CLS) &nbsp;|&nbsp; Articles &nbsp;|&nbsp; web.dev",
+  "final": "https://web.dev/articles/cls?hl=zh-cn",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/devtools/performance": {
+  "status": 200,
+  "page": "Analisar o desempenho do ambiente de execução &nbsp;|&nbsp; Chrome DevTools &nbsp;|&nbsp; Chrome for Developer",
+  "final": "https://developer.chrome.com/docs/devtools/performance?hl=pt-br",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/service-level-objectives/": {
+  "status": 200,
+  "page": "Google SRE - Defining slo: service level objective meaning",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md": {
+  "status": 200,
+  "page": "lighthouse-ci/docs/configuration.md at main · GoogleChrome/lighthouse-ci · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources": {
+  "status": 200,
+  "page": "排除會妨礙顯示的資源 &nbsp;|&nbsp; Lighthouse &nbsp;|&nbsp; Chrome for Developers",
+  "final": "https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources?hl=zh-tw",
+  "at": "2026-11-25"
+ },
+ "https://pnpm.io/workspaces": {
+  "status": 200,
+  "page": "Workspace | pnpm",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://opentelemetry.io/docs/": {
+  "status": 200,
+  "page": "Documentation | OpenTelemetry",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/caching": {
+  "status": 200,
+  "page": "Caching",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/running-tasks": {
+  "status": 200,
+  "page": "Running tasks",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/constructing-ci": {
+  "status": 200,
+  "page": "Constructing CI",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository": {
+  "status": 200,
+  "page": "Structuring a repository",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Logging - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://single-spa.js.org/": {
+  "status": 200,
+  "page": "single-spa | single-spa",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.npmjs.com/cli/using-npm/workspaces": {
+  "status": 200,
+  "page": "",
+  "final": "https://docs.npmjs.com/cli/using-npm/workspaces/",
+  "at": "2026-11-25"
+ },
+ "https://github.com/sverweij/dependency-cruiser": {
+  "status": 200,
+  "page": "GitHub - sverweij/dependency-cruiser: Validate and visualize dependencies. Your rules. JavaScript, TypeScript,",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent": {
+  "status": 200,
+  "page": "CustomEvent - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel": {
+  "status": 200,
+  "page": "BroadcastChannel - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_components": {
+  "status": 200,
+  "page": "Web Components - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://module-federation.io/": {
+  "status": 200,
+  "page": "Module federation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://module-federation.io/guide/start/index.html": {
+  "status": 200,
+  "page": "Introduction - Module federation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/micro-frontends.html": {
+  "status": 200,
+  "page": "Micro Frontends",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://feature-sliced.design/": {
+  "status": 200,
+  "page": "Welcome | Feature-Sliced Design",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nx.dev/docs/features/enforce-module-boundaries": {
+  "status": 200,
+  "page": "Enforce Module Boundaries | Nx",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/ConwaysLaw.html": {
+  "status": 200,
+  "page": "Conway's Law",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://micro-frontends.org/": {
+  "status": 200,
+  "page": "Micro Frontends - extending the microservice idea to frontend development",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/StranglerFigApplication.html": {
+  "status": 200,
+  "page": "Strangler Fig",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nx.dev/docs/features/run-tasks": {
+  "status": 200,
+  "page": "Run Tasks | Nx",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react.dev/reference/react/useReducer": {
+  "status": 200,
+  "page": "useReducer – React",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://immerjs.github.io/immer/": {
+  "status": 200,
+  "page": "Introduction to Immer | Immer",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/api/configureStore": {
+  "status": 200,
+  "page": "configureStore | Redux",
+  "final": "https://redux.js.org/toolkit/api/configureStore",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/middlewares/persist": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redux-toolkit.js.org/tutorials/quick-start": {
+  "status": 200,
+  "page": "Quick Start | Redux",
+  "final": "https://redux.js.org/tutorials/quick-start",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/guides/prevent-rerenders-with-use-shallow": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://reselect.js.org/": {
+  "status": 200,
+  "page": "Reselect - A memoized selector library for Redux | Redux",
+  "final": "https://redux.js.org/reselect/",
+  "at": "2026-11-25"
+ },
+ "https://redux.js.org/introduction/why-rtk-is-redux-today": {
+  "status": 200,
+  "page": "Why Redux Toolkit is How To Use Redux Today | Redux",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://react-redux.js.org/api/hooks": {
+  "status": 200,
+  "page": "Hooks | Redux",
+  "final": "https://redux.js.org/react-redux/api/hooks",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/queries": {
+  "status": 200,
+  "page": "Queries | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/testing": {
+  "status": 200,
+  "page": "Testing | TanStack Query React Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/learn/guides/prevent-rerenders-with-use-shallow": {
+  "status": 200,
+  "page": "Prevent rerenders with useShallow - Zustand Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://zustand.docs.pmnd.rs/reference/middlewares/persist": {
+  "status": 200,
+  "page": "persist - Zustand Docs",
+  "final": "",
+  "at": "2026-11-25"
+ }
+}

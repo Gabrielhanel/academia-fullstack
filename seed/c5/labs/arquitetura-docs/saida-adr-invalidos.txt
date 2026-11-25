@@ -1,0 +1,13 @@
+✖ 0001-sem-alternativas-e-sem-riscos.md [Aceito]
+    - ADR aceito precisa de ao menos 2 alternativas (itens com "- ")
+    - consequências devem citar efeitos positivos e negativos/riscos
+✖ 0003-lacuna-status-invalido.md [Talvez]
+    - seção ausente: Alternativas consideradas
+    - seção ausente: Consequências
+    - status inválido: Talvez
+    - data fora do formato AAAA-MM-DD
+✔ 0004-substituicao-inexistente.md [Substituído por ADR-0099]
+✖ numeração com lacuna ou repetição em 0003-lacuna-status-invalido.md (esperado 0002)
+✖ numeração com lacuna ou repetição em 0004-substituicao-inexistente.md (esperado 0003)
+✖ 0004-substituicao-inexistente.md: substituído por ADR-0099 inexistente
+9 problema(s)

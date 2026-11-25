@@ -1,0 +1,2 @@
+resultados: ["fulfilled","fulfilled"] | ms: 633
+saldos finais: [{"id":1,"saldo":"95.00"},{"id":2,"saldo":"105.00"}] | soma: 200

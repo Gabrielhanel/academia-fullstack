@@ -1,0 +1,16 @@
+== Observer: 11 ouvintes no mesmo evento
+(node:176316) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 x listeners added to [EventEmitter]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+limite padrão listeners: 10 | avisos: MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 x listeners added to [EventEmitter]. MaxListener
+
+== Observer: vazamento de ouvintes (100.000 closures de ~1 KB) e coleta após remover
+heap inicial 4.0 MB | com 100.000 ouvintes 117.2 MB | após off + GC 4.1 MB | listenerCount 0
+
+== Proxy: custo de uma leitura de propriedade (10 milhões de leituras)
+objeto direto                                              mediana ms: 30.6
+Proxy com get repassando                                   mediana ms: 1613.6
+Proxy de validação (trap só de set; o get passa pelo Proxy) mediana ms: 953.7
+
+== Decorator de cache: 100 leituras de 10 chaves com latência simulada de 5 ms
+sem cache    524 ms
+com cache    52 ms

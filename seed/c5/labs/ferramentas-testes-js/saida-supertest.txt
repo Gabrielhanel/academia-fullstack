@@ -1,0 +1,9 @@
+
+ RUN  v5.1.2 /home/gabriel/Documentos/github/academia-v2/v2/seed/c5/labs/ferramentas-testes-js
+
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  15:10:11
+   Duration  1.28s (import 56%, tests 35%, transform 6%, worker 2%)
+

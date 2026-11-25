@@ -1,0 +1,4 @@
+Node v26.13.1 | núcleos disponíveis: 8
+
+== G. fib(40) x 4: sequencial x worker threads
+sequencial: 18403 ms | 4 workers: 6341 ms | ganho: 2.9x

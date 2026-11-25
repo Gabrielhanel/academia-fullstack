@@ -1,0 +1,29 @@
+  Running:  compra.cy.js                                                                    (1 of 1)
+  Compra (Cypress, com retentativa automática de comandos e asserções)
+    ✓ compra com sucesso (1145ms)
+    ✓ cupom desconhecido mostra o erro (501ms)
+    ✓ espera automática com resposta atrasada em 0 ms (285ms)
+    ✓ espera automática com resposta atrasada em 100 ms (348ms)
+    ✓ espera automática com resposta atrasada em 200 ms (463ms)
+    ✓ espera automática com resposta atrasada em 300 ms (562ms)
+    ✓ cy.intercept simula falha do servidor (313ms)
+  7 passing (4s)
+  (Results)
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        7                                                                                │
+  │ Passing:      7                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     compra.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+================================================================================
+  (Run Finished)
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  compra.cy.js                             00:03        7        7        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:03        7        7        -        -        -  

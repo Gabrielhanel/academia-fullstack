@@ -1,0 +1,31 @@
+Node v26.13.1 | argon2 0.45.2 | bcryptjs 3.0.3
+== 1. custo de uma verificação (parâmetros e tempo)
+SHA-256 simples (NÃO use para senhas), 1 hash              mediana: 0.0 ms
+scrypt N=2^15, r=8, p=1 (~32 MiB = 128·N·r bytes)        mediana: 370.5 ms
+argon2id m=64 MiB, t=3, p=4 (padrão do pacote)             mediana: 242.7 ms
+argon2id m=19 MiB, t=2, p=1 (mínimo recomendado pela OWASP) mediana: 112.1 ms
+bcrypt custo 10                                            mediana: 355.8 ms
+bcrypt custo 12                                            mediana: 1437.3 ms
+
+== 2. o quanto o atacante consegue testar por segundo, por núcleo (1000 / ms)
+SHA-256            78180 tentativas/s
+scrypt N=2^15      2.7 tentativas/s
+argon2id 64 MiB    4.1 tentativas/s
+argon2id 19 MiB    8.9 tentativas/s
+bcrypt 10          2.8 tentativas/s
+bcrypt 12          0.7 tentativas/s
+
+== 3. sal e formato do hash
+dois hashes da mesma senha são iguais? false | ambos verificam: true true
+formato: $argon2id$v=19$m=65536,t=3,p=4$<sal>$<hash> | tamanho: 97
+senha errada: false
+
+== 4. bcrypt trunca a senha em 72 bytes
+senha de 72 bytes + sufixo diferente também verifica? true (o sufixo foi ignorado)
+
+== 5. comparação em tempo constante
+timingSafeEqual(hash iguais, hash diferentes): true false
+tamanhos diferentes lançam: ERR_CRYPTO_TIMING_SAFE_EQUAL_LENGTH
+
+== 6. reexecução de hash antiga (parâmetros mudaram): detectar e atualizar no login
+hash com m=19 MiB precisa de rehash para a política m=64 MiB? true

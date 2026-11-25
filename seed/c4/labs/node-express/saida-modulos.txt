@@ -1,0 +1,7 @@
+Node v26.13.1
+require() de um módulo ESM síncrono: 5 | default: padrao
+import() dinâmico em CJS: 2
+await no topo do módulo ESM: 42
+__dirname no ESM: ReferenceError: __dirname is not defined
+arquivo .js sem "type" no package.json é CommonJS: true
+com "type": "module", o mesmo .js: arquivo .js sem "type" no package.json é CommonJS: false

@@ -1,0 +1,38 @@
+== eslint legado
+
+legado/pedido.mjs
+   2:8   warning  Function 'proc' has too many parameters (5). Maximum allowed is 4  max-params
+   2:8   warning  Function 'proc' has too many lines (45). Maximum allowed is 20     max-lines-per-function
+   2:8   warning  Function 'proc' has a complexity of 14. Maximum allowed is 5       complexity
+   7:9   warning  Blocks are nested too deeply (4). Maximum allowed is 3             max-depth
+   8:11  warning  Blocks are nested too deeply (5). Maximum allowed is 3             max-depth
+   8:17  warning  Expected '===' and instead saw '=='                                eqeqeq
+   9:39  warning  No magic number: 0.9                                               no-magic-numbers
+  10:24  warning  Expected '===' and instead saw '=='                                eqeqeq
+  11:39  warning  No magic number: 0.8                                               no-magic-numbers
+  17:15  warning  No magic number: 500                                               no-magic-numbers
+  18:17  warning  No magic number: 25                                                no-magic-numbers
+  20:13  warning  Expected '===' and instead saw '=='                                eqeqeq
+  21:9   warning  Blocks are nested too deeply (4). Maximum allowed is 3             max-depth
+  21:17  warning  No magic number: 1000                                              no-magic-numbers
+  24:11  warning  Blocks are nested too deeply (5). Maximum allowed is 3             max-depth
+  24:17  warning  Expected '===' and instead saw '=='                                eqeqeq
+  25:21  warning  No magic number: 10                                                no-magic-numbers
+  26:24  warning  Expected '===' and instead saw '=='                                eqeqeq
+  27:21  warning  No magic number: 15                                                no-magic-numbers
+  29:21  warning  No magic number: 30                                                no-magic-numbers
+
+✖ 20 problems (0 errors, 20 warnings)
+
+
+== eslint refatorado
+
+refatorado/pedido.mjs
+  35:37  warning  Arrow function has too many parameters (5). Maximum allowed is 4  max-params
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+  46 legado/pedido.mjs
+  35 refatorado/pedido.mjs
+  81 total

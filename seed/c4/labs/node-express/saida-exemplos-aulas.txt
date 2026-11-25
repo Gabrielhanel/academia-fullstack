@@ -1,0 +1,11 @@
+GET /pedidos/1 -> 200 {"id":1}
+GET /pedidos/9 -> 404 {"erro":"pedido não encontrado","status":404,"id":"1f241552-2a77-4541-a710-f9e541f65b10"}
+GET /bug -> 500 {"erro":"erro interno","status":500,"id":"1db80949-50a0-4623-a0dc-21795294bd3c"} | log interno tem stack: true | resposta tem "stack": false
+POST /pedidos sem content-type JSON -> 415 {"erro":"Content-Type deve ser application/json","status":415,"id":"f323ce07-01a7-49b6-a01f-bfa46a51cb22"}
+POST /pedidos JSON -> 201 {"ok":true}
+POST JSON de 20 KB (limite global 10 KB) -> 413 {"erro":"request entity too large","status":413,"id":"afdf864a-7f4e-4b61-8580-94064531a822"}
+POST JSON de 20 KB em /uploads-json (limite 1 MB) -> 204 
+POST JSON de 20 KB em /uploads-depois (parser de 1 MB registrado DEPOIS do global) -> 413 {"erro":"request entity too large","status":413,"id":"60adc636-e1af-4c85-8ab7-71e01deaee2d"}
+linhas de log de requisição: 9 | exemplo: {"id":"<uuid>","m":"GET","p":"/pedidos/1","s":200,"ms":N}
+config válida: {"PORT":3000,"DATABASE_URL":"postgres://u:p@localhost:5432/db","LOG_LEVEL":"info"}
+config inválida lança ZodError com 2 problemas: PORT, DATABASE_URL

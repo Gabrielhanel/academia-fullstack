@@ -1,0 +1,15 @@
+import Redis from 'ioredis';
+const r = new Redis({ host: '127.0.0.1', port: 56379 });
+await r.flushall(); await r.config('RESETSTAT');
+console.log('memória usada sem dados:', (await r.info('memory')).match(/used_memory_human:(\S+)/)[1]);
+await r.config('SET', 'maxmemory', '12mb'); await r.config('SET', 'maxmemory-policy', 'allkeys-lru');
+const p = r.pipeline(); for (let i = 0; i < 200000; i++) p.set('lru:' + i, 'x'.repeat(50)); await p.exec();
+const st = await r.info('stats'); const mem = await r.info('memory');
+console.log('allkeys-lru, maxmemory 12mb: gravadas 200.000 | no banco =', await r.dbsize(), '| evicted_keys =', /evicted_keys:(\d+)/.exec(st)[1], '| memória usada =', /used_memory_human:(\S+)/.exec(mem)[1]);
+console.log('a chave mais recente existe?', await r.exists('lru:199999'), '| a mais antiga existe?', await r.exists('lru:0'));
+await r.flushall(); await r.config('SET', 'maxmemory-policy', 'noeviction');
+const p2 = r.pipeline(); for (let i = 0; i < 200000; i++) p2.set('n:' + i, 'x'.repeat(50)); const res = await p2.exec();
+console.log('noeviction, maxmemory 12mb: no banco =', await r.dbsize(), '| escritas recusadas =', res.filter((x) => x[0]).length, '| mensagem:', res.find((x) => x[0])[0].message.slice(0, 70));
+console.log('leituras continuam funcionando:', await r.get('n:0'));
+await r.flushall(); await r.config('SET', 'maxmemory', '0'); await r.config('SET', 'maxmemory-policy', 'noeviction');
+await r.quit();

@@ -1,0 +1,13 @@
+== workers=1
+
+  11 passed (13.1s)
+== shard 1/2
+
+  6 passed (8.3s)
+== shard 2/2
+
+  5 passed (7.9s)
+== trace (TRACE=1, 1 teste)
+
+  1 passed (4.9s)
+46310 test-results/compra-compra-com-sucesso--f06c6-lo-e-papel-com-auto-espera-/trace.zip

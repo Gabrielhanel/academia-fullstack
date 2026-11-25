@@ -1,0 +1,19 @@
+== 1. retry sem chave de idempotência (o cliente não recebeu a resposta e repete)
+duas tentativas do mesmo pagamento -> cobranças efetuadas: 2
+
+== 2. com Idempotency-Key
+1ª: 201 {"id":"pg_1","valor":100} | 2ª (mesma chave e corpo): 201 {"id":"pg_1","valor":100} | replayed: true | cobranças: 1
+mesma chave com outro corpo: 422 {"erro":"chave reutilizada com outro corpo"}
+sem a chave: 400 {"erro":"Idempotency-Key obrigatório"}
+
+== 3. concorrência com a mesma chave (5 requisições simultâneas)
+status: 201 409 409 409 409 | cobranças efetuadas: 1
+nova tentativa depois:  201 replayed: true | cobranças: 1
+
+== 4. versionamento: URL x cabeçalho, e mudanças compatíveis x incompatíveis
+/v1: {"id":1,"nome":"Ana"} | deprecation: @1767225600 | sunset: Wed, 01 Jul 2027 00:00:00 GMT | link: </v2/usuarios/1>; rel="successor-version"
+/v2: {"id":1,"nomeCompleto":"Ana Silva","nome":"Ana"}
+Accept v2: {"id":1,"nomeCompleto":"Ana Silva","nome":"Ana"} | content-type: application/vnd.exemplo.v2+json; charset=utf-8 | vary: Accept
+sem Accept (padrão v1): {"id":1,"nome":"Ana"}
+cliente antigo lê a v2 (campo novo adicionado, nada removido): ANA → compatível
+cliente antigo lê uma versão que removeu "nome": TypeError: Cannot read properties of undefined (reading 'toUpperCase') → quebra

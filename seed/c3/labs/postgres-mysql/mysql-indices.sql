@@ -1,0 +1,15 @@
+USE lab; SET SESSION cte_max_recursion_depth = 300000;
+DROP TABLE IF EXISTS pedidos;
+CREATE TABLE pedidos (id INT PRIMARY KEY, cliente_id INT, status VARCHAR(10), valor DECIMAL(10,2), data DATE) ENGINE=InnoDB;
+INSERT INTO pedidos SELECT g, (g * 7919) % 10000 + 1, ELT(1 + g % 4, 'aberto','pago','cancelado','enviado'), (g % 1000) + 0.5, DATE_ADD('2025-01-01', INTERVAL (g % 700) DAY) FROM (WITH RECURSIVE s(g) AS (SELECT 1 UNION ALL SELECT g + 1 FROM s WHERE g < 200000) SELECT g FROM s) x;
+ANALYZE TABLE pedidos;
+SELECT COUNT(*) AS linhas FROM pedidos;
+EXPLAIN SELECT * FROM pedidos WHERE cliente_id = 123;
+CREATE INDEX idx_cliente ON pedidos (cliente_id);
+EXPLAIN SELECT * FROM pedidos WHERE cliente_id = 123;
+EXPLAIN ANALYZE SELECT * FROM pedidos WHERE cliente_id = 123;
+EXPLAIN SELECT * FROM pedidos WHERE YEAR(data) = 2026;
+CREATE INDEX idx_data ON pedidos (data);
+EXPLAIN SELECT * FROM pedidos WHERE YEAR(data) = 2026;
+EXPLAIN SELECT * FROM pedidos WHERE data >= '2026-01-01' AND data < '2027-01-01';
+EXPLAIN FORMAT=TREE SELECT status, COUNT(*) FROM pedidos GROUP BY status;

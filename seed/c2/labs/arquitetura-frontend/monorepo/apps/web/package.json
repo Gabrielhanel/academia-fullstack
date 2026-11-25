@@ -1,0 +1,1 @@
+{ "name": "@mono/web", "version": "1.0.0", "type": "module", "main": "dist/index.js", "scripts": { "build": "node build.mjs", "test": "node -e \"console.log('teste ok web')\"" }, "dependencies": { "@mono/ui": "*", "@mono/utils": "*" } }

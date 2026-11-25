@@ -1,0 +1,44 @@
+=== EST1 ===
+montagem {"A":1,"B":1}
+depois de mudar só a {"A":2,"B":2}
+objeto novo no value: renders extras do consumidor = 1
+value memoizado: renders extras do consumidor = 0
+=== EST3 ===
+seletor que devolve objeto novo (sem useShallow) em v5: Maximum update depth exceeded. This can happen when a component repeatedly calls
+mudou só nome: Tudo + 1  SoN + 0  ParShallow + 1
+mudou só n: Tudo + 1  SoN + 1  ParShallow + 1
+fora do React: getState().n = 1
+subscribe viu: 1->2
+persistido: {"state":{"a":2},"version":2}
+somaAB: 12
+só mudanças de x: 0->5
+=== EST2 ===
+actions: carrinho/adicionado {"type":"carrinho/adicionado","payload":{"id":1,"preco":5}}
+estado novo? true | array antigo intacto? true | congelado? true
+estado inicial da store: {"carrinho":{"itens":[],"total":0}}
+mutação fora do reducer lança: TypeError
+avisos do react-redux (dev): Selector unknown returned a different result when called with the same parameter
+ação em outra parte do estado: Ruim + 1  Bom + 0  recálculos do createSelector + 0
+mudou o filtro: recálculos do createSelector + 1
+sucesso: usuarios/carregar/pending > usuarios/carregar/fulfilled | {"status":"ok","dados":{"id":7},"erro":null}
+rejeição: usuarios/carregar/pending > usuarios/carregar/rejected | {"status":"erro","dados":{"id":7},"erro":"inválido"}
+estado normalizado: {"ids":[1,2],"entities":{"1":{"id":1,"nome":"Ana"},"2":{"id":2,"nome":"Bia"}}}
+selectAll: [{"id":1,"nome":"Ana"},{"id":2,"nome":"Zé"}] | selectById(2): {"id":2,"nome":"Zé"}
+efeitos do listener: n=1, n=2
+=== EST4 ===
+hash de chaves iguais com ordem de props diferente: true | array em ordem diferente: false
+dois componentes, mesma chave: buscas = 1
+staleTime 100ms: remontar em 20ms refaz busca? buscas = 1
+após 120ms (dado velho): buscas = 2
+gcTime 50ms: no cache antes de desmontar = true | 100ms após desmontar = false
+padrões: staleTime = 0 | gcTime padrão (ms) = 300000 (documentação)
+invalidar ["todos"]: {"lista":2,"item1":2,"outra":1}
+invalidar ["todos","lista"] exact: {"lista":3,"item1":2,"outra":1}
+durante a mutação (otimista): ["a","b"]
+após sucesso: ["a","b"] | servidor: ["a","b"]
+falha, durante: ["a","b","c"]
+falha, depois do rollback: ["a","b"]
+páginas: [[1,2]] | tem próxima? true | pageParams: [0]
+dehydrate (resumo): [{"key":["u",1],"data":{"nome":"Ana"},"status":"success"}]
+hidratado: dado = {"nome":"Ana"} | buscas no cliente = 0
+retry padrão (cliente novo): tentativas = 4 | status = error

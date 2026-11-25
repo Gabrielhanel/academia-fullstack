@@ -1,0 +1,21 @@
+== 1. descoberta e JWKS
+discovery: issuer, authorization_endpoint, token_endpoint, jwks_uri, code_challenge_methods_supported, id_token_signing_alg_values_supported
+
+== 2. fluxo código de autorização + PKCE (caminho feliz)
+/authorize → 302 | state devolvido igual: true
+/token → 200 | campos: token_type, access_token, id_token, refresh_token, expires_in
+id_token válido: sub = u-1 | nonce confere: true | aud = app1
+access_token para a API: aud = api-pedidos | scope = pedidos:ler
+access_token usado como id_token (audiência errada): ERR_JWT_CLAIM_VALIDATION_FAILED
+
+== 3. ataques e erros
+reutilizar o código de autorização: 400 {"error":"invalid_grant"}
+code_verifier errado (código interceptado sem o verifier): 400 {"error":"invalid_grant","error_description":"PKCE falhou"}
+redirect_uri diferente na troca: 400 {"error":"invalid_grant"}
+redirect_uri não registrado em /authorize: 400
+sem PKCE: 400
+
+== 4. rotação do refresh token com detecção de reuso
+usar rt1: 200 → novo refresh token emitido: true
+reusar rt1 (roubado): 400 {"error":"invalid_grant","error_description":"reuso detectado: família revogada"}
+o rt2 legítimo depois do reuso: 400 {"error":"invalid_grant"} (a família inteira foi revogada)

@@ -1,0 +1,9 @@
+stateDiagram-v2
+  [*] --> novo
+  novo --> pago: pagamento aprovado
+  novo --> cancelado: cancelar
+  pago --> enviado: despachar
+  pago --> cancelado: estornar
+  enviado --> entregue: confirmar entrega
+  entregue --> [*]
+  cancelado --> [*]

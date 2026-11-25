@@ -1,0 +1,44 @@
+<!doctype html><meta charset=utf-8><title>lab4</title><body><pre id=out></pre><ul id=lista><li><button class=del data-id=1>x1</button></li><li><button class=del data-id=2>x2</button></li></ul><a id=lnk href="#nao-navegar">l</a>
+<script type=module>
+const out=[]; const log=(...a)=>out.push(a.map(x=>typeof x==='object'?JSON.stringify(x):String(x)).join(' '));
+console.log = log;
+localStorage.clear();
+const guardar = {
+  ler(chave, padrao) {
+    try {
+      const bruto = localStorage.getItem(chave);
+      return bruto === null ? padrao : JSON.parse(bruto);
+    } catch { return padrao; }
+  },
+  gravar(chave, valor) {
+    try { localStorage.setItem(chave, JSON.stringify(valor)); return true; }
+    catch (e) { if (e.name === 'QuotaExceededError') return false; throw e; }
+  }
+};
+guardar.gravar('prefs', { tema: 'escuro', fonte: 16 });
+console.log(guardar.ler('prefs', {}), guardar.ler('nada', { tema: 'claro' }));
+localStorage.setItem('n', 42);
+console.log(typeof localStorage.getItem('n'), localStorage.getItem('nada'));
+console.log(guardar.gravar('grande', 'x'.repeat(6e6)));
+localStorage.setItem('quebrado', '{ruim'); console.log(guardar.ler('quebrado', 'padrão'));
+const ul = document.getElementById('lista'); const ordem = [];
+ul.addEventListener('click', (e) => ordem.push('ul-bolha:' + e.target.tagName + '/' + e.currentTarget.tagName));
+ul.addEventListener('click', () => ordem.push('ul-captura'), true);
+document.body.addEventListener('click', () => ordem.push('body-bolha'));
+const removidos = [];
+ul.addEventListener('click', (e) => { const b = e.target.closest('.del'); if (b && ul.contains(b)) removidos.push(b.dataset.id); });
+ul.querySelector('[data-id="2"]').click();
+const li = document.createElement('li'); li.innerHTML = '<button class="del" data-id="3">x3</button>'; ul.append(li); li.firstChild.click();
+console.log(ordem.slice(0, 3), removidos);
+const a = document.getElementById('lnk'); a.addEventListener('click', (e) => { e.preventDefault(); console.log(e.defaultPrevented); }); a.click(); console.log(JSON.stringify(location.hash));
+let n = 0; const b = document.createElement('button'); b.addEventListener('click', () => n++, { once: true }); b.click(); b.click(); console.log(n);
+const pai = document.createElement('div'), filho = document.createElement('button'); pai.append(filho); let recebeu = 0; pai.addEventListener('click', () => recebeu++); filho.addEventListener('click', (e) => e.stopPropagation()); filho.click(); console.log(recebeu);
+const alvo = new EventTarget(); alvo.addEventListener('pedido', (e) => console.log(e.detail)); alvo.dispatchEvent(new CustomEvent('pedido', { detail: { id: 7 } }));
+document.cookie = 'tema=escuro; path=/; max-age=60; SameSite=Lax'; document.cookie = 'sess=abc; path=/; HttpOnly'; console.log(document.cookie);
+const c = await caches.open('v9'); await c.put('/api/a', new Response('{"x":1}', { headers: { 'content-type': 'application/json' } })); const hit = await c.match('/api/a'); console.log(hit.status, await hit.text()); console.log(await c.match('/nao'));
+const r = new Response('abc'); await r.text(); try { await r.text(); } catch (e) { console.log(e.name); }
+const original = new Response('abc'); const copia = original.clone(); console.log(await original.text(), await copia.text());
+console.log(await caches.keys()); const { usage, quota } = await navigator.storage.estimate(); console.log(quota > usage);
+await caches.delete('v9');
+document.getElementById('out').textContent = out.join('\n'); document.title = 'done';
+</script>

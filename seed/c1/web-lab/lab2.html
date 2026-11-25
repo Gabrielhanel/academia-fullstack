@@ -1,0 +1,61 @@
+<!doctype html><meta charset=utf-8><title>lab2</title><body><pre id=out></pre>
+<script>
+const out = []; const log = (...a) => out.push(a.map(String).join(' '));
+const req2p = (r) => new Promise((res, rej) => { r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+(async () => {
+try {
+  // IndexedDB
+  await new Promise((r) => { const d = indexedDB.deleteDatabase('loja'); d.onsuccess = d.onerror = d.onblocked = r; });
+  const db = await new Promise((res, rej) => {
+    const r = indexedDB.open('loja', 1);
+    r.onupgradeneeded = (e) => { const d = r.result; log('upgrade de', e.oldVersion, 'para', e.newVersion); const s = d.createObjectStore('produtos', { keyPath: 'id', autoIncrement: true }); s.createIndex('porCategoria', 'cat'); s.createIndex('porSku', 'sku', { unique: true }); };
+    r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error);
+  });
+  let tx = db.transaction('produtos', 'readwrite'); const st = tx.objectStore('produtos');
+  st.add({ sku: 'A1', nome: 'Caneta', cat: 'papelaria', preco: 3 }); st.add({ sku: 'B2', nome: 'Caderno', cat: 'papelaria', preco: 15 }); st.add({ sku: 'C3', nome: 'Mouse', cat: 'info', preco: 40 });
+  await new Promise((r) => tx.oncomplete = r);
+  tx = db.transaction('produtos'); const idx = tx.objectStore('produtos').index('porCategoria');
+  const pap = await req2p(idx.getAll('papelaria')); log('por categoria', pap.map((p) => p.nome).join(','));
+  log('get por chave', (await req2p(tx.objectStore('produtos').get(3))).nome);
+  // unicidade
+  const t2 = db.transaction('produtos', 'readwrite'); const r2 = t2.objectStore('produtos').add({ sku: 'A1', nome: 'Dup', cat: 'x', preco: 1 });
+  const erro = await new Promise((res) => { r2.onerror = (e) => { e.preventDefault(); res(r2.error.name); }; }); log('violação de índice único:', erro);
+  // transação encerra ao esperar algo que não é IndexedDB
+  const t3 = db.transaction('produtos', 'readwrite'); const s3 = t3.objectStore('produtos'); await new Promise((r) => setTimeout(r, 50));
+  try { s3.put({ id: 1, sku: 'A1', nome: 'Caneta2', cat: 'papelaria', preco: 4 }); log('put após await externo: ok'); } catch (e) { log('put após await externo:', e.name); }
+  // cursor
+  const nomes = []; await new Promise((res) => { const c = db.transaction('produtos').objectStore('produtos').openCursor(); c.onsuccess = () => { const cur = c.result; if (cur) { nomes.push(cur.value.nome); cur.continue(); } else res(); }; }); log('cursor', nomes.join(','));
+  // atomicidade: abort desfaz
+  const t4 = db.transaction('produtos', 'readwrite'); t4.objectStore('produtos').add({ sku: 'D4', nome: 'Temp', cat: 'x', preco: 1 }); t4.abort(); await new Promise((r) => t4.onabort = r);
+  log('após abort, total =', await req2p(db.transaction('produtos').objectStore('produtos').count()));
+  // migração de versão
+  db.close(); const db2 = await new Promise((res) => { const r = indexedDB.open('loja', 2); r.onupgradeneeded = (e) => { log('migração', e.oldVersion, '->', e.newVersion); r.transaction.objectStore('produtos').createIndex('porPreco', 'preco'); }; r.onsuccess = () => res(r.result); });
+  log('índices v2', [...db2.transaction('produtos').objectStore('produtos').indexNames].join(',')); db2.close();
+  // Cache API
+  await caches.delete('v1'); const c = await caches.open('v1');
+  await c.put('/api/a', new Response('{"x":1}', { headers: { 'content-type': 'application/json' } }));
+  const hit = await c.match('/api/a'); log('cache.match', hit.status, await hit.text());
+  log('clone da resposta: reler sem clonar ->', await (async () => { const r = new Response('abc'); await r.text(); try { await r.text(); return 'ok'; } catch (e) { return e.name; } })());
+  await c.add('/api/b'); log('chaves', (await c.keys()).map((r) => new URL(r.url).pathname).join(','));
+  log('cache.match miss', await c.match('/nao'));
+  await c.delete('/api/a'); log('após delete', (await c.keys()).length);
+  log('caches', (await caches.keys()).join(','));
+  // Web Worker
+  const w = new Worker('worker.js'); const msg = (m, t) => new Promise((res) => { w.onmessage = (e) => res(e.data); w.postMessage(m, t || []); });
+  log('worker soma', JSON.stringify(await msg({ tipo: 'soma', n: 1e6 })));
+  const buf = new ArrayBuffer(1024); const r = await msg({ tipo: 'buffer', buf }, [buf]); log('transferência: worker viu', r.bytes, 'bytes; local agora', buf.byteLength);
+  const res3 = await msg({ tipo: 'clone', valor: { d: new Date(0), m: new Map([[1, 2]]), s: new Set([3]) } }); log('clone estruturado', res3.data.d instanceof Date, res3.data.m instanceof Map, res3.data.s instanceof Set);
+  try { w.postMessage({ f() {} }); log('postMessage com função: sem erro'); } catch (e) { log('postMessage com função:', e.name); }
+  const dom = await msg({ tipo: 'dom' }); log('no worker', JSON.stringify(dom));
+  const errP = new Promise((res) => w.onerror = (e) => { e.preventDefault(); res(e.message); }); w.postMessage({ tipo: 'erro' }); log('erro do worker:', await errP);
+  w.terminate();
+  // bloqueio da thread principal x worker
+  const tick = (ms) => new Promise((resolve) => { let max = 0, last = performance.now(); const iv = setInterval(() => { const n = performance.now(); max = Math.max(max, n - last); last = n; }, 10); setTimeout(() => { clearInterval(iv); resolve(Math.round(max)); }, ms); });
+  const cpu = (n) => { let s = 0; for (let i = 0; i < n; i++) s += i % 7; return s; };
+  let p = tick(600); await new Promise((r) => setTimeout(r, 50)); cpu(3e8); const maxBloq = await p;
+  const w2 = new Worker('worker.js'); p = tick(600); await new Promise((r) => setTimeout(r, 50)); await new Promise((res) => { w2.onmessage = res; w2.postMessage({ tipo: 'soma', n: 3e8 }); }); const maxWk = await p; w2.terminate();
+  log('maior atraso do timer (ms): cálculo na thread principal >= 100:', maxBloq >= 100, '; com worker < 100:', maxWk < 100);
+} catch (e) { log('ERRO', e.name, e.message, e.stack && e.stack.split('\n')[1]); }
+document.getElementById('out').textContent = out.join('\n'); document.title = 'done';
+})();
+</script>

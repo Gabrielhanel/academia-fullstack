@@ -1,0 +1,2 @@
+status + ordem por criado desc (índice composto): FETCH > IXSCAN | examinados 25000 | retornados 25000
+status + ordem por valor (sem índice para a ordem): SORT > FETCH > IXSCAN | examinados 25000 | retornados 25000

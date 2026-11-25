@@ -1,0 +1,8 @@
+v0 ℹ pass 0 ℹ fail 8 
+v1 ℹ pass 2 ℹ fail 6 
+v2 ℹ pass 4 ℹ fail 4 
+v3 ℹ pass 5 ℹ fail 3 
+v4 ℹ pass 6 ℹ fail 2 
+v5 ℹ pass 7 ℹ fail 1 
+v6 ℹ pass 8 ℹ fail 0 
+v7 ℹ pass 8 ℹ fail 0 

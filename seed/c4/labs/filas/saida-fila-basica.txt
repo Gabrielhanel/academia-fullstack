@@ -1,0 +1,4 @@
+Redis 8.12.0
+lista + BRPOP (ingênua)              | o trabalhador caiu (código 1) | concluídos: 2 | ainda na fila: 3 | presos em "processando": 0 | perdidos: 1
+lista + BLMOVE para "processando"    | o trabalhador caiu (código 1) | concluídos: 2 | ainda na fila: 3 | presos em "processando": 1 | perdidos: 0
+(com BLMOVE o job do trabalhador morto fica visível em "processando", mas ALGUÉM precisa devolvê-lo à fila: é o que o BullMQ faz com travas e detecção de jobs travados)

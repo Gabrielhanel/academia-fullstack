@@ -1,0 +1,5 @@
+memória usada sem dados: 1.44M
+allkeys-lru, maxmemory 12mb: gravadas 200.000 | no banco = 103923 | evicted_keys = 96077 | memória usada = 12.00M
+a chave mais recente existe? 1 | a mais antiga existe? 0
+noeviction, maxmemory 12mb: no banco = 106352 | escritas recusadas = 93648 | mensagem: OOM command not allowed when used memory > 'maxmemory'.
+leituras continuam funcionando: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

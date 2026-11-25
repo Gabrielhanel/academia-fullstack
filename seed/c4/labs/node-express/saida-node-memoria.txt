@@ -1,0 +1,3 @@
+arquivo de 200 MiB (cada leitura em um processo Node separado)
+readFile  | RSS antes 49 MiB | pico 251 MiB | tempo 2298 ms | hash 0146957be162
+stream    | RSS antes 50 MiB | pico 84 MiB | tempo 2863 ms | hash 0146957be162

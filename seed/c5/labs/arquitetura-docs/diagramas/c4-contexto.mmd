@@ -1,0 +1,11 @@
+C4Context
+  title Contexto: Loja Online
+  Person(cliente, "Cliente", "Compra produtos pelo site")
+  Person(atendente, "Atendente", "Resolve problemas de pedidos")
+  System(loja, "Loja Online", "Catálogo, carrinho, pedidos e pagamentos")
+  System_Ext(gateway, "Gateway de Pagamento", "Processa cartão e Pix")
+  System_Ext(correios, "Transportadora", "Calcula frete e rastreia entregas")
+  Rel(cliente, loja, "Compra", "HTTPS")
+  Rel(atendente, loja, "Consulta e ajusta pedidos", "HTTPS")
+  Rel(loja, gateway, "Cobra", "HTTPS/JSON")
+  Rel(loja, correios, "Cota frete", "HTTPS/JSON")

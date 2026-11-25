@@ -1,0 +1,28 @@
+versão: 8.4.13 | isolamento padrão: REPEATABLE-READ
+
+== 2. leitura suja com READ UNCOMMITTED
+X lê Ana (Y não confirmou): 999.00
+
+== 3. leitura não repetível: READ COMMITTED x REPEATABLE READ
+READ COMMITTED: X lê 100.00 e depois 500.00
+REPEATABLE READ: X lê 100.00 e depois 100.00
+
+== 4. fantasma em REPEATABLE READ: leitura consistente x leitura com trava
+SELECT comum: 2 depois 2 | SELECT ... FOR UPDATE (leitura atual): 3
+
+== 5. atualização perdida em REPEATABLE READ e correções
+Ana deveria ter 120; ficou com 110.00
+
+== 6. write skew em REPEATABLE READ e em SERIALIZABLE
+REPEATABLE READ: ambos viram 2 e 2 | UPDATE X: ok | UPDATE Y: ok | de plantão no final: 0
+SERIALIZABLE: ambos viram 2 e 2 | UPDATE X: 1205 Lock wait timeout exceeded; try restarting transaction | UPDATE Y: ok | de plantão no final: 1
+
+== 7. deadlock
+X: "ok" | Y: {"erro":"1213 Deadlock found when trying to get lock; try restarting transaction"} | ms: 207
+
+== 8. travas: NOWAIT, SKIP LOCKED, tempo limite e bloqueio de intervalo (gap lock)
+X travou: [1,2]
+Y NOWAIT: {"erro":"3572 Statement aborted because lock(s) could not be acquired immediately and NOWAIT is set."}
+Y SKIP LOCKED: [3,4]
+Y UPDATE bloqueado: {"erro":"1205 Lock wait timeout exceeded; try restarting transaction"} | ms: 3003
+X travou o intervalo 5..9 (sem linhas) com FOR UPDATE; Y INSERT id 7: {"erro":"1205 Lock wait timeout exceeded; try restarting transaction"} | ms: 3003

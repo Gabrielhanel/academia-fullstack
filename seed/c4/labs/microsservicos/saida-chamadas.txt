@@ -1,0 +1,17 @@
+Node v26.13.1 | Express 5.3.0 | 50 pedidos de 50 clientes distintos entre 200
+== 1. custo de uma chamada: dentro do processo x entre serviços (HTTP em localhost)
+chamada de função no mesmo processo                                mediana: 0.0258 ms
+   por chamada: 0.026 µs
+uma chamada HTTP ao serviço de clientes                            mediana: 4.1 ms
+
+== 2. o "N+1 entre serviços": compor 50 pedidos com o nome do cliente
+50 chamadas HTTP em sequência (uma por pedido)                     mediana: 129.8 ms
+50 chamadas HTTP em paralelo (Promise.all)                         mediana: 70.2 ms
+1 chamada em lote (ids distintos na query)                         mediana: 2.4 ms
+
+== 3. disponibilidade de uma cadeia síncrona (cálculo): n serviços em série, cada um com disponibilidade a
+a = 99.9% | n =  1 → disponibilidade composta 99.90% | indisponibilidade em 30 dias: 43 min
+a = 99.9% | n =  3 → disponibilidade composta 99.70% | indisponibilidade em 30 dias: 129 min
+a = 99.9% | n =  5 → disponibilidade composta 99.50% | indisponibilidade em 30 dias: 216 min
+a = 99.9% | n = 10 → disponibilidade composta 99.00% | indisponibilidade em 30 dias: 430 min
+a = 99.0% | n =  5 → disponibilidade composta 95.10% | indisponibilidade em 30 dias: 2117 min

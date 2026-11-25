@@ -1,0 +1,6 @@
+decisões avaliadas: 36 | onde RBAC permite e ABAC nega: 9
+acessos que o RBAC puro permitiria a pedidos de outros clientes (IDOR): 6 → usuário 1 pedido:ler pedido 11; usuário 1 pedido:editar pedido 11; usuário 2 pedido:ler pedido 10; usuário 2 pedido:editar pedido 10; ...
+cliente 1 edita o próprio pedido aberto (10): true | edita o próprio pedido pago (12): false | lê o pedido do cliente 2 (11): false
+gerente de POA lê pedido de POA (11): true | lê pedido de SP (12): false | apaga (sem a permissão no papel): false
+papel desconhecido (negar por padrão): false
+explosão de papéis (cálculo): com 5 lojas e 4 departamentos, um papel por combinação exigiria 20 papéis; uma regra ABAC "usuario.loja == recurso.loja && usuario.depto == recurso.depto" cobre todos

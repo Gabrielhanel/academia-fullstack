@@ -1,0 +1,3 @@
+sem tratamento de SIGTERM    | requisição em andamento: falhou: UND_ERR_SOCKET | nova requisição após o SIGTERM: recusada: ECONNRESET | saída do processo: {"code":null,"sig":"SIGTERM"} | em 404 ms
+graceful                     | requisição em andamento: status 200 {"ok":true} | nova requisição após o SIGTERM: recusada: ECONNREFUSED | saída do processo: {"code":0,"sig":null} | em 4099 ms
+graceful + fechar ociosas após cada resposta | requisição em andamento: status 200 {"ok":true} | nova requisição após o SIGTERM: recusada: ECONNREFUSED | saída do processo: {"code":0,"sig":null} | em 1067 ms

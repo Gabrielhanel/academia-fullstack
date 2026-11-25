@@ -1,0 +1,15 @@
+== 1. encapsulamento de módulos
+sem exports: Nest can't resolve dependencies of the XCtrl (?). Please make sure that the argument SecretoService at index [0] is available in the AppSemExport modu
+com exports: {"status":200,"corpo":"segredo"}
+
+== 2. providers customizados e tokens
+{"status":200,"corpo":"{\"cfg\":{\"porta\":3000},\"relogio\":\"falso\",\"fabrica\":\"porta 3000\",\"alias\":\"real\"}"}
+
+== 3. escopos: singleton x por requisição
+instâncias singleton: 1 | instâncias por requisição após 5 requisições: 5
+
+== 4. dependência circular
+com forwardRef: resolvido = true
+
+== 5. ciclo de vida e desligamento
+onModuleInit -> onApplicationBootstrap -> onModuleDestroy -> beforeApplicationShutdown(undefined) -> onApplicationShutdown(undefined)

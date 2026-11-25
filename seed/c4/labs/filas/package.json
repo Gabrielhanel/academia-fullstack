@@ -1,0 +1,10 @@
+{
+  "name": "lab-filas",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "bullmq": "6.7.10",
+    "ioredis": "6.1.0",
+    "pg": "8.23.1"
+  }
+}

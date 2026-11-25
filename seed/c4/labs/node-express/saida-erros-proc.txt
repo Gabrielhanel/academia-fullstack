@@ -1,0 +1,3 @@
+promessa rejeitada sem tratamento: {"status":1,"erro":"[eval]:1"}
+com process.on(unhandledRejection): {"status":0,"erro":"registrado: x"}
+exceção não capturada: {"status":1,"erro":"[eval]:1"}

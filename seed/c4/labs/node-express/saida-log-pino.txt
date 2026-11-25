@@ -1,0 +1,1 @@
+linhas emitidas: 1 | campos: level,time,pid,hostname,rota,ms,senha,req,msg | senha = [Redacted] | authorization = [Redacted]

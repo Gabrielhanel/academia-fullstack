@@ -1,0 +1,52 @@
+<!doctype html><meta charset=utf-8><title>lab3</title><link rel=manifest href=/manifest.webmanifest><body><pre id=out></pre>
+<script>
+const out = []; const log = (...a) => out.push(a.map(String).join(' '));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+try {
+  log('serviceWorker suportado:', 'serviceWorker' in navigator, '| contexto seguro:', isSecureContext);
+  const antigos = await navigator.serviceWorker.getRegistrations(); for (const r of antigos) await r.unregister(); for (const k of await caches.keys()) await caches.delete(k);
+  await fetch('/__down?v=0');
+  const estados = [];
+  const reg = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+  const sw = reg.installing || reg.waiting || reg.active; estados.push(sw.state);
+  await new Promise((res) => { sw.addEventListener('statechange', () => { estados.push(sw.state); if (sw.state === 'activated') res(); }); if (sw.state === 'activated') res(); });
+  log('estados do worker:', estados.join(' > '), '| escopo:', new URL(reg.scope).pathname);
+  log('controla esta página agora?', !!navigator.serviceWorker.controller, '(a primeira carga não é controlada até clients.claim ou recarga)');
+  await navigator.serviceWorker.ready; await sleep(100);
+  log('controller após claim:', !!navigator.serviceWorker.controller);
+  const pong = await new Promise((res) => { navigator.serviceWorker.addEventListener('message', (e) => res(e.data)); navigator.serviceWorker.controller.postMessage('ping'); }); log('mensagem:', pong);
+  log('precache:', (await (await caches.open('app-v1')).keys()).map((r) => new URL(r.url).pathname).join(','));
+  // estratégias, com o servidor no ar e depois "fora do ar"
+  const net1 = await (await fetch('/api/net/a')).json(); const swr1 = await (await fetch('/api/swr/a')).json(); await sleep(100);
+  const sh1 = await (await fetch('/shell.txt')).text();
+  await fetch('/__down?v=1', { cache: 'no-store' }).catch(() => {}); // /__down não passa pelo worker (rota fora das estratégias)
+  const net2 = await fetch('/api/net/a'); const net2j = net2.ok ? await net2.json() : null;
+  const swr2 = await (await fetch('/api/swr/a')).json();
+  const semCache = await fetch('/api/net/nunca-visto'); 
+  log('network-first fora do ar: serviu do cache?', net2j && net2j.t === net1.t, '(t igual ao da rede anterior)');
+  log('network-first sem cache fora do ar:', semCache.status, await semCache.text());
+  log('stale-while-revalidate fora do ar devolveu o cache:', swr2.t === swr1.t);
+  log('cache-first /shell.txt:', sh1.trim());
+  await fetch('/__down?v=0'); await sleep(50);
+  const swr3 = await (await fetch('/api/swr/a')).json(); await sleep(100); const swr4 = await (await fetch('/api/swr/a')).json();
+  log('SWR com servidor de volta: 1ª resposta velha?', swr3.t === swr1.t, '| próxima já atualizada?', swr4.t > swr1.t);
+  // manifest
+  const m = await (await fetch(document.querySelector('link[rel=manifest]').href)).json(); log('manifest:', m.name, m.display, m.start_url, 'ícones', m.icons.length);
+  log('display-mode standalone?', matchMedia('(display-mode: standalone)').matches, '| navigator.onLine tipo', typeof navigator.onLine);
+  // atualização: nova versão do script entra em waiting? (verifica só o método)
+  const upd = await reg.update(); log('reg.update() devolveu registro:', upd === reg);
+  await reg.unregister(); log('desregistrado');
+  // WebSocket
+  const ws = await new Promise((res, rej) => { const s = new WebSocket('ws://127.0.0.1:8765/ws'); s.onopen = () => res(s); s.onerror = () => rej(new Error('ws falhou')); });
+  log('ws readyState', ws.readyState, 'protocol', JSON.stringify(ws.protocol));
+  const recebidas = []; ws.onmessage = (e) => recebidas.push(typeof e.data === 'string' ? e.data : 'bin:' + e.data.byteLength);
+  ws.send('olá'); ws.send(JSON.stringify({ a: 1 })); ws.binaryType = 'arraybuffer'; ws.send(new Uint8Array([1, 2, 3])); await sleep(150); log('ws recebeu', JSON.stringify(recebidas));
+  const fechou = new Promise((res) => ws.onclose = (e) => res(e.code + ' ' + e.reason + ' limpo=' + e.wasClean)); ws.send('fechar'); log('ws fechamento:', await fechou);
+  // SSE
+  const ev = []; await new Promise((res) => { const es = new EventSource('/sse'); es.addEventListener('tick', (e) => { ev.push(e.lastEventId + ':' + JSON.parse(e.data).n); }); es.onerror = () => { ev.push('erro/reconexão estado=' + es.readyState); if (ev.length > 8) { es.close(); res(); } }; });
+  log('SSE:', ev.join(' '));
+} catch (e) { log('ERRO', e.name, e.message); }
+document.getElementById('out').textContent = out.join('\n'); document.title = 'done';
+})();
+</script>

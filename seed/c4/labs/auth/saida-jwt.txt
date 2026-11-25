@@ -1,0 +1,36 @@
+jose 6.2.18 | Node v26.13.1
+== 1. anatomia e tamanho
+HS256 tamanho: 293 bytes | cabeçalho: {"alg":"HS256","typ":"JWT"} | carga (sem criptografia, só base64url): {"sub":"u1","role":"admin","iss":"https://auth.exemplo.com","aud":"api-pedidos","iat":1795623460,"exp":1795624360,"jti":"b810d548-a13a-43aa-8fac-5408b
+RS256 tamanho: 592 bytes | EdDSA tamanho: 336 bytes
+
+== 2. validações que devem falhar
+válido: ACEITO
+expirado: ERR_JWT_EXPIRED ("exp" claim timestamp check failed)
+tolerância de relógio (clockTolerance 120 s) aceita o expirado há 60 s: ACEITO
+audiência errada: ERR_JWT_CLAIM_VALIDATION_FAILED (unexpected "aud" claim value)
+emissor errado: ERR_JWT_CLAIM_VALIDATION_FAILED (unexpected "iss" claim value)
+assinatura adulterada (payload alterado para role=superadmin): ERR_JWS_SIGNATURE_VERIFICATION_FAILED (signature verification failed)
+
+== 3. ataque alg=none
+token alg=none com a chave HS256: ERR_JOSE_NOT_SUPPORTED (alg none is not supported either by JOSE or your javascript runtime)
+
+== 4. confusão de algoritmo (RS256 x HS256 usando a chave pública como segredo)
+servidor que espera RS256 recebe um HS256 assinado com a chave pública: ERR_JOSE_ALG_NOT_ALLOWED ("alg" (Algorithm) Header Parameter value not allowed)
+mesmo sem a lista de algoritmos, a chave RSA recusa HS256: undefined (CryptoKey instances must be of type "secret" for the HS256 algorithm)
+
+== 5. rotação de chaves com JWKS e kid
+JWKS com k1 e k2: token k1 -> ACEITO | token k2 -> ACEITO
+depois de retirar k1 do JWKS: token k1 -> ERR_JWKS_NO_MATCHING_KEY (no applicable key found in the JSON Web Key Set) | token k2 -> ACEITO
+kid no cabeçalho do token: k1
+
+== 6. custo de assinar e verificar (mediana de 200 operações, em µs)
+assinar HS256                      mediana: 633 µs
+verificar HS256                    mediana: 585 µs
+assinar RS256 (2048 bits)          mediana: 3381 µs
+verificar RS256                    mediana: 650 µs
+assinar EdDSA                      mediana: 696 µs
+verificar EdDSA                    mediana: 1156 µs
+
+== 7. revogação: JWT é stateless; uma lista de jti revogados devolve o controle
+antes da revogação: ACEITO
+depois de revogar o jti: REVOGADO (token revogado)

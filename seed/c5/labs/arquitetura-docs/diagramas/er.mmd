@@ -1,0 +1,25 @@
+erDiagram
+  CLIENTE ||--o{ PEDIDO : faz
+  PEDIDO ||--|{ ITEM_PEDIDO : contem
+  PRODUTO ||--o{ ITEM_PEDIDO : "aparece em"
+  CLIENTE {
+    uuid id PK
+    string nome
+    string email UK
+  }
+  PEDIDO {
+    uuid id PK
+    uuid cliente_id FK
+    string status
+    timestamp criado_em
+  }
+  ITEM_PEDIDO {
+    uuid pedido_id FK
+    string sku FK
+    int qtd
+    numeric preco
+  }
+  PRODUTO {
+    string sku PK
+    string nome
+  }

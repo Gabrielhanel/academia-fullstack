@@ -1,0 +1,21 @@
+BullMQ 6.7.10 | Redis 8.12.0
+
+== 1. concorrência: 100 jobs de 50 ms
+concurrency  1 | tempo total 5420 ms | vazão 18 jobs/s
+concurrency  5 | tempo total 1125 ms | vazão 89 jobs/s
+concurrency 20 | tempo total 366 ms | vazão 273 jobs/s
+
+== 2. prioridade (menor número = mais urgente) e ordem FIFO
+ordem de execução: normal-a → normal-b → alta → media → baixa
+
+== 3. job com atraso (delay) e job repetido
+executado aos (ms): {"agora":"26","em-500ms":"573"}
+agendador a cada 200 ms durante ~1,1 s: execuções = 6
+
+== 4. limitador de taxa do worker (5 jobs por segundo)
+15 jobs com limite de 5/s levaram 2042 ms (sem limite seriam centenas de ms)
+
+== 5. retenção: removeOnComplete e memória no Redis
+guardar todos              | chaves no Redis:  2005 | concluídos guardados: 2000 | used_memory: 5.1 MiB
+removeOnComplete: true     | chaves no Redis:     4 | concluídos guardados: 0 | used_memory: 3.3 MiB
+manter os últimos 10       | chaves no Redis:    15 | concluídos guardados: 10 | used_memory: 3.5 MiB

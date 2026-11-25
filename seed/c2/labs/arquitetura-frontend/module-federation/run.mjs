@@ -1,0 +1,12 @@
+import puppeteer from '/tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/runner/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js';
+const b = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox'] });
+const p = await b.newPage(); const erros = []; const reqs = [];
+p.on('console', (m) => { if (m.type() === 'error') erros.push(m.text().slice(0, 120)); }); p.on('pageerror', (e) => erros.push(String(e).slice(0, 120)));
+p.on('request', (r) => reqs.push(r.url()));
+await p.goto('http://localhost:4173/', { waitUntil: 'networkidle0' });
+await p.waitForSelector('button', { timeout: 10000 });
+const antes = await p.$eval('button', (e) => e.textContent); await p.click('button'); const depois = await p.$eval('button', (e) => e.textContent);
+console.log('botão do remoto:', antes, '->', depois);
+console.log('requisições à origem do remoto (4174):', reqs.filter((u) => u.includes(':4174')).map((u) => u.split(':4174')[1].split('?')[0].slice(0, 70)).join(' | '));
+console.log('erros de console:', erros.length ? erros.join(' ; ') : 'nenhum');
+await b.close();

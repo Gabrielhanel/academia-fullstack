@@ -1,0 +1,6 @@
+arquivo gerado por --cpu-prof: CPU.N.N.N.N.N.cpuprofile | amostras: 3297
+lento          73.6% do tempo próprio (2798 ms)
+ordenaTudo     15.9% do tempo próprio (605 ms)
+(anônima)      7.7% do tempo próprio (293 ms)
+(idle)         1.6% do tempo próprio (59 ms)
+(garbage collector) 0.3% do tempo próprio (10 ms)

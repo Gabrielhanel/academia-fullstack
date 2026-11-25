@@ -1,0 +1,42 @@
+import express from 'express';
+import client from 'prom-client';
+import { execFileSync } from 'node:child_process';
+const sleep = (ms) => new Promise((x) => setTimeout(x, ms));
+const reg = new client.Registry(); client.collectDefaultMetrics({ register: reg });
+const reqs = new client.Counter({ name: 'http_requests_total', help: 'x', labelNames: ['rota', 'status'], registers: [reg] });
+const dur = new client.Histogram({ name: 'http_request_duration_seconds', help: 'x', labelNames: ['rota'], buckets: [0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1], registers: [reg] });
+let taxaErro = 0.02;
+const app = express();
+app.get('/pedidos', async (req, res) => {
+  const fim = dur.startTimer({ rota: '/pedidos' });
+  await sleep(5 + Math.random() * 60 + (Math.random() < 0.05 ? 150 : 0));
+  const erro = Math.random() < taxaErro; res.status(erro ? 500 : 200).json({ ok: !erro });
+  reqs.inc({ rota: '/pedidos', status: String(res.statusCode) }); fim();
+});
+app.get('/metrics', async (req, res) => { res.set('Content-Type', reg.contentType); res.end(await reg.metrics()); });
+const srv = await new Promise((ok) => { const s = app.listen(59100, '127.0.0.1', () => ok(s)); });
+const dir = new URL('./prom/', import.meta.url).pathname;
+try { execFileSync('docker', ['rm', '-f', 'c4-prom'], { stdio: 'ignore' }); } catch {}
+execFileSync('docker', ['run', '-d', '--name', 'c4-prom', '--network', 'host', '-v', dir + 'prometheus.yml:/etc/prometheus/prometheus.yml:ro', '-v', dir + 'regras.yml:/etc/prometheus/regras.yml:ro', 'prom/prometheus', '--config.file=/etc/prometheus/prometheus.yml', '--web.listen-address=127.0.0.1:59090', '--storage.tsdb.path=/prometheus']);
+const q = async (expr) => { const r = await (await fetch('http://127.0.0.1:59090/api/v1/query?query=' + encodeURIComponent(expr))).json(); return r.data.result; };
+const v = (res) => res.length ? Number(res[0].value[1]) : null;
+for (let i = 0; i < 40; i++) { try { const r = await fetch('http://127.0.0.1:59090/-/ready'); if (r.ok) break; } catch {} await sleep(250); }
+console.log('Prometheus (contêiner prom/prometheus 3.16.0) pronto | scrape de 1 s | alvo up =', v(await q('up')) ?? '(ainda sem coleta)');
+const carga = async (segundos, porSeg) => { const fim = Date.now() + segundos * 1000; const ps = []; while (Date.now() < fim) { for (let i = 0; i < porSeg / 10; i++) ps.push(fetch('http://127.0.0.1:59100/pedidos').then((r) => r.text()).catch(() => {})); await sleep(100); } await Promise.all(ps); };
+console.log('\n== fase 1: 12 s a ~100 req/s com 2% de erros');
+await carga(12, 100); await sleep(1500);
+console.log('taxa de requisições (rate 10 s):', v(await q('sum(rate(http_requests_total[10s]))')).toFixed(1), 'req/s');
+console.log('razão de erros 5xx:', (v(await q('api:erros:razao_10s')) * 100).toFixed(1) + '%');
+console.log('p95 (histogram_quantile sobre rate 10 s):', (v(await q('histogram_quantile(0.95, sum by (le) (rate(http_request_duration_seconds_bucket[10s])))')) * 1000).toFixed(0), 'ms | p50:', (v(await q('histogram_quantile(0.5, sum by (le) (rate(http_request_duration_seconds_bucket[10s])))')) * 1000).toFixed(0), 'ms');
+console.log('alertas ativos:', (await (await fetch('http://127.0.0.1:59090/api/v1/alerts')).json()).data.alerts.map((a) => a.labels.alertname + ':' + a.state).join(', ') || 'nenhum');
+console.log('\n== fase 2: 12 s com 30% de erros (incidente)');
+taxaErro = 0.30; await carga(12, 100); await sleep(1500);
+console.log('razão de erros 5xx:', (v(await q('api:erros:razao_10s')) * 100).toFixed(1) + '%');
+const alertas = (await (await fetch('http://127.0.0.1:59090/api/v1/alerts')).json()).data.alerts;
+console.log('alertas:', alertas.map((a) => a.labels.alertname + ' → ' + a.state + ' (' + a.annotations.resumo + ')').join(' | ') || 'nenhum');
+console.log('\n== fase 3: recuperação (2% de erros por 14 s)');
+taxaErro = 0.02; await carga(14, 100); await sleep(1500);
+console.log('razão de erros 5xx:', (v(await q('api:erros:razao_10s')) * 100).toFixed(1) + '%', '| alertas:', (await (await fetch('http://127.0.0.1:59090/api/v1/alerts')).json()).data.alerts.map((a) => a.state).join(',') || 'nenhum (resolvido)');
+const total = v(await q('sum(http_requests_total)')); const erros = v(await q('sum(http_requests_total{status="500"})'));
+console.log('\ncontadores acumulados na coleta: total', total, '| erros', erros, '| razão acumulada', (erros / total * 100).toFixed(2) + '%');
+srv.close(); execFileSync('docker', ['rm', '-f', 'c4-prom'], { stdio: 'ignore' });

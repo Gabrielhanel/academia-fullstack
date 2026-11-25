@@ -1,0 +1,8 @@
+@startuml
+package "Loja Online" {
+  [SPA] --> [API de Pedidos] : JSON/HTTPS
+  [API de Pedidos] --> [PostgreSQL] : SQL
+  [API de Pedidos] --> [Redis] : fila e cache
+}
+[API de Pedidos] --> [Gateway de Pagamento] : HTTPS
+@enduml

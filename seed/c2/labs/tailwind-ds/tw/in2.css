@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@source "./p2.html";
+@theme { --color-marca-500: #0b5fff; --color-nao-usada: #123456; }
+@theme inline { --color-fundo: var(--fundo-app); }
+@utility tab-4 { tab-size: 4; }
+@utility botao-base { padding-inline: 1rem; &:hover { opacity: .9; } }
+@variant dark (&:where(.dark, .dark *));
+:root { --fundo-app: white; }
+.dark { --fundo-app: #111; }
+@layer components { .cartao { border-radius: 0.5rem; } }

@@ -1,0 +1,17 @@
+USE lab;
+SELECT 0.1e0 + 0.2e0 AS float_soma, 0.1 + 0.2 AS decimal_soma, (0.1e0 + 0.2e0) = 0.3 AS float_igual, (0.1 + 0.2) = 0.3 AS decimal_igual;
+SET time_zone = '-03:00';
+CREATE TEMPORARY TABLE t (dt DATETIME, ts TIMESTAMP);
+INSERT INTO t VALUES ('2026-03-01 12:00:00', '2026-03-01 12:00:00');
+SELECT dt, ts FROM t;
+SET time_zone = '+00:00';
+SELECT dt, ts FROM t;
+SELECT CHAR_LENGTH('ação') AS caracteres, LENGTH('ação') AS bytes;
+SELECT 2147483647 + 1 AS int_mais_1;
+CREATE TEMPORARY TABLE i (x INT);
+INSERT INTO i VALUES (2147483648);
+CREATE TEMPORARY TABLE e (cor ENUM('azul','verde'));
+INSERT INTO e VALUES ('vermelho');
+SELECT JSON_EXTRACT('{"a":{"b":[1,2]}}', '$.a.b[1]') AS json_extract, JSON_UNQUOTE(JSON_EXTRACT('{"a":"x"}', '$.a')) AS texto, '{"a":1}' ->> '$.a' AS operador;
+SELECT TRUE AS verdadeiro, FALSE AS falso, TRUE + TRUE AS soma;
+SELECT 'abc' = 'ABC' AS igual_ci, 'abc' = 'abc ' AS espaco_final;

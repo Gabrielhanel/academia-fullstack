@@ -1,0 +1,3 @@
+execuções por modo: 14 | atrasos simulados: 0 a 300 ms
+espera fixa de 120 ms: falhas 8/14 | tempo médio 224 ms
+espera por condição : falhas 0/14 | tempo médio 269 ms

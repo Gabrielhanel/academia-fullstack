@@ -1,0 +1,58 @@
+versão: PostgreSQL 17.12 (Debian 17.12-1.pgdg13+1) on x86_64-pc-linux-gnu
+isolamento padrão: read committed
+
+== 1. atomicidade: transferência que falha no meio
+dentro da transação, Bruno = 120.00
+erro ao debitar 130 de Ana: {"erro":"23514 new row for relation \"contas\" violates check constraint \"contas_saldo_check\""}
+próximo comando na transação abortada: {"erro":"25P02 current transaction is aborted, commands ignored until end of transaction block"}
+após ROLLBACK: Ana = 100.00 | Bruno = 50.00
+
+== 2. leitura suja (dirty read) com READ UNCOMMITTED
+X lê Ana (Y ainda não confirmou): 100.00
+
+== 3. leitura não repetível: READ COMMITTED x REPEATABLE READ
+READ COMMITTED: X lê 100.00 e depois 500.00
+REPEATABLE READ: X lê 100.00 e depois 100.00
+
+== 4. fantasma: contagem de contas com saldo > 40
+READ COMMITTED: primeira contagem 2 segunda contagem 3
+REPEATABLE READ: primeira contagem 2 segunda contagem 2
+
+== 5. atualização perdida (lost update): ler, somar na aplicação, gravar
+Ana deveria ter 120; ficou com 110.00
+
+-- correção A: UPDATE atômico (saldo = saldo + 10)
+Ana ficou com 120.00
+
+-- correção B: SELECT ... FOR UPDATE
+Y leu 110 depois de esperar X; Ana ficou com 120.00
+
+-- correção C: REPEATABLE READ (a segunda gravação falha)
+Y recebeu: {"erro":"40001 could not serialize access due to concurrent update"}
+Ana ficou com 110.00
+
+== 6. write skew: duas pessoas de plantão saem ao mesmo tempo
+REPEATABLE READ: ambos viram 2 e 2 | commit X: [] | commit Y: [] | de plantão no final: 0
+SERIALIZABLE: ambos viram 2 e 2 | commit X: [] | commit Y: {"erro":"40001 could not serialize access due to read/write dependencies among transactions"} | de plantão no final: 1
+
+== 7. deadlock: duas sessões bloqueiam linhas em ordens opostas
+X: {"erro":"40P01 deadlock detected"}
+Y: []
+tempo até a detecção (ms, aproximado): 1004 | deadlock_timeout = 1s
+
+== 8. travas: FOR UPDATE, NOWAIT, SKIP LOCKED, lock_timeout
+X travou: [1,2]
+Y com NOWAIT: {"erro":"55P03 could not obtain lock on row in relation \"fila\""}
+Y com SKIP LOCKED pegou: [3,4]
+Y com lock_timeout: {"erro":"55P03 canceling statement due to lock timeout"}
+
+== 9. MVCC: versões de linha (xmin, xmax, ctid)
+antes: [{"ctid":"(0,1)","xmin":"1551","xmax":"0","saldo":"100.00"}]
+depois do UPDATE: [{"ctid":"(0,3)","xmin":"1552","xmax":"0","saldo":"101.00"}]
+X (snapshot) vê 101.00
+X ainda vê 101.00 | sessão nova vê 1101.00
+
+== 10. bloqueio otimista com coluna de versão
+X grava com a versão 1 → linhas afetadas: 1
+Y grava com a versão 1 → linhas afetadas: 0 (0 = conflito detectado)
+estado final: {"texto":"edição do X","versao":2}

@@ -1,0 +1,27 @@
+tabelas criadas por synchronize() em um banco vazio
+seed: 100 clientes, 500 pedidos
+
+== N+1
+N+1: find() e, em laço, pedidos de cada cliente    consultas:  101 | mediana ms: 241.3
+find({ relations }) (estratégia 'join', padrão)    consultas:    1 | mediana ms: 12.3
+find({ relations, relationLoadStrategy: 'query' }) consultas:    3 | mediana ms: 261.2
+QueryBuilder: contagem por cliente (agregação)     consultas:    1 | mediana ms: 2.4
+SQL do join: SELECT "Cliente"."id" AS "Cliente_id", "Cliente"."nome" AS "Cliente_nome", "Cliente"."email" AS "Cliente_email", "Cliente__Cliente_pedidos"."id" AS "Cliente__Cliente_pedidos_id", "Cliente__Cliente_pedidos"."status" AS "Cliente__Cliente_pedidos_status", "Client
+take/skip com relations gera 2 consultas: SELECT DISTINCT "distinctAlias"."Cliente_id" AS "ids_Cliente_id" FROM (SELECT "Cliente"."i || SELECT "Cliente"."id" AS "Cliente_id", "Cliente"."nome" AS "Cliente_nome", "Cliente"."emai
+
+== erros
+unicidade: QueryFailedError | code 23505 | UQ_34fcfb8b24557c5c8ffdf6b1172
+chave estrangeira: QueryFailedError | code 23503
+
+== transação
+erro propagado: falha de negócio
+cliente da transação desfeita existe? false
+
+== SQL cru
+query com parâmetro $1: [{"n":0}]
+query com concatenação: [{"n":100}]
+
+== synchronize em produção: o que ele faria com uma entidade alterada
+comandos que synchronize() executaria:
+   ALTER TABLE "tor_cliente" DROP CONSTRAINT "UQ_34fcfb8b24557c5c8ffdf6b1172"
+   ALTER TABLE "tor_cliente" DROP COLUMN "email"

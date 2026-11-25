@@ -1,0 +1,4 @@
+sem helmet: x-powered-by = Express | x-content-type-options = null | content-security-policy = null
+com helmet: x-powered-by = null | x-content-type-options = nosniff | strict-transport-security = max-age=31536000; includeSubDomains | content-security-policy começa com: default-src 'self';base-uri 's
+CORS: origem permitida -> https://app.exemplo.com | origem não permitida -> https://app.exemplo.com (a resposta ainda é 200; quem bloqueia é o navegador)
+pré-voo OPTIONS: 204 | allow-methods = GET,HEAD,PUT,PATCH,POST,DELETE

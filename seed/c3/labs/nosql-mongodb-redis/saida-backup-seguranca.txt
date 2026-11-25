@@ -1,0 +1,9 @@
+== mongodump e mongorestore
+arquivo (bytes): 2614192
+100000
+1
+[ 100000, 3, 2 ]
+== autenticação no contêiner
+4
+requirepass  
+user default on nopass sanitize-payload ~* &* +@all

@@ -1,0 +1,30 @@
+✔ Factory: cria pelo tipo e rejeita desconhecidos (7.430141ms)
+✔ Builder: encadeia e valida (5.787367ms)
+✔ Singleton de módulo: a mesma instância e o estado vaza entre testes (0.789265ms)
+✔ Singleton de módulo: este teste herda o estado do anterior (acoplamento por ordem) (0.598884ms)
+✔ Instância por teste não vaza (0.92652ms)
+✔ Adapter: a aplicação usa reais, o legado usa centavos (1.185314ms)
+✔ Decorator: retry, cache e log compõem sem alterar a função original (2.838346ms)
+✔ Decorator: cache reduz chamadas (1000 leituras, 10 chaves) (14.563915ms)
+✔ Facade: uma operação coordena três subsistemas e desfaz a reserva ao recusar (1.860248ms)
+✔ Proxy: validação e carregamento preguiçoso (2.259578ms)
+✔ Composite: total recursivo (1.06839ms)
+✔ Strategy: nova estratégia sem alterar a função (1.090406ms)
+✔ Observer: assinantes independentes e cancelamento (0.989234ms)
+✔ Command: desfazer (0.862355ms)
+✔ State: transições válidas e inválidas (0.827479ms)
+✔ Chain of Responsibility: middlewares em ordem e curto-circuito (0.916571ms)
+✔ Template Method e Iterator/gerador (1.084979ms)
+✔ DI manual: raiz de composição e dublês (3.036846ms)
+✔ Contêiner: ciclos de vida e dependência circular (2.53404ms)
+✔ Service locator: a dependência escondida só falha em execução (0.770148ms)
+✔ God Object: testar um desconto exige montar todas as dependências; a função pura não exige nenhuma (0.847991ms)
+✔ Callback hell x async/await: mesmo resultado, estrutura diferente (50.204932ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 435.628575

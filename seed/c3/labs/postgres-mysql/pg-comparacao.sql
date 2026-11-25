@@ -1,0 +1,17 @@
+DROP SCHEMA IF EXISTS lab CASCADE; CREATE SCHEMA lab; SET search_path = lab;
+SELECT version();
+SHOW transaction_isolation;
+SELECT 5/2 AS divisao, 5 / 2.0 AS decimal, 'a' || 'b' AS pipes;
+CREATE TABLE produtos (id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY, nome varchar(50) NOT NULL, preco numeric(10,2) NOT NULL CHECK (preco >= 0), ativo boolean DEFAULT true, criado timestamptz DEFAULT now());
+INSERT INTO produtos (nome, preco) VALUES ('Caneta', 3.50), ('Caderno', 18.90), ('caneta', 4.00);
+SELECT id, nome FROM produtos WHERE nome = 'CANETA' ORDER BY id;
+INSERT INTO produtos (nome, preco) VALUES ('Negativo', -1);
+SELECT nome, count(*) FROM produtos GROUP BY preco;
+SELECT cliente FROM (SELECT NULL::text AS cliente UNION ALL SELECT 'a' UNION ALL SELECT 'b') t ORDER BY cliente;
+SELECT cliente FROM (SELECT NULL::text AS cliente UNION ALL SELECT 'a' UNION ALL SELECT 'b') t ORDER BY cliente DESC;
+BEGIN; CREATE TABLE ddl_teste (x int); ROLLBACK;
+SELECT to_regclass('lab.ddl_teste') AS tabela_ddl_teste;
+SELECT p.id FROM produtos p FULL JOIN produtos q ON p.id = q.id ORDER BY 1 LIMIT 1;
+SELECT CAST('2026-02-30' AS date);
+INSERT INTO produtos (nome, preco) VALUES (repeat('x', 80), 1);
+SELECT 1 / 0;

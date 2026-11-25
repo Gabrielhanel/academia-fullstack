@@ -1,0 +1,90 @@
+== chaves: bigint x uuid v4 (300 mil linhas)
+Time: 2773.500 ms (00:02.773)
+Time: 5099.921 ms (00:05.100)
+  chave  | tabela | indice_pk 
+---------+--------+-----------
+ bigint  | 13 MB  | 6600 kB
+ uuid v4 | 15 MB  | 11 MB
+(2 rows)
+
+ bytes_bigint | bytes_uuid 
+--------------+------------
+            8 |         16
+(1 row)
+
+== desnormalização medida: total por pedido
+                                      QUERY PLAN                                       
+---------------------------------------------------------------------------------------
+ GroupAggregate (actual rows=20 loops=1)
+   Group Key: p.id
+   ->  Sort (actual rows=100 loops=1)
+         Sort Key: p.id
+         Sort Method: quicksort  Memory: 28kB
+         ->  Nested Loop (actual rows=100 loops=1)
+               ->  Seq Scan on d_pedidos p (actual rows=20 loops=1)
+                     Filter: (cliente_id = 77)
+                     Rows Removed by Filter: 99980
+               ->  Index Scan using d_itens_pkey on d_itens i (actual rows=5 loops=20)
+                     Index Cond: (pedido_id = p.id)
+ Planning Time: 1.206 ms
+ Execution Time: 38.124 ms
+(13 rows)
+
+                   QUERY PLAN                   
+------------------------------------------------
+ Seq Scan on d_pedidos (actual rows=20 loops=1)
+   Filter: (cliente_id = 77)
+   Rows Removed by Filter: 99980
+ Planning Time: 0.172 ms
+ Execution Time: 25.275 ms
+(5 rows)
+
+                                           QUERY PLAN                                           
+------------------------------------------------------------------------------------------------
+ GroupAggregate (actual rows=20 loops=1)
+   Group Key: p.id
+   ->  Sort (actual rows=100 loops=1)
+         Sort Key: p.id
+         Sort Method: quicksort  Memory: 28kB
+         ->  Nested Loop (actual rows=100 loops=1)
+               ->  Bitmap Heap Scan on d_pedidos p (actual rows=20 loops=1)
+                     Recheck Cond: (cliente_id = 77)
+                     Heap Blocks: exact=20
+                     ->  Bitmap Index Scan on d_pedidos_cliente_id_idx (actual rows=20 loops=1)
+                           Index Cond: (cliente_id = 77)
+               ->  Index Scan using d_itens_pkey on d_itens i (actual rows=5 loops=20)
+                     Index Cond: (pedido_id = p.id)
+ Planning Time: 0.858 ms
+ Execution Time: 0.827 ms
+(15 rows)
+
+                                  QUERY PLAN                                  
+------------------------------------------------------------------------------
+ Bitmap Heap Scan on d_pedidos (actual rows=20 loops=1)
+   Recheck Cond: (cliente_id = 77)
+   Heap Blocks: exact=20
+   ->  Bitmap Index Scan on d_pedidos_cliente_id_idx (actual rows=20 loops=1)
+         Index Cond: (cliente_id = 77)
+ Planning Time: 0.213 ms
+ Execution Time: 0.127 ms
+(7 rows)
+
+-- risco: contador diverge quando alguém esquece de atualizar
+ id | total_guardado | total_real 
+----+----------------+------------
+  1 |          65.00 |    1065.00
+(1 row)
+
+-- mantido por trigger: custo da escrita
+Time: 4187.811 ms (00:04.188)
+Time: 2.967 ms
+Time: 15178.916 ms (00:15.179)
+== evolução do esquema em tabela grande
+Time: 2.535 ms
+Time: 1.652 ms
+Time: 3644.119 ms (00:03.644)
+ tamanho_apos_update 
+---------------------
+ 70 MB
+(1 row)
+

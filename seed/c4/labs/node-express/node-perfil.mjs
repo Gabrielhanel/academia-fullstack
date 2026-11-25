@@ -1,0 +1,11 @@
+import { execFileSync } from 'node:child_process'; import fs from 'node:fs'; import os from 'node:os';
+const dir = fs.mkdtempSync(os.tmpdir() + '/c41-prof-');
+execFileSync('node', ['--cpu-prof', '--cpu-prof-dir=' + dir, new URL('./quente.mjs', import.meta.url).pathname]);
+const arq = fs.readdirSync(dir).find((f) => f.endsWith('.cpuprofile'));
+const p = JSON.parse(fs.readFileSync(dir + '/' + arq));
+const self = new Map(); const porId = new Map(p.nodes.map((n) => [n.id, n]));
+p.samples.forEach((id, i) => { const n = porId.get(id); const nome = n.callFrame.functionName || '(anônima)'; self.set(nome, (self.get(nome) || 0) + (p.timeDeltas[i] || 0)); });
+const total = [...self.values()].reduce((a, b) => a + b, 0);
+console.log('arquivo gerado por --cpu-prof:', arq.replace(/\d+/g, 'N'), '| amostras:', p.samples.length);
+for (const [n, t] of [...self].sort((a, b) => b[1] - a[1]).slice(0, 5)) console.log(n.padEnd(14), (t / total * 100).toFixed(1) + '% do tempo próprio', '(' + (t / 1000).toFixed(0) + ' ms)');
+fs.rmSync(dir, { recursive: true });

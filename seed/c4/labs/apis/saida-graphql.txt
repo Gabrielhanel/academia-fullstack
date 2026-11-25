@@ -1,0 +1,21 @@
+graphql 17.1.0
+== 1. N+1 e DataLoader (50 posts de 20 autores)
+sem DataLoader: consultas a autores = 50 | posts devolvidos = 50
+com DataLoader: consultas a autores = 1 (uma por lote) | posts devolvidos = 50
+
+== 2. erros parciais e status HTTP (GraphQL Yoga)
+um campo falha: 200 {"errors":[{"message":"Unexpected error.","locations":[{"line":1,"column":31}],"path":["falha"],"extensions":{"code":"INTERNAL_SERVER_ERROR"}}],"data":{"posts":[{"titulo"
+consulta inválida: 200 Cannot query field "campoInexistente" on type "Post".
+GET com query: 200
+
+== 3. profundidade: consulta cíclica e limite
+profundidade da consulta cíclica: 8 | da simples: 3
+{ posts(limite: 50) { titulo autor { nom   aceita
+{ posts(limite: 1) { autor { posts { aut   recusada: profundidade 8 excede o limite 5
+níveis autor->posts = 1 | profundidade 4 | tempo 6.8 ms | resposta 2903 bytes
+níveis autor->posts = 3 | profundidade 6 | tempo 20.7 ms | resposta 15226 bytes
+níveis autor->posts = 5 | profundidade 8 | tempo 49.5 ms | resposta 76841 bytes
+níveis autor->posts = 7 | profundidade 10 | tempo 221.4 ms | resposta 384916 bytes
+
+== 4. introspecção
+tipos no schema (inclui os internos): 15 | tipos do domínio: Autor, Post, Query

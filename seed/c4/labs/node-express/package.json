@@ -1,0 +1,1 @@
+{ "name": "lab-node-express", "private": true, "type": "module", "dependencies": { "express": "5.3.0", "helmet": "8.3.0", "cors": "2.8.6", "pino": "10.4.0" } }

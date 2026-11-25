@@ -1,0 +1,22 @@
+Python 3.14.4
+mypy 2.4.1 (compiled: yes)
+== 1. mypy --strict em um arquivo correto
+Success: no issues found in 1 source file (código 0 )
+execução do mesmo arquivo: 90.0 0 [2, 3]
+
+== 2. mypy --strict em um arquivo com 6 erros de tipo
+  tipagem/exemplo_erros.py:18: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+  tipagem/exemplo_erros.py:19: error: Incompatible types (expression has type "str", TypedDict item "qtd" has type "int")  [typeddict-item]
+  tipagem/exemplo_erros.py:19: error: Argument 2 to "total" has incompatible type "SemMetodo"; expected "Precificador"  [arg-type]
+  tipagem/exemplo_erros.py:20: error: Item "None" of "str | None" has no attribute "upper"  [union-attr]
+  tipagem/exemplo_erros.py:21: error: Missing key "qtd" for TypedDict "Item"  [typeddict-item]
+  tipagem/exemplo_erros.py:21: error: Argument 2 to "total" has incompatible type "None"; expected "Precificador"  [arg-type]
+  tipagem/exemplo_erros.py:22: error: Incompatible return value type (got "int", expected "str")  [return-value]
+código de saída: 1 (1 = erros encontrados; use no CI)
+
+== 3. em tempo de execução as anotações NÃO são verificadas
+Python executou sem reclamar: x = 'texto' | tipo real: str
+
+== 4. Pydantic valida em tempo de execução
+M(n="12") → n=12 (coerção)
+M(n="doze") → int_parsing | Input should be a valid integer, unable to parse string as an integer

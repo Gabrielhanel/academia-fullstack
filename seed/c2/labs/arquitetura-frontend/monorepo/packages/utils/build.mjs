@@ -1,0 +1,1 @@
+import fs from 'node:fs'; await new Promise((r) => setTimeout(r, 1500)); fs.mkdirSync('dist', { recursive: true }); fs.writeFileSync('dist/index.js', fs.readFileSync('src/index.js', 'utf8')); console.log('build utils concluído');

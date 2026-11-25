@@ -1,0 +1,8 @@
+# PlantUML 1.2026.10 (imagem plantuml/plantuml, -tsvg -pipe -failonerror); tempos de uma execução
+classes exit=0 3.9 s svg=9900 bytes err=
+sequencia exit=0 3.2 s svg=9929 bytes err=
+componentes exit=0 3.4 s svg=6978 bytes err=
+invalido exit=200 3.2 s svg=1322 bytes err=ERROR 1 Syntax Error? (Assumed diagram type: sequence) Error line 2 in standard input 
+# Achado: uma primeira versão de classes.puml com \n literal dentro do corpo da classe falhou com exit=200 já na primeira execução, sem -failonerror (Syntax Error? Assumed diagram type: sequence): o PlantUML sinaliza erro de sintaxe com código de saída diferente de 0.
+# Um arquivo com blocos de loop sem fim e seta sem destino (versão inicial de invalido.puml) foi aceito com exit=0: o PlantUML é tolerante; valide visualmente.
+PlantUML version 1.2026.10 / a00edda [2026-11-11 11:04:35 UTC]

@@ -1,0 +1,5 @@
+verificar-e-inserir (20 tentativas simultâneas, READ COMMITTED): reservas gravadas = 20
+erro da recusa: 23P01 conflicting key value violates exclusion constraint "reservas_sala_periodo_excl"
+restrição EXCLUDE (20 simultâneas): confirmadas = 1 | recusadas = 19 | no banco = 1
+verificar-e-inserir com pg_advisory_xact_lock: confirmadas = 1 | no banco = 1
+idempotência (20 requisições repetidas): cobranças gravadas = 1 | ignoradas = 19 | linhas na tabela = 1

@@ -1,0 +1,12 @@
+{
+  "name": "academia-fullstack-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Plataforma de ensino com base de conhecimento própria; IA como recurso complementar.",
+  "scripts": {
+    "seed": "node seed/build.mjs && node seed/docs.mjs",
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.cjs"
+  },
+  "devDependencies": { "jsdom": "24.1.3" }
+}

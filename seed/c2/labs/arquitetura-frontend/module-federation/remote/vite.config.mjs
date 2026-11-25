@@ -1,0 +1,2 @@
+import react from '@vitejs/plugin-react'; import { federation } from '@module-federation/vite';
+export default { base: 'http://localhost:4174/', plugins: [react(), federation({ name: 'remoto', filename: 'remoteEntry.js', exposes: { './Botao': './src/Botao.jsx' }, shared: { react: { singleton: true, requiredVersion: '^19.0.0' }, 'react-dom': { singleton: true, requiredVersion: '^19.0.0' } } })], build: { target: 'chrome120', outDir: 'dist' }, server: { port: 4174 } };

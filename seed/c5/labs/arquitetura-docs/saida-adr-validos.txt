@@ -1,0 +1,6 @@
+✔ 0001-banco-relacional-postgresql.md [Aceito]
+✔ 0002-rest-em-vez-de-graphql.md [Aceito]
+✔ 0003-cache-em-memoria.md [Substituído por ADR-0005]
+✔ 0004-microsservicos-rejeitado.md [Rejeitado]
+✔ 0005-cache-distribuido-redis.md [Aceito]
+ADRs OK

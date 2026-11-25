@@ -1,0 +1,72 @@
++---------+--------+
+| item    | valor  |
++---------+--------+
+| versão  | 8.4.13 |
++---------+--------+
++-----------------------------------------------------------------------------------------------------------------------+
+| sql_mode                                                                                                              |
++-----------------------------------------------------------------------------------------------------------------------+
+| ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION |
++-----------------------------------------------------------------------------------------------------------------------+
++-------------------+
+| isolamento_padrao |
++-------------------+
+| REPEATABLE-READ   |
++-------------------+
++---------+-------------+-------+
+| divisao | div_inteira | pipes |
++---------+-------------+-------+
+|  2.5000 |           2 |     0 |
++---------+-------------+-------+
++----+--------+
+| id | nome   |
++----+--------+
+|  1 | Caneta |
+|  3 | caneta |
++----+--------+
+ERROR 3819 (HY000) at line 10: Check constraint 'produtos_chk_1' is violated.
+ERROR 1055 (42000) at line 12: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'lab.produtos.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
++--------+-------+------------+
+| nome   | ativo | typeof_col |
++--------+-------+------------+
+| Caneta |     1 | tinyint    |
++--------+-------+------------+
+ERROR 1064 (42000) at line 20: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL JOIN produtos q ON p.id = q.id' at line 1
++---------+
+| cliente |
++---------+
+| NULL    |
+| a       |
+| b       |
++---------+
++---------+
+| cliente |
++---------+
+| b       |
+| a       |
+| NULL    |
++---------+
++----+-------------+
+| id | nome        |
++----+-------------+
+|  1 | Caneta Nova |
+|  2 | Caderno     |
+|  3 | caneta      |
++----+-------------+
++---------------------------+
+| Tables_in_lab (ddl_teste) |
++---------------------------+
+| ddl_teste                 |
++---------------------------+
++---------------+
+| data_invalida |
++---------------+
+| NULL          |
++---------------+
+ERROR 1406 (22001) at line 22: Data too long for column 'nome' at row 1
++---------+
+| tamanho |
++---------+
+|      50 |
++---------+
+ERROR 3636 (HY000) at line 25: Recursive query aborted after 1001 iterations. Try increasing @@cte_max_recursion_depth to a larger value.

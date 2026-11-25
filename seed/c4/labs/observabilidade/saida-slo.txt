@@ -1,0 +1,22 @@
+== 1. orçamento de erro (cálculo)
+SLO 99.00% → indisponibilidade permitida em 30 dias: 432.0 min (7.20 h)
+SLO 99.50% → indisponibilidade permitida em 30 dias: 216.0 min (3.60 h)
+SLO 99.90% → indisponibilidade permitida em 30 dias: 43.2 min (0.72 h)
+SLO 99.99% → indisponibilidade permitida em 30 dias: 4.3 min (0.07 h)
+
+== 2. burn rate = taxa de erro observada ÷ taxa de erro permitida (SLO 99,9% → 0,1%)
+taxa de erro 0.05% → burn rate 0.5x → esgota o orçamento de 30 dias em 60.0 dias
+taxa de erro 0.10% → burn rate 1.0x → esgota o orçamento de 30 dias em 30.0 dias
+taxa de erro 1.00% → burn rate 10.0x → esgota o orçamento de 30 dias em 3.0 dias
+taxa de erro 1.44% → burn rate 14.4x → esgota o orçamento de 30 dias em 2.1 dias
+taxa de erro 5.00% → burn rate 50.0x → esgota o orçamento de 30 dias em 0.6 dias
+burn rate 14,4x durante 1 h consome 2.0% do orçamento mensal (cálculo: 14,4 × 1 h ÷ 720 h)
+
+== 3. simulação: 3 horas de tráfego (300 req/min); taxa de erro por minuto
+limiar fixo (erro > 1% em 5 min)     disparou nos minutos: 30, 92
+burn rate 14,4x (1 h) E (5 min)      disparou nos minutos: 32, 133
+burn rate 6x (3 h) E (30 min)        disparou nos minutos: 30, 99
+burn rate 6x (1 h) E (5 min)         disparou nos minutos: 30, 108
+
+SLI de disponibilidade nas 3 h: 99.111% | erros: 480 de 54000 | orçamento mensal total: 12960 erros (se o tráfego se mantivesse) → consumido nestas 3 h: 3.7%
+incidente A: minutos 30-32 (20% de erros por 3 min) | incidente B: minutos 90-139 (2% por 50 min)

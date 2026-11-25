@@ -1,0 +1,31 @@
+Python 3.14.4
+== 1. argumentos: posicionais, nomeados, *args e **kwargs, somente-nomeados
+(1, 2, 3, (), 4, {}) | (1, 5, 6, (7, 8), 9, {'extra': True})
+sem o argumento obrigatório "d": f() missing 1 required keyword-only argument: 'd'
+
+== 2. closures e a armadilha da ligação tardia
+lambdas em laço: [2, 2, 2] (todas veem o último i)
+com valor padrão capturado: [0, 1, 2]
+
+== 3. decoradores com functools.wraps
+resultado: 333328333350000 | nome preservado: soma_quadrados | docstring: soma de quadrados | tempo registrado: 22.0 ms
+
+== 4. geradores: memória constante
+lista com 1.000.000 de inteiros: 8.1 MiB (só a lista de ponteiros) | gerador: 200 bytes
+soma pela lista: 499999500000 | pelo gerador: 499999500000
+geradores são preguiçosos:
+  (produziu 0 ) consumiu 0
+  (produziu 1 ) consumiu 1
+  (produziu 2 ) consumiu 2
+
+== 5. cache com functools.lru_cache (fibonacci recursivo de 32)
+sem cache: 1220 ms | com lru_cache: 0.061 ms | iguais: True | acertos/falhas: CacheInfo(hits=30, misses=33, maxsize=None, currsize=33)
+
+== 6. módulos e pacotes: criar um pacote temporário, importar e ver o cache de importação
+  [loja/__init__ executado]
+loja.VERSAO = 1.0 | com_imposto(100) = 110.0 | __name__ do módulo: loja.precos.calculo | arquivo: loja/precos/calculo.py
+segundo import devolve o mesmo objeto (cache em sys.modules): True
+  [loja/__init__ executado]
+
+== 7. ambiente: onde estão os pacotes
+sys.prefix != sys.base_prefix (dentro de um venv): True

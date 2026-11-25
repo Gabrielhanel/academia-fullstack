@@ -1,0 +1,15 @@
+== 1. roteamento, autenticação na borda e propagação do id
+GET /api/usuarios/7: 200 {"id":7,"nome":"Ana","visto":"0fe42846-637a-45cb-a16c-b6cf95d7457b"} | id devolvido pelo gateway: true | o serviço viu o mesmo id: true
+sem token: 401 {"erro":"não autenticado"} | chamadas ao serviço de usuários: 1
+rota desconhecida: 404 {"erro":"rota desconhecida"}
+
+== 2. sobrecarga do gateway (200 requisições sequenciais, mediana)
+direto ao serviço: 2.72 ms | via gateway: 4.84 ms | custo do salto extra: 2.11 ms
+
+== 3. timeout e disjuntor (timeout 100 ms, disjuntor após 3 falhas, aberto 400 ms)
+upstream lento (400 ms): 504(119ms) 504(113ms) 504(107ms) 503(5ms) 503(3ms) 503(3ms) | chamadas que chegaram ao upstream: 3 de 6 tentativas
+depois de 450 ms e com o upstream recuperado: 200 {"id":1,"total":10} | chamadas ao upstream: 1
+
+== 4. teste de contrato do consumidor (o gateway espera id numérico e total numérico)
+resposta atual do serviço de pedidos cumpre o contrato: true
+versão que passou a devolver textos cumpre o contrato: false → o teste de contrato falharia no pipeline do provedor

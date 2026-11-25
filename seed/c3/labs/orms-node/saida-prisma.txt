@@ -1,0 +1,38 @@
+seed: 100 clientes, 500 pedidos, 1500 itens
+
+== N+1
+N+1: lista clientes e, em laço, os pedidos         consultas:  101 | mediana ms: 224.5
+include + relationLoadStrategy 'query' (separadas) consultas:    2 | mediana ms: 14.3
+include (estratégia padrão com relationJoins)      consultas:    1 | mediana ms: 18.0
+include + relationLoadStrategy 'join'              consultas:    1 | mediana ms: 16.6
+include profundo 'query' (4 níveis)                consultas:    4 | mediana ms: 60.9
+include profundo 'join' (4 níveis)                 consultas:    1 | mediana ms: 144.8
+groupBy: contagem de pedidos por cliente (SQL)     consultas:    1 | mediana ms: 3.6
+select só o necessário (id, nome)                  consultas:    1 | mediana ms: 2.7
+SQL do select enxuto: SELECT "t0"."id", "t0"."nome" FROM "public"."Cliente" AS "t0"
+
+== consulta gerada por include (estratégia padrão)
+#1 SELECT "t0"."id", "t0"."nome", "t0"."email", "Cliente_pedidos"."__prisma_data__" AS "pedidos" FROM "public"."Cliente" AS "t0" LEFT JOIN LATERAL (SELECT COALESCE(JSONB_AGG("__prisma_data__"), '[]') AS "__prisma_data__" FROM (SELECT
+
+== erros tipados
+unicidade: P2002 | {"driverAdapterError":{"name":"DriverAdapterError","cause":{"originalCode":"23505","originalMessage":"duplicate key value violates unique constraint \"Cliente_email_key\"","kind":"UniqueConstraintViolation","constraint":{"index":"Cliente_email_key"},"table":"Cliente"}},"modelName"
+chave estrangeira: P2003
+não encontrado: P2025
+
+== transações
+erro propagado: falha de negócio
+cliente criado dentro da transação desfeita existe? false
+$transaction([...]) em lote: 100 clientes e 500 pedidos
+
+== SQL cru parametrizado x concatenado
+$queryRaw (tagged template, parâmetros): [{"n":0}]
+$queryRawUnsafe com concatenação: [{"n":100}]
+
+== paginação: skip x cursor (500 pedidos)
+skip 400 take 20                                   consultas:    1 | mediana ms: 2.7
+cursor 400 take 20                                 consultas:    1 | mediana ms: 3.0
+SQL do skip: SELECT "t0"."id", "t0"."clienteId", "t0"."status", "t0"."criadoEm" FROM "public"."Pedido" AS "t0" ORDER BY "t0"."id" ASC LIMIT $1 OFFSET $2
+SQL do cursor: SELECT "public"."Pedido"."id", "public"."Pedido"."clienteId", "public"."Pedido"."status", "public"."Pedido"."criadoEm" FROM "public"."Pedido" WHERE "public"."Pedido"."id" >= (SELECT "public"."Pedido"."id" FROM "public"."Pedido" WHERE ("public"."Pedido"."id") =
+
+== Decimal
+tipo do preço: Decimal2 | valor: 10.5 | soma 0.1+0.2 em Decimal: 0.3 | em number: 0.30000000000000004

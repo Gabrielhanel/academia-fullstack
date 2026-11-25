@@ -1,0 +1,25 @@
+Node v26.13.1 | Express 5.3.0
+
+== A. ordem de execução no event loop
+código síncrono -> promise.then -> nextTick -> setTimeout 0 -> setImmediate
+
+== B. módulos: ESM x CJS
+typeof require no ESM: function (criado com createRequire) | typeof __dirname: undefined | import.meta.url começa com file://: true
+require de um módulo do núcleo funciona: function
+
+== C. Express 5: erros em handlers, rotas e parâmetros
+handler async que lança: 500 {"erro":"erro interno","status":500}
+handler síncrono que lança: 500 {"erro":"erro interno","status":500}
+params e query: {"id":"42","query":{"filtro":["a","b"],"n":"1"}}
+404: 404 {"erro":"não encontrado","caminho":"/nao-existe"}
+POST sem corpo, req.body: {"recebido":null}
+POST JSON válido: {"recebido":{"a":1}}
+
+== D/E. corpo inválido e grande
+JSON malformado: 400 {"erro":"Expected property name or '}' in JSON at position 1 (line 1 column 2)","status":400}
+corpo de ~200 KB (limite padrão 100 KB): 413 {"erro":"request entity too large","status":413}
+ordem dos middlewares na primeira requisição: mw1:/async-erro -> mw2 | mensagens de erro registradas: 4
+
+== F. sintaxe de rotas do Express 5
+/arquivos/*caminho: {"caminho":["a","b","c.txt"]}
+"/arquivos/*" recusado: Missing parameter name at index 11: /arquivos/*; visit https://git.new/pathToRegexpError for info

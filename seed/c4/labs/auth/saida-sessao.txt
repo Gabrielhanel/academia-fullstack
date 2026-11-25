@@ -1,0 +1,11 @@
+express-session 1.19.0 | cookie: httpOnly, sameSite=lax
+sem sessão: 401 {"erro":"não autenticado"} | Set-Cookie emitido para quem não fez login (saveUninitialized false): 0
+senha errada: 401 {"erro":"credenciais inválidas"}
+login: 200 | id da sessão mudou (regenerate contra fixação): true
+Set-Cookie: sid=<valor assinado>; Path=/; Expires=<data>; HttpOnly; SameSite=Lax
+com cookie: 200 {"usuario":"ana"}
+POST sem token CSRF: 403 {"erro":"token CSRF inválido"}
+POST com token CSRF: 200 {"ok":true}
+cookie com assinatura forjada: 401
+logout: 200 | sessões no servidor antes e depois: 1 -> 0
+reutilizar o cookie antigo depois do logout: 401 {"erro":"não autenticado"} (revogação imediata: o estado vive no servidor)

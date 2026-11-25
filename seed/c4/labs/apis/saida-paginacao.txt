@@ -1,0 +1,15 @@
+PostgreSQL 17.12
+linhas: 1000000
+
+== paginação por OFFSET x keyset (cursor), páginas de 20, ordem criado desc, id desc
+OFFSET: página 1                                                       mediana ms: 2.65
+OFFSET: página 1.000 (offset 19.980)                                   mediana ms: 14.51
+OFFSET: página 40.000 (offset 799.980)                                 mediana ms: 487.63
+keyset: a partir da linha 19.980 (equivale à página 1.000)             mediana ms: 2.14
+keyset: a partir da linha 799.980 (equivale à página 40.000)           mediana ms: 2.09
+OFFSET na página 40.000 é ~234x mais lento que o keyset na mesma posição
+mesmas linhas (página 1.000 por OFFSET x keyset da linha 19.980): true
+COUNT(*) total (para "página X de N")                                  mediana ms: 101.13
+
+== inconsistência do OFFSET quando entram novos registros durante a navegação
+ids repetidos entre a página 1 e a página 2 por OFFSET (após 5 inserções no topo): 5 | por keyset: 0

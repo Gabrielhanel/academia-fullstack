@@ -1,0 +1,52 @@
+# Progresso da produção da C2 (início em 2026-11-18)
+
+Regras (iguais às da C1): não alterar a Onda 1, a C1 nem o piloto; não alterar `SEED_REV`, `seedPlan`, `build.mjs` nem o motor; não gravar no banco real; não publicar. Produção isolada em `seed/c2/`, fora do build. Plano: `RELATORIO-PLANO-C2.md`.
+
+Ferramentas: `node seed/c2/validate.mjs [curso]` (estrutura, checklists, execução dos desafios JS, cobertura de tópicos, colisões com Onda 1 e C1), `node seed/c2/refs-check.mjs` (abre cada URL), `node seed/c2/browser-check.mjs` (todos os desafios `code` em Web Workers do Chrome; ver `seed/c1/labs/README.md` para os requisitos).
+
+| Curso | Arquivos | Estado |
+| --- | --- | --- |
+| C2.1 React essencial (`react-essencial`) | `c21-a/b/c/d.mjs`, `c21-ex-a/b.mjs`, `c21-react-essencial.mjs`, `labs/react-essencial/` | **Validado:** 11 aulas, 66 exercícios (13 `code`), prova 12, projeto `quadro-tarefas-acessivel`, glossário 100; 49 URLs abertas; 13 desafios executados em Worker do Chrome 157; exemplos executados com React 19.3, Vitest 5.1, jsdom e Testing Library (14 testes) e `tsc` sem erros |
+| C2.2 Tailwind e Design Systems (`tailwind-design-systems`) | `c22-a/b/c.mjs`, `c22-ex-a/b.mjs`, `c22-tailwind-ds.mjs`, `labs/tailwind-ds/` | **Validado:** 9 aulas, 55 exercícios (11 `code`), prova 12, projeto `mini-design-system`, glossário 85; 40 URLs abertas; exemplos executados com Tailwind 4.3.5 (CLI), cva, tailwind-merge, clsx, Style Dictionary 5.8, axe-core 4.14, esbuild 0.28, Storybook (stories via `composeStories`) e Node.js 26; Storybook com interface web e publicação npm **não** executados |
+| C2.3 React avançado (`react-avancado`) | `c23-a/b/c.mjs`, `c23-ex-a/b.mjs`, `c23-react-avancado.mjs`, `labs/react-avancado/` | **Validado:** 6 aulas, 39 exercícios (9 `code`), prova 12, projeto `biblioteca-componentes-compostos`, glossário 60; 36 URLs abertas; ordem de efeitos, identidade, composição, Suspense e concorrência medidos com React 19.3 em jsdom; `Activity` e React Compiler apenas da documentação |
+| C2.4 Gerenciamento de estado (`estado-frontend`) | `c24-a/b/c.mjs`, `c24-ex-a/b.mjs`, `c24-estado.mjs`, `labs/estado-frontend/` | **Validado:** 9 aulas, 54 exercícios (9 `code`), prova 12, projeto `painel-de-pedidos`, glossário 77; 31 URLs do curso abertas (140 no total, 0 com problema); 9 desafios executados em Worker do Chrome 157; exemplos medidos com React 19.3, RTK 2.15, Zustand 5.1 e TanStack Query 5.108 (17 testes, jsdom); SSR/hidratação com framework real, localStorage real e DevTools **não** executados |
+| C2.5 Next.js (`nextjs`) | `c25-a/b/c.mjs`, `c25-ex-a/b.mjs`, `c25-nextjs.mjs`, `labs/nextjs/` | **Validado:** 11 aulas, 57 exercícios (12 `code`), prova 12 (2 de segurança, 1 de decisão), projeto `loja-full-stack`, glossário 98; 37 URLs do curso abertas; 12 desafios em Worker do Chrome 157; exemplos executados com `next build`/`next start` do Next 16.4.6 (tabela de rotas, cabeçalhos de cache, TTFB, proxy, Route Handlers, standalone); **não** executados: Server Action pelo navegador, `updateTag`, imagens/fontes/scripts, auth real, Docker, deploy |
+| C2.6 Testes de frontend (`testes-frontend`) | `c26-a/b/c.mjs`, `c26-ex-a/b.mjs`, `c26-testes-front.mjs`, `labs/testes-frontend/` | **Validado:** 8 aulas, 47 exercícios (9 `code`), prova 12, projeto `suite-de-testes-app`, glossário 75; 33 URLs do curso abertas; 9 desafios em Worker do Chrome 157; exemplos executados com Vitest 5.1, jsdom, Testing Library, user-event, MSW 3, jest-axe e pixelmatch (15 testes, cobertura v8 100%); **não** executados: Jest, Playwright, Storybook, MSW com Service Worker, React Router, CI |
+| C2.7 Performance frontend (`performance-frontend`) | `c27-a/b/c.mjs`, `c27-ex-a/b.mjs`, `c27-performance.mjs`, `labs/performance-frontend/` | **Validado:** 8 aulas, 43 exercícios (9 `code`), prova 12 (2 de decisão), projeto `auditoria-otimizacao-app`, glossário 75; 39 URLs do curso abertas; 9 desafios em Worker do Chrome 157; medido com Lighthouse 13.6 (4 execuções), PerformanceObserver no Chrome 157, Vite 8.3.8 (com/sem lazy), React 19.3.1 (memoização); **não** executados: CrUX/RUM reais, Lighthouse CI, painel Performance, fontes/srcset em navegador, React Compiler |
+| C2.8 Arquitetura, monorepos e microfrontends (`arquitetura-frontend`) | `c28-a/b.mjs`, `c28-ex-a/b.mjs`, `c28-arquitetura.mjs`, `labs/arquitetura-frontend/` | **Validado:** 7 aulas, 35 exercícios (8 `code`), prova 12 (2 de decisão), projeto `monorepo-dois-apps`, glossário 67; 27 URLs do curso abertas; 8 desafios em Worker do Chrome 157; executados: Turborepo 2.11.13 (cache e afetados), dependency-cruiser 18.9, semver 7.8 e Module Federation (Vite 8.3.8) no Chrome; **não** executados: Nx, cache remoto, pnpm, Changesets, conflito de versões em `shared`, tipos entre host e remote, iframes, Web Components, single-spa |
+
+## Premissas e decisões
+- Aprovação: o dono escolheu "Iniciar a C2" depois do plano; o agrupamento em 8 cursos e a ordem do plano foram adotados. As decisões sobre trilhas (`fe-test`, `fe-perf`, `fe-arch` em `fs-ts`) e sobre `mergeCatalog` continuam em aberto (ver `REVISAO-OPUS-C1.md`, D5).
+- Ids: `rea-NN` (aulas), `react-essencial-pN` (prova). `requires` só com cursos da Onda 1 (`javascript-fundamentos`, `typescript-fundamentos`, `html-css-a11y`); a C1.3 aparece apenas em `prereqs` (texto), pois a C1 ainda não foi integrada.
+- Os componentes não rodam no laboratório do app (só JavaScript puro): os desafios `code` modelam a lógica (elementos e renderização em string, props, reducers, reconciliação por chave, serialização de formulário, ciclo de efeitos, busca segura, memo raso, store, debounce, armazenamento, validação).
+- Exemplos de React foram executados em jsdom (não em navegador real); isto está registrado em `versions` do curso. O React Compiler foi citado com a versão do pacote no npm (1.0.0); a documentação do compilador foi aberta.
+- Validador da C2: acrescenta `URL`, `URLSearchParams` e `structuredClone` ao contexto de execução dos desafios (existem no Worker do navegador).
+
+## Lote A concluído (2026-11-24)
+- C2.1, C2.2 e C2.3 validados: 26 aulas, 160 exercícios (33 desafios `code`), 3 provas, 3 projetos. `node seed/c2/validate.mjs`: sem falhas. `node seed/c2/refs-check.mjs`: 115 URLs abertas (duas, `medium.com`, foram abertas no navegador embutido porque o GET automático recebeu 403 — a do iso.org é da C1). `node seed/c2/browser-check.mjs`: os 33 desafios `code` rodam em Web Workers do Chrome 157.
+- O Chromium do painel embutido não registra Service Workers; nada da C2 depende disso.
+- Observações de conteúdo: a documentação do React 19.3 descreve `<Activity>` (ocultar preservando estado) e o React Compiler (`babel-plugin-react-compiler` 1.0.0); ambos foram só citados. Medições de tempo do Suspense em jsdom não são contrato; as aulas usam contagens, ordem e o instante de início das buscas.
+- Pendentes: C2.4 a C2.8 (lotes B e C), revisão pedagógica humana e a revisão do Opus da integração (ver `REVISAO-OPUS-C1.md`; a C2 segue a mesma estratégia).
+
+## C2.4 estado-frontend — CONCLUÍDO (2026-11-25)
+- Nota (2026-11-25, sessão interativa): os arquivos `c24-*.mjs` foram reescritos nesta sessão por engano de concorrência (a execução agendada já os havia produzido); a versão vigente tem 9 aulas, 54 exercícios (8 `code`), glossário 93, 37 URLs, e foi revalidada. O resumo abaixo foi escrito para a versão anterior (9 `code`).
+- Validado com `validate.mjs` (sem falhas), `refs-check.mjs` (140 URLs, 3 do Zustand corrigidas para `/learn/...` e `/reference/...`) e `browser-check.mjs` (42 desafios; para rodar sem o app: servir uma página qualquer em `127.0.0.1:8765/manifest2.html`, p.ex. `python3 -m http.server 8765`, e apontar `PUPPETEER_PATH` para o `puppeteer-core`).
+- Observação: a diferença do Zustand 4 para o 5 no seletor com objeto novo não foi medida (só a 5.1).
+- Próximo: C2.5 Next.js (nxt-01..11; disciplina `next`; risco de versão do Next, verificar na documentação). Nada de C2.5 iniciado.
+
+## C2.5 nextjs — CONCLUÍDO (2026-11-25)
+- Lab em `labs/nextjs/` (dois apps: clássico e `cacheComponents`), medições em `medicoes.txt`. A documentação do pacote (`node_modules/next/dist/docs`) foi a fonte das convenções 16.4.6: middleware virou `proxy`; cache explícito com `use cache`; `priority` do Image depreciado por `preload`.
+- Limitação registrada: o teste de `revalidateTag` não distinguiu o conteúdo novo do antigo (contador reiniciado por processo); só a regeneração (1 execução) foi observada.
+- Casos "reais" das aulas da C2.4 e C2.5 foram rotulados como cenários ilustrativos (não medidos).
+
+## C2.6 testes-frontend — CONCLUÍDO (2026-11-25)
+- Lab em `labs/testes-frontend/` (4 arquivos de teste, `medicoes.txt`). Comparação visual medida só com matrizes sintéticas (pixelmatch). Uma URL do npm (403 para robôs) foi trocada pela do GitHub.
+
+## C2.7 performance-frontend — CONCLUÍDO (2026-11-25)
+- Lab em `labs/performance-frontend/` (servidor com atrasos, Lighthouse, Puppeteer, app Vite, teste de memoização, `medicoes.txt`). Variação registrada (TBT 0–90 ms na mesma página); tamanhos de formatos de imagem vêm de gradiente sintético (declarado nas aulas). Duas URLs com 404 foram corrigidas.
+
+## C2.8 arquitetura-frontend — CONCLUÍDO (2026-11-25) e fim da produção da C2
+- C2.4 a C2.8 produzidos e validados na mesma sessão (instrução do dono: seguir em sequência, sem pedir autorização entre cursos). Estado final: `node seed/c2/validate.mjs` sem falhas (8 cursos); `node seed/c2/refs-check.mjs`: 267 URLs, todas HTTP 200 (revalidado); `node seed/c2/browser-check.mjs`: 79 desafios `code` em Workers do Chrome 157 (revalidado depois da reescrita da C2.4) (soluções passam, nenhum código inicial passa em todos os testes).
+- Totais da C2: 8 cursos; aulas 11+9+6+9+11+8+8+7 = 69; exercícios `code`: 13+11+9+8+12+9+9+8 = 79.
+- Ressalvas gerais: casos "reais" das aulas são cenários ilustrativos (rotulados); medições de laboratório (um navegador, uma máquina) têm variação registrada; o gradiente sintético dos formatos de imagem não representa fotos; vários itens citados só da documentação estão marcados como "não executados" em cada curso.
+- Pendentes (fora do escopo desta produção): revisão pedagógica humana, revisão do Opus da integração (ver `REVISAO-OPUS-C1.md`), integração ao catálogo/`build.mjs` (não alterados), decisão sobre trilhas `fe-test`, `fe-perf`, `fe-arch` em `fs-ts` e sobre `mergeCatalog`.

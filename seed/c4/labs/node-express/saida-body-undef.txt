@@ -1,0 +1,2 @@
+com express.json(), POST sem corpo   {"tipo":"object","ehUndefined":false}
+sem parser, POST com JSON            {"tipo":"undefined","ehUndefined":true}

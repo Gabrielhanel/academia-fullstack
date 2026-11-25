@@ -1,0 +1,37 @@
+=== Turborepo 2.11.13 + npm workspaces (4 pacotes: utils <- ui <- web; utils <- admin; build de 1,5 s cada) ===
+--- 1) build frio
+ Tasks:    4 successful, 4 total
+Cached:    0 cached, 4 total
+  Time:    6.909s 
+--- 2) build de novo sem mudanças
+ Tasks:    4 successful, 4 total
+Cached:    4 cached, 4 total
+  Time:    90ms >>> FULL TURBO
+--- 3) mudou packages/utils
+ Tasks:    4 successful, 4 total
+Cached:    0 cached, 4 total
+  Time:    6.851s 
+--- 4) mudou só packages/ui
+ Tasks:    4 successful, 4 total
+Cached:    2 cached, 4 total
+  Time:    4.634s 
+--- graph: turbo ls
+• turbo 2.11.13
+4 packages (npm)
+  @mono/admin apps/admin
+  @mono/ui packages/ui
+  @mono/utils packages/utils
+  @mono/web apps/web
+--- afetados desde HEAD (filter)
+@mono/ui#build, @mono/utils#build, @mono/web#build
+
+=== dependency-cruiser 18.9.0 (3 regras: sem ciclos; shared não importa features; feature só usa a API pública de outra) ===
+3 violações em 4 módulos: shared-nao-importa-features (shared/ruim.js -> features/pedidos/index.js); sem-ciclos (clientes/internal.js -> pedidos/index.js -> clientes/internal.js); feature-so-usa-api-publica (pedidos/index.js -> clientes/internal.js)
+
+=== semver 7.8.6 ===
+18.2.0 satisfaz ^18.0.0: true | 19.0.0 satisfaz ^18.0.0: false | 19.3.1 satisfaz >=18 <20: true | ^18.0.0 intersecta ^18.3.0: true; ^18 e ^19: false | maxSatisfying(18.0.0,18.3.1,19.0.0; ^18.0.0) = 18.3.1 | ^0.2.3: 0.2.9 true, 0.3.0 false
+
+=== Module Federation (@module-federation/vite 1.25.0, Vite 8.3.8, React 19.3.1, Chrome 157) ===
+builds do remote e do host concluídos; remote publica remoteEntry.js; host carrega remoto/Botao com lazy+Suspense
+no Chrome: botão do remoto renderizou ('remoto 0') e reagiu ao clique ('remoto 1'); requisições a :4174: remoteEntry.js e chunks do Botão e do runtime; 1 erro de console (404 de recurso, provavelmente favicon; não investigado)
+shared react e react-dom: singleton, requiredVersion ^19.0.0 (conflito de versão NÃO foi testado)

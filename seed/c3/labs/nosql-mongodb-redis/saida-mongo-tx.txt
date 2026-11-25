@@ -1,0 +1,6 @@
+standalone: erro: MongoServerError | This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your conn
+standalone: abortada: This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string. | saldo do bruno: 50
+standalone: atualização de um documento é atômica -> {"_id":"ana","saldo":90,"atualizado":true}
+replica set: transação confirmada -> [{"_id":"ana","saldo":30},{"_id":"bruno","saldo":120}]
+replica set: abortada: falha de negócio | saldo do bruno: 120
+replica set: atualização de um documento é atômica -> {"_id":"ana","saldo":20,"atualizado":true}

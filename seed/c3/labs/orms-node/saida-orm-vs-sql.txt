@@ -1,0 +1,10 @@
+== leitura: clientes com contagem de pedidos e total de itens (100 clientes, 500 pedidos, 1500 itens)
+Prisma: include pedidos+itens, soma no JavaScript          mediana ms: 93.7
+Prisma: _count de pedidos (sem itens)                      mediana ms: 7.4
+Prisma: $queryRaw com GROUP BY (SQL)                       mediana ms: 8.3
+pg (driver puro): o mesmo SQL                              mediana ms: 7.4
+
+== escrita: inserir 1.000 clientes
+Prisma: create em laço (1.000 comandos)                    mediana ms: 3140.7
+Prisma: createMany (1 comando)                             mediana ms: 216.7
+pg: INSERT multilinha com unnest e parâmetros              mediana ms: 37.3

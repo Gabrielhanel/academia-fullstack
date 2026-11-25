@@ -1,0 +1,2 @@
+15000 comentários (~16.56 MB, limite do servidor = 16.777.216 bytes): inseriu
+15500 comentários (~17.11 MB): ERRO MongoServerError | código 10334 | object to insert too large. size in bytes: 17291320, max size: 16777216

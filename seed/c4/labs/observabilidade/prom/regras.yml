@@ -1,0 +1,10 @@
+groups:
+  - name: api
+    rules:
+      - record: api:erros:razao_10s
+        expr: sum(rate(http_requests_total{status=~"5.."}[10s])) / sum(rate(http_requests_total[10s]))
+      - alert: TaxaDeErrosAlta
+        expr: api:erros:razao_10s > 0.10
+        for: 3s
+        labels: { severidade: pagina }
+        annotations: { resumo: "Mais de 10% das requisições com erro 5xx" }

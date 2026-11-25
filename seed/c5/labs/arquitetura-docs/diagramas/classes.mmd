@@ -1,0 +1,28 @@
+classDiagram
+  class Cliente {
+    +string id
+    +string nome
+    +bool vip
+  }
+  class Pedido {
+    +string id
+    +Date criadoEm
+    +total() number
+    +pagar() void
+  }
+  class Item {
+    +string sku
+    +number qtd
+    +number preco
+  }
+  class Pagamento {
+    <<interface>>
+    +cobrar(valor) Resultado
+  }
+  class GatewayPix
+  class GatewayCartao
+  Cliente "1" --> "0..*" Pedido : faz
+  Pedido "1" *-- "1..*" Item : contém
+  Pedido ..> Pagamento : usa
+  Pagamento <|.. GatewayPix
+  Pagamento <|.. GatewayCartao

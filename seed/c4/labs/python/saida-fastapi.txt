@@ -1,0 +1,18 @@
+/tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c48/.venv/lib/python3.14/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+Python 3.14.4 | FastAPI 0.165.0 | Pydantic 2.14.4
+== 1. validação automática (Pydantic) e erros 422
+válido → 201 {'id': 1, 'nome': 'Ana', 'email': 'ana@x.com', 'idade': 30} | a senha saiu na resposta? False
+inválido → 422 [(['body', 'nome'], 'string_too_short'), (['body', 'email'], 'string_pattern_mismatch'), (['body', 'idade'], 'greater_than_equal'), (['body', 'senha'], 'string_too_short')]
+idade como texto "30" (coerção) e campo extra ignorado → 201 {'id': 2, 'nome': 'Ana', 'email': 'ana@x.com', 'idade': 30}
+query curta → 422 String should have at least 2 characters
+limite 500 → 422 less_than_equal
+ok → {'q': 'ab', 'limite': 5}
+
+== 2. injeção de dependências e autenticação
+sem token → 401 | com token → 200 {'id': 1, 'nome': 'Ana', 'email': 'ana@x.com', 'idade': 30} | inexistente → 404
+com dependency_overrides (sem token) → 200
+
+== 3. documentação OpenAPI gerada a partir dos tipos
+openapi 3.1.0 | título: API de Pedidos (laboratório) | rotas: ['/busca', '/espera/async-bloqueante', '/espera/async-correta', '/espera/sync', '/usuarios', '/usuarios/{uid}'] | schemas: ['HTTPValidationError', 'NovoUsuario', 'UsuarioSaida', 'ValidationError']
+NovoUsuario.required: ['nome', 'email', 'idade', 'senha'] | idade: {'type': 'integer', 'maximum': 120.0, 'minimum': 18.0} | /docs → 200

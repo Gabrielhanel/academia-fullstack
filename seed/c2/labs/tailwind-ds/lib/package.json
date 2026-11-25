@@ -1,0 +1,3 @@
+{ "name": "@acme/ds", "version": "1.2.0", "type": "module", "sideEffects": ["**/*.css"], "files": ["dist"],
+  "exports": { ".": { "import": "./dist/index.js" }, "./botao": { "import": "./dist/botao/index.js" }, "./tokens.css": "./dist/tokens.css", "./package.json": "./package.json" },
+  "peerDependencies": { "react": ">=18" } }

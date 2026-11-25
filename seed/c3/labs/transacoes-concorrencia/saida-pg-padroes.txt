@@ -1,0 +1,25 @@
+synchronous_commit = on | fsync = on | wal_level = replica
+
+== savepoints: desfazer só uma parte
+erro dentro do savepoint: {"erro":"23514 new row for relation \"contas\" violates check constraint \"contas_saldo_check\""}
+saldo final (100 + 10 + 5): 115.00
+
+== laço de nova tentativa sob REPEATABLE READ (10 trabalhadores somando 10)
+saldo final esperado 200 → 200.00 | tentativas totais: 49 | falhas 40001 repetidas: 39
+
+== sem nova tentativa: os mesmos 10 trabalhadores, falhas descartadas
+confirmadas: 1 | falharam (40001): 9 | saldo final: 110.00
+
+== trava consultiva (advisory lock)
+X pega a trava 42: true
+Y tenta a trava 42: false
+depois de X liberar, Y tenta: true
+
+== observando travas: pg_locks e quem bloqueia quem
+sessões esperando por trava (wait_event_type = Lock): 1
+bloqueadores por sessão em espera: [{"bloqueadores":1}]
+Y depois que X desfez: []
+
+== transações longas seguram a limpeza do VACUUM
+com transação longa aberta, após UPDATE e VACUUM: mortas = 50000
+depois que a transação longa terminou e novo VACUUM: mortas = 0

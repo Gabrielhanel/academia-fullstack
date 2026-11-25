@@ -1,0 +1,40 @@
+Redis 8.12.0 | modo: standalone
+
+== strings, contadores e concorrência (1.000 operações simultâneas)
+INCR atômico: 1000 | GET + SET (ler-modificar-gravar): 1
+
+== TTL e trava com SET NX EX
+TTL da chave: 100 | chave sem TTL: -1 | inexistente: -2
+1ª tentativa de trava: OK | 2ª: null | dono atual: w1
+chave com TTL de 300 ms depois de 450 ms: null
+
+== hash, lista, conjunto, conjunto ordenado
+HGETALL: {"nome":"Ana","cidade":"POA","pontos":"10"} | HINCRBY pontos +5 -> 15
+fila: LPOP -> t1 | LRANGE -> ["t2","t3"]
+SINTER: ["y","z"] | SUNION: ["w","x","y","z"]
+top 3: ["bia","300","caio","210","ana","120"] | posição da ana (0 = primeiro): 2
+HyperLogLog: 10.000 elementos distintos -> estimativa 9977 | memória: 14362 bytes
+
+== transações, WATCH e pipeline
+MULTI/EXEC: [[null,1],[null,2]]
+WATCH com alteração concorrente: EXEC -> null | saldo: 500
+10.000 SET sequenciais (await em cada um)                      mediana ms: 5600.8
+10.000 SET em pipeline                                         mediana ms: 165.3
+
+== KEYS x SCAN (110.000 chaves)
+DBSIZE: 110011
+KEYS chave:99* (bloqueia o servidor)                           mediana ms: 42.5
+SCAN com MATCH chave:99* (iterativo)                           mediana ms: 193.7
+
+== streams
+w1 leu 3 mensagens; pendentes antes do XACK: 3
+pendentes depois de 1 XACK: 2 | tamanho do stream: 5
+
+== pub/sub não guarda mensagens
+mensagens recebidas pelo assinante: ["depois"] (a publicada antes da assinatura se perdeu)
+
+== persistência e memória
+save = ["save","3600 1 300 100 60 10000"] | appendonly = ["appendonly","no"] | maxmemory-policy = ["maxmemory-policy","noeviction"] | maxmemory = ["maxmemory","0"]
+com maxmemory 3mb e allkeys-lru: chaves = 0 | evicted_keys = 110643
+noeviction: primeiro erro = OOM command not allowed when used memory > 'maxmemory'.
+BGSAVE: Background saving started | MEMORY USAGE (string 100 B): 135 bytes

@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated"
+  previewFeatures = ["relationJoins"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Cliente {
+  id      Int      @id @default(autoincrement())
+  nome    String
+  email   String   @unique
+  pedidos Pedido[]
+}
+
+model Produto {
+  id    Int          @id @default(autoincrement())
+  nome  String
+  preco Decimal      @db.Decimal(10, 2)
+  itens ItemPedido[]
+}
+
+model Pedido {
+  id         Int          @id @default(autoincrement())
+  cliente    Cliente      @relation(fields: [clienteId], references: [id])
+  clienteId  Int
+  status     String       @default("aberto")
+  criadoEm   DateTime     @default(now())
+  itens      ItemPedido[]
+
+  @@index([clienteId])
+}
+
+model ItemPedido {
+  pedido     Pedido  @relation(fields: [pedidoId], references: [id], onDelete: Cascade)
+  pedidoId   Int
+  produto    Produto @relation(fields: [produtoId], references: [id])
+  produtoId  Int
+  quantidade Int
+
+  @@id([pedidoId, produtoId])
+}

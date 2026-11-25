@@ -1,0 +1,10 @@
+import puppeteer from 'puppeteer-core';
+const page = process.argv[2];
+const b = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox'] });
+const p = await b.newPage();
+p.on('pageerror', (e) => console.log('pageerror', e.message));
+await p.goto('http://127.0.0.1:8765/' + page);
+await p.waitForFunction(() => document.title === 'done', { timeout: 60000 });
+console.log(await b.version());
+console.log(await p.$eval('#out', (e) => e.textContent));
+await b.close();

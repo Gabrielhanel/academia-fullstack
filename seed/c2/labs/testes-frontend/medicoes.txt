@@ -1,0 +1,32 @@
+=== TFE3 ===
+iguais: pixels diferentes = 0
+quadrado 5x5 preto: pixels diferentes = 25
+ruído leve (250 vs 255), threshold 0.1: = 0 | threshold 0: = 400
+valores dependentes do relógio variam entre execuções (exemplo ilustrativo): 3
+=== TFE2 ===
+inicial: Carregando...
+itens após resposta: Ana,Bia
+alerta de erro: Falha ao carregar
+espera por resposta de 150 ms: >= 140ms? true
+erro de rede simulado -> UI: Falha ao carregar
+=== TFE1 ===
+getBy ausente lança: Unable to find an element with the text: não existe. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+queryBy ausente: 
+getByRole button: BUTTON
+getAllByRole count: 1
+após userEvent.click: Contagem: 1
+após fireEvent.click: Contagem: 2
+erro visível: E-mail inválido | chamadas: 0
+após válido: chamadas 1 {"nome":"Ana","email":"ana@x.com"} | alerta: 
+t=0: 0s
+após avançar 3000 ms (relógio falso): 3s
+violações axe no formulário rotulado: 0
+violações axe sem rótulo: label
+=== TFE4 ===
+hook sem provedor: n = 5 | tema = claro
+hook com provedor escuro: n = 1 | tema = escuro
+ordem do foco com Tab: INPUT:nome > INPUT:email > BUTTON:Enviar
+Enter no botão enviou o formulário (alerta visível): true
+waitFor falhou após ~ 200 ms com: Unable to find an element with the text: tchau. This could b
+antes: queryByText -> 
+findByText -> pronto

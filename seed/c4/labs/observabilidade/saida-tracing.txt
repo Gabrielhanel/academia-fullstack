@@ -1,0 +1,18 @@
+@opentelemetry/api 1.10.0 | sdk-trace 3.1.1 | context-async-hooks 3.1.1 | exportador em memória (sem backend externo)
+
+== 1. uma requisição atravessando 2 serviços: mesmo trace, spans em árvore
+cabeçalho traceparent enviado: 00-<traceId 32 hex>-<spanId 16 hex>-01 | formato versão-traceId-spanId-flags
+spans coletados: 6 | traceIds distintos: 1
+  HTTP GET | tipo: CLIENT | duração: 54.1 ms
+    GET /x | tipo: SERVER | duração: 47.3 ms
+      validar | tipo: INTERNAL | duração: 5.7 ms
+      HTTP GET | tipo: CLIENT | duração: 38.7 ms
+        GET /x | tipo: SERVER | duração: 32.3 ms
+          consulta SQL | tipo: INTERNAL | duração: 30.0 ms
+
+== 2. erro propagado como span com exceção
+span em ERROR: GET /x | mensagem: banco indisponível | eventos registrados: exception
+
+== 3. amostragem (sampling): 2.000 requisições com TraceIdRatioBasedSampler(0.1)
+spans registrados: 190 de 2000 (esperado ~200: 10%)
+em 500 pares pai-filho: pais gravados = 47 | filhos gravados = 47 | filhos gravados cujo pai foi gravado = 47 (ParentBased: o filho segue a decisão do pai)

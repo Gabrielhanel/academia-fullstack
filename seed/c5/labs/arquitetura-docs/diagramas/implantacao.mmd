@@ -1,0 +1,19 @@
+flowchart LR
+  subgraph Internet
+    U[Usuário]
+  end
+  subgraph Nuvem
+    LB[Balanceador]
+    subgraph Cluster
+      A1[API réplica 1]
+      A2[API réplica 2]
+      W[Worker de filas]
+    end
+    DB[(PostgreSQL)]
+    R[(Redis)]
+  end
+  U --> LB --> A1 & A2
+  A1 & A2 --> DB
+  A1 & A2 --> R
+  W --> R
+  W --> DB

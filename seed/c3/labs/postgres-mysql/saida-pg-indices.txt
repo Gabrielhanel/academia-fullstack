@@ -1,0 +1,192 @@
+psql:<stdin>:1: NOTICE:  schema "tuning" does not exist, skipping
+ setseed 
+---------
+ 
+(1 row)
+
+ linhas | tamanho 
+--------+---------
+ 500000 | 77 MB
+(1 row)
+
+== 04 sem índice
+                         QUERY PLAN                          
+-------------------------------------------------------------
+ Gather (actual rows=37 loops=1)
+   Workers Planned: 2
+   Workers Launched: 2
+   Buffers: shared hit=2496 read=6016
+   ->  Parallel Seq Scan on pedidos (actual rows=12 loops=3)
+         Filter: (cliente_id = 123)
+         Rows Removed by Filter: 166654
+         Buffers: shared hit=2496 read=6016
+ Planning:
+   Buffers: shared hit=25
+ Planning Time: 0.333 ms
+ Execution Time: 70.574 ms
+(12 rows)
+
+ achados 
+---------
+      37
+(1 row)
+
+== com índice B-tree
+                               QUERY PLAN                                
+-------------------------------------------------------------------------
+ Bitmap Heap Scan on pedidos (actual rows=37 loops=1)
+   Recheck Cond: (cliente_id = 123)
+   Heap Blocks: exact=37
+   Buffers: shared hit=10 read=30
+   ->  Bitmap Index Scan on idx_pedidos_cliente (actual rows=37 loops=1)
+         Index Cond: (cliente_id = 123)
+         Buffers: shared read=3
+ Planning:
+   Buffers: shared hit=30 read=1
+ Planning Time: 0.477 ms
+ Execution Time: 0.869 ms
+(11 rows)
+
+ tamanho_indice 
+----------------
+ 3496 kB
+(1 row)
+
+== função na coluna impede o índice
+                      QUERY PLAN                       
+-------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on pedidos
+         Recheck Cond: (data = '2026-03-01'::date)
+         ->  Bitmap Index Scan on idx_pedidos_data
+               Index Cond: (data = '2026-03-01'::date)
+(5 rows)
+
+                                                                   QUERY PLAN                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ Finalize Aggregate
+   ->  Gather
+         Workers Planned: 2
+         ->  Partial Aggregate
+               ->  Parallel Seq Scan on pedidos
+                     Filter: (date_trunc('day'::text, (data)::timestamp without time zone) = '2026-03-01 00:00:00'::timestamp without time zone)
+(6 rows)
+
+                                        QUERY PLAN                                        
+------------------------------------------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on pedidos
+         Recheck Cond: ((data >= '2026-03-01'::date) AND (data < '2026-03-02'::date))
+         ->  Bitmap Index Scan on idx_pedidos_data
+               Index Cond: ((data >= '2026-03-01'::date) AND (data < '2026-03-02'::date))
+(5 rows)
+
+== LIKE com curinga no começo
+                               QUERY PLAN                               
+------------------------------------------------------------------------
+ Index Scan using idx_pedidos_codigo on pedidos
+   Index Cond: ((codigo ~>=~ 'abc'::text) AND (codigo ~<~ 'abd'::text))
+   Filter: (codigo ~~ 'abc%'::text)
+(3 rows)
+
+                QUERY PLAN                
+------------------------------------------
+ Gather
+   Workers Planned: 2
+   ->  Parallel Seq Scan on pedidos
+         Filter: (codigo ~~ '%abc'::text)
+(4 rows)
+
+== índice composto: ordem importa
+                                      QUERY PLAN                                      
+--------------------------------------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on pedidos
+         Recheck Cond: ((status = 'pago'::text) AND (data >= '2026-01-01'::date))
+         ->  Bitmap Index Scan on idx_status_data
+               Index Cond: ((status = 'pago'::text) AND (data >= '2026-01-01'::date))
+(5 rows)
+
+                                        QUERY PLAN                                        
+------------------------------------------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on pedidos
+         Recheck Cond: ((data >= '2026-12-01'::date) AND (data < '2026-12-05'::date))
+         ->  Bitmap Index Scan on idx_pedidos_data
+               Index Cond: ((data >= '2026-12-01'::date) AND (data < '2026-12-05'::date))
+(5 rows)
+
+                    QUERY PLAN                     
+---------------------------------------------------
+ Limit
+   ->  Index Scan using idx_status_data on pedidos
+         Index Cond: (status = 'pago'::text)
+(3 rows)
+
+== cobertura index only
+                QUERY PLAN                
+------------------------------------------
+ Index Only Scan using idx_cob on pedidos
+   Index Cond: (cliente_id = 777)
+(2 rows)
+
+== índice parcial
+ parcial | completo 
+---------+----------
+ 592 kB  | 3536 kB
+(1 row)
+
+                     QUERY PLAN                     
+----------------------------------------------------
+ Aggregate
+   ->  Index Only Scan using idx_abertos on pedidos
+         Index Cond: (data = '2026-03-01'::date)
+(3 rows)
+
+== baixa seletividade
+                       QUERY PLAN                       
+--------------------------------------------------------
+ Aggregate
+   ->  Index Only Scan using idx_status_data on pedidos
+         Index Cond: (status = 'pago'::text)
+(3 rows)
+
+== 05 GIN e GiST
+                           QUERY PLAN                           
+----------------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on pedidos
+         Recheck Cond: (meta @> '{"canal": "loja"}'::jsonb)
+         ->  Bitmap Index Scan on idx_meta_gin
+               Index Cond: (meta @> '{"canal": "loja"}'::jsonb)
+(5 rows)
+
+ gin_meta | btree_cliente 
+----------+---------------
+ 2304 kB  | 3496 kB
+(1 row)
+
+                   QUERY PLAN                    
+-------------------------------------------------
+ Bitmap Heap Scan on pedidos
+   Recheck Cond: (codigo ~~ '%abc12%'::text)
+   ->  Bitmap Index Scan on idx_codigo_trgm
+         Index Cond: (codigo ~~ '%abc12%'::text)
+(4 rows)
+
+                                               QUERY PLAN                                                
+---------------------------------------------------------------------------------------------------------
+ Aggregate
+   ->  Bitmap Heap Scan on reservas
+         Recheck Cond: (periodo && '["2026-02-01 00:00:00+00","2026-02-02 00:00:00+00")'::tstzrange)
+         ->  Bitmap Index Scan on idx_per_gist
+               Index Cond: (periodo && '["2026-02-01 00:00:00+00","2026-02-02 00:00:00+00")'::tstzrange)
+(5 rows)
+
+ count 
+-------
+    25
+(1 row)
+
+psql:<stdin>:61: ERROR:  data type integer has no default operator class for access method "gist"
+HINT:  You must specify an operator class for the index or define a default operator class for the data type.

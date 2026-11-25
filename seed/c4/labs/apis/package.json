@@ -1,0 +1,17 @@
+{
+  "name": "lab-apis",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "13.1.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "dataloader": "2.2.3",
+    "express": "5.3.0",
+    "express-rate-limit": "8.7.5",
+    "graphql": "17.1.0",
+    "graphql-yoga": "6.1.1",
+    "pg": "8.23.1",
+    "ws": "8.23.0"
+  }
+}

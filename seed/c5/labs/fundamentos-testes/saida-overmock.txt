@@ -1,0 +1,3 @@
+teste                      V1 (original) V2 (refatorada: salvar -> inserir)
+mock de interação          passa         FALHA
+estado (fake)              passa         passa

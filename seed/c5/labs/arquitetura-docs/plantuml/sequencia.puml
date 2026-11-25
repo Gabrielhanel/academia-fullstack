@@ -1,0 +1,17 @@
+@startuml
+actor Cliente
+participant "API de Pedidos" as API
+participant Estoque
+participant Pagamento
+Cliente -> API: POST /pedidos
+API -> Estoque: reservar(itens)
+API -> Pagamento: cobrar(valor)
+alt aprovado
+  Pagamento --> API: aprovado
+  API --> Cliente: 201
+else recusado
+  Pagamento --> API: recusado
+  API -> Estoque: liberar(itens)
+  API --> Cliente: 402
+end
+@enduml

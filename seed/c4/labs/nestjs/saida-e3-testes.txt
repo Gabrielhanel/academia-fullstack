@@ -1,0 +1,18 @@
+✔ unitário: o serviço com repositório falso (350.086519ms)
+✔ e2e: rotas HTTP com o módulo real e o repositório substituído (138.724166ms)
+[Nest] 142420  - 25/11/2026, 10:26:27   ERROR [ExceptionsHandler] Error: banco real não deve ser chamado nos testes
+    at UsuariosRepo.buscar (file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/dist/e3-testes.test.js:20:30)
+    at UsuariosService.obter (file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/dist/e3-testes.test.js:30:49)
+    at UsuariosCtrl.obter (file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/dist/e3-testes.test.js:42:31)
+    at file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/node_modules/@nestjs/core/router/router-execution-context.js:80:37
+    at async file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/node_modules/@nestjs/core/router/router-execution-context.js:117:62
+    at async UsuariosCtrl.obter (file:///tmp/claude-1000/-home-gabriel-Documentos-github-academia-v2/39978e8e-550c-4a6f-a4d6-437f8bb6a766/scratchpad/c42/node_modules/@nestjs/core/router/router-proxy.js:6:17)
+✔ sem a substituição, o repositório real lança (prova de que o override foi necessário) (26.542746ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1665.255022

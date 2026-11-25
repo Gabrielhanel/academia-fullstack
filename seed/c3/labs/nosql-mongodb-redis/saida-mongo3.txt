@@ -1,0 +1,9 @@
+== limite de 16 MiB (servidor)
+14000 comentários de ~1,1 KB (~15.4 MB): inseriu
+16000 comentários (~17.6 MB): ERRO RangeError | código ERR_OUT_OF_RANGE | The value of "offset" is out of range. It must be >= 0 && <= 17825792. Received 17825794
+
+== $match antes de $group (índice em status+criado)
+$match + $count: {"IXSCAN":false,"COLLSCAN":false,"docsExaminados":"0"}
+$group + $match: {"IXSCAN":true,"COLLSCAN":false,"docsExaminados":"0"}
+$match status=pago, $group por clienteId (índice)              mediana ms: 107.9
+$group por clienteId, depois $match status (sem filtrar antes) mediana ms: 113.9

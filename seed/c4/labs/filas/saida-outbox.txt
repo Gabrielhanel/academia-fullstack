@@ -1,0 +1,14 @@
+PostgreSQL 17.12 | BullMQ 6.7.10
+
+== 1. escrita dupla (banco e depois fila): falha entre os dois passos
+pedidos gravados: 20 | eventos publicados: 16 | pedidos sem evento (inconsistência): 4
+
+== 2. padrão outbox: pedido e evento na MESMA transação; um relay publica depois
+pedidos: 20 | linhas na outbox: 20 (ambos gravados juntos)
+após um rollback: pedidos 20 | outbox 20 (nada fica pela metade)
+
+== 3. relay (SKIP LOCKED) com falha entre publicar e marcar: entrega pelo menos uma vez
+publicações na fila (com duplicatas): 28 | outbox pendente: 0 | rodadas do relay: 5
+
+== 4. consumidor idempotente com tabela de mensagens processadas
+mensagens recebidas pelo consumidor: 28 | msgIds distintos: 20 | efeitos aplicados: 20 (os duplicados foram ignorados)

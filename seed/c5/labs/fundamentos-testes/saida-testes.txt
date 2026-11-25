@@ -1,0 +1,37 @@
+✔ POST /pedidos cria, cobra e GET devolve o pedido persistido (248.236526ms)
+✔ erros de validação viram 422 e rotas inexistentes 404 (113.21117ms)
+✔ pagamento recusado mantém o pedido como novo (33.068257ms)
+▶ E2E: o fluxo de compra no navegador real (Chrome headless, servidor e SQLite reais)
+  ✔ compra com sucesso (518.166802ms)
+  ✔ cupom desconhecido mostra o erro (439.397179ms)
+✔ E2E: o fluxo de compra no navegador real (Chrome headless, servidor e SQLite reais) (2182.882114ms)
+✔ salva e relê com os itens na ordem de inserção (SQLite real em memória) (15.455084ms)
+✔ transação: um item inválido desfaz o pedido inteiro (ROLLBACK) (6.897884ms)
+✔ restrições do banco: total negativo e status inválido são recusados (4.087931ms)
+✔ marcarPago é idempotente e contarPorStatus agrega (4.378868ms)
+✔ cascata: apagar o pedido remove os itens (3.403323ms)
+✔ mock/spy: verifica as interações (cobra o valor com desconto e notifica) (17.515031ms)
+✔ stub: pagamento recusado não marca como pago nem notifica (2.273301ms)
+✔ cupom inválido interrompe antes de qualquer efeito colateral (4.621308ms)
+✔ mock.timers: controla o tempo sem esperar (6.51858ms)
+✔ fake em vez de mock: o repositório real em memória dá um teste de estado robusto (12.809032ms)
+✔ AAA: total simples com desconto (8.740784ms)
+✔ parametrizado: sem desconto (1.23476ms)
+✔ parametrizado: desconto acima de 100% é limitado (0.982696ms)
+✔ parametrizado: desconto negativo é ignorado (1.029657ms)
+✔ parametrizado: arredondamento em centavos (1.676724ms)
+✔ erro: lista vazia (3.061945ms)
+✔ erro: preço negativo (1.166732ms)
+✔ erro: quantidade fracionada (1.160822ms)
+✔ cupom: válido, expirado e desconhecido (5.641512ms)
+✔ propriedade: o total nunca é negativo nem maior que o bruto (114.732791ms)
+✔ propriedade: a ordem dos itens não altera o total (com tolerância de 1 centavo) (53.994841ms)
+✔ propriedade que FALHA: soma de floats não é exata (contraexemplo reduzido pelo fast-check) (138.575456ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3464.442612

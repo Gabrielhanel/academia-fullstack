@@ -1,0 +1,24 @@
+== limite de 16 MB (servidor)
+inseriu
+
+== modelagem: embutir x referenciar (10.000 clientes, 5 pedidos cada)
+embutido: 1 find por _id (cliente com pedidos)                 mediana ms: 2.9
+referenciado: 2 consultas (cliente e seus pedidos)             mediana ms: 5.6
+referenciado: 1 agregação com $lookup                          mediana ms: 4.2
+lista de 100 clientes com pedidos (embutido)                   mediana ms: 6.0
+lista de 100 clientes com pedidos ($lookup)                    mediana ms: 13.7
+atualizar um pedido embutido (arrayFilters)                    mediana ms: 2.5
+tamanho médio: embutido 230 bytes | cliente referenciado 36 + pedido 65 bytes
+
+== agregação
+por status: [{"_id":"aberto","pedidos":25000,"total":12462500},{"_id":"cancelado","pedidos":25000,"total":12512500},{"_id":"enviado","pedidos":25000,"total":12537500},{"_id":"pago","pedidos":25000,"total":12487500}]
+top 3 SKUs vendidos (pagos): [{"_id":"A15","qtd":2001},{"_id":"A17","qtd":2001},{"_id":"A27","qtd":2001}]
+$match primeiro (índice composto): {"estagio":"COLLSCAN","examinados":0}
+$group sem $match (varredura): {"estagio":"COLLSCAN","examinados":100000}
+aggregate: receita por status no servidor                      mediana ms: 147.2
+find tudo e somar no cliente (100 mil docs)                    mediana ms: 1159.0
+$facet: {"porStatus":[{"_id":"aberto","n":25000},{"_id":"cancelado","n":25000},{"_id":"enviado","n":25000},{"_id":"pago","n":25000}],"valorMax":[{"_id":null,"max":999.5}]}
+
+== TTL (documentos que expiram)
+antes (t=0 s): 2
+depois de 75 s: 1 (o monitor de TTL roda a cada ~60 s)

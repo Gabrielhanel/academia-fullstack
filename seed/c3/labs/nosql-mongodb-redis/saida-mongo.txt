@@ -1,0 +1,26 @@
+MongoDB 8.3.17
+
+== CRUD e documentos
+documentos: 100000 | tamanho médio (bytes): 170
+exemplo: {"_id":"6b06d831214b3231c926f426","numero":7,"clienteId":7,"status":"cancelado","valor":6.5,"itens":[{"sku":"A6","qtd":1},{"sku":"B6","qtd":1}],"criado":"2026-01-07T00:00:00.000Z"}
+tipo do _id: ObjectId | _id é gerado automaticamente
+
+== índices e explain
+sem índice, clienteId = 123: {"estagio":"COLLSCAN","examinados":100000,"chaves":0,"retornados":20}
+find clienteId = 123 (sem índice)                              mediana ms: 154.4
+com índice, clienteId = 123: {"estagio":"IXSCAN","examinados":20,"chaves":20,"retornados":20}
+find clienteId = 123 (com índice)                              mediana ms: 3.9
+composto (status, criado) com status+ordem: {"estagio":"IXSCAN","examinados":25000,"chaves":25000,"retornados":25000}
+só criado (não é prefixo): {"estagio":"COLLSCAN","examinados":100000,"chaves":0,"retornados":49617}
+indices: _id_, clienteId_1, status_1_criado_-1
+
+== validação e unicidade
+validação: 121 undefined
+duplicidade: 11000 undefined
+coleção sem esquema aceitou 3 formas diferentes: 3
+
+== atualizações atômicas x ler-modificar-gravar (100 concorrentes)
+$inc atômico: 100 | ler-modificar-gravar: 1
+
+== limite de 16 MB e array ilimitado
+documento de ~20 MB: RangeError | The value of "offset" is out of range. It must be >= 0 && <= 17825792. Received 17825794

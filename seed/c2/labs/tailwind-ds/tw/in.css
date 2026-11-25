@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@source "./pagina.html";
+@theme {
+  --color-marca-500: #0b5fff;
+  --color-marca-600: oklch(0.5 0.2 262);
+  --font-display: "Inter", sans-serif;
+  --breakpoint-3xl: 120rem;
+  --spacing: 0.25rem;
+}
+@custom-variant dark (&:where(.dark, .dark *));

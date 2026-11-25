@@ -1,0 +1,1345 @@
+{
+ "https://nodejs.org/api/esm.html": {
+  "status": 200,
+  "page": "Modules: ECMAScript modules | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/packages.html": {
+  "status": 200,
+  "page": "Modules: Packages | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/worker_threads.html": {
+  "status": 200,
+  "page": "Worker threads | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/en/learn/getting-started/profiling": {
+  "status": 200,
+  "page": "Profiling Node.js Applications | Node.js Learn",
+  "final": "https://nodejs.org/learn/getting-started/profiling",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/cli.html": {
+  "status": 200,
+  "page": "Command-line API | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://semver.org/": {
+  "status": 200,
+  "page": "Semantic Versioning 2.0.0 | Semantic Versioning",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/modules.html": {
+  "status": 200,
+  "page": "Modules: CommonJS modules | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/en/learn/asynchronous-work/dont-block-the-event-loop": {
+  "status": 200,
+  "page": "Don't Block the Event Loop (or the Worker Pool) | Node.js Learn",
+  "final": "https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick": {
+  "status": 200,
+  "page": "The Node.js Event Loop | Node.js Learn",
+  "final": "https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/perf_hooks.html": {
+  "status": 200,
+  "page": "Performance measurement APIs | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/process.html": {
+  "status": 200,
+  "page": "Process | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/buffer.html": {
+  "status": 200,
+  "page": "Buffer | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/http.html": {
+  "status": 200,
+  "page": "HTTP | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS": {
+  "status": 200,
+  "page": "Cross-Origin Resource Sharing (CORS) - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/5x/api.html": {
+  "status": 200,
+  "page": "5.x API Reference · Express.js 5.x",
+  "final": "https://expressjs.com/en/5x/api/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html": {
+  "status": 200,
+  "page": "Health Checks and Graceful Shutdown · Express.js",
+  "final": "https://expressjs.com/en/advanced/healthcheck-graceful-shutdown/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/advanced/best-practice-performance.html": {
+  "status": 200,
+  "page": "Production best practices: performance and reliability · Express.js",
+  "final": "https://expressjs.com/en/advanced/best-practice-performance/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/guide/writing-middleware.html": {
+  "status": 200,
+  "page": "Writing middleware for use in Express apps · Express.js",
+  "final": "https://expressjs.com/en/guide/writing-middleware/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/guide/routing.html": {
+  "status": 200,
+  "page": "Routing · Express.js",
+  "final": "https://expressjs.com/en/guide/routing/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/guide/using-middleware.html": {
+  "status": 200,
+  "page": "Using middleware · Express.js",
+  "final": "https://expressjs.com/en/guide/using-middleware/",
+  "at": "2026-11-25"
+ },
+ "https://docs.npmjs.com/cli/v11/configuring-npm/package-json": {
+  "status": 200,
+  "page": "package.json | npm Docs",
+  "final": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/",
+  "at": "2026-11-25"
+ },
+ "https://docs.npmjs.com/cli/v11/commands/npm-ci": {
+  "status": 200,
+  "page": "npm-ci | npm Docs",
+  "final": "https://docs.npmjs.com/cli/v11/commands/npm-ci/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/guide/error-handling.html": {
+  "status": 200,
+  "page": "Error Handling · Express.js",
+  "final": "https://expressjs.com/en/guide/error-handling/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/advanced/best-practice-security.html": {
+  "status": 200,
+  "page": "Production Best Practices: Security · Express.js",
+  "final": "https://expressjs.com/en/advanced/best-practice-security/",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/en/guide/migrating-5.html": {
+  "status": 200,
+  "page": "Upgrade to Express v5 · Express.js",
+  "final": "https://expressjs.com/en/guide/migrating-5/",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/stream.html#streampipelinesource-transforms-destination-options": {
+  "status": 200,
+  "page": "Stream | Node.js v26.13.1 Documentation",
+  "final": "https://nodejs.org/api/stream.html",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/stream.html": {
+  "status": 200,
+  "page": "Stream | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://getpino.io/": {
+  "status": 200,
+  "page": "Pino - Super fast, all natural JSON logger for Node.js",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://helmetjs.github.io/": {
+  "status": 200,
+  "page": "Helmet.js",
+  "final": "https://helmet.js.org/",
+  "at": "2026-11-25"
+ },
+ "https://12factor.net/": {
+  "status": 200,
+  "page": "The Twelve-Factor App",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://rxjs.dev/guide/overview": {
+  "status": 200,
+  "page": "RxJS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Authorization - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/first-steps": {
+  "status": 200,
+  "page": "First steps | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/techniques/validation": {
+  "status": 200,
+  "page": "Documentation | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/techniques/configuration": {
+  "status": 200,
+  "page": "Documentation | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/exception-filters": {
+  "status": 200,
+  "page": "Exception filters | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/modules": {
+  "status": 200,
+  "page": "Modules | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/custom-decorators": {
+  "status": 200,
+  "page": "Custom decorators | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/dynamic-modules": {
+  "status": 200,
+  "page": "Dynamic modules | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/testing": {
+  "status": 200,
+  "page": "Testing | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/test.html": {
+  "status": 200,
+  "page": "Test runner | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/typestack/class-validator": {
+  "status": 200,
+  "page": "GitHub - typestack/class-validator: Decorator-based property validation for classes. · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/forwardemail/supertest": {
+  "status": 200,
+  "page": "GitHub - forwardemail/supertest: 🕷 Super-agent driven library for testing node.js HTTP servers using a fluent",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/": {
+  "status": 200,
+  "page": "What is BullMQ | BullMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/guide/retrying-failing-jobs": {
+  "status": 200,
+  "page": "Retrying failing jobs | BullMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/techniques/queues": {
+  "status": 200,
+  "page": "Documentation | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/MonolithFirst.html": {
+  "status": 200,
+  "page": "Monolith First",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/faq/request-lifecycle": {
+  "status": 200,
+  "page": "Request lifecycle - FAQ | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/circular-dependency": {
+  "status": 200,
+  "page": "Circular dependency | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/microservices/basics": {
+  "status": 200,
+  "page": "Microservices | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/interceptors": {
+  "status": 200,
+  "page": "Interceptors | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/custom-providers": {
+  "status": 200,
+  "page": "Custom providers | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/guards": {
+  "status": 200,
+  "page": "Guards | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/pipes": {
+  "status": 200,
+  "page": "Pipes | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/controllers": {
+  "status": 200,
+  "page": "Controllers | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/lifecycle-events": {
+  "status": 200,
+  "page": "Lifecycle events | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/recipes/cqrs": {
+  "status": 200,
+  "page": "CQRS | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/openapi/introduction": {
+  "status": 200,
+  "page": "OpenAPI (Swagger) | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/injection-scopes": {
+  "status": 200,
+  "page": "Injection scopes | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/providers": {
+  "status": 200,
+  "page": "Providers | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.nestjs.com/fundamentals/execution-context": {
+  "status": 200,
+  "page": "Execution context | NestJS - A progressive Node.js framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9457": {
+  "status": 200,
+  "page": "RFC 9457: Problem Details for HTTP APIs | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc9457/",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/microservices.html": {
+  "status": 200,
+  "page": "Microservices",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events": {
+  "status": 200,
+  "page": "Server-sent events - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API": {
+  "status": 200,
+  "page": "WebSocket API (WebSockets) - Web APIs | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://google.aip.dev/": {
+  "status": 200,
+  "page": "API Improvement Proposals",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Content_negotiation": {
+  "status": 200,
+  "page": "Content negotiation - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Conditional_requests": {
+  "status": 200,
+  "page": "HTTP conditional requests - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+  "status": 200,
+  "page": "HTTP: Hypertext Transfer Protocol | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods": {
+  "status": 200,
+  "page": "HTTP request methods - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status": {
+  "status": 200,
+  "page": "HTTP response status codes - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://json-schema.org/": {
+  "status": 200,
+  "page": "JSON Schema",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.pact.io/": {
+  "status": 200,
+  "page": "Introduction | Pact Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/richardsonMaturityModel.html": {
+  "status": 200,
+  "page": "Richardson Maturity Model",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://graphql.org/learn/": {
+  "status": 200,
+  "page": "Learn | GraphQL",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/microsoft/api-guidelines": {
+  "status": 200,
+  "page": "GitHub - microsoft/api-guidelines: Microsoft REST API Guidelines · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://ajv.js.org/": {
+  "status": 200,
+  "page": "Ajv JSON schema validator",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://spec.graphql.org/": {
+  "status": 200,
+  "page": "GraphQL Specification Versions",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/websockets/ws": {
+  "status": 200,
+  "page": "GitHub - websockets/ws: Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://spec.openapis.org/oas/v3.1.0": {
+  "status": 200,
+  "page": "OpenAPI Specification v3.1.0",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/express-rate-limit/express-rate-limit": {
+  "status": 200,
+  "page": "GitHub - express-rate-limit/express-rate-limit: Basic rate-limiting middleware for the Express web server · Gi",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/graphql/dataloader": {
+  "status": 200,
+  "page": "GitHub - graphql/dataloader: DataLoader is a generic utility to be used as part of your application&#39;s data",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.graphql-js.org/": {
+  "status": 200,
+  "page": "Overview | GraphQL",
+  "final": "https://www.graphql-js.org/docs/",
+  "at": "2026-11-25"
+ },
+ "https://the-guild.dev/graphql/yoga-server": {
+  "status": 200,
+  "page": "GraphQL Yoga",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6585": {
+  "status": 200,
+  "page": "RFC 6585: Additional HTTP Status Codes | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc6585/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9745": {
+  "status": 200,
+  "page": "RFC 9745: The Deprecation HTTP Response Header Field | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc9745/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8594": {
+  "status": 200,
+  "page": "RFC 8594: The Sunset HTTP Header Field | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc8594/",
+  "at": "2026-11-25"
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/": {
+  "status": 200,
+  "page": "draft-ietf-httpapi-idempotency-key-header-09 - The Idempotency-Key HTTP Header Field",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6455": {
+  "status": 200,
+  "page": "RFC 6455: The WebSocket Protocol | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc6455/",
+  "at": "2026-11-25"
+ },
+ "https://microservices.io/patterns/apigateway.html": {
+  "status": 200,
+  "page": "Pattern: API Gateway / Backends for Frontends",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://samnewman.io/patterns/architectural/bff/": {
+  "status": 200,
+  "page": "Sam Newman - Backends For Frontends",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://graphql.github.io/graphql-over-http/": {
+  "status": 200,
+  "page": "GraphQL over HTTP Specification Versions",
+  "final": "http://http-spec.graphql.org/",
+  "at": "2026-11-25"
+ },
+ "https://owasp.org/API-Security/": {
+  "status": 200,
+  "page": "OWASP API Security Top 10 - OWASP API Security Top 10",
+  "final": "https://api-security.owasp.org/",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/TolerantReader.html": {
+  "status": 200,
+  "page": "Tolerant Reader",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/CircuitBreaker.html": {
+  "status": 200,
+  "page": "Circuit Breaker",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.stripe.com/api/idempotent_requests": {
+  "status": 200,
+  "page": "Idempotent requests | Stripe API Reference",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://use-the-index-luke.com/no-offset": {
+  "status": 200,
+  "page": "We need tool support for keyset pagination",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9110": {
+  "status": 200,
+  "page": "RFC 9110: HTTP Semantics | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc9110/",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Password Storage - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://openid.net/specs/openid-connect-discovery-1_0.html": {
+  "status": 200,
+  "page": "Final: OpenID Connect Discovery 1.0 incorporating errata set 2",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Authentication - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://oauth.net/2.1/": {
+  "status": 200,
+  "page": "OAuth 2.1",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Cross-Site Request Forgery Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Session Management - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie": {
+  "status": 200,
+  "page": "Set-Cookie header - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies": {
+  "status": 200,
+  "page": "Using HTTP cookies - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.openpolicyagent.org/docs": {
+  "status": 200,
+  "page": "Open Policy Agent (OPA) | Open Policy Agent",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://casl.js.org/": {
+  "status": 200,
+  "page": "CASL — Authorization for the Entire TypeScript Stack - CASL",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://openid.net/specs/openid-connect-core-1_0.html": {
+  "status": 200,
+  "page": "Final: OpenID Connect Core 1.0 incorporating errata set 2",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/crypto.html": {
+  "status": 200,
+  "page": "Crypto | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://csrc.nist.gov/pubs/sp/800/162/upd2/final": {
+  "status": 200,
+  "page": "SP 800-162, Guide to Attribute Based Access Control (ABAC) Definition and Considerations | CSRC",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/TR/webauthn-3/": {
+  "status": 200,
+  "page": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6238": {
+  "status": 200,
+  "page": "RFC 6238: TOTP: Time-Based One-Time Password Algorithm | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc6238/",
+  "at": "2026-11-25"
+ },
+ "https://pages.nist.gov/800-63-4/sp800-63b.html": {
+  "status": 200,
+  "page": "NIST Special Publication 800-63B",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc7519": {
+  "status": 200,
+  "page": "RFC 7519: JSON Web Token (JWT) | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc7519/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc7636": {
+  "status": 200,
+  "page": "RFC 7636: Proof Key for Code Exchange by OAuth Public Clients | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc7636/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc4226": {
+  "status": 200,
+  "page": "RFC 4226: HOTP: An HMAC-Based One-Time Password Algorithm | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc4226/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8725": {
+  "status": 200,
+  "page": "RFC 8725: JSON Web Token Best Current Practices | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc8725/",
+  "at": "2026-11-25"
+ },
+ "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html": {
+  "status": 200,
+  "page": "SAML 2.0 Technical Overview | OASIS Standard",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9106": {
+  "status": 200,
+  "page": "RFC 9106: Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc9106/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6749": {
+  "status": 200,
+  "page": "RFC 6749: The OAuth 2.0 Authorization Framework | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc6749/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc7517": {
+  "status": 200,
+  "page": "RFC 7517: JSON Web Key (JWK) | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc7517/",
+  "at": "2026-11-25"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9700": {
+  "status": 200,
+  "page": "RFC 9700: Best Current Practice for OAuth 2.0 Security | RFC Editor",
+  "final": "https://www.rfc-editor.org/info/rfc9700/",
+  "at": "2026-11-25"
+ },
+ "https://github.com/panva/jose": {
+  "status": 200,
+  "page": "GitHub - panva/jose: JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and ot",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/expressjs/session": {
+  "status": 200,
+  "page": "GitHub - expressjs/session: Simple session middleware for Express · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "JSON Web Token - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/": {
+  "status": 200,
+  "page": "Redis persistence | Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://redis.io/docs/latest/commands/lmove/": {
+  "status": 200,
+  "page": "LMOVE | Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.rabbitmq.com/docs/reliability": {
+  "status": 200,
+  "page": "Reliability Guide | RabbitMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.enterpriseintegrationpatterns.com/": {
+  "status": 200,
+  "page": "Home - Enterprise Integration Patterns",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/guide/jobs/stalled": {
+  "status": 200,
+  "page": "Stalled | BullMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/guide/rate-limiting": {
+  "status": 200,
+  "page": "Rate limiting | BullMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/guide/workers/concurrency": {
+  "status": 200,
+  "page": "Concurrency | BullMQ",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://microservices.io/patterns/data/saga.html": {
+  "status": 200,
+  "page": "Pattern: Saga",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html": {
+  "status": 200,
+  "page": "Using dead-letter queues in Amazon SQS - Amazon Simple Queue Service",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.bullmq.io/guide/queues": {
+  "status": 200,
+  "page": "Queues | BullMQ",
+  "final": "https://docs.bullmq.io/guide/queues/",
+  "at": "2026-11-25"
+ },
+ "https://cloudevents.io/": {
+  "status": 200,
+  "page": "CloudEvents |",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://microservices.io/patterns/communication-style/idempotent-consumer.html": {
+  "status": 200,
+  "page": "Pattern: Idempotent Consumer",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://microservices.io/patterns/data/transactional-outbox.html": {
+  "status": 200,
+  "page": "Pattern: Transactional outbox",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.asyncapi.com/docs": {
+  "status": 200,
+  "page": "Welcome | AsyncAPI Initiative for event-driven APIs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/": {
+  "status": 200,
+  "page": "Timeouts, retries, and backoff with jitter | AWS Builder Center",
+  "final": "https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter",
+  "at": "2026-11-25"
+ },
+ "https://docs.stripe.com/webhooks": {
+  "status": 200,
+  "page": "Receba eventos da Stripe no seu endpoint de webhook | Documentação da Stripe",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.postgresql.org/docs/17/sql-select.html": {
+  "status": 200,
+  "page": "PostgreSQL: Documentation: 17: SELECT",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/api/async_context.html": {
+  "status": 200,
+  "page": "Asynchronous context tracking | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Logging - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/alerting/latest/alertmanager/": {
+  "status": 200,
+  "page": "Alertmanager | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://opentelemetry.io/docs/": {
+  "status": 200,
+  "page": "Documentation | OpenTelemetry",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/basics/": {
+  "status": 200,
+  "page": "Querying basics | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://opentelemetry.io/docs/concepts/sampling/": {
+  "status": 200,
+  "page": "Sampling | OpenTelemetry",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.w3.org/TR/trace-context/": {
+  "status": 200,
+  "page": "Trace Context",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://opentelemetry.io/docs/languages/js/": {
+  "status": 200,
+  "page": "JavaScript | OpenTelemetry",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/api/": {
+  "status": 200,
+  "page": "HTTP API | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/introduction/overview/": {
+  "status": 200,
+  "page": "Overview | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/": {
+  "status": 200,
+  "page": "Defining recording rules | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/practices/naming/": {
+  "status": 200,
+  "page": "Metric and label naming | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/": {
+  "status": 200,
+  "page": "Alerting rules | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/grafana/latest/": {
+  "status": 200,
+  "page": "Grafana OSS and Enterprise | Grafana documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://prometheus.io/docs/practices/histograms/": {
+  "status": 200,
+  "page": "Histograms and summaries | Prometheus",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://12factor.net/logs": {
+  "status": 200,
+  "page": "The Twelve-Factor App",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/embracing-risk/": {
+  "status": 200,
+  "page": "Google SRE - Embracing risk and reliability engineering book",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/siimon/prom-client": {
+  "status": 200,
+  "page": "GitHub - prometheus/client_js: Prometheus client for node.js · GitHub",
+  "final": "https://github.com/prometheus/client_js",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/service-level-objectives/": {
+  "status": 200,
+  "page": "Google SRE - Defining slo: service level objective meaning",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/monitoring-distributed-systems/": {
+  "status": 200,
+  "page": "Google SRE: SRE Responsibilities and Management Frameworks",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/workbook/alerting-on-slos/": {
+  "status": 200,
+  "page": "Google SRE - Prometheus Alerting: Turn SLOs into Alerts",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing": {
+  "status": 200,
+  "page": "Fallacies of distributed computing - Wikipedia",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://queue.acm.org/detail.cfm?id=3025012": {
+  "status": 403,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grpc.io/docs/what-is-grpc/introduction/": {
+  "status": 200,
+  "page": "Introduction to gRPC | gRPC",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/BoundedContext.html": {
+  "status": 200,
+  "page": "Bounded Context",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://microservices.io/patterns/index.html": {
+  "status": 200,
+  "page": "A pattern language for microservices",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.enterpriseintegrationpatterns.com/patterns/messaging/": {
+  "status": 200,
+  "page": "Messaging Patterns Overview - Enterprise Integration Patterns",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://spiffe.io/docs/latest/spiffe-about/overview/": {
+  "status": 200,
+  "page": "SPIFFE Overview | SPIFFE",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/outlier": {
+  "status": 200,
+  "page": "Outlier detection &mdash; envoy 1.41.0-dev-248156 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/http/http_routing": {
+  "status": 200,
+  "page": "HTTP routing &mdash; envoy 1.41.0-dev-248156 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://istio.io/latest/about/service-mesh/": {
+  "status": 200,
+  "page": "Istio / The Istio service mesh",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/": {
+  "status": 200,
+  "page": "Envoy documentation &mdash; envoy 1.41.0-dev-248156 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/circuit_breaking": {
+  "status": 200,
+  "page": "Circuit breaking &mdash; envoy 1.41.0-dev-248156 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/StranglerFigApplication.html": {
+  "status": 200,
+  "page": "Strangler Fig",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/ConwaysLaw.html": {
+  "status": 200,
+  "page": "Conway's Law",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/CQRS.html": {
+  "status": 200,
+  "page": "CQRS",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/eaaDev/EventSourcing.html": {
+  "status": 200,
+  "page": "Event Sourcing",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://linkerd.io/2/overview/": {
+  "status": 200,
+  "page": "Overview | Linkerd",
+  "final": "https://linkerd.io/docs/overview/",
+  "at": "2026-11-25"
+ },
+ "https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.cidrdb.org/cidr2007/papers/cidr07p15.pdf": {
+  "status": 200,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/asyncio.html": {
+  "status": 200,
+  "page": "asyncio — Asynchronous I/O &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/copy.html": {
+  "status": 200,
+  "page": "copy — Shallow and deep copy operations &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://peps.python.org/pep-0020/": {
+  "status": 200,
+  "page": "PEP 20 – The Zen of Python | peps.python.org",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/tutorial/modules.html": {
+  "status": 200,
+  "page": "6. Modules &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/tutorial/index.html": {
+  "status": 200,
+  "page": "The Python Tutorial &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/howto/free-threading-python.html": {
+  "status": 200,
+  "page": "Python support for free threading &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/tempfile.html": {
+  "status": 200,
+  "page": "tempfile — Generate temporary files and directories &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/csv.html": {
+  "status": 200,
+  "page": "csv — CSV file reading and writing &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.pytest.org/en/stable/": {
+  "status": 200,
+  "page": "pytest documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.uvicorn.org/": {
+  "status": 0,
+  "error": "fetch failed",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/venv.html": {
+  "status": 200,
+  "page": "venv — Creation of virtual environments &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/concurrent.futures.html": {
+  "status": 200,
+  "page": "concurrent.futures — Launching parallel tasks &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/functools.html": {
+  "status": 200,
+  "page": "functools — Higher-order functions and operations on callable objects &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions": {
+  "status": 200,
+  "page": "4. More Control Flow Tools &#8212; Python 3.15.2 documentation",
+  "final": "https://docs.python.org/3/tutorial/controlflow.html",
+  "at": "2026-11-25"
+ },
+ "https://peps.python.org/pep-0649/": {
+  "status": 200,
+  "page": "PEP 649 – Deferred Evaluation Of Annotations Using Descriptors | peps.python.org",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/asyncio-task.html": {
+  "status": 200,
+  "page": "Coroutines and tasks &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/logging.html": {
+  "status": 200,
+  "page": "logging — Logging facility for Python &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/dataclasses.html": {
+  "status": 200,
+  "page": "dataclasses — Data Classes &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/subprocess.html#security-considerations": {
+  "status": 200,
+  "page": "subprocess — Subprocess management &#8212; Python 3.15.2 documentation",
+  "final": "https://docs.python.org/3/library/subprocess.html",
+  "at": "2026-11-25"
+ },
+ "https://peps.python.org/pep-0008/": {
+  "status": 200,
+  "page": "PEP 8 – Style Guide for Python Code | peps.python.org",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/reference/import.html": {
+  "status": 200,
+  "page": "5. The import system &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/": {
+  "status": 200,
+  "page": "Writing your pyproject.toml - Python Packaging User Guide",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://fastapi.tiangolo.com/tutorial/dependencies/": {
+  "status": 200,
+  "page": "Dependencies - FastAPI",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://fastapi.tiangolo.com/tutorial/testing/": {
+  "status": 200,
+  "page": "Testing - FastAPI",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/decimal.html": {
+  "status": 200,
+  "page": "decimal — Decimal fixed-point and floating-point arithmetic &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://peps.python.org/pep-0484/": {
+  "status": 200,
+  "page": "PEP 484 – Type Hints | peps.python.org",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/argparse.html": {
+  "status": 200,
+  "page": "argparse — Parser for command-line options, arguments and subcommands &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://fastapi.tiangolo.com/": {
+  "status": 200,
+  "page": "FastAPI - FastAPI",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "OS Command Injection Defense - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://typing.python.org/en/latest/spec/": {
+  "status": 200,
+  "page": "Specification for the Python type system &#8212; typing documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://fastapi.tiangolo.com/async/": {
+  "status": 200,
+  "page": "Concurrency and async / await - FastAPI",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://peps.python.org/pep-0544/": {
+  "status": 200,
+  "page": "PEP 544 – Protocols: Structural subtyping (static duck typing) | peps.python.org",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/pathlib.html": {
+  "status": 200,
+  "page": "pathlib — Object-oriented filesystem paths &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/multiprocessing.html#contexts-and-start-methods": {
+  "status": 200,
+  "page": "multiprocessing — Process-based parallelism &#8212; Python 3.15.2 documentation",
+  "final": "https://docs.python.org/3/library/multiprocessing.html",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/typing.html": {
+  "status": 200,
+  "page": "typing — Support for type hints &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/reference/datamodel.html": {
+  "status": 200,
+  "page": "3. Data model &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mypy.readthedocs.io/en/stable/": {
+  "status": 200,
+  "page": "mypy 2.4.1 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.pydantic.dev/latest/": {
+  "status": 200,
+  "page": "Pydantic Validation | Pydantic Docs",
+  "final": "https://pydantic.dev/docs/validation/latest/get-started/",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/stdtypes.html": {
+  "status": 200,
+  "page": "Built-in Types &#8212; Python 3.15.2 documentation",
+  "final": "https://docs.python.org/3/builtins/stdtypes.html",
+  "at": "2026-11-25"
+ },
+ "https://uvicorn.dev/": {
+  "status": 200,
+  "page": "Index - Uvicorn",
+  "final": "",
+  "at": "2026-11-25"
+ }
+}

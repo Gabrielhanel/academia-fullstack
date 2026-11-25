@@ -1,0 +1,11 @@
+== 1. módulo dinâmico (forRoot) e módulo global
+{"status":200,"corpo":"{\"url\":\"postgres://localhost/app\",\"pool\":10}"}
+
+== 2. configuração com @nestjs/config e validação na partida
+sem DATABASE_URL (a validação roda ao montar o módulo, antes de escutar): DATABASE_URL é obrigatória
+com variáveis: {"status":200,"corpo":"{\"porta\":8080,\"banco\":\"postgres://localhost/app\"}"}
+
+== 3. tempo de partida x número de módulos (1 execução por tamanho)
+  1 módulos (cada um com 1 controller e 1 provider): 18 ms para criar e escutar
+ 50 módulos (cada um com 1 controller e 1 provider): 132 ms para criar e escutar
+200 módulos (cada um com 1 controller e 1 provider): 310 ms para criar e escutar

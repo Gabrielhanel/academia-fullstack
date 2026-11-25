@@ -1,0 +1,1 @@
+{ "name": "lab-clean-code", "private": true, "type": "module", "scripts": { "test": "node --test", "lint:legado": "eslint legado", "lint:refatorado": "eslint refatorado" }, "devDependencies": { "eslint": "10.15.0" } }

@@ -1,0 +1,5 @@
+id                       juros h/mês esforço h payback (meses)
+proc-legado-pedidos               12        24               2
+testes-lentos-ci                   6        16             2.7
+relatorios-duplicados              2         8               4
+modulo-estavel-feio                0        40           nunca

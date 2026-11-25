@@ -1,0 +1,21 @@
+import express from 'express';
+const med = async (rotulo, fn, reps = 7) => { await fn(); const t = []; for (let i = 0; i < reps; i++) { const t0 = performance.now(); await fn(); t.push(performance.now() - t0); } t.sort((a, b) => a - b); const m = t[Math.floor(reps / 2)]; console.log(rotulo.padEnd(66), 'mediana:', m.toFixed(m < 1 ? 4 : 1), 'ms'); return m; };
+const clientes = Array.from({ length: 200 }, (_, i) => ({ id: i + 1, nome: 'Cliente ' + (i + 1) }));
+const pedidos = Array.from({ length: 50 }, (_, i) => ({ id: i + 1, clienteId: (i * 7) % 200 + 1, total: 10 + i }));
+// serviço de clientes (outro processo lógico): consulta individual e em lote
+const svc = express();
+svc.get('/clientes/:id', (req, res) => res.json(clientes[Number(req.params.id) - 1]));
+svc.get('/clientes', (req, res) => res.json(String(req.query.ids).split(',').map((i) => clientes[Number(i) - 1])));
+const srv = await new Promise((ok) => { const s = svc.listen(0, '127.0.0.1', () => ok(s)); }); const b = 'http://127.0.0.1:' + srv.address().port;
+console.log('Node', process.version, '| Express 5.3.0 | 50 pedidos de 50 clientes distintos entre 200');
+console.log('== 1. custo de uma chamada: dentro do processo x entre serviços (HTTP em localhost)');
+const emProcesso = (id) => clientes[id - 1];
+await med('chamada de função no mesmo processo', async () => { for (let i = 0; i < 1000; i++) emProcesso(1 + (i % 200)); }, 15).then((m) => console.log('   por chamada:', (m / 1000 * 1000).toFixed(3), 'µs'));
+const umaChamada = await med('uma chamada HTTP ao serviço de clientes', async () => { await (await fetch(b + '/clientes/7')).json(); }, 21);
+console.log('\n== 2. o "N+1 entre serviços": compor 50 pedidos com o nome do cliente');
+await med('50 chamadas HTTP em sequência (uma por pedido)', async () => { const r = []; for (const p of pedidos) r.push({ ...p, cliente: (await (await fetch(b + '/clientes/' + p.clienteId)).json()).nome }); return r; });
+await med('50 chamadas HTTP em paralelo (Promise.all)', async () => Promise.all(pedidos.map(async (p) => ({ ...p, cliente: (await (await fetch(b + '/clientes/' + p.clienteId)).json()).nome }))));
+await med('1 chamada em lote (ids distintos na query)', async () => { const ids = [...new Set(pedidos.map((p) => p.clienteId))]; const lista = await (await fetch(b + '/clientes?ids=' + ids.join(','))).json(); const m = Object.fromEntries(lista.map((c) => [c.id, c.nome])); return pedidos.map((p) => ({ ...p, cliente: m[p.clienteId] })); });
+console.log('\n== 3. disponibilidade de uma cadeia síncrona (cálculo): n serviços em série, cada um com disponibilidade a');
+for (const [a, n] of [[0.999, 1], [0.999, 3], [0.999, 5], [0.999, 10], [0.99, 5]]) console.log('a =', (a * 100).toFixed(1) + '%', '| n =', String(n).padStart(2), '→ disponibilidade composta', (a ** n * 100).toFixed(2) + '%', '| indisponibilidade em 30 dias:', ((1 - a ** n) * 43200).toFixed(0), 'min');
+srv.close();

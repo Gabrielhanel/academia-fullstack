@@ -1,0 +1,62 @@
+== seletividade alta x baixa
+                          QUERY PLAN                           
+---------------------------------------------------------------
+ Seq Scan on pedidos
+   Filter: (status = ANY ('{pago,cancelado,enviado}'::text[]))
+(2 rows)
+
+              QUERY PLAN              
+--------------------------------------
+ Bitmap Heap Scan on pedidos
+   Recheck Cond: (cliente_id = 5)
+   ->  Bitmap Index Scan on idx_cob
+         Index Cond: (cliente_id = 5)
+(4 rows)
+
+== hash join / merge
+                                 QUERY PLAN                                  
+-----------------------------------------------------------------------------
+ Gather
+   Workers Planned: 2
+   ->  Merge Join
+         Merge Cond: (p.cliente_id = c.id)
+         ->  Parallel Index Only Scan using idx_pedidos_cliente on pedidos p
+         ->  Index Scan using clientes_pkey on clientes c
+               Index Cond: (id < 50)
+(7 rows)
+
+== função IMMUTABLE e índice de expressão
+                       QUERY PLAN                       
+--------------------------------------------------------
+ Bitmap Heap Scan on clientes
+   Recheck Cond: (lower(nome) = 'cliente 77'::text)
+   ->  Bitmap Index Scan on idx_lower
+         Index Cond: (lower(nome) = 'cliente 77'::text)
+(4 rows)
+
+== pg_stat_statements/ extensões disponíveis
+        name        
+--------------------
+ btree_gist
+ pg_stat_statements
+ pg_trgm
+ pgcrypto
+ tablefunc
+ uuid-ossp
+(6 rows)
+
+ shared_buffers 
+----------------
+ 128MB
+(1 row)
+
+ work_mem 
+----------
+ 4MB
+(1 row)
+
+ max_connections 
+-----------------
+ 100
+(1 row)
+

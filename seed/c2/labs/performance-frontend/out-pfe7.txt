@@ -1,0 +1,4 @@
+=== PFE7 ===
+após 5 cliques que só mudam o estado n (extras): {"filhoSemMemo":5,"filhoMemoCallbackNovo":5,"filhoMemoCallbackEstavel":0,"calculoSemMemo":5000,"calculoComMemo":0}
+montagem: {"filhoSemMemo":1,"filhoMemoCallbackNovo":1,"filhoMemoCallbackEstavel":1,"calculoSemMemo":1000,"calculoComMemo":1000}
+10 filtros de 100000 itens (jsdom/Node): ~ 26 ms por filtro

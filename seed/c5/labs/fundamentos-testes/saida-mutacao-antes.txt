@@ -1,0 +1,8 @@
+MORTO     sem limitar o desconto entre 0 e 1
+SOBREVIVEU cupom expira no próprio último dia
+SOBREVIVEU aceita quantidade 0
+MORTO     aceita preço levemente negativo
+MORTO     desconto vira acréscimo
+MORTO     inverte a decisão do pagamento
+MORTO     marcarPago deixa de exigir status novo
+mutantes mortos: 5/7

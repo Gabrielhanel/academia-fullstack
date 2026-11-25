@@ -1,0 +1,89 @@
+== tabela única (sem normalizar)
+ linhas | clientes 
+--------+----------
+      4 |        2
+(1 row)
+
+-- anomalia de atualização: mudar a cidade da Ana em UMA linha
+ cliente |    cidade    
+---------+--------------
+ Ana     | Gramado
+ Ana     | Porto Alegre
+(2 rows)
+
+-- anomalia de inserção: cadastrar cliente sem pedido
+-- anomalia de exclusão: apagar o pedido 3 perde o Bruno
+ bruno_restante 
+----------------
+              0
+(1 row)
+
+-- preço do Caderno repetido: divergência possível
+ produto | preco 
+---------+-------
+ Caderno | 20.00
+(1 row)
+
+== normalizado (3FN)
+ nome  | cidade  | pedidos 
+-------+---------+---------
+ Ana   | Gramado |       2
+ Bruno | Caxias  |       1
+ Carla | Pelotas |       0
+(3 rows)
+
+ nome  
+-------
+ Bruno
+(1 row)
+
+== reconstrução sem perdas
+ linhas_reconstruidas 
+----------------------
+                    3
+(1 row)
+
+== dependência transitiva (2FN x 3FN)
+ depto_id |       nomes        
+----------+--------------------
+       10 | {Comercial,Vendas}
+       20 | {TI}
+(2 rows)
+
+== 1FN: lista em coluna
+ id 
+----
+  1
+(1 row)
+
+ id 
+----
+  1
+(1 row)
+
+== N:N com tabela de ligação
+ nome  |  cursos   | media 
+-------+-----------+-------
+ Ana   | Java, SQL |  8.75
+ Bruno | SQL       |  7.00
+(2 rows)
+
+ matriculas_restantes 
+----------------------
+                    2
+(1 row)
+
+== 1:1 (PK = FK)
+== autorrelacionamento
+ nivel | nome 
+-------+------
+     0 | Bia
+(1 row)
+
+== domínio: tabela de domínio x CHECK x enum
+== polimorfismo: FK que não existe
+ comentario_orfao_aceito 
+-------------------------
+                       1
+(1 row)
+

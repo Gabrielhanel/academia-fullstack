@@ -1,0 +1,6 @@
+cliente de carga: Node v26.13.1 (processo separado do servidor Python) | 200 requisições por rota, 20 simultâneas
+/espera/async-correta      tempo total   0.77 s |  261.0 req/s | latência p50    61 ms | p95   131 ms
+/espera/sync               tempo total   1.01 s |  197.1 req/s | latência p50    95 ms | p95   156 ms
+/espera/async-bloqueante   tempo total  10.56 s |   18.9 req/s | latência p50  1054 ms | p95  1059 ms
+/busca (instantânea) enquanto UMA rota async-bloqueante roda: levou 54 ms (sem bloqueio levaria ~2 ms)
+/busca com o servidor ocioso: 5 ms

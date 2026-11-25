@@ -1,0 +1,14 @@
+Python 3.14.4
+== 1. o script real em um subprocesso (300 CSVs de 200 linhas + 1 inválido)
+código de saída: 0 | arquivos: 301 | inválidos: 1 | total: 2907759.0 | lojas: ['L0', 'L1', 'L2', 'L3', 'L4'] | tempo: 554 ms
+stderr (log): WARNING arquivo inválido ruim.csv: could not convert string to float: 'abc'
+pasta inexistente → código 2 | stderr: ERROR pasta inexistente: /tmp/tmp9ix_7i3q/nao-existe
+--help começa com: usage: relatorio.py [-h] [--saida SAIDA] [-v] pasta
+
+== 2. custo de iniciar um interpretador Python (subprocess) x chamar uma função
+python -c "pass": mediana 46 ms por processo
+importando json, csv e argparse: mediana 90 ms por processo
+
+== 3. segurança no subprocess: lista de argumentos x shell=True com entrada do usuário
+shell=True com texto interpolado → 'processando a\nINJETADO' (o comando extra executou)
+lista de argumentos → 'processando a; echo INJETADO' (tratado como texto)

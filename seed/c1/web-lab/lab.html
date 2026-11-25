@@ -1,0 +1,46 @@
+<!doctype html><meta charset=utf-8><title>lab1</title><body><pre id=out></pre>
+<ul id=lista><li><button class=del data-id=1>x1</button></li><li><button class=del data-id=2>x2</button></li></ul>
+<a id=lnk href="#nao-navegar">link</a>
+<script>
+const out = []; const log = (...a) => out.push(a.join(' '));
+(async () => {
+try {
+  log('UA', navigator.userAgent.replace(/\(.*?\)/, '').slice(0, 60), '| secure:', isSecureContext);
+  // DOM: bubbling, capture, delegação
+  const ordem = []; const ul = document.getElementById('lista');
+  ul.addEventListener('click', (e) => { ordem.push('ul-bolha:' + e.target.tagName + '/' + e.currentTarget.tagName); });
+  ul.addEventListener('click', () => ordem.push('ul-captura'), true);
+  document.body.addEventListener('click', () => ordem.push('body-bolha'));
+  const delegados = [];
+  ul.addEventListener('click', (e) => { const b = e.target.closest('.del'); if (b) delegados.push(b.dataset.id); });
+  ul.querySelector('[data-id="2"]').click();
+  // item adicionado depois também funciona com delegação
+  const li = document.createElement('li'); li.innerHTML = '<button class=del data-id=3>x3</button>'; ul.append(li); li.firstChild.click();
+  log('ordem', JSON.stringify(ordem)); log('delegados', JSON.stringify(delegados));
+  // preventDefault em link; once; stopPropagation
+  let navegou = true; const a = document.getElementById('lnk');
+  a.addEventListener('click', (e) => { e.preventDefault(); navegou = e.defaultPrevented; }); a.click();
+  log('defaultPrevented', navegou, 'hash:', location.hash);
+  let n = 0; const b = document.createElement('button'); b.addEventListener('click', () => n++, { once: true }); b.click(); b.click(); log('once', n);
+  const pai = document.createElement('div'); const fil = document.createElement('button'); pai.append(fil); let pv = 0; pai.addEventListener('click', () => pv++); fil.addEventListener('click', (e) => e.stopPropagation()); fil.click(); log('stopPropagation pai recebeu', pv);
+  // CustomEvent
+  const alvo = new EventTarget(); let det; alvo.addEventListener('pedido', (e) => det = e.detail); alvo.dispatchEvent(new CustomEvent('pedido', { detail: { id: 7 } })); log('custom', JSON.stringify(det));
+  // microtask x tarefa x frame
+  const seq = []; setTimeout(() => seq.push('timeout'), 0); Promise.resolve().then(() => seq.push('microtask')); await new Promise((r) => { requestAnimationFrame(() => { seq.push('raf'); r(); }); setTimeout(r, 300); }); await new Promise((r) => setTimeout(r, 20)); log('ordem filas', JSON.stringify(seq));
+  // Storage
+  localStorage.clear(); localStorage.setItem('n', 42); localStorage.setItem('obj', JSON.stringify({ a: [1, 2] }));
+  log('LS tipos', typeof localStorage.getItem('n'), JSON.stringify(JSON.parse(localStorage.getItem('obj'))), localStorage.getItem('nada'), localStorage.length);
+  localStorage.setItem('o2', {}); log('objeto direto vira', localStorage.getItem('o2'));
+  sessionStorage.setItem('s', '1'); log('session', sessionStorage.getItem('s'));
+  let bytes = 0, quota = 'sem erro até 12 MB'; const bloco = 'x'.repeat(1024 * 1024); localStorage.clear();
+  try { for (let i = 0; i < 12; i++) { localStorage.setItem('q' + i, bloco); bytes++; } } catch (e) { quota = e.name; }
+  log('quota ~MB(1M chars) gravados', bytes, quota); localStorage.clear();
+  // cookies
+  document.cookie = 'tema=escuro; path=/; max-age=60; SameSite=Lax'; document.cookie = 'sess=abc; path=/; HttpOnly';
+  log('cookies visíveis', document.cookie);
+  const st = await navigator.storage.estimate(); log('storage.estimate quota>0', st.quota > 0, 'usage tipo', typeof st.usage);
+  log('persisted', await navigator.storage.persisted());
+} catch (e) { log('ERRO', e.name, e.message); }
+document.getElementById('out').textContent = out.join('\n'); document.title = 'done';
+})();
+</script>

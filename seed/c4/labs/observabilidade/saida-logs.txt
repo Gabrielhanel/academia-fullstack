@@ -1,0 +1,14 @@
+pino 10.4.0 | Node v26.13.1
+== 1. log estruturado: campos, níveis, redação e child logger
+linhas emitidas: 4 (debug não saiu) | campos da 1ª: level, time, servico, versao, pedidoId, ms, msg
+níveis numéricos: 30,40,50,30 | erro serializado com stack: true | redação: {"senha":"[REDIGIDO]","token":"[REDIGIDO]","authorization":"[REDIGIDO]"}
+child logger herda o campo pedidoId: true
+
+== 2. correlação: id da requisição em TODOS os logs com AsyncLocalStorage
+logs agrupados por reqId: {"r-1":["início","dentro do serviço","fim"],"r-2":["início","dentro do serviço","fim"]}
+
+== 3. custo: 200.000 linhas para um destino que descarta (mediana de 3)
+pino (nível info, grava): 1430 ms | 0.14 M linhas/s | JSON.stringify manual: 1262 ms | nível desligado (warn, descarta): 6.5 ms
+
+== 4. volume: tamanho médio de uma linha e projeção
+linha típica: 233 bytes | 1 linha por requisição a 200 req/s = 4.0 GB por dia (cálculo)

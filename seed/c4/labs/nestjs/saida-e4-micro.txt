@@ -1,0 +1,11 @@
+== 1. microsserviço com transporte TCP (request-response e eventos)
+soma(2, 3) por TCP = 5
+500 chamadas sequenciais request-response: total 292 ms | média 0.58 ms por chamada
+eventos recebidos (emit, sem resposta): 2
+com o servidor parado, o cliente falha com: ECONNREFUSED
+
+== 2. fila BullMQ com @nestjs/bullmq (retry e backoff)
+simples   | estado: completed | tentativas feitas: 1 | execuções do processador: 1 | motivo da falha: -
+instavel  | estado: completed | tentativas feitas: 3 | execuções do processador: 3 | motivo da falha: falha transitória 2
+quebrado  | estado: failed    | tentativas feitas: 3 | execuções do processador: 3 | motivo da falha: falha permanente
+contagens: {"completed":2,"failed":1,"waiting":0,"delayed":0}
