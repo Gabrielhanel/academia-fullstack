@@ -26,11 +26,17 @@ cp seed/docs.json dist/seed-docs.json
 npm test
 node preview/refresh.mjs
 node preview/serve.mjs 8081
+
+# Bloco único:
+npm install && npm run seed && npm run build && cp seed/docs.json dist/seed-docs.json && npm test && node preview/refresh.mjs && node preview/serve.mjs 8081
 ```
 Para atualizar (dia a dia):
 ```
 node preview/refresh.mjs
 node preview/serve.mjs 8081
+
+# Bloco único:
+node preview/refresh.mjs && node preview/serve.mjs 8081
 ```
 
 ## Banco (coleções)
