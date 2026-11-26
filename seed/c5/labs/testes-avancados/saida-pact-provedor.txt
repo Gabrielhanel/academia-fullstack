@@ -1,0 +1,18 @@
+## provedor correto (campo nome)
+  uma busca do cliente 1 (1ms loading, 180ms verification)
+      has status code 200 (OK)
+      has a matching body (OK)
+  uma busca do cliente 999 (1ms loading, 52ms verification)
+      has status code 404 (OK)
+      has a matching body (OK)
+VERIFICAÇÃO OK com campo "nome": {"errors":[],"interactionResults":[{"consumer":"loja-web","description":"uma 
+## provedor com o campo renomeado para name (mudança incompatível)
+      has a matching body (FAILED)
+      has a matching body (OK)
+    1.1) has a matching body
+           $ -> Actual map is missing the following keys: nome
+There were 1 pact failures
+[19:38:02.426] ERROR (217224): pact-core@20.2.0: Verification unsuccessful
+VERIFICAÇÃO FALHOU com campo "name"
+{"errors":[{"interaction":"Verifying a pact between loja-web and api-clientes Given o cliente 1 existe - uma b
+(o provedor também devolve o campo extra vip: campo adicional não quebra o contrato)

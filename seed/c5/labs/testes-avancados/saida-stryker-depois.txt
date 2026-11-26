@@ -1,0 +1,12 @@
+
+
+Ran 1.17 tests per mutant on average.
+--------------|------------------|----------|-----------|------------|----------|----------|
+              | % Mutation score |          |           |            |          |          |
+File          |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+All files     |  97.22 |   97.22 |       35 |         0 |          1 |        0 |        0 |
+ calculos.mjs |  97.22 |   97.22 |       35 |         0 |          1 |        0 |        0 |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+19:56:48 (220089) INFO JsonReporter Your report can be found at: file:///home/gabriel/Documentos/github/academia-v2/seed/c5/labs/testes-avancados/reports/mutation.json
+19:56:48 (220089) INFO MutationTestExecutor Done in 16 seconds.

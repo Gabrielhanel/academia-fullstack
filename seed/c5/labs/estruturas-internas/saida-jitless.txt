@@ -1,0 +1,3 @@
+(padrão, com JIT)      mediana 35.1 ms
+--jitless              mediana 245.7 ms
+--no-opt               mediana 37.4 ms

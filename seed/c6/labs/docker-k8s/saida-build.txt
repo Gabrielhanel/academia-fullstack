@@ -1,0 +1,15 @@
+## builds sem cache (--no-cache) e reconstrução após alterar só o server.mjs
+ingenuo 1ª construção: 39.1 s (exit 0)
+otimizado 1ª construção: 20.6 s (exit 0)
+## alterar só o server.mjs e reconstruir
+ingenuo reconstrução: 29.1 s (exit 0)
+otimizado reconstrução: 3.4 s (exit 0)
+## tamanhos
+lab-otimizado 260MB
+lab-ingenuo 355MB
+## camadas (docker history, contagem de camadas com tamanho > 0)
+lab-ingenuo: 6
+lab-otimizado: 6
+## usuário em execução
+lab-ingenuo: uid=0(root) gid=0(root) groups=0(root),0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),11(floppy),20(dialout),26(tape),27(video)
+lab-otimizado: uid=1000(node) gid=1000(node) groups=1000(node),1000(node)

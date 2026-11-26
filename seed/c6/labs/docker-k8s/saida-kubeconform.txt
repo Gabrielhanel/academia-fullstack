@@ -1,0 +1,11 @@
+## kubeconform (K8s 1.34.0, -strict) em k8s/app.yaml
+Summary: 6 resources found in 1 file - Valid: 6, Invalid: 0, Errors: 0, Skipped: 0
+exit=0
+## em k8s/invalido.yaml
+/k8s/invalido.yaml - Deployment quebrado is invalid: problem validating schema. Check JSON formatting: jsonschema validation failed with 'https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.34.0-standalone-strict/deployment-apps-v1.json#' 
+Summary: 2 resources found in 1 file - Valid: 1, Invalid: 1, Errors: 0, Skipped: 0
+exit=1
+v0.8.0
+## kubeconform em k8s/invalido.yaml (saída JSON resumida)
+undefined
+Deployment quebrado statusInvalid | problem validating schema. Check JSON formatting: jsonschema validation failed with 'https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.34.0-standalone-strict/deployment-apps-v1.json#' - at '/spec/template/spec/containers/0': validation failed - at '/spec/template/spec/containers/0/ports/0/containerPort': got string, want integer - at '/spec/template/spec/containers/0': additional properties 'im

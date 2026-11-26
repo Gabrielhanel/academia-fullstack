@@ -1,0 +1,5 @@
+# k6 (grafana/k6:latest em Docker, rede do host) contra o provedor Express local; uma execução
+smoke     reqs 50 | 9.7 req/s | avg 2.5 ms | med 1.7 | p95 2.8 | max 34.9 | falhas 0.00% | iterações descartadas 0 | VUs máx 1
+carga     reqs 750 | 50.0 req/s | avg 3.9 ms | med 1.6 | p95 13.0 | max 36.9 | falhas 0.00% | iterações descartadas 0 | VUs máx 20
+estresse  reqs 1030 | 35.5 req/s | avg 875.5 ms | med 327.0 | p95 4588.8 | max 6690.2 | falhas 0.00% | iterações descartadas 119 | VUs máx 150
+códigos de saída do k6: smoke 0, carga 0, estresse 99 (threshold p(95)<500 ms violado: p95 = 4,59 s)

@@ -1,0 +1,21 @@
+groups:
+  - name: app
+    rules:
+      - record: app:http_requests:taxa30s
+        expr: sum(rate(http_requests_total[30s]))
+      - record: app:http_erros:razao30s
+        expr: sum(rate(http_requests_total{status=~"5.."}[30s])) / sum(rate(http_requests_total[30s]))
+      - alert: TaxaDeErroAlta
+        expr: app:http_erros:razao30s > 0.05
+        for: 15s
+        labels:
+          severidade: critica
+        annotations:
+          resumo: Taxa de erro acima de 5%
+      - alert: AppForaDoAr
+        expr: up{job="app"} == 0
+        for: 10s
+        labels:
+          severidade: critica
+        annotations:
+          resumo: Alvo app sem resposta ao scrape

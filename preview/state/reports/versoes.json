@@ -1,0 +1,2299 @@
+{
+ "generatedAt": "2026-11-26",
+ "counts": {
+  "EOL": 1,
+  "major": 4,
+  "minor": 3,
+  "suportada": 12,
+  "não mapeado": 23,
+  "atual": 189,
+  "indefinido": 3
+ },
+ "rows": [
+  {
+   "course": "docker-k8s",
+   "name": "kubernetes",
+   "label": "Kubernetes",
+   "version": "1.34.0",
+   "latest": "1.37.3",
+   "status": "EOL",
+   "n": 3,
+   "note": "linha 1.34 em EOL desde 2026-10-27"
+  },
+  {
+   "course": "python-dev",
+   "name": "httpx",
+   "label": "httpx",
+   "version": "0.28.1",
+   "latest": "3.0.1",
+   "status": "major",
+   "n": 3,
+   "note": ""
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "sqlite",
+   "label": "SQLite",
+   "version": "3.54.1",
+   "latest": "5.1.1",
+   "status": "major",
+   "n": 2,
+   "note": ""
+  },
+  {
+   "course": "cicd",
+   "name": "actionlint",
+   "label": "actionlint",
+   "version": "1.7.12",
+   "latest": "2.0.6",
+   "status": "major",
+   "n": 1,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "actionlint",
+   "label": "actionlint",
+   "version": "1.7.12",
+   "latest": "2.0.6",
+   "status": "major",
+   "n": 1,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "pact-core",
+   "label": "pact-core",
+   "version": "20.2.0",
+   "latest": "0.7.1",
+   "status": "minor",
+   "n": 5,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "cypress",
+   "label": "Cypress",
+   "version": "16.3.0",
+   "latest": "16.4.0",
+   "status": "minor",
+   "n": 1,
+   "note": ""
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "puppeteer-core",
+   "label": "puppeteer-core",
+   "version": "25.18.1",
+   "latest": "25.19.0",
+   "status": "minor",
+   "n": 1,
+   "note": ""
+  },
+  {
+   "course": "postgres-mysql",
+   "name": "mysql",
+   "label": "MySQL",
+   "version": "8.4.13",
+   "latest": "26.10.0",
+   "status": "suportada",
+   "n": 18,
+   "note": "linha 8.4 mantida até 2032-04-30; linha mais nova: 26.10"
+  },
+  {
+   "course": "transacoes-concorrencia",
+   "name": "mysql",
+   "label": "MySQL",
+   "version": "8.4.13",
+   "latest": "26.10.0",
+   "status": "suportada",
+   "n": 18,
+   "note": "linha 8.4 mantida até 2032-04-30; linha mais nova: 26.10"
+  },
+  {
+   "course": "apis",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "filas-async",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "modelagem-dados",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "orms-node",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "postgres-mysql",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "sql-avancado",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "sql-essencial",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "transacoes-concorrencia",
+   "name": "postgresql",
+   "label": "PostgreSQL",
+   "version": "17.12",
+   "latest": "19.0",
+   "status": "suportada",
+   "n": 2,
+   "note": "linha 17 mantida até 2029-11-08; linha mais nova: 19"
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "mongodb",
+   "label": "MongoDB",
+   "version": "8.3.17",
+   "latest": "9.0.8",
+   "status": "suportada",
+   "n": 1,
+   "note": "linha 8.3 mantida até 2029-10-31; linha mais nova: 9.0"
+  },
+  {
+   "course": "crypto",
+   "name": "zricethezav/gitleaks v",
+   "label": "zricethezav/gitleaks v",
+   "version": "8.30.1",
+   "status": "não mapeado"
+  },
+  {
+   "course": "design-patterns",
+   "name": "2 ms x",
+   "label": "2 ms x",
+   "version": "1.036",
+   "status": "não mapeado"
+  },
+  {
+   "course": "design-patterns",
+   "name": "6 ms x",
+   "label": "6 ms x",
+   "version": "1.613",
+   "status": "não mapeado"
+  },
+  {
+   "course": "docker-k8s",
+   "name": "kubeconform",
+   "label": "kubeconform",
+   "version": "0.8.0",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "estrategias-cache",
+   "name": ". os experimentos usam",
+   "label": ". Os experimentos usam",
+   "version": "500.000",
+   "status": "não mapeado"
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "127.",
+   "label": "127.",
+   "version": "0.0.1",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "git-github",
+   "name": "git restore exigem",
+   "label": "git restore exigem",
+   "version": "2.23",
+   "status": "não mapeado"
+  },
+  {
+   "course": "html-css-a11y",
+   "name": "mdn. acessibilidade conforme a wcag",
+   "label": "MDN. Acessibilidade conforme a WCAG",
+   "version": "2.2",
+   "status": "não mapeado"
+  },
+  {
+   "course": "iac",
+   "name": "terraform v",
+   "label": "Terraform v",
+   "version": "1.17.2",
+   "status": "não mapeado"
+  },
+  {
+   "course": "iac",
+   "name": "provedores hashicorp/local",
+   "label": "provedores hashicorp/local",
+   "version": "2.9.1",
+   "status": "não mapeado"
+  },
+  {
+   "course": "iac",
+   "name": "hashicorp/random",
+   "label": "hashicorp/random",
+   "version": "3.9.1",
+   "status": "não mapeado"
+  },
+  {
+   "course": "monitoramento",
+   "name": "promtool",
+   "label": "promtool",
+   "version": "3.16.0",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "monitoramento",
+   "name": "alertmanager",
+   "label": "Alertmanager",
+   "version": "0.35.1",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "127.",
+   "label": "127.",
+   "version": "0.0.1",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "orms-node",
+   "name": "o curso fixa a série",
+   "label": "o curso fixa a série",
+   "version": "7.10.1",
+   "status": "não mapeado"
+  },
+  {
+   "course": "owasp",
+   "name": "127.",
+   "label": "127.",
+   "version": "0.0.1",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "postgres-mysql",
+   "name": "imagem oficial mysql",
+   "label": "imagem oficial mysql",
+   "version": "8.4",
+   "status": "não mapeado"
+  },
+  {
+   "course": "python-dev",
+   "name": "mais node.js",
+   "label": "mais Node.js",
+   "version": "26.13.1",
+   "status": "não mapeado"
+  },
+  {
+   "course": "qualidade-manutencao",
+   "name": "palavras-chave. achado: 1 −",
+   "label": "palavras-chave. Achado: 1 −",
+   "version": "0.999",
+   "status": "não mapeado"
+  },
+  {
+   "course": "react-essencial",
+   "name": "corresponde à versão",
+   "label": "corresponde à versão",
+   "version": "19.3",
+   "status": "não mapeado"
+  },
+  {
+   "course": "typescript-fundamentos",
+   "name": "satisfies exige",
+   "label": "satisfies exige",
+   "version": "4.9",
+   "status": "não mapeado"
+  },
+  {
+   "course": "websec",
+   "name": "chrome 157.",
+   "label": "Chrome 157.",
+   "version": "0.8103.50",
+   "status": "não mapeado"
+  },
+  {
+   "course": "websec",
+   "name": "127.",
+   "label": "127.",
+   "version": "0.0.1",
+   "status": "não mapeado",
+   "note": "pacote inexistente no npm"
+  },
+  {
+   "course": "apis",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "apis",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "graphql",
+   "label": "graphql",
+   "version": "17.1.0",
+   "latest": "17.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "graphql-yoga",
+   "label": "graphql-yoga",
+   "version": "6.1.1",
+   "latest": "6.1.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "dataloader",
+   "label": "DataLoader",
+   "version": "2.2.3",
+   "latest": "2.2.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "ws",
+   "label": "ws",
+   "version": "8.23.0",
+   "latest": "8.23.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "ajv",
+   "label": "Ajv",
+   "version": "8.20.0",
+   "latest": "8.20.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "ajv-formats",
+   "label": "ajv-formats",
+   "version": "3.0.1",
+   "latest": "3.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "@apidevtools/swagger-parser",
+   "label": "@apidevtools/swagger-parser",
+   "version": "13.1.0",
+   "latest": "13.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "express-rate-limit",
+   "label": "express-rate-limit",
+   "version": "8.7.5",
+   "latest": "8.7.5",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "apis",
+   "name": "pg",
+   "label": "pg",
+   "version": "8.23.1",
+   "latest": "8.23.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-docs",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "arquitetura-docs",
+   "name": "@mermaid-js/mermaid-cli",
+   "label": "@mermaid-js/mermaid-cli",
+   "version": "12.2.0",
+   "latest": "12.2.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-docs",
+   "name": "plantuml",
+   "label": "PlantUML",
+   "version": "1.2026.10",
+   "latest": "0.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "turborepo",
+   "label": "Turborepo",
+   "version": "2.11.13",
+   "latest": "2.11.13",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "dependency-cruiser",
+   "label": "dependency-cruiser",
+   "version": "18.9.0",
+   "latest": "18.9.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "semver",
+   "label": "semver",
+   "version": "7.8.6",
+   "latest": "7.8.6",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "@module-federation/vite",
+   "label": "@module-federation/vite",
+   "version": "1.25.0",
+   "latest": "1.25.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "vite",
+   "label": "Vite",
+   "version": "8.3.8",
+   "latest": "8.3.8",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "arquitetura-frontend",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "auth",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "auth",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "auth",
+   "name": "express-session",
+   "label": "express-session",
+   "version": "1.19.0",
+   "latest": "1.19.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "auth",
+   "name": "jose",
+   "label": "jose",
+   "version": "6.2.18",
+   "latest": "6.2.18",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "auth",
+   "name": "argon2",
+   "label": "argon2",
+   "version": "0.45.2",
+   "latest": "0.45.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "auth",
+   "name": "bcryptjs",
+   "label": "bcryptjs",
+   "version": "3.0.3",
+   "latest": "3.0.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "cicd",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "cicd",
+   "name": "nginx",
+   "label": "nginx",
+   "version": "1.31.10",
+   "latest": "1.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "clean-code",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "clean-code",
+   "name": "eslint",
+   "label": "ESLint",
+   "version": "10.15.0",
+   "latest": "10.15.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "clean-code",
+   "name": "jscpd",
+   "label": "jscpd",
+   "version": "5.4.3",
+   "latest": "5.4.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "cloud",
+   "name": "node",
+   "label": "Node",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 27.0.0-alpha.0.1.1 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "crypto",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "crypto",
+   "name": "openssl",
+   "label": "OpenSSL",
+   "version": "3.5.9",
+   "latest": "2.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "crypto",
+   "name": "openssl",
+   "label": "OpenSSL",
+   "version": "3.5.5",
+   "latest": "2.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "crypto",
+   "name": "git",
+   "label": "git",
+   "version": "2.53.0",
+   "latest": "0.1.5",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "crypto",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "design-patterns",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "docker-k8s",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "docker-k8s",
+   "name": "compose",
+   "label": "Compose",
+   "version": "5.7.1",
+   "latest": "0.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "docker-k8s",
+   "name": "node",
+   "label": "Node",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 27.0.0-alpha.0.1.1 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "docker-k8s",
+   "name": "hadolint",
+   "label": "hadolint",
+   "version": "2.15.1",
+   "latest": "0.4.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "docker-k8s",
+   "name": "helm",
+   "label": "Helm",
+   "version": "4.3.2",
+   "latest": "0.2.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "@reduxjs/toolkit",
+   "label": "@reduxjs/toolkit",
+   "version": "2.15.0",
+   "latest": "2.15.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "react-redux",
+   "label": "react-redux",
+   "version": "9.3.1",
+   "latest": "9.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "zustand",
+   "label": "zustand",
+   "version": "5.1.0",
+   "latest": "5.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "@tanstack/react-query",
+   "label": "@tanstack/react-query",
+   "version": "5.108.4",
+   "latest": "5.108.4",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "jsdom",
+   "label": "jsdom",
+   "version": "31.0.1",
+   "latest": "31.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estado-frontend",
+   "name": "@testing-library/react",
+   "label": "@testing-library/react",
+   "version": "16.3.3",
+   "latest": "16.3.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "redis",
+   "label": "Redis",
+   "version": "8.12.0",
+   "latest": "8.12.0",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 8.12 mantida até null"
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "ioredis",
+   "label": "ioredis",
+   "version": "6.1.0",
+   "latest": "6.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estrategias-cache",
+   "name": "pg",
+   "label": "pg",
+   "version": "8.23.1",
+   "latest": "8.23.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estruturas-internas",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "estruturas-internas",
+   "name": "v8",
+   "label": "V8",
+   "version": "14.6.202",
+   "latest": "0.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "estruturas-internas",
+   "name": "python",
+   "label": "Python",
+   "version": "3.14.4",
+   "latest": "0.0.4",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "jest",
+   "label": "Jest",
+   "version": "30.5.2",
+   "latest": "30.5.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.2",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "@vitest/coverage-v8",
+   "label": "@vitest/coverage-v8",
+   "version": "5.1.2",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "supertest",
+   "label": "Supertest",
+   "version": "7.3.2",
+   "latest": "7.3.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "ferramentas-testes-js",
+   "name": "playwright",
+   "label": "Playwright",
+   "version": "1.65.1",
+   "latest": "1.65.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "filas-async",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "filas-async",
+   "name": "bullmq",
+   "label": "BullMQ",
+   "version": "6.7.10",
+   "latest": "6.7.10",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "filas-async",
+   "name": "ioredis",
+   "label": "ioredis",
+   "version": "6.1.0",
+   "latest": "6.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "filas-async",
+   "name": "pg",
+   "label": "pg",
+   "version": "8.23.1",
+   "latest": "8.23.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "filas-async",
+   "name": "redis",
+   "label": "Redis",
+   "version": "8.12.0",
+   "latest": "8.12.0",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 8.12 mantida até null"
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "fast-check",
+   "label": "fast-check",
+   "version": "4.11.0",
+   "latest": "4.11.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "@cucumber/cucumber",
+   "label": "@cucumber/cucumber",
+   "version": "13.3.0",
+   "latest": "13.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "fundamentos-testes",
+   "name": "c",
+   "label": "C",
+   "version": "5.5",
+   "latest": "1.1.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "iac",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "iac",
+   "name": "node",
+   "label": "Node",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 27.0.0-alpha.0.1.1 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "microsservicos",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "microsservicos",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "microsservicos",
+   "name": "bullmq",
+   "label": "BullMQ",
+   "version": "6.7.10",
+   "latest": "6.7.10",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "microsservicos",
+   "name": "ioredis",
+   "label": "ioredis",
+   "version": "6.1.0",
+   "latest": "6.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "microsservicos",
+   "name": "redis",
+   "label": "Redis",
+   "version": "8.12.0",
+   "latest": "8.12.0",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 8.12 mantida até null"
+  },
+  {
+   "course": "microsservicos",
+   "name": "envoy",
+   "label": "Envoy",
+   "version": "1.34.14",
+   "latest": "1.2.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "monitoramento",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "monitoramento",
+   "name": "prometheus",
+   "label": "Prometheus",
+   "version": "3.16.0",
+   "latest": "0.1.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "monitoramento",
+   "name": "grafana",
+   "label": "Grafana",
+   "version": "13.3.2",
+   "latest": "1.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "monitoramento",
+   "name": "node",
+   "label": "Node",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 27.0.0-alpha.0.1.1 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "nestjs",
+   "name": "nestjs",
+   "label": "NestJS",
+   "version": "12.6.1",
+   "latest": "12.6.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "@nestjs/bullmq",
+   "label": "@nestjs/bullmq",
+   "version": "12.0.2",
+   "latest": "12.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "@nestjs/config",
+   "label": "@nestjs/config",
+   "version": "12.1.1",
+   "latest": "12.1.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "bullmq",
+   "label": "BullMQ",
+   "version": "6.7.10",
+   "latest": "6.7.10",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "ioredis",
+   "label": "ioredis",
+   "version": "6.1.0",
+   "latest": "6.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "class-validator",
+   "label": "class-validator",
+   "version": "0.15.1",
+   "latest": "0.15.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "class-transformer",
+   "label": "class-transformer",
+   "version": "0.5.1",
+   "latest": "0.5.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "rxjs",
+   "label": "rxjs",
+   "version": "7.8.2",
+   "latest": "7.8.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "typescript",
+   "label": "TypeScript",
+   "version": "7.0.2",
+   "latest": "7.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "supertest",
+   "label": "Supertest",
+   "version": "7.3.2",
+   "latest": "7.3.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nestjs",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "nextjs",
+   "name": "next.js",
+   "label": "Next.js",
+   "version": "16.4.6",
+   "latest": "16.4.6",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nextjs",
+   "name": "react dom",
+   "label": "React DOM",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nginx",
+   "name": "docker",
+   "label": "Docker",
+   "version": "29.9.3",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nginx",
+   "name": "nginx",
+   "label": "nginx",
+   "version": "1.31.10",
+   "latest": "1.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nginx",
+   "name": "node",
+   "label": "Node",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 27.0.0-alpha.0.1.1 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "nginx",
+   "name": "openssl",
+   "label": "OpenSSL",
+   "version": "3.5.5",
+   "latest": "2.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "node-express",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "node-express",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "node-express",
+   "name": "helmet",
+   "label": "helmet",
+   "version": "8.3.0",
+   "latest": "8.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "node-express",
+   "name": "cors",
+   "label": "cors",
+   "version": "2.8.6",
+   "latest": "2.8.6",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "node-express",
+   "name": "pino",
+   "label": "pino",
+   "version": "10.4.0",
+   "latest": "10.4.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "node-express",
+   "name": "zod",
+   "label": "zod",
+   "version": "4.6.7",
+   "latest": "4.6.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "driver mongodb",
+   "label": "driver mongodb",
+   "version": "7.9.1",
+   "latest": "7.9.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "redis",
+   "label": "Redis",
+   "version": "8.12.0",
+   "latest": "8.12.0",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 8.12 mantida até null"
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "ioredis",
+   "label": "ioredis",
+   "version": "6.1.0",
+   "latest": "6.1.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "nosql-mongodb-redis",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "observabilidade",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "observabilidade",
+   "name": "pino",
+   "label": "pino",
+   "version": "10.4.0",
+   "latest": "10.4.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "observabilidade",
+   "name": "prom-client",
+   "label": "prom-client",
+   "version": "15.1.3",
+   "latest": "15.1.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "observabilidade",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "observabilidade",
+   "name": "@opentelemetry/api",
+   "label": "@opentelemetry/api",
+   "version": "1.10.0",
+   "latest": "1.10.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "observabilidade",
+   "name": "@opentelemetry/sdk-node",
+   "label": "@opentelemetry/sdk-node",
+   "version": "0.301.2",
+   "latest": "0.301.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "observabilidade",
+   "name": "core",
+   "label": "core",
+   "version": "3.1.1",
+   "latest": "2.0.14",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 1.0.113 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "observabilidade",
+   "name": "prometheus",
+   "label": "Prometheus",
+   "version": "3.16.0",
+   "latest": "0.1.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "orms-node",
+   "name": "prisma",
+   "label": "Prisma",
+   "version": "7.10.1",
+   "latest": "7.10.1",
+   "status": "atual",
+   "n": 0,
+   "note": "tag latest = 8.0.0-rc.35 (pré-lançamento ignorado)"
+  },
+  {
+   "course": "orms-node",
+   "name": "typeorm",
+   "label": "TypeORM",
+   "version": "1.1.3",
+   "latest": "1.1.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "orms-node",
+   "name": "pg",
+   "label": "pg",
+   "version": "8.23.1",
+   "latest": "8.23.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "orms-node",
+   "name": "tsx",
+   "label": "tsx",
+   "version": "4.23",
+   "latest": "4.23.15",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "orms-node",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "owasp",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "owasp",
+   "name": "c",
+   "label": "C",
+   "version": "7.2",
+   "latest": "1.1.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "lighthouse",
+   "label": "Lighthouse",
+   "version": "13.6.0",
+   "latest": "13.6.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "web-vitals",
+   "label": "web-vitals",
+   "version": "6.2.3",
+   "latest": "6.2.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "vite",
+   "label": "Vite",
+   "version": "8.3.8",
+   "latest": "8.3.8",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "rollup-plugin-visualizer",
+   "label": "rollup-plugin-visualizer",
+   "version": "7.3.0",
+   "latest": "7.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "sharp",
+   "label": "sharp",
+   "version": "0.35.5",
+   "latest": "0.35.5",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "react dom",
+   "label": "React DOM",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "performance-frontend",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "python-dev",
+   "name": "python",
+   "label": "Python",
+   "version": "3.14.4",
+   "latest": "0.0.4",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "python-dev",
+   "name": "fastapi",
+   "label": "FastAPI",
+   "version": "0.165.0",
+   "latest": "0.0.8",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "python-dev",
+   "name": "starlette",
+   "label": "Starlette",
+   "version": "1.10.0",
+   "latest": "1.0.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "python-dev",
+   "name": "pytest",
+   "label": "pytest",
+   "version": "9.2.0",
+   "latest": "1.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "python-dev",
+   "name": "mypy",
+   "label": "mypy",
+   "version": "2.4.1",
+   "latest": "1.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "qualidade-manutencao",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "react-avancado",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-avancado",
+   "name": "react dom",
+   "label": "React DOM",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-avancado",
+   "name": "typescript",
+   "label": "TypeScript",
+   "version": "7.0.2",
+   "latest": "7.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-avancado",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-avancado",
+   "name": "jsdom",
+   "label": "jsdom",
+   "version": "31.0.1",
+   "latest": "31.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-avancado",
+   "name": "@testing-library/react",
+   "label": "@testing-library/react",
+   "version": "16.3.3",
+   "latest": "16.3.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "react dom",
+   "label": "React DOM",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "typescript",
+   "label": "TypeScript",
+   "version": "7.0.2",
+   "latest": "7.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "vite",
+   "label": "Vite",
+   "version": "8.3.8",
+   "latest": "8.3.8",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "jsdom",
+   "label": "jsdom",
+   "version": "31.0.1",
+   "latest": "31.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "@testing-library/react",
+   "label": "@testing-library/react",
+   "version": "16.3.3",
+   "latest": "16.3.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "react-essencial",
+   "name": "zod",
+   "label": "Zod",
+   "version": "4.6.7",
+   "latest": "4.6.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "tailwind css",
+   "label": "Tailwind CSS",
+   "version": "4.3.5",
+   "latest": "4.3.5",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "class-variance-authority",
+   "label": "class-variance-authority",
+   "version": "0.7.1",
+   "latest": "0.7.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "clsx",
+   "label": "clsx",
+   "version": "2.1.1",
+   "latest": "2.1.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "tailwind-merge",
+   "label": "tailwind-merge",
+   "version": "3.7.1",
+   "latest": "3.7.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "style dictionary",
+   "label": "Style Dictionary",
+   "version": "5.8.0",
+   "latest": "5.8.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "axe-core",
+   "label": "axe-core",
+   "version": "4.14.1",
+   "latest": "4.14.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "@storybook/react",
+   "label": "@storybook/react",
+   "version": "10.6.8",
+   "latest": "10.6.9",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "jsdom",
+   "label": "jsdom",
+   "version": "31.0.1",
+   "latest": "31.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "tailwind-design-systems",
+   "name": "esbuild",
+   "label": "esbuild",
+   "version": "0.28.2",
+   "latest": "0.28.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "testes-avancados",
+   "name": "@pact-foundation/pact",
+   "label": "@pact-foundation/pact",
+   "version": "17.1.4",
+   "latest": "17.1.4",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "express",
+   "label": "Express",
+   "version": "5.3.0",
+   "latest": "5.3.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.2",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "c8",
+   "label": "c8",
+   "version": "12.0.0",
+   "latest": "12.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "typescript",
+   "label": "TypeScript",
+   "version": "7.0.2",
+   "latest": "7.0.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "dependency-cruiser",
+   "label": "dependency-cruiser",
+   "version": "18.9.0",
+   "latest": "18.9.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-avancados",
+   "name": "eslint",
+   "label": "ESLint",
+   "version": "10.15.0",
+   "latest": "10.15.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "vitest",
+   "label": "Vitest",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "jsdom",
+   "label": "jsdom",
+   "version": "31.0.1",
+   "latest": "31.0.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "@testing-library/react",
+   "label": "@testing-library/react",
+   "version": "16.3.3",
+   "latest": "16.3.3",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "@testing-library/dom",
+   "label": "@testing-library/dom",
+   "version": "10.4.2",
+   "latest": "10.4.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "@testing-library/user-event",
+   "label": "@testing-library/user-event",
+   "version": "14.6.13",
+   "latest": "14.6.13",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "@testing-library/jest-dom",
+   "label": "@testing-library/jest-dom",
+   "version": "8.0.0",
+   "latest": "8.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "msw",
+   "label": "msw",
+   "version": "3.0.7",
+   "latest": "3.0.7",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "@vitest/coverage-v8",
+   "label": "@vitest/coverage-v8",
+   "version": "5.1.1",
+   "latest": "5.1.2",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "pixelmatch",
+   "label": "pixelmatch",
+   "version": "8.0.0",
+   "latest": "8.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "jest-axe",
+   "label": "jest-axe",
+   "version": "11.0.0",
+   "latest": "11.0.0",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "axe-core",
+   "label": "axe-core",
+   "version": "4.14.1",
+   "latest": "4.14.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "testes-frontend",
+   "name": "react",
+   "label": "React",
+   "version": "19.3.1",
+   "latest": "19.3.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "transacoes-concorrencia",
+   "name": "driver pg",
+   "label": "driver pg",
+   "version": "8.23.1",
+   "latest": "8.23.1",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "transacoes-concorrencia",
+   "name": "mysql2",
+   "label": "mysql2",
+   "version": "3.24.6",
+   "latest": "3.24.6",
+   "status": "atual",
+   "n": 0,
+   "note": ""
+  },
+  {
+   "course": "websec",
+   "name": "node.js",
+   "label": "Node.js",
+   "version": "26.13.1",
+   "latest": "26.13.1",
+   "status": "atual",
+   "n": 0,
+   "note": "linha 26 mantida até 2029-04-30"
+  },
+  {
+   "course": "python-dev",
+   "name": "pydantic",
+   "label": "Pydantic",
+   "version": "2.14.4",
+   "status": "indefinido",
+   "n": 0,
+   "note": "tag latest = 0.0.1-security (pré-lançamento ignorado)"
+  },
+  {
+   "course": "python-dev",
+   "name": "uvicorn",
+   "label": "uvicorn",
+   "version": "0.54.0",
+   "status": "indefinido",
+   "n": 0,
+   "note": "tag latest = 0.0.1-security (pré-lançamento ignorado)"
+  },
+  {
+   "course": "testes-avancados",
+   "name": "vitest-runner",
+   "label": "vitest-runner",
+   "version": "10.1.1",
+   "status": "indefinido",
+   "n": 0,
+   "note": ""
+  }
+ ]
+}

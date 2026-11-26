@@ -1,0 +1,1484 @@
+{
+ "npm:jsdom": {
+  "at": "2026-11-25T16:55:38.570Z",
+  "latest": "31.0.1",
+  "tag": "31.0.1"
+ },
+ "npm:vitest": {
+  "at": "2026-11-25T16:55:38.678Z",
+  "latest": "5.1.2",
+  "tag": "5.1.2"
+ },
+ "npm:@testing-library/react": {
+  "at": "2026-11-25T16:55:38.801Z",
+  "latest": "16.3.3",
+  "tag": "16.3.3"
+ },
+ "npm:zod": {
+  "at": "2026-11-25T16:55:38.858Z",
+  "latest": "4.6.7",
+  "tag": "4.6.7"
+ },
+ "npm:vite": {
+  "at": "2026-11-25T16:55:38.951Z",
+  "latest": "8.3.8",
+  "tag": "8.3.8"
+ },
+ "npm:class-variance-authority": {
+  "at": "2026-11-25T16:55:38.967Z",
+  "latest": "0.7.1",
+  "tag": "0.7.1"
+ },
+ "npm:clsx": {
+  "at": "2026-11-25T16:55:38.983Z",
+  "latest": "2.1.1",
+  "tag": "2.1.1"
+ },
+ "npm:react-dom": {
+  "at": "2026-11-25T16:55:39.052Z",
+  "latest": "19.3.1",
+  "tag": "19.3.1"
+ },
+ "npm:tailwind-merge": {
+  "at": "2026-11-25T16:55:39.134Z",
+  "latest": "3.7.1",
+  "tag": "3.7.1"
+ },
+ "npm:react": {
+  "at": "2026-11-25T16:55:39.198Z",
+  "latest": "19.3.1",
+  "tag": "19.3.1"
+ },
+ "npm:style-dictionary": {
+  "at": "2026-11-25T16:55:39.251Z",
+  "latest": "5.8.0",
+  "tag": "5.8.0"
+ },
+ "npm:typescript": {
+  "at": "2026-11-25T16:55:39.533Z",
+  "latest": "7.0.2",
+  "tag": "7.0.2"
+ },
+ "npm:tailwindcss": {
+  "at": "2026-11-25T16:55:39.628Z",
+  "latest": "4.3.5",
+  "tag": "4.3.5"
+ },
+ "npm:axe-core": {
+  "at": "2026-11-25T16:55:39.741Z",
+  "latest": "4.14.1",
+  "tag": "4.14.1"
+ },
+ "npm:esbuild": {
+  "at": "2026-11-25T16:55:39.775Z",
+  "latest": "0.28.2",
+  "tag": "0.28.2"
+ },
+ "npm:zustand": {
+  "at": "2026-11-25T16:55:39.791Z",
+  "latest": "5.1.0",
+  "tag": "5.1.0"
+ },
+ "npm:react-redux": {
+  "at": "2026-11-25T16:55:39.812Z",
+  "latest": "9.3.1",
+  "tag": "9.3.1"
+ },
+ "npm:@reduxjs/toolkit": {
+  "at": "2026-11-25T16:55:39.926Z",
+  "latest": "2.15.0",
+  "tag": "2.15.0"
+ },
+ "npm:@tanstack/react-query": {
+  "at": "2026-11-25T16:55:39.980Z",
+  "latest": "5.108.4",
+  "tag": "5.108.4"
+ },
+ "npm:@storybook/react": {
+  "at": "2026-11-25T16:55:40.161Z",
+  "latest": "10.6.9",
+  "tag": "10.6.9"
+ },
+ "npm:@testing-library/jest-dom": {
+  "at": "2026-11-25T16:55:40.175Z",
+  "latest": "8.0.0",
+  "tag": "8.0.0"
+ },
+ "npm:@testing-library/user-event": {
+  "at": "2026-11-25T16:55:40.190Z",
+  "latest": "14.6.13",
+  "tag": "14.6.13"
+ },
+ "npm:msw": {
+  "at": "2026-11-25T16:55:40.231Z",
+  "latest": "3.0.7",
+  "tag": "3.0.7"
+ },
+ "npm:jest-axe": {
+  "at": "2026-11-25T16:55:40.237Z",
+  "latest": "11.0.0",
+  "tag": "11.0.0"
+ },
+ "npm:@testing-library/dom": {
+  "at": "2026-11-25T16:55:40.246Z",
+  "latest": "10.4.2",
+  "tag": "10.4.2"
+ },
+ "npm:@vitest/coverage-v8": {
+  "at": "2026-11-25T16:55:40.361Z",
+  "latest": "5.1.2",
+  "tag": "5.1.2"
+ },
+ "npm:sharp": {
+  "at": "2026-11-25T16:55:40.405Z",
+  "latest": "0.35.5",
+  "tag": "0.35.5"
+ },
+ "npm:pixelmatch": {
+  "at": "2026-11-25T16:55:40.425Z",
+  "latest": "8.0.0",
+  "tag": "8.0.0"
+ },
+ "npm:web-vitals": {
+  "at": "2026-11-25T16:55:40.480Z",
+  "latest": "6.2.3",
+  "tag": "6.2.3"
+ },
+ "npm:rollup-plugin-visualizer": {
+  "at": "2026-11-25T16:55:40.497Z",
+  "latest": "7.3.0",
+  "tag": "7.3.0"
+ },
+ "npm:semver": {
+  "at": "2026-11-25T16:55:40.519Z",
+  "latest": "7.8.6",
+  "tag": "7.8.6"
+ },
+ "npm:next": {
+  "at": "2026-11-25T16:55:42.005Z",
+  "latest": "16.4.6",
+  "tag": "16.4.6"
+ },
+ "npm:@module-federation/vite": {
+  "at": "2026-11-25T16:55:42.049Z",
+  "latest": "1.25.0",
+  "tag": "1.25.0"
+ },
+ "npm:dependency-cruiser": {
+  "at": "2026-11-25T16:55:42.172Z",
+  "latest": "18.9.0",
+  "tag": "18.9.0"
+ },
+ "eol:postgresql": {
+  "at": "2026-11-25T16:55:42.178Z",
+  "cycles": [
+   {
+    "name": "19",
+    "latest": "19.0",
+    "eolFrom": "2031-11-19",
+    "isEol": false
+   },
+   {
+    "name": "18",
+    "latest": "18.7",
+    "eolFrom": "2030-11-14",
+    "isEol": false
+   },
+   {
+    "name": "17",
+    "latest": "17.12",
+    "eolFrom": "2029-11-08",
+    "isEol": false
+   },
+   {
+    "name": "16",
+    "latest": "16.16",
+    "eolFrom": "2028-11-09",
+    "isEol": false
+   },
+   {
+    "name": "15",
+    "latest": "15.20",
+    "eolFrom": "2027-11-11",
+    "isEol": false
+   },
+   {
+    "name": "14",
+    "latest": "14.25",
+    "eolFrom": "2026-11-12",
+    "isEol": true
+   },
+   {
+    "name": "13",
+    "latest": "13.23",
+    "eolFrom": "2025-11-13",
+    "isEol": true
+   },
+   {
+    "name": "12",
+    "latest": "12.22",
+    "eolFrom": "2024-11-21",
+    "isEol": true
+   },
+   {
+    "name": "11",
+    "latest": "11.22",
+    "eolFrom": "2023-11-09",
+    "isEol": true
+   },
+   {
+    "name": "10",
+    "latest": "10.23",
+    "eolFrom": "2022-11-10",
+    "isEol": true
+   },
+   {
+    "name": "9.6",
+    "latest": "9.6.24",
+    "eolFrom": "2021-11-11",
+    "isEol": true
+   },
+   {
+    "name": "9.5",
+    "latest": "9.5.25",
+    "eolFrom": "2021-02-11",
+    "isEol": true
+   },
+   {
+    "name": "9.4",
+    "latest": "9.4.26",
+    "eolFrom": "2020-02-13",
+    "isEol": true
+   },
+   {
+    "name": "9.3",
+    "latest": "9.3.25",
+    "eolFrom": "2018-11-08",
+    "isEol": true
+   },
+   {
+    "name": "9.2",
+    "latest": "9.2.24",
+    "eolFrom": "2017-11-09",
+    "isEol": true
+   },
+   {
+    "name": "9.1",
+    "latest": "9.1.24",
+    "eolFrom": "2016-10-27",
+    "isEol": true
+   },
+   {
+    "name": "9.0",
+    "latest": "9.0.23",
+    "eolFrom": "2015-10-08",
+    "isEol": true
+   },
+   {
+    "name": "8.4",
+    "latest": "8.4.22",
+    "eolFrom": "2014-07-24",
+    "isEol": true
+   },
+   {
+    "name": "8.3",
+    "latest": "8.3.23",
+    "eolFrom": "2013-02-07",
+    "isEol": true
+   },
+   {
+    "name": "8.2",
+    "latest": "8.2.23",
+    "eolFrom": "2011-12-05",
+    "isEol": true
+   },
+   {
+    "name": "8.1",
+    "latest": "8.1.23",
+    "eolFrom": "2010-11-08",
+    "isEol": true
+   },
+   {
+    "name": "8.0",
+    "latest": "8.0.26",
+    "eolFrom": "2010-10-01",
+    "isEol": true
+   },
+   {
+    "name": "7.4",
+    "latest": "7.4.30",
+    "eolFrom": "2010-10-01",
+    "isEol": true
+   },
+   {
+    "name": "7.3",
+    "latest": "7.3.21",
+    "eolFrom": "2007-11-27",
+    "isEol": true
+   },
+   {
+    "name": "7.2",
+    "latest": "7.2.8",
+    "eolFrom": "2007-02-04",
+    "isEol": true
+   },
+   {
+    "name": "7.1",
+    "latest": "7.1.3",
+    "eolFrom": "2006-04-13",
+    "isEol": true
+   },
+   {
+    "name": "7.0",
+    "latest": "7.0.3",
+    "eolFrom": "2005-05-08",
+    "isEol": true
+   },
+   {
+    "name": "6.5",
+    "latest": "6.5.3",
+    "eolFrom": "2004-06-09",
+    "isEol": true
+   },
+   {
+    "name": "6.4",
+    "latest": "6.4.2",
+    "eolFrom": "2003-10-30",
+    "isEol": true
+   },
+   {
+    "name": "6.3",
+    "latest": "6.3.2",
+    "eolFrom": "2003-03-01",
+    "isEol": true
+   },
+   {
+    "name": "6.2",
+    "latest": "6.2.1",
+    "eolFrom": null,
+    "isEol": true
+   },
+   {
+    "name": "6.1",
+    "latest": "6.1.1",
+    "eolFrom": null,
+    "isEol": true
+   },
+   {
+    "name": "6.0",
+    "latest": "6.0",
+    "eolFrom": null,
+    "isEol": true
+   }
+  ]
+ },
+ "npm:turbo": {
+  "at": "2026-11-25T16:55:42.202Z",
+  "latest": "2.11.13",
+  "tag": "2.11.13"
+ },
+ "npm:lighthouse": {
+  "at": "2026-11-25T16:55:42.438Z",
+  "latest": "13.6.0",
+  "tag": "13.6.0"
+ },
+ "npm:tsx": {
+  "at": "2026-11-25T16:55:42.487Z",
+  "latest": "4.23.15",
+  "tag": "4.23.15"
+ },
+ "eol:mysql": {
+  "at": "2026-11-25T16:55:42.492Z",
+  "cycles": [
+   {
+    "name": "26.10",
+    "latest": "26.10.0",
+    "eolFrom": null,
+    "isEol": false
+   },
+   {
+    "name": "26.7",
+    "latest": "26.7.1",
+    "eolFrom": "2026-10-20",
+    "isEol": true
+   },
+   {
+    "name": "9.7",
+    "latest": "9.7.4",
+    "eolFrom": "2034-04-30",
+    "isEol": false
+   },
+   {
+    "name": "9.6",
+    "latest": "9.6.1",
+    "eolFrom": "2026-04-21",
+    "isEol": true
+   },
+   {
+    "name": "9.5",
+    "latest": "9.5.2",
+    "eolFrom": "2026-01-20",
+    "isEol": true
+   },
+   {
+    "name": "9.4",
+    "latest": "9.4.2",
+    "eolFrom": "2025-10-21",
+    "isEol": true
+   },
+   {
+    "name": "9.3",
+    "latest": "9.3.2",
+    "eolFrom": "2025-07-22",
+    "isEol": true
+   },
+   {
+    "name": "9.2",
+    "latest": "9.2.2",
+    "eolFrom": "2025-04-15",
+    "isEol": true
+   },
+   {
+    "name": "9.1",
+    "latest": "9.1.2",
+    "eolFrom": "2025-01-21",
+    "isEol": true
+   },
+   {
+    "name": "9.0",
+    "latest": "9.0.1",
+    "eolFrom": "2024-10-15",
+    "isEol": true
+   },
+   {
+    "name": "8.4",
+    "latest": "8.4.13",
+    "eolFrom": "2032-04-30",
+    "isEol": false
+   },
+   {
+    "name": "8.3",
+    "latest": "8.3.0",
+    "eolFrom": "2024-04-30",
+    "isEol": true
+   },
+   {
+    "name": "8.2",
+    "latest": "8.2.0",
+    "eolFrom": "2024-01-16",
+    "isEol": true
+   },
+   {
+    "name": "8.1",
+    "latest": "8.1.0",
+    "eolFrom": "2023-10-25",
+    "isEol": true
+   },
+   {
+    "name": "8.0",
+    "latest": "8.0.46",
+    "eolFrom": "2026-04-30",
+    "isEol": true
+   },
+   {
+    "name": "5.7",
+    "latest": "5.7.44",
+    "eolFrom": "2023-10-31",
+    "isEol": true
+   },
+   {
+    "name": "5.6",
+    "latest": "5.6.51",
+    "eolFrom": "2021-02-28",
+    "isEol": true
+   },
+   {
+    "name": "5.5",
+    "latest": "5.5.63",
+    "eolFrom": "2018-12-31",
+    "isEol": true
+   },
+   {
+    "name": "5.1",
+    "latest": "5.1.73",
+    "eolFrom": "2013-12-31",
+    "isEol": true
+   },
+   {
+    "name": "5.0",
+    "latest": "5.0.96",
+    "eolFrom": "2011-12-31",
+    "isEol": true
+   },
+   {
+    "name": "4.1",
+    "latest": "4.1.24",
+    "eolFrom": "2009-12-31",
+    "isEol": true
+   },
+   {
+    "name": "4.0",
+    "latest": "4.0.30",
+    "eolFrom": "2008-09-30",
+    "isEol": true
+   },
+   {
+    "name": "3.23",
+    "latest": "3.23.58",
+    "eolFrom": "2006-12-31",
+    "isEol": true
+   }
+  ]
+ },
+ "npm:pg": {
+  "at": "2026-11-25T16:55:42.501Z",
+  "latest": "8.23.1",
+  "tag": "8.23.1"
+ },
+ "npm:mysql2": {
+  "at": "2026-11-25T16:55:42.514Z",
+  "latest": "3.24.6",
+  "tag": "3.24.6"
+ },
+ "npm:typeorm": {
+  "at": "2026-11-25T16:55:42.690Z",
+  "latest": "1.1.3",
+  "tag": "1.1.3"
+ },
+ "eol:mongodb": {
+  "at": "2026-11-25T16:55:42.701Z",
+  "cycles": [
+   {
+    "name": "9.0",
+    "latest": "9.0.8",
+    "eolFrom": "2031-10-31",
+    "isEol": false
+   },
+   {
+    "name": "8.3",
+    "latest": "8.3.17",
+    "eolFrom": "2029-10-31",
+    "isEol": false
+   },
+   {
+    "name": "8.2",
+    "latest": "8.2.12",
+    "eolFrom": "2026-07-31",
+    "isEol": true
+   },
+   {
+    "name": "8.1",
+    "latest": "8.1.3",
+    "eolFrom": "2025-09-30",
+    "isEol": true
+   },
+   {
+    "name": "8.0",
+    "latest": "8.0.38",
+    "eolFrom": "2029-10-31",
+    "isEol": false
+   },
+   {
+    "name": "7.3",
+    "latest": "7.3.4",
+    "eolFrom": "2024-10-02",
+    "isEol": true
+   },
+   {
+    "name": "7.2",
+    "latest": "7.2.2",
+    "eolFrom": "2024-03-27",
+    "isEol": true
+   },
+   {
+    "name": "7.1",
+    "latest": "7.1.1",
+    "eolFrom": "2024-01-23",
+    "isEol": true
+   },
+   {
+    "name": "7.0",
+    "latest": "7.0.48",
+    "eolFrom": "2027-08-31",
+    "isEol": false
+   },
+   {
+    "name": "6.3",
+    "latest": "6.3.2",
+    "eolFrom": "2023-08-31",
+    "isEol": true
+   },
+   {
+    "name": "6.2",
+    "latest": "6.2.1",
+    "eolFrom": "2023-04-24",
+    "isEol": true
+   },
+   {
+    "name": "6.1",
+    "latest": "6.1.1",
+    "eolFrom": "2023-02-09",
+    "isEol": true
+   },
+   {
+    "name": "6.0",
+    "latest": "6.0.30",
+    "eolFrom": "2025-07-31",
+    "isEol": true
+   },
+   {
+    "name": "5.3",
+    "latest": "5.3.2",
+    "eolFrom": "2022-07-19",
+    "isEol": true
+   },
+   {
+    "name": "5.2",
+    "latest": "5.2.1",
+    "eolFrom": "2022-03-23",
+    "isEol": true
+   },
+   {
+    "name": "5.1",
+    "latest": "5.1.1",
+    "eolFrom": "2022-01-19",
+    "isEol": true
+   },
+   {
+    "name": "5.0",
+    "latest": "5.0.35",
+    "eolFrom": "2024-10-31",
+    "isEol": true
+   },
+   {
+    "name": "4.4",
+    "latest": "4.4.32",
+    "eolFrom": "2024-02-29",
+    "isEol": true
+   },
+   {
+    "name": "4.2",
+    "latest": "4.2.25",
+    "eolFrom": "2023-04-30",
+    "isEol": true
+   },
+   {
+    "name": "4.0",
+    "latest": "4.0.28",
+    "eolFrom": "2022-04-30",
+    "isEol": true
+   },
+   {
+    "name": "3.6",
+    "latest": "3.6.23",
+    "eolFrom": "2021-04-30",
+    "isEol": true
+   },
+   {
+    "name": "3.4",
+    "latest": "3.4.24",
+    "eolFrom": "2020-01-31",
+    "isEol": true
+   },
+   {
+    "name": "3.2",
+    "latest": "3.2.22",
+    "eolFrom": "2018-09-30",
+    "isEol": true
+   },
+   {
+    "name": "3.0",
+    "latest": "3.0.15",
+    "eolFrom": "2018-02-28",
+    "isEol": true
+   },
+   {
+    "name": "2.6",
+    "latest": "2.6.12",
+    "eolFrom": "2016-10-31",
+    "isEol": true
+   },
+   {
+    "name": "2.4",
+    "latest": "2.4.14",
+    "eolFrom": "2013-03-31",
+    "isEol": true
+   },
+   {
+    "name": "2.2",
+    "latest": "2.2.7",
+    "eolFrom": "2014-02-28",
+    "isEol": true
+   },
+   {
+    "name": "2.0",
+    "latest": "2.0.9",
+    "eolFrom": "2013-03-31",
+    "isEol": true
+   },
+   {
+    "name": "1.8",
+    "latest": "1.8.5",
+    "eolFrom": "2012-09-30",
+    "isEol": true
+   },
+   {
+    "name": "1.6",
+    "latest": "1.6.5",
+    "eolFrom": "2012-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.4",
+    "latest": "1.4.5",
+    "eolFrom": "2012-09-30",
+    "isEol": true
+   },
+   {
+    "name": "1.2",
+    "latest": "1.2.5",
+    "eolFrom": "2011-06-30",
+    "isEol": true
+   },
+   {
+    "name": "1.0",
+    "latest": "1.0.1",
+    "eolFrom": "2010-08-31",
+    "isEol": true
+   }
+  ]
+ },
+ "eol:nodejs": {
+  "at": "2026-11-25T16:55:42.703Z",
+  "cycles": [
+   {
+    "name": "26",
+    "latest": "26.13.1",
+    "eolFrom": "2029-04-30",
+    "isEol": false
+   },
+   {
+    "name": "25",
+    "latest": "25.9.0",
+    "eolFrom": "2026-06-01",
+    "isEol": true
+   },
+   {
+    "name": "24",
+    "latest": "24.22.3",
+    "eolFrom": "2028-04-30",
+    "isEol": false
+   },
+   {
+    "name": "23",
+    "latest": "23.11.1",
+    "eolFrom": "2025-06-01",
+    "isEol": true
+   },
+   {
+    "name": "22",
+    "latest": "22.23.5",
+    "eolFrom": "2027-04-30",
+    "isEol": false
+   },
+   {
+    "name": "21",
+    "latest": "21.7.3",
+    "eolFrom": "2024-06-01",
+    "isEol": true
+   },
+   {
+    "name": "20",
+    "latest": "20.20.2",
+    "eolFrom": "2026-04-30",
+    "isEol": true
+   },
+   {
+    "name": "19",
+    "latest": "19.9.0",
+    "eolFrom": "2023-06-01",
+    "isEol": true
+   },
+   {
+    "name": "18",
+    "latest": "18.20.8",
+    "eolFrom": "2025-04-30",
+    "isEol": true
+   },
+   {
+    "name": "17",
+    "latest": "17.9.1",
+    "eolFrom": "2022-06-01",
+    "isEol": true
+   },
+   {
+    "name": "16",
+    "latest": "16.20.2",
+    "eolFrom": "2023-09-11",
+    "isEol": true
+   },
+   {
+    "name": "15",
+    "latest": "15.14.0",
+    "eolFrom": "2021-06-01",
+    "isEol": true
+   },
+   {
+    "name": "14",
+    "latest": "14.21.3",
+    "eolFrom": "2023-04-30",
+    "isEol": true
+   },
+   {
+    "name": "13",
+    "latest": "13.14.0",
+    "eolFrom": "2020-06-01",
+    "isEol": true
+   },
+   {
+    "name": "12",
+    "latest": "12.22.12",
+    "eolFrom": "2022-04-30",
+    "isEol": true
+   },
+   {
+    "name": "11",
+    "latest": "11.15.0",
+    "eolFrom": "2019-06-30",
+    "isEol": true
+   },
+   {
+    "name": "10",
+    "latest": "10.24.1",
+    "eolFrom": "2021-04-30",
+    "isEol": true
+   },
+   {
+    "name": "9",
+    "latest": "9.11.2",
+    "eolFrom": "2018-06-30",
+    "isEol": true
+   },
+   {
+    "name": "8",
+    "latest": "8.17.0",
+    "eolFrom": "2019-12-31",
+    "isEol": true
+   },
+   {
+    "name": "7",
+    "latest": "7.10.1",
+    "eolFrom": "2017-06-30",
+    "isEol": true
+   },
+   {
+    "name": "6",
+    "latest": "6.17.1",
+    "eolFrom": "2019-04-30",
+    "isEol": true
+   },
+   {
+    "name": "5",
+    "latest": "5.12.0",
+    "eolFrom": "2016-06-30",
+    "isEol": true
+   },
+   {
+    "name": "4",
+    "latest": "4.9.1",
+    "eolFrom": "2018-04-30",
+    "isEol": true
+   },
+   {
+    "name": "3",
+    "latest": "3.3.1",
+    "eolFrom": null,
+    "isEol": true
+   },
+   {
+    "name": "2",
+    "latest": "2.5.0",
+    "eolFrom": null,
+    "isEol": true
+   },
+   {
+    "name": "1",
+    "latest": "1.8.4",
+    "eolFrom": null,
+    "isEol": true
+   }
+  ]
+ },
+ "eol:redis": {
+  "at": "2026-11-25T16:55:42.706Z",
+  "cycles": [
+   {
+    "name": "8.12",
+    "latest": "8.12.0",
+    "eolFrom": null,
+    "isEol": false
+   },
+   {
+    "name": "8.10",
+    "latest": "8.10.3",
+    "eolFrom": null,
+    "isEol": false
+   },
+   {
+    "name": "8.8",
+    "latest": "8.8.4",
+    "eolFrom": "2027-01-29",
+    "isEol": false
+   },
+   {
+    "name": "8.6",
+    "latest": "8.6.8",
+    "eolFrom": "2026-11-25",
+    "isEol": false
+   },
+   {
+    "name": "8.4",
+    "latest": "8.4.8",
+    "eolFrom": "2026-08-10",
+    "isEol": true
+   },
+   {
+    "name": "8.2",
+    "latest": "8.2.11",
+    "eolFrom": "2030-09-01",
+    "isEol": false
+   },
+   {
+    "name": "8.0",
+    "latest": "8.0.6",
+    "eolFrom": "2026-12-01",
+    "isEol": false
+   },
+   {
+    "name": "7.4",
+    "latest": "7.4.12",
+    "eolFrom": "2029-12-01",
+    "isEol": false
+   },
+   {
+    "name": "7.2",
+    "latest": "7.2.17",
+    "eolFrom": "2029-12-01",
+    "isEol": false
+   },
+   {
+    "name": "7.0",
+    "latest": "7.0.15",
+    "eolFrom": "2024-07-29",
+    "isEol": true
+   },
+   {
+    "name": "6.2",
+    "latest": "6.2.24",
+    "eolFrom": "2027-04-01",
+    "isEol": false
+   },
+   {
+    "name": "6.0",
+    "latest": "6.0.20",
+    "eolFrom": "2022-05-31",
+    "isEol": true
+   },
+   {
+    "name": "5.0",
+    "latest": "5.0.14",
+    "eolFrom": "2022-04-27",
+    "isEol": true
+   }
+  ]
+ },
+ "npm:express": {
+  "at": "2026-11-25T16:55:42.754Z",
+  "latest": "5.3.0",
+  "tag": "5.3.0"
+ },
+ "npm:mongodb": {
+  "at": "2026-11-25T16:55:42.866Z",
+  "latest": "7.9.1",
+  "tag": "7.9.1"
+ },
+ "npm:ioredis": {
+  "at": "2026-11-25T16:55:42.942Z",
+  "latest": "6.1.0",
+  "tag": "6.1.0"
+ },
+ "npm:helmet": {
+  "at": "2026-11-25T16:55:42.955Z",
+  "latest": "8.3.0",
+  "tag": "8.3.0"
+ },
+ "npm:127.": {
+  "at": "2026-11-25T16:55:42.963Z",
+  "notFound": true
+ },
+ "npm:cors": {
+  "at": "2026-11-25T16:55:42.981Z",
+  "latest": "2.8.6",
+  "tag": "2.8.6"
+ },
+ "npm:pino": {
+  "at": "2026-11-25T16:55:43.125Z",
+  "latest": "10.4.0",
+  "tag": "10.4.0"
+ },
+ "npm:@nestjs/core": {
+  "at": "2026-11-25T16:55:43.191Z",
+  "latest": "12.6.2",
+  "tag": "12.6.2"
+ },
+ "npm:bullmq": {
+  "at": "2026-11-25T16:55:43.300Z",
+  "latest": "6.7.10",
+  "tag": "6.7.10"
+ },
+ "npm:prisma": {
+  "at": "2026-11-25T16:55:43.752Z",
+  "latest": "7.10.1",
+  "tag": "8.0.0-rc.35"
+ },
+ "npm:class-transformer": {
+  "at": "2026-11-25T16:55:43.781Z",
+  "latest": "0.5.1",
+  "tag": "0.5.1"
+ },
+ "npm:@nestjs/bullmq": {
+  "at": "2026-11-25T16:55:43.784Z",
+  "latest": "12.0.2",
+  "tag": "12.0.2"
+ },
+ "npm:class-validator": {
+  "at": "2026-11-25T16:55:43.793Z",
+  "latest": "0.15.1",
+  "tag": "0.15.1"
+ },
+ "npm:@nestjs/config": {
+  "at": "2026-11-25T16:55:43.799Z",
+  "latest": "12.1.1",
+  "tag": "12.1.1"
+ },
+ "npm:supertest": {
+  "at": "2026-11-25T16:55:43.804Z",
+  "latest": "7.3.2",
+  "tag": "7.3.2"
+ },
+ "npm:rxjs": {
+  "at": "2026-11-25T16:55:43.822Z",
+  "latest": "7.8.2",
+  "tag": "7.8.2"
+ },
+ "npm:ws": {
+  "at": "2026-11-25T16:55:43.839Z",
+  "latest": "8.23.0",
+  "tag": "8.23.0"
+ },
+ "npm:ajv-formats": {
+  "at": "2026-11-25T16:55:43.846Z",
+  "latest": "3.0.1",
+  "tag": "3.0.1"
+ },
+ "npm:ajv": {
+  "at": "2026-11-25T16:55:43.865Z",
+  "latest": "8.20.0",
+  "tag": "8.20.0"
+ },
+ "npm:express-rate-limit": {
+  "at": "2026-11-25T16:55:43.879Z",
+  "latest": "8.7.5",
+  "tag": "8.7.5"
+ },
+ "npm:dataloader": {
+  "at": "2026-11-25T16:55:44.084Z",
+  "latest": "2.2.3",
+  "tag": "2.2.3"
+ },
+ "npm:graphql": {
+  "at": "2026-11-25T16:55:44.103Z",
+  "latest": "17.1.0",
+  "tag": "17.1.0"
+ },
+ "npm:express-session": {
+  "at": "2026-11-25T16:55:44.113Z",
+  "latest": "1.19.0",
+  "tag": "1.19.0"
+ },
+ "npm:jose": {
+  "at": "2026-11-25T16:55:44.149Z",
+  "latest": "6.2.18",
+  "tag": "6.2.18"
+ },
+ "npm:bcryptjs": {
+  "at": "2026-11-25T16:55:44.331Z",
+  "latest": "3.0.3",
+  "tag": "3.0.3"
+ },
+ "npm:argon2": {
+  "at": "2026-11-25T16:55:44.341Z",
+  "latest": "0.45.2",
+  "tag": "0.45.2"
+ },
+ "npm:prom-client": {
+  "at": "2026-11-25T16:55:44.359Z",
+  "latest": "15.1.3",
+  "tag": "15.1.3"
+ },
+ "npm:graphql-yoga": {
+  "at": "2026-11-25T16:55:44.464Z",
+  "latest": "6.1.1",
+  "tag": "6.1.1"
+ },
+ "npm:@apidevtools/swagger-parser": {
+  "at": "2026-11-25T16:55:44.472Z",
+  "latest": "13.1.0",
+  "tag": "13.1.0"
+ },
+ "npm:core": {
+  "at": "2026-11-25T16:55:44.593Z",
+  "latest": "2.0.14",
+  "tag": "1.0.113"
+ },
+ "npm:@opentelemetry/api": {
+  "at": "2026-11-25T16:55:44.608Z",
+  "latest": "1.10.0",
+  "tag": "1.10.0"
+ },
+ "npm:prometheus": {
+  "at": "2026-11-25T16:55:44.625Z",
+  "latest": "0.1.7",
+  "tag": "0.1.7"
+ },
+ "npm:@opentelemetry/sdk-node": {
+  "at": "2026-11-25T16:55:44.984Z",
+  "latest": "0.301.2",
+  "tag": "0.301.2"
+ },
+ "npm:envoy": {
+  "at": "2026-11-25T16:58:02.041Z",
+  "latest": "1.2.1",
+  "tag": "1.2.1"
+ },
+ "npm:python": {
+  "at": "2026-11-25T23:26:30.454Z",
+  "latest": "0.0.4",
+  "tag": "0.0.4"
+ },
+ "npm:uvicorn": {
+  "at": "2026-11-25T23:26:31.306Z",
+  "tag": "0.0.1-security"
+ },
+ "npm:httpx": {
+  "at": "2026-11-25T23:26:31.309Z",
+  "latest": "3.0.1",
+  "tag": "3.0.1"
+ },
+ "npm:pydantic": {
+  "at": "2026-11-25T23:26:31.673Z",
+  "tag": "0.0.1-security"
+ },
+ "npm:pytest": {
+  "at": "2026-11-25T23:26:31.676Z",
+  "latest": "1.0.0",
+  "tag": "1.0.0"
+ },
+ "npm:fastapi": {
+  "at": "2026-11-25T23:26:31.679Z",
+  "latest": "0.0.8",
+  "tag": "0.0.8"
+ },
+ "npm:starlette": {
+  "at": "2026-11-25T23:26:31.684Z",
+  "latest": "1.0.7",
+  "tag": "1.0.7"
+ },
+ "npm:jscpd": {
+  "at": "2026-11-25T23:26:42.212Z",
+  "latest": "5.4.3",
+  "tag": "5.4.3"
+ },
+ "npm:@mermaid-js/mermaid-cli": {
+  "at": "2026-11-25T23:26:42.216Z",
+  "latest": "12.2.0",
+  "tag": "12.2.0"
+ },
+ "npm:mypy": {
+  "at": "2026-11-25T23:26:42.217Z",
+  "latest": "1.0.1",
+  "tag": "1.0.1"
+ },
+ "npm:sqlite": {
+  "at": "2026-11-25T23:26:42.220Z",
+  "latest": "5.1.1",
+  "tag": "5.1.1"
+ },
+ "npm:plantuml": {
+  "at": "2026-11-25T23:26:42.222Z",
+  "latest": "0.0.2",
+  "tag": "0.0.2"
+ },
+ "npm:eslint": {
+  "at": "2026-11-25T23:26:42.267Z",
+  "latest": "10.15.0",
+  "tag": "10.15.0"
+ },
+ "npm:fast-check": {
+  "at": "2026-11-25T23:26:47.506Z",
+  "latest": "4.11.0",
+  "tag": "4.11.0"
+ },
+ "npm:c": {
+  "at": "2026-11-25T23:26:51.556Z",
+  "latest": "1.1.1",
+  "tag": "1.1.1"
+ },
+ "npm:@cucumber/cucumber": {
+  "at": "2026-11-25T23:26:51.565Z",
+  "latest": "13.3.0",
+  "tag": "13.3.0"
+ },
+ "npm:puppeteer-core": {
+  "at": "2026-11-25T23:26:51.577Z",
+  "latest": "25.19.0",
+  "tag": "25.19.0"
+ },
+ "npm:jest": {
+  "at": "2026-11-25T23:26:51.584Z",
+  "latest": "30.5.2",
+  "tag": "30.5.2"
+ },
+ "npm:cypress": {
+  "at": "2026-11-25T23:26:52.367Z",
+  "latest": "16.4.0",
+  "tag": "16.4.0"
+ },
+ "npm:pact-core": {
+  "at": "2026-11-25T23:27:06.811Z",
+  "latest": "0.7.1",
+  "tag": "0.7.1"
+ },
+ "npm:actionlint": {
+  "at": "2026-11-25T23:27:06.812Z",
+  "latest": "2.0.6",
+  "tag": "2.0.6"
+ },
+ "npm:c8": {
+  "at": "2026-11-25T23:27:09.735Z",
+  "latest": "12.0.0",
+  "tag": "12.0.0"
+ },
+ "npm:vitest-runner": {
+  "at": "2026-11-25T23:27:09.735Z"
+ },
+ "npm:@pact-foundation/pact": {
+  "at": "2026-11-25T23:27:09.752Z",
+  "latest": "17.1.4",
+  "tag": "17.1.4"
+ },
+ "npm:v8": {
+  "at": "2026-11-25T23:27:13.454Z",
+  "latest": "0.1.0",
+  "tag": "0.1.0"
+ },
+ "npm:compose": {
+  "at": "2026-11-26T00:37:08.424Z",
+  "latest": "0.1.2",
+  "tag": "0.1.2"
+ },
+ "npm:docker": {
+  "at": "2026-11-26T00:37:08.449Z",
+  "latest": "1.0.0",
+  "tag": "1.0.0"
+ },
+ "npm:hadolint": {
+  "at": "2026-11-26T00:37:08.456Z",
+  "latest": "0.4.2",
+  "tag": "0.4.2"
+ },
+ "npm:node": {
+  "at": "2026-11-26T00:37:08.510Z",
+  "latest": "26.13.1",
+  "tag": "27.0.0-alpha.0.1.1"
+ },
+ "npm:kubeconform": {
+  "at": "2026-11-26T00:37:08.535Z",
+  "notFound": true
+ },
+ "npm:helm": {
+  "at": "2026-11-26T00:37:08.755Z",
+  "latest": "0.2.1",
+  "tag": "0.2.1"
+ },
+ "eol:kubernetes": {
+  "at": "2026-11-26T00:37:08.759Z",
+  "cycles": [
+   {
+    "name": "1.37",
+    "latest": "1.37.3",
+    "eolFrom": "2027-10-28",
+    "isEol": false
+   },
+   {
+    "name": "1.36",
+    "latest": "1.36.7",
+    "eolFrom": "2027-06-28",
+    "isEol": false
+   },
+   {
+    "name": "1.35",
+    "latest": "1.35.11",
+    "eolFrom": "2027-02-28",
+    "isEol": false
+   },
+   {
+    "name": "1.34",
+    "latest": "1.34.13",
+    "eolFrom": "2026-10-27",
+    "isEol": true
+   },
+   {
+    "name": "1.33",
+    "latest": "1.33.13",
+    "eolFrom": "2026-06-28",
+    "isEol": true
+   },
+   {
+    "name": "1.32",
+    "latest": "1.32.13",
+    "eolFrom": "2026-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.31",
+    "latest": "1.31.14",
+    "eolFrom": "2025-11-11",
+    "isEol": true
+   },
+   {
+    "name": "1.30",
+    "latest": "1.30.14",
+    "eolFrom": "2025-07-15",
+    "isEol": true
+   },
+   {
+    "name": "1.29",
+    "latest": "1.29.15",
+    "eolFrom": "2025-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.28",
+    "latest": "1.28.15",
+    "eolFrom": "2024-10-28",
+    "isEol": true
+   },
+   {
+    "name": "1.27",
+    "latest": "1.27.16",
+    "eolFrom": "2024-06-28",
+    "isEol": true
+   },
+   {
+    "name": "1.26",
+    "latest": "1.26.15",
+    "eolFrom": "2024-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.25",
+    "latest": "1.25.16",
+    "eolFrom": "2023-10-27",
+    "isEol": true
+   },
+   {
+    "name": "1.24",
+    "latest": "1.24.17",
+    "eolFrom": "2023-07-28",
+    "isEol": true
+   },
+   {
+    "name": "1.23",
+    "latest": "1.23.17",
+    "eolFrom": "2023-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.22",
+    "latest": "1.22.17",
+    "eolFrom": "2022-10-28",
+    "isEol": true
+   },
+   {
+    "name": "1.21",
+    "latest": "1.21.14",
+    "eolFrom": "2022-06-28",
+    "isEol": true
+   },
+   {
+    "name": "1.20",
+    "latest": "1.20.15",
+    "eolFrom": "2022-02-28",
+    "isEol": true
+   },
+   {
+    "name": "1.19",
+    "latest": "1.19.16",
+    "eolFrom": "2021-10-28",
+    "isEol": true
+   },
+   {
+    "name": "1.18",
+    "latest": "1.18.20",
+    "eolFrom": "2021-06-18",
+    "isEol": true
+   },
+   {
+    "name": "1.17",
+    "latest": "1.17.17",
+    "eolFrom": "2020-12-25",
+    "isEol": true
+   },
+   {
+    "name": "1.16",
+    "latest": "1.16.15",
+    "eolFrom": "2020-08-04",
+    "isEol": true
+   }
+  ]
+ },
+ "npm:openssl": {
+  "at": "2026-11-26T00:37:08.830Z",
+  "latest": "2.0.0",
+  "tag": "2.0.0"
+ },
+ "npm:nginx": {
+  "at": "2026-11-26T00:37:09.063Z",
+  "latest": "1.1.0",
+  "tag": "1.1.0"
+ },
+ "npm:playwright": {
+  "at": "2026-11-26T00:37:09.762Z",
+  "latest": "1.65.1",
+  "tag": "1.65.1"
+ },
+ "npm:git": {
+  "at": "2026-11-26T01:56:07.768Z",
+  "latest": "0.1.5",
+  "tag": "0.1.5"
+ },
+ "npm:alertmanager": {
+  "at": "2026-11-26T01:56:07.773Z",
+  "notFound": true
+ },
+ "npm:promtool": {
+  "at": "2026-11-26T01:56:07.774Z",
+  "notFound": true
+ },
+ "npm:grafana": {
+  "at": "2026-11-26T01:56:08.049Z",
+  "latest": "1.0.1",
+  "tag": "1.0.1"
+ }
+}

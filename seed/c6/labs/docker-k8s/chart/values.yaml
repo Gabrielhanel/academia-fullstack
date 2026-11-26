@@ -1,0 +1,7 @@
+replicaCount: 2
+image: { repository: registry.exemplo.com/pedidos, tag: "", pullPolicy: IfNotPresent }
+service: { port: 80 }
+ingress: { enabled: false, host: pedidos.exemplo.com, className: nginx }
+resources: { requests: { cpu: 100m, memory: 128Mi }, limits: { memory: 256Mi } }
+autoscaling: { enabled: false, minReplicas: 2, maxReplicas: 6, cpu: 70 }
+env: {}

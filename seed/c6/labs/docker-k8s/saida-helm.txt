@@ -1,0 +1,39 @@
+v4.3.2+g8346aaa
+## helm lint
+==> Linting /chart
+[INFO] Chart.yaml: icon is recommended
+
+1 chart(s) linted, 0 chart(s) failed
+exit=0
+## helm lint com valores de produção
+==> Linting /chart
+[INFO] Chart.yaml: icon is recommended
+
+1 chart(s) linted, 0 chart(s) failed
+## template padrão: recursos gerados
+kind: Service
+kind: Deployment
+  replicas: 2
+          image: "registry.exemplo.com/pedidos:1.0.0"
+## template com values-producao.yaml: recursos e réplicas
+kind: Service
+kind: Deployment
+          image: "registry.exemplo.com/pedidos:1.0.0"
+            - { name: LOG_LEVEL, value: "info" }
+kind: HorizontalPodAutoscaler
+  minReplicas: 4
+  maxReplicas: 12
+  metrics: [{ type: Resource, resource: { name: cpu, target: { type: Utilization, averageUtilization: 65 } } }]
+kind: Ingress
+## valor inválido (replicaCount=0)
+Error: values don't meet the specifications of the schema(s) in the following chart(s):
+pedidos:
+- at '/replicaCount': minimum: got 0, want 1
+
+## valor inválido (pullPolicy=Talvez)
+Error: values don't meet the specifications of the schema(s) in the following chart(s):
+pedidos:
+- at '/image/pullPolicy': value must be one of 'Always', 'IfNotPresent', 'Never'
+
+## helm template (produção) | kubeconform -strict
+Summary: 4 resources found parsing stdin - Valid: 4, Invalid: 0, Errors: 0, Skipped: 0

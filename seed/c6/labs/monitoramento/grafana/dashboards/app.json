@@ -1,0 +1,13 @@
+{
+  "uid": "app-lab",
+  "title": "App do laboratório",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "5s",
+  "time": { "from": "now-15m", "to": "now" },
+  "panels": [
+    { "id": 1, "type": "timeseries", "title": "Requisições por segundo", "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 }, "datasource": { "type": "prometheus", "uid": "prom" }, "targets": [ { "refId": "A", "expr": "app:http_requests:taxa30s" } ] },
+    { "id": 2, "type": "timeseries", "title": "Razão de erros", "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 }, "datasource": { "type": "prometheus", "uid": "prom" }, "targets": [ { "refId": "A", "expr": "app:http_erros:razao30s" } ] },
+    { "id": 3, "type": "timeseries", "title": "Latência p95 (histograma)", "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 }, "datasource": { "type": "prometheus", "uid": "prom" }, "targets": [ { "refId": "A", "expr": "histogram_quantile(0.95, sum by (le) (rate(http_request_duration_seconds_bucket[1m])))" } ] }
+  ]
+}

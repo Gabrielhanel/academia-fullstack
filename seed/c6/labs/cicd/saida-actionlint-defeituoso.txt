@@ -1,0 +1,17 @@
+.github/workflows/defeituoso.yml:4:5: unexpected key "branchs" for "push" section. expected one of "branches", "branches-ignore", "paths", "paths-ignore", "tags", "tags-ignore", "types", "workflows" [syntax-check]
+  |
+4 |     branchs: [main]
+  |     ^~~~~~~~
+.github/workflows/defeituoso.yml:10:24: "github.event.issue.title" is potentially untrusted. avoid using it directly in inline scripts. instead, pass it through an environment variable. see https://docs.github.com/en/actions/reference/security/secure-use#good-practices-for-mitigating-script-injection-attacks for more details [expression]
+   |
+10 |       - run: echo "${{ github.event.issue.title }}"
+   |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/defeituoso.yml:11:23: property "inexistente" is not defined in object type {} [expression]
+   |
+11 |       - run: echo ${{ steps.inexistente.outputs.valor }}
+   |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.github/workflows/defeituoso.yml:12:3: job "deploy" needs job "compilar" which does not exist in this workflow [job-needs]
+   |
+12 |   deploy:
+   |   ^~~~~~~
+exit=1

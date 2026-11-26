@@ -1,0 +1,18 @@
+$ node --test api.test.mjs
+  alg=none: vulnerável aceitou token sem assinatura (papel admin); corrigida recusou ("algoritmo não permitido")
+  confusão de algoritmo: token HS256 assinado com a chave pública virou admin na vulnerável; corrigida fixa RS256 e recusou
+  exp/iss/aud: vulnerável aceitou token expirado; corrigida exige exp, iss e aud e recusou payload adulterado
+  segredo "secret123" recuperado em 130 tentativas / 3 ms (38 mil/s); segredo aleatório de 256 bits não está em dicionário (2^256 possibilidades)
+  code_challenge do vetor da RFC confere; verifier aleatório de 43 caracteres (32 bytes)
+  rajada de 20: 10 aceitas; após 1 s: 5 (5 tokens repostos); após 10 s parado: 10 (volta à capacidade)
+  chave de 59 caracteres; registro guarda id + SHA-256 (64 hex); chave adulterada e id desconhecido recusados
+✔ JWT: alg=none aceito só pelo verificador vulnerável (9.928432ms)
+✔ JWT: confusão RS256/HS256 usando a chave pública como segredo (105.639493ms)
+✔ JWT: expiração, emissor e audiência (5.090118ms)
+✔ JWT: segredo fraco quebrado por dicionário x segredo aleatório (433.917682ms)
+✔ PKCE: vetor da RFC 7636 (Apêndice B) (2.261388ms)
+✔ Rate limit: token bucket (capacidade 10, 5 tokens/s) (3.813647ms)
+✔ Chaves de API: só o hash é guardado (2.526625ms)
+ℹ tests 7
+ℹ pass 7
+ℹ fail 0

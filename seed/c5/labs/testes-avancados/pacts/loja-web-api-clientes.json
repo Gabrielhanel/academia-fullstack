@@ -1,0 +1,107 @@
+{
+  "consumer": {
+    "name": "loja-web"
+  },
+  "interactions": [
+    {
+      "description": "uma busca do cliente 1",
+      "providerStates": [
+        {
+          "name": "o cliente 1 existe"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/clientes/1"
+      },
+      "response": {
+        "body": {
+          "email": "ana@exemplo.com",
+          "id": 1,
+          "nome": "Ana Souza"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$.email": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "regex",
+                  "regex": "^[^@\\s]+@[^@\\s]+$"
+                }
+              ]
+            },
+            "$.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "integer"
+                }
+              ]
+            },
+            "$.nome": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          }
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "uma busca do cliente 999",
+      "providerStates": [
+        {
+          "name": "o cliente 999 não existe"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/clientes/999"
+      },
+      "response": {
+        "body": {
+          "erro": "cliente não encontrado"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$.erro": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          }
+        },
+        "status": 404
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "17.1.4"
+    },
+    "pactRust": {
+      "ffi": "0.5.8",
+      "models": "1.3.16"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "api-clientes"
+  }
+}

@@ -1,0 +1,44 @@
+$ node disponibilidade.mjs
+Indisponibilidade permitida em 30 dias (minutos):
+  99% -> 432 min
+  99.5% -> 216 min
+  99.9% -> 43.2 min
+  99.95% -> 21.6 min
+  99.99% -> 4.32 min
+  99.999% -> 0.43 min
+Composição (disponibilidades hipotéticas):
+  serial 99,9% x 99,9% x 99,95% (app, banco, balanceador): 99.7502%
+  paralelo 2 instâncias de 99,9% (independentes): 99.9999%
+  paralelo 3 instâncias de 99,9% (independentes): 99.9999999%
+  2 instâncias (99,9%) em paralelo, seguidas de banco 99,95% em série: 99.9499001%
+
+$ node iam-avaliador.mjs
+s3:GetObject   arn:aws:s3:::dados/relatorio.csv         {"decisao":"PERMITIDO","motivo":"permissão explícita"}
+s3:PutObject   arn:aws:s3:::dados/relatorio.csv         {"decisao":"NEGADO","motivo":"negação implícita"}
+s3:GetObject   arn:aws:s3:::outro/x                     {"decisao":"NEGADO","motivo":"negação implícita"}
+s3:GetObject   arn:aws:s3:::dados/segredo/chave.txt     {"decisao":"NEGADO","motivo":"negação explícita"}
+s3:GetObject   arn:aws:s3:::dados/publico/a.txt         {"decisao":"PERMITIDO","motivo":"permissão explícita"}
+s3:GetObject   arn:aws:s3:::dados/a                     {"decisao":"NEGADO","motivo":"negação implícita"}
+
+$ node serverless-modelo.mjs
+Invocações sequenciais no mesmo ambiente:
+  #1 FRIA  469.536 ms
+  #2 quente 0.009 ms
+  #3 quente 0.006 ms
+  #4 quente 0.006 ms
+  #5 quente 0.01 ms
+  #6 quente 0.006 ms
+Após reciclar o ambiente: FRIA 459.905 ms
+Entrega x3 com chave de idempotência: processada, duplicada-ignorada, duplicada-ignorada | saldo = 70
+Entrega x3 SEM chave de idempotência: saldo = 10
+
+$ node custos.mjs
+Preços fictícios: {"vmMes":25,"reqPorMilhao":0.3,"gbSegundo":0.00002,"memGB":0.5,"duracaoS":0.2}
+     100000 req/mês  serverless=    0.23  VM=25.00  serverless mais barato
+    1000000 req/mês  serverless=    2.30  VM=25.00  serverless mais barato
+   10000000 req/mês  serverless=   23.00  VM=25.00  serverless mais barato
+   50000000 req/mês  serverless=  115.00  VM=25.00  VM mais barata
+  100000000 req/mês  serverless=  230.00  VM=25.00  VM mais barata
+  200000000 req/mês  serverless=  460.00  VM=25.00  VM mais barata
+Ponto de equilíbrio (req/mês): 10869565
+Egress fictício de 5 TB/mês: 400.00

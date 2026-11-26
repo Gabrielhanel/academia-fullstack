@@ -1,0 +1,47 @@
+name: deploy
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      ambiente:
+        description: Ambiente de destino
+        type: choice
+        options: [homologacao, producao]
+        default: homologacao
+permissions:
+  contents: read
+concurrency:
+  group: deploy-${{ github.event.inputs.ambiente || 'homologacao' }}
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    outputs:
+      imagem: ${{ steps.meta.outputs.imagem }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: meta
+        run: echo "imagem=registry.exemplo.com/app:${GITHUB_SHA}" >> "$GITHUB_OUTPUT"
+      - run: docker build -t "${{ steps.meta.outputs.imagem }}" .
+  homologacao:
+    needs: publicar
+    runs-on: ubuntu-24.04
+    environment: homologacao
+    steps:
+      - run: ./deploy.sh homologacao "${{ needs.publicar.outputs.imagem }}"
+      - run: ./smoke-test.sh https://homologacao.exemplo.com
+  producao:
+    needs: [publicar, homologacao]
+    runs-on: ubuntu-24.04
+    environment:
+      name: producao
+      url: https://app.exemplo.com
+    steps:
+      - run: ./deploy.sh producao "${{ needs.publicar.outputs.imagem }}"
+      - run: ./verify.sh https://app.exemplo.com

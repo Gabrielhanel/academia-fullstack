@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "pedidos.nome" . }}
+  labels: {{- include "pedidos.rotulos" . | nindent 4 }}
+spec:
+  {{- if not .Values.autoscaling.enabled }}
+  replicas: {{ .Values.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+  template:
+    metadata:
+      labels: {{- include "pedidos.rotulos" . | nindent 8 }}
+    spec:
+      securityContext: { runAsNonRoot: true, runAsUser: 1000 }
+      containers:
+        - name: app
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports: [{ name: http, containerPort: 3000 }]
+          {{- with .Values.env }}
+          env:
+            {{- range $k, $v := . }}
+            - { name: {{ $k }}, value: {{ $v | quote }} }
+            {{- end }}
+          {{- end }}
+          readinessProbe: { httpGet: { path: /pronto, port: http } }
+          livenessProbe: { httpGet: { path: /saude, port: http } }
+          resources: {{- toYaml .Values.resources | nindent 12 }}

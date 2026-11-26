@@ -1,0 +1,7 @@
+N = 1000000 | resultado esperado idêntico em todos
+interpretador de árvore (AST)               2149.2 ms  (62.3x do nativo)  resultado [1999999]
+máquina virtual de bytecode                 1011.7 ms  (29.3x do nativo)  resultado [1999999]
+JavaScript nativo (V8 com JIT)                34.5 ms   (1.0x do nativo)  resultado [1999999]
+C compilado com gcc -O0 (volatile)            11.6 ms   (0.3x do nativo)  resultado [1999999]
+C compilado com gcc -O2 (volatile)            11.8 ms   (0.3x do nativo)  resultado [1999999]
+Python 3.14 (CPython, bytecode)              698.0 ms  (20.2x do nativo)  resultado [1999999]

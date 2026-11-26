@@ -1,0 +1,8 @@
+
+  error no-circular: arq/app/notificacao.mjs → 
+      arq/app/servico.mjs →
+      arq/app/notificacao.mjs
+  error dominio-nao-depende-de-infra: arq/dominio/pedido.mjs → arq/infra/banco.mjs
+
+x 2 dependency violations (2 errors, 0 warnings). 4 modules, 4 dependencies cruised.
+

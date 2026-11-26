@@ -1,0 +1,8 @@
+  2           RESUME                   0
+              LOAD_FAST_BORROW         0 (x)
+              LOAD_SMALL_INT           2
+              BINARY_OP                5 (*)
+              LOAD_SMALL_INT           1
+              BINARY_OP                0 (+)
+              RETURN_VALUE
+BinOp(left=BinOp(left=Name(id='x', ctx=Load()), op=Mult(), right=Constant(value=2)), op=Add(), right=Constant(value=1))

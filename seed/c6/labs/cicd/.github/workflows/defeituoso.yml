@@ -1,0 +1,16 @@
+name: defeituoso
+on:
+  push:
+    branchs: [main]
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "${{ github.event.issue.title }}"
+      - run: echo ${{ steps.inexistente.outputs.valor }}
+  deploy:
+    needs: compilar
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "ok"

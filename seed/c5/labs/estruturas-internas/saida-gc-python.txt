@@ -1,0 +1,14 @@
+Python 3.14.4 | gc ligado: True | limiares: (2000, 10, 0)
+1) sem ciclo: liberado na hora pela contagem de referências
+  refcount de a: 1
+  __del__ a
+  depois do del a
+2) com ciclo: a contagem nunca chega a zero
+  depois de del x, y: objeto ainda vivo? True
+  __del__ x
+  __del__ y
+  gc.collect() encontrou 147 objetos inalcançáveis; vivo? False
+3) memória com 300.000 ciclos, com e sem o coletor
+  gc desligado | 300.000 ciclos em 1712 ms | memória retida ao fim 50.4 MiB | pico 50.4 MiB
+  gc ligado  | 300.000 ciclos em 2025 ms | memória retida ao fim 0.1 MiB | pico 1.4 MiB
+4) estatísticas por geração: [(0, 0), (110, 598474), (5, 601673)]

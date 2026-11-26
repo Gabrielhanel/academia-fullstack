@@ -1,0 +1,31 @@
+## compose config é válido?
+ok
+## subir tudo e esperar a saúde (up -d --wait)
+ Container labdk-app-1 Waiting 
+ Container labdk-db-1 Waiting 
+ Container labdk-cache-1 Waiting 
+ Container labdk-cache-1 Healthy 
+ Container labdk-db-1 Healthy 
+ Container labdk-app-1 Healthy 
+tempo até tudo saudável: 11.2 s
+app running healthy
+cache running healthy
+db running healthy
+## readiness e visitas
+{"ok":true,"versao":"1.0.0","host":"0bbc08a49217"}
+{"pronto":true}
+{"cache":1}
+{"cache":2}
+{"cache":3}
+{"banco":3}
+## endurecimento: usuário e sistema de arquivos somente leitura
+1000
+touch: /app/x: Read-only file system
+/tmp gravável
+## down sem -v: os dados persistem?
+{"banco":3}
+## down -v: os dados somem
+{"banco":0}
+## parar o banco: readiness falha (503) e a liveness continua ok
+pronto: HTTP 000
+saude: HTTP 000

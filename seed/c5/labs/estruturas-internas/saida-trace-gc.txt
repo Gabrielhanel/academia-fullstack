@@ -1,0 +1,4 @@
+[221947:0x7a2c000]      132 ms: Mark-Compact 4.2 (5.6) -> 3.9 (4.9) MB, pooled: 0.0 MB, 9.52 / 0.00 ms (average mu = 0.886, current mu = 0.886) testing; GC in o
+[221947:0x7a2c000]      140 ms: Scavenge 4.9 (6.1) -> 4.1 (6.1) MB, pooled: 0.0 MB, 1.25 / 0.00 ms (average mu = 0.886, current mu = 0.886) allocation failure; 
+[221947:0x7a2c000]      144 ms: Scavenge 4.9 (6.6) -> 4.2 (6.6) MB, pooled: 0.0 MB, 1.64 / 0.00 ms (average mu = 0.886, current mu = 0.886) allocation failure; 
+[221947:0x7a2c000]      147 ms: Scavenge 5.0 (6.6) -> 4.3 (6.6) MB, pooled: 0.0 MB, 2.15 / 0.00 ms (average mu = 0.886, current mu = 0.886) allocation failure; 

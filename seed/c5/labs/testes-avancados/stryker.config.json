@@ -1,0 +1,2 @@
+{ "testRunner": "vitest", "mutate": ["analise/calculos.mjs"], "reporters": ["clear-text", "json"], "jsonReporter": { "fileName": "reports/mutation.json" },
+  "vitest": { "configFile": "vitest.stryker.config.mjs" }, "coverageAnalysis": "perTest", "concurrency": 2, "tempDirName": ".stryker-tmp" }

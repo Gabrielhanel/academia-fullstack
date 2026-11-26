@@ -1,0 +1,344 @@
+{
+ "https://cheatsheetseries.owasp.org/": {
+  "status": 200,
+  "page": "Introduction - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "REST Security - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Authorization - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nodejs.org/api/sqlite.html": {
+  "status": 200,
+  "page": "SQLite | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Error Handling - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Authentication - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Password Storage - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nodejs.org/api/test.html": {
+  "status": 200,
+  "page": "Test runner | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Mass Assignment - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://owasp.org/Top10/2025/": {
+  "status": 200,
+  "page": "OWASP Top 10:2025",
+  "final": "https://top10.owasp.org/2025/",
+  "at": "2026-11-26"
+ },
+ "https://owasp.org/www-project-application-security-verification-standard/": {
+  "status": 200,
+  "page": "Overview | OWASP Application Security Verification Standard",
+  "final": "https://asvs.owasp.org/",
+  "at": "2026-11-26"
+ },
+ "https://owasp.org/API-Security/editions/2023/en/0x11-t10/": {
+  "status": 200,
+  "page": "OWASP Top 10 API Security Risks – 2023 - OWASP API Security Top 10",
+  "final": "https://api-security.owasp.org/editions/2023/en/0x11-t10/",
+  "at": "2026-11-26"
+ },
+ "https://owasp.org/Top10/2025/0x00_2025-Introduction/": {
+  "status": 200,
+  "page": "Introduction - OWASP Top 10:2025",
+  "final": "https://top10.owasp.org/2025/0x00_2025-Introduction/",
+  "at": "2026-11-26"
+ },
+ "https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/": {
+  "status": 200,
+  "page": "A01 Broken Access Control - OWASP Top 10:2025",
+  "final": "https://top10.owasp.org/2025/A01_2025-Broken_Access_Control/",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "SQL Injection Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Cross-Site Request Forgery Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Cross Site Scripting Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Query Parameterization - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Content Security Policy - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Server Side Request Forgery Prevention - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://www.chromium.org/updates/same-site/": {
+  "status": 200,
+  "page": "SameSite Updates",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS": {
+  "status": 200,
+  "page": "Cross-Origin Resource Sharing (CORS) - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP": {
+  "status": 200,
+  "page": "Content Security Policy (CSP) - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies": {
+  "status": 200,
+  "page": "Using HTTP cookies - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://portswigger.net/web-security": {
+  "status": 200,
+  "page": "Web Security Academy: Free Online Training from PortSwigger",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc1918": {
+  "status": 200,
+  "page": "RFC 1918 - Address Allocation for Private Internets",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc3986": {
+  "status": 200,
+  "page": "RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html": {
+  "status": 200,
+  "page": "Use the Instance Metadata Service to access instance metadata - Amazon Elastic Compute Cloud",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie": {
+  "status": 200,
+  "page": "Set-Cookie header - HTTP | MDN",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy": {
+  "status": 200,
+  "page": "Same-origin policy - Security | MDN",
+  "final": "https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy",
+  "at": "2026-11-26"
+ },
+ "https://cwe.mitre.org/data/definitions/89.html": {
+  "status": 200,
+  "page": "CWE - CWE-89: Improper Neutralization of Special Elements used in an SQL Command (5.0)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://fetch.spec.whatwg.org/#http-cors-protocol": {
+  "status": 200,
+  "page": "Fetch Standard",
+  "final": "https://fetch.spec.whatwg.org/",
+  "at": "2026-11-26"
+ },
+ "https://cwe.mitre.org/data/definitions/942.html": {
+  "status": 200,
+  "page": "CWE - CWE-942: Permissive Cross-domain Security Policy with Untrusted Domains (5.0)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://url.spec.whatwg.org/": {
+  "status": 200,
+  "page": "URL Standard",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cwe.mitre.org/data/definitions/352.html": {
+  "status": 200,
+  "page": "CWE - CWE-352: Cross-Site Request Forgery (5.0)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cwe.mitre.org/data/definitions/918.html": {
+  "status": 200,
+  "page": "CWE - CWE-918: Server-Side Request Forgery (5.0)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cwe.mitre.org/data/definitions/79.html": {
+  "status": 200,
+  "page": "CWE - CWE-79: Improper Neutralization of Input During Web Page Generation (5.0)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nodejs.org/api/crypto.html": {
+  "status": 200,
+  "page": "Crypto | Node.js v26.13.1 Documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc2104": {
+  "status": 200,
+  "page": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc9106": {
+  "status": 200,
+  "page": "RFC 9106 - Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc7748": {
+  "status": 200,
+  "page": "RFC 7748 - Elliptic Curves for Security",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc8032": {
+  "status": 200,
+  "page": "RFC 8032 - Edwards-Curve Digital Signature Algorithm (EdDSA)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc5869": {
+  "status": 200,
+  "page": "RFC 5869 - HMAC-based Extract-and-Expand Key Derivation Function (HKDF)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc7914": {
+  "status": 200,
+  "page": "RFC 7914 - The scrypt Password-Based Key Derivation Function",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Secrets Management - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/vault/docs": {
+  "status": 200,
+  "page": "Vault product documentation | Vault | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.openssl.org/master/man1/openssl-verify/": {
+  "status": 200,
+  "page": "openssl-verify - OpenSSL Documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://csrc.nist.gov/pubs/fips/180-4/upd1/final": {
+  "status": 200,
+  "page": "FIPS 180-4, Secure Hash Standard (SHS) | CSRC",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html": {
+  "status": 200,
+  "page": "Cryptographic Storage - OWASP Cheat Sheet Series",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://kubernetes.io/docs/concepts/security/secrets-good-practices/": {
+  "status": 200,
+  "page": "Good practices for Kubernetes Secrets | Kubernetes",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://csrc.nist.gov/pubs/fips/204/final": {
+  "status": 200,
+  "page": "FIPS 204, Module-Lattice-Based Digital Signature Standard | CSRC",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://csrc.nist.gov/pubs/sp/800/38/d/final": {
+  "status": 200,
+  "page": "SP 800-38D, Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC | CSRC",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://csrc.nist.gov/pubs/fips/203/final": {
+  "status": 200,
+  "page": "FIPS 203, Module-Lattice-Based Key-Encapsulation Mechanism Standard | CSRC",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning": {
+  "status": 200,
+  "page": "Secret scanning - GitHub Docs",
+  "final": "https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning",
+  "at": "2026-11-26"
+ },
+ "https://pages.nist.gov/800-63-4/sp800-63b.html": {
+  "status": 200,
+  "page": "NIST Special Publication 800-63B",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://shattered.io/": {
+  "status": 200,
+  "page": "Shattered: Gaming, AI, Security &amp; PC Hardware News",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://github.com/gitleaks/gitleaks": {
+  "status": 200,
+  "page": "GitHub - gitleaks/gitleaks: Find secrets with Gitleaks 🔑 · GitHub",
+  "final": "",
+  "at": "2026-11-26"
+ }
+}

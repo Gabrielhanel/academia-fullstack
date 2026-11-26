@@ -1,0 +1,29 @@
+  bypass de login: vulnerável 200 | corrigida 401
+✔ SQLi: bypass de login com OR 1=1 (142.834481ms)
+  UNION: vulnerável devolveu 2 linhas com credenciais | corrigida 0
+✔ SQLi: UNION extrai e-mails e senhas (24.781569ms)
+  ordem inválida: vulnerável 500 (mensagem do banco: "no such column: coluna_inexistente") | corrigida 400
+✔ SQLi: ORDER BY não é parametrizável; vazamento por erro x lista de permissão (31.920346ms)
+  XSS: payload cru na vulnerável; escapado e com CSP na corrigida (script-src self; nosniff)
+✔ XSS refletido e armazenado: HTML cru x escapado + cabeçalhos (43.67888ms)
+  Set-Cookie vulnerável: sid=<…>; Path=/ | corrigida: sid=<…>; Path=/; HttpOnly; SameSite=Strict
+✔ Cookies: HttpOnly e SameSite (178.793688ms)
+  CSRF: vulnerável 200 | corrigida form 415 , JSON sem token 403 , token + Origin estranha 403 , token legítimo 200
+✔ CSRF: transferência sem token (formulário urlencoded) x token e JSON (191.375846ms)
+  CORS: vulnerável reflete http://evil.test com credenciais | corrigida: sem cabeçalho para origem estranha; própria origem permitida; preflight negado
+✔ CORS: origem arbitrária refletida com credenciais x lista de permissão (19.605331ms)
+  SSRF: vulnerável leu o segredo interno (direto e via redirecionamento) | corrigida 400 - host fora da lista de permissão
+  IPs classificados: 13 casos corretos (loopback, RFC 1918, link-local, CGNAT, ULA, IPv4 mapeado)
+  formas ofuscadas e esquemas: {"http://2130706433/":"host fora da lista de permissão","http://0x7f.0.0.1/":"host fora da lista de permissão","http://127.1/":"host fora da lista de permissão","file:///etc/passwd":"protocolo não permitido","http://user:pw@exemplo.test/":"credenciais na URL","http://exemplo.test.evil.test/":"host fora da lista de permissão","http://rebind.test/":"endereço interno","http://[::1]/":"host fora da lista de permissão"}
+  redirecionamento para 169.254.169.254 bloqueado na revalidação: host fora da lista de permissão
+✔ SSRF: preview busca serviço interno só na vulnerável (32.18918ms)
+✔ SSRF: classificação de IPs (3.230555ms)
+✔ SSRF: formas ofuscadas e redirecionamento revalidado (4.156994ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1503.570425

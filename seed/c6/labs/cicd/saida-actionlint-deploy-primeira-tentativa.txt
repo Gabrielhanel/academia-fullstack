@@ -1,0 +1,5 @@
+.github/workflows/deploy.yml:46:40: property "publicar" is not defined in object type {homologacao: {outputs: {}; result: string}} [expression]
+   |
+46 |       - run: ./deploy.sh producao "${{ needs.publicar.outputs.imagem }}"
+   |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exit=1

@@ -1,0 +1,275 @@
+{
+ "generatedAt": "2026-11-26",
+ "alerts": [
+  {
+   "alert": {
+    "id": "nodejs-eol-20",
+    "title": "Node.js 20 sem suporte de segurança desde 30/04/2026",
+    "relevance": "alta",
+    "date": "2026-04-30",
+    "tech": "nodejs",
+    "cycle": "20"
+   },
+   "hits": [
+    {
+     "courseId": "js-async",
+     "lessonId": null,
+     "where": "versões do curso",
+     "snippet": "…m a versão 18 ou superior; AbortSignal.any requer Node.js 20 ou superior."
+    },
+    {
+     "courseId": "logica-algoritmos",
+     "lessonId": null,
+     "where": "versões do curso",
+     "snippet": "… é do ES2024. Funciona em navegadores atuais e em Node.js 20 ou superior; o laboratório da plataforma executa os exemplo…"
+    },
+    {
+     "courseId": "js-async",
+     "lessonId": "jsa-07",
+     "where": "aula",
+     "snippet": "… qualquer um abortar. Requer navegador moderno ou Node.js 20+; em ambientes antigos, combine manualmente. 6-10 fetch não…"
+    }
+   ]
+  },
+  {
+   "alert": {
+    "id": "rabbitmq-eol-4.2",
+    "title": "RabbitMQ 4.2 chegou ao fim de vida (EOL) em 31/07/2026",
+    "relevance": "alta",
+    "date": "2026-07-31",
+    "tech": "rabbitmq",
+    "cycle": "4.2"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "redis-eol-8.4",
+    "title": "Redis 8.4 chegou ao fim de vida (EOL) em 10/08/2026",
+    "relevance": "alta",
+    "date": "2026-08-10",
+    "tech": "redis",
+    "cycle": "8.4"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "react-native-eol-0.84",
+    "title": "React Native 0.84 chegou ao fim de vida (EOL) em 11/08/2026",
+    "relevance": "alta",
+    "date": "2026-08-11",
+    "tech": "react-native",
+    "cycle": "0.84"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "react-native-eol-0.85",
+    "title": "React Native 0.85 chegou ao fim de vida (EOL) em 12/10/2026",
+    "relevance": "alta",
+    "date": "2026-10-12",
+    "tech": "react-native",
+    "cycle": "0.85"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "kubernetes-eol-1.34",
+    "title": "Kubernetes 1.34 chegou ao fim de vida (EOL) em 27/10/2026",
+    "relevance": "alta",
+    "date": "2026-10-27",
+    "tech": "kubernetes",
+    "cycle": "1.34"
+   },
+   "hits": [
+    {
+     "courseId": "docker-k8s",
+     "lessonId": null,
+     "where": "versões do curso",
+     "snippet": "… 17, Redis 8, hadolint 2.15.1, kubeconform 0.8.0 (Kubernetes 1.34.0) e Helm 4.3.2, em 2026-11-25 (laboratório em seed/c6/labs…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-04",
+     "where": "aula",
+     "snippet": "…ente** com o **kubeconform 0.8.0** (esquemas do **K8s 1.34.0**, modo estrito): **6 recursos válidos** (`ConfigMap`, `D…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-04",
+     "where": "aula",
+     "snippet": "…ado:** **validação estática** (kubeconform 0.8.0, K8s 1.34.0). **Não executado:** **qualquer aplicação em cluster** (*…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-04",
+     "where": "aula",
+     "snippet": "…readiness (/pronto). Medido: o kubeconform 0.8.0 (K8s 1.34.0, estrito) validou 6 recursos, recusou um arquivo com cont…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-05",
+     "where": "aula",
+     "snippet": "…VEL: \"info\"` | | **`... | kubeconform -strict`** (K8s 1.34.0) | **4 recursos válidos** | **Padrão para CI:** **`helm l…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-06",
+     "where": "aula",
+     "snippet": "…ca** do manifesto de produção (kubeconform 0.8.0, K8s 1.34.0). **Medidos em outro contexto:** OOM e throttling (dk-01)…"
+    },
+    {
+     "courseId": "docker-k8s",
+     "lessonId": "dk-06",
+     "where": "aula",
+     "snippet": "…file # 2) manifestos puros: validação de esquema (K8s 1.34.0) docker run --rm -v \"$PWD/k8s:/k8s:ro\" ghcr.io/yannh/kube…"
+    }
+   ]
+  },
+  {
+   "alert": {
+    "id": "nextjs-15-eol",
+    "title": "Next.js 15 perde suporte de segurança em 31/01/2027",
+    "relevance": "alta",
+    "date": "2026-11-03",
+    "tech": "nextjs",
+    "cycle": "15"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "nodejs-22-eol-soon",
+    "title": "Node.js 22 perde suporte de segurança em 30/04/2027",
+    "relevance": "alta",
+    "date": "2026-11-11",
+    "tech": "nodejs",
+    "cycle": "22"
+   },
+   "hits": [
+    {
+     "courseId": "node-express",
+     "lessonId": "nex-07",
+     "where": "aula",
+     "snippet": "… (esquema Zod) e **falhe rápido** se faltar algo. Node 22+: `node --env-file=.env` carrega um arquivo (**não** versio…"
+    },
+    {
+     "courseId": "cicd",
+     "lessonId": "cicd-02",
+     "where": "aula",
+     "snippet": "… (ci.yml) **Dois jobs**: `test` (**matriz** com **Node 22 e 24**: **2 execuções em paralelo**) e `build` (`needs: tes…"
+    },
+    {
+     "courseId": "cicd",
+     "lessonId": "cicd-02",
+     "where": "aula",
+     "snippet": "… antiga da mesma ref. Duas execuções em paralelo (Node 22 e 24). build só roda se test passar. Forma segura de usar u…"
+    },
+    {
+     "courseId": "cicd",
+     "lessonId": "cicd-02",
+     "where": "aula",
+     "snippet": "…ssos e ações. O ci.yml do laboratório usa matriz (Node 22 e 24), cache, concurrency com cancelamento, timeout e permi…"
+    }
+   ]
+  },
+  {
+   "alert": {
+    "id": "postgresql-eol-14",
+    "title": "PostgreSQL 14 chegou ao fim de vida (EOL) em 12/11/2026",
+    "relevance": "alta",
+    "date": "2026-11-12",
+    "tech": "postgresql",
+    "cycle": "14"
+   },
+   "hits": [
+    {
+     "courseId": "sql-essencial",
+     "lessonId": "sqe-08",
+     "where": "aula",
+     "snippet": "… o nó já foi visitado, ou com a cláusula `CYCLE` (PostgreSQL 14 ou superior; consulte a documentação). `UNION` (sem `ALL`) …"
+    }
+   ]
+  },
+  {
+   "alert": {
+    "id": "redis-eol-8.6",
+    "title": "Redis 8.6 chegou ao fim de vida (EOL) em 25/11/2026",
+    "relevance": "alta",
+    "date": "2026-11-25",
+    "tech": "redis",
+    "cycle": "8.6"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "redis-eol-8.0",
+    "title": "Redis 8.0 chega ao fim de vida (EOL) em 01/12/2026",
+    "relevance": "alta",
+    "date": "2026-12-01",
+    "tech": "redis",
+    "cycle": "8.0"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "docker-eol-25.0",
+    "title": "Docker Engine 25.0 chega ao fim de vida (EOL) em 04/12/2026",
+    "relevance": "alta",
+    "date": "2026-12-04",
+    "tech": "docker",
+    "cycle": "25.0"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "redis-eol-8.8",
+    "title": "Redis 8.8 chega ao fim de vida (EOL) em 29/01/2027",
+    "relevance": "alta",
+    "date": "2027-01-29",
+    "tech": "redis",
+    "cycle": "8.8"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "rabbitmq-eol-4.3",
+    "title": "RabbitMQ 4.3 chega ao fim de vida (EOL) em 31/01/2027",
+    "relevance": "alta",
+    "date": "2027-01-31",
+    "tech": "rabbitmq",
+    "cycle": "4.3"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "kubernetes-eol-1.35",
+    "title": "Kubernetes 1.35 chega ao fim de vida (EOL) em 28/02/2027",
+    "relevance": "alta",
+    "date": "2027-02-28",
+    "tech": "kubernetes",
+    "cycle": "1.35"
+   },
+   "hits": []
+  },
+  {
+   "alert": {
+    "id": "redis-eol-6.2",
+    "title": "Redis 6.2 chega ao fim de vida (EOL) em 01/04/2027",
+    "relevance": "alta",
+    "date": "2027-04-01",
+    "tech": "redis",
+    "cycle": "6.2"
+   },
+   "hits": []
+  }
+ ]
+}

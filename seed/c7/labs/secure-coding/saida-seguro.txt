@@ -1,0 +1,26 @@
+$ node --test seguro.test.mjs
+  traversal: vulnerável leu ../segredo.txt; corrigida recusou ../, symlink e byte nulo
+✔ Path traversal: ../ e symlink (9.507598ms)
+  comando: vulnerável executou o segundo comando (linha "INJETADO"); corrigida recusou o host e usa execFile com argumentos
+  poluição: vulnerável fez ({}).admin === true em objetos novos; corrigida ignorou __proto__ (mesclagem normal preservada)
+  eval: vulnerável executou código arbitrário (variável global alterada); parser aceita só números e operadores
+  0,1 + 0,2 em float = 0.30000000000000004 | em centavos 10 + 20 = 30
+✔ Injeção de comando: ; echo INJETADO (49.742979ms)
+✔ Prototype pollution (4.996407ms)
+✔ eval x parser (4.275569ms)
+✔ Dinheiro: float x centavos (1.62021ms)
+✔ ReDoS: corretude (tempos em redos.mjs) (1.097836ms)
+ℹ tests 6
+ℹ pass 6
+ℹ fail 0
+
+$ node redos.mjs
+n   | vulnerável (ms) | segura (ms) | razão vs n-2
+20  |            0.67 |      0.2367 | —
+22  |            0.36 |      0.0599 | 0.5x
+24  |            0.88 |      0.0356 | 2.4x
+26  |            3.31 |      0.0072 | 3.8x
+28  |           15.14 |      0.0199 | 4.6x
+30  |           53.58 |      0.0241 | 3.5x
+32  |          211.55 |      0.0228 | 3.9x
+entrada de 100.000 caracteres na regex segura: 0.1507 ms (limite de tamanho evita trabalho)

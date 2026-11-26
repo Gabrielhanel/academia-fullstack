@@ -1,0 +1,2036 @@
+{
+ "packRev": 4,
+ "courses": {
+  "c21-react-essencial": {
+   "wave": "c2",
+   "file": "c21-react-essencial",
+   "status": "disponível",
+   "problems": [],
+   "id": "react-essencial",
+   "disciplineId": "react",
+   "title": "React essencial: componentes, estado, efeitos, Context e formulários",
+   "hash": "4e8f71b5a5e06520",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:07.111Z",
+    "hash": "4e8f71b5a5e06520",
+    "detail": "validate.mjs c2 c21-react-essencial: OK"
+   },
+   "docs": [
+    "kb_courses/react-essencial",
+    "kb_lessons/rea-01",
+    "kb_lessons/rea-02",
+    "kb_lessons/rea-03",
+    "kb_lessons/rea-04",
+    "kb_lessons/rea-05",
+    "kb_lessons/rea-06",
+    "kb_lessons/rea-07",
+    "kb_lessons/rea-08",
+    "kb_lessons/rea-09",
+    "kb_lessons/rea-10",
+    "kb_lessons/rea-11",
+    "kb_exsets/rea-01",
+    "kb_exsets/rea-02",
+    "kb_exsets/rea-03",
+    "kb_exsets/rea-04",
+    "kb_exsets/rea-05",
+    "kb_exsets/rea-06",
+    "kb_exsets/rea-07",
+    "kb_exsets/rea-08",
+    "kb_exsets/rea-09",
+    "kb_exsets/rea-10",
+    "kb_exsets/rea-11",
+    "kb_assess/react-essencial",
+    "kb_projects/quadro-tarefas-acessivel"
+   ]
+  },
+  "c22-tailwind-ds": {
+   "wave": "c2",
+   "file": "c22-tailwind-ds",
+   "status": "disponível",
+   "problems": [],
+   "id": "tailwind-design-systems",
+   "disciplineId": "tailwind",
+   "title": "Tailwind CSS e Design Systems: utilitários, tokens, componentes, Storybook e governança",
+   "hash": "1cce0165499aa292",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:07.904Z",
+    "hash": "1cce0165499aa292",
+    "detail": "validate.mjs c2 c22-tailwind-ds: OK"
+   },
+   "docs": [
+    "kb_courses/tailwind-design-systems",
+    "kb_lessons/tdw-01",
+    "kb_lessons/tdw-02",
+    "kb_lessons/tdw-03",
+    "kb_lessons/tdw-04",
+    "kb_lessons/tdw-05",
+    "kb_lessons/tdw-06",
+    "kb_lessons/tdw-07",
+    "kb_lessons/tdw-08",
+    "kb_lessons/tdw-09",
+    "kb_exsets/tdw-01",
+    "kb_exsets/tdw-02",
+    "kb_exsets/tdw-03",
+    "kb_exsets/tdw-04",
+    "kb_exsets/tdw-05",
+    "kb_exsets/tdw-06",
+    "kb_exsets/tdw-07",
+    "kb_exsets/tdw-08",
+    "kb_exsets/tdw-09",
+    "kb_assess/tailwind-design-systems",
+    "kb_projects/mini-design-system"
+   ]
+  },
+  "c23-react-avancado": {
+   "wave": "c2",
+   "file": "c23-react-avancado",
+   "status": "disponível",
+   "problems": [],
+   "id": "react-avancado",
+   "disciplineId": "react",
+   "title": "React avançado: renderização, identidade, composição, Suspense e concorrência",
+   "hash": "bc83746d1813beff",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:08.702Z",
+    "hash": "bc83746d1813beff",
+    "detail": "validate.mjs c2 c23-react-avancado: OK"
+   },
+   "docs": [
+    "kb_courses/react-avancado",
+    "kb_lessons/rav-01",
+    "kb_lessons/rav-02",
+    "kb_lessons/rav-03",
+    "kb_lessons/rav-04",
+    "kb_lessons/rav-05",
+    "kb_lessons/rav-06",
+    "kb_exsets/rav-01",
+    "kb_exsets/rav-02",
+    "kb_exsets/rav-03",
+    "kb_exsets/rav-04",
+    "kb_exsets/rav-05",
+    "kb_exsets/rav-06",
+    "kb_assess/react-avancado",
+    "kb_projects/biblioteca-componentes-compostos"
+   ]
+  },
+  "c24-estado": {
+   "wave": "c2",
+   "file": "c24-estado",
+   "status": "disponível",
+   "problems": [],
+   "id": "estado-frontend",
+   "disciplineId": "state",
+   "title": "Gerenciamento de estado no frontend: Context, Redux Toolkit, Zustand e TanStack Query",
+   "hash": "177a76aa6d7d7909",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:09.500Z",
+    "hash": "177a76aa6d7d7909",
+    "detail": "validate.mjs c2 c24-estado: OK"
+   },
+   "docs": [
+    "kb_courses/estado-frontend",
+    "kb_lessons/est-01",
+    "kb_lessons/est-02",
+    "kb_lessons/est-03",
+    "kb_lessons/est-04",
+    "kb_lessons/est-05",
+    "kb_lessons/est-06",
+    "kb_lessons/est-07",
+    "kb_lessons/est-08",
+    "kb_lessons/est-09",
+    "kb_exsets/est-01",
+    "kb_exsets/est-02",
+    "kb_exsets/est-03",
+    "kb_exsets/est-04",
+    "kb_exsets/est-05",
+    "kb_exsets/est-06",
+    "kb_exsets/est-07",
+    "kb_exsets/est-08",
+    "kb_exsets/est-09",
+    "kb_assess/estado-frontend",
+    "kb_projects/painel-de-pedidos"
+   ]
+  },
+  "c25-nextjs": {
+   "wave": "c2",
+   "file": "c25-nextjs",
+   "status": "disponível",
+   "problems": [],
+   "id": "nextjs",
+   "disciplineId": "next",
+   "title": "Next.js: aplicações full stack com React (App Router, Server Components, cache e produção)",
+   "hash": "546b5944972ec1c3",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:10.375Z",
+    "hash": "546b5944972ec1c3",
+    "detail": "validate.mjs c2 c25-nextjs: OK"
+   },
+   "docs": [
+    "kb_courses/nextjs",
+    "kb_lessons/nxt-01",
+    "kb_lessons/nxt-02",
+    "kb_lessons/nxt-03",
+    "kb_lessons/nxt-04",
+    "kb_lessons/nxt-05",
+    "kb_lessons/nxt-06",
+    "kb_lessons/nxt-07",
+    "kb_lessons/nxt-08",
+    "kb_lessons/nxt-09",
+    "kb_lessons/nxt-10",
+    "kb_lessons/nxt-11",
+    "kb_exsets/nxt-01",
+    "kb_exsets/nxt-02",
+    "kb_exsets/nxt-03",
+    "kb_exsets/nxt-04",
+    "kb_exsets/nxt-05",
+    "kb_exsets/nxt-06",
+    "kb_exsets/nxt-07",
+    "kb_exsets/nxt-08",
+    "kb_exsets/nxt-09",
+    "kb_exsets/nxt-10",
+    "kb_exsets/nxt-11",
+    "kb_assess/nextjs",
+    "kb_projects/loja-full-stack"
+   ]
+  },
+  "c26-testes-front": {
+   "wave": "c2",
+   "file": "c26-testes-front",
+   "status": "disponível",
+   "problems": [],
+   "id": "testes-frontend",
+   "disciplineId": "fe-test",
+   "title": "Testes de frontend: Vitest, Testing Library, MSW, testes visuais e estratégia",
+   "hash": "c55f4c1e82d0c099",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:11.508Z",
+    "hash": "c55f4c1e82d0c099",
+    "detail": "validate.mjs c2 c26-testes-front: OK"
+   },
+   "docs": [
+    "kb_courses/testes-frontend",
+    "kb_lessons/tfe-01",
+    "kb_lessons/tfe-02",
+    "kb_lessons/tfe-03",
+    "kb_lessons/tfe-04",
+    "kb_lessons/tfe-05",
+    "kb_lessons/tfe-06",
+    "kb_lessons/tfe-07",
+    "kb_lessons/tfe-08",
+    "kb_exsets/tfe-01",
+    "kb_exsets/tfe-02",
+    "kb_exsets/tfe-03",
+    "kb_exsets/tfe-04",
+    "kb_exsets/tfe-05",
+    "kb_exsets/tfe-06",
+    "kb_exsets/tfe-07",
+    "kb_exsets/tfe-08",
+    "kb_assess/testes-frontend",
+    "kb_projects/suite-de-testes-app"
+   ]
+  },
+  "c27-performance": {
+   "wave": "c2",
+   "file": "c27-performance",
+   "status": "disponível",
+   "problems": [],
+   "id": "performance-frontend",
+   "disciplineId": "fe-perf",
+   "title": "Performance frontend: Core Web Vitals, carregamento, execução, imagens, memoização e monitoramento",
+   "hash": "8878b72cbf54cfc4",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:12.258Z",
+    "hash": "8878b72cbf54cfc4",
+    "detail": "validate.mjs c2 c27-performance: OK"
+   },
+   "docs": [
+    "kb_courses/performance-frontend",
+    "kb_lessons/pfe-01",
+    "kb_lessons/pfe-02",
+    "kb_lessons/pfe-03",
+    "kb_lessons/pfe-04",
+    "kb_lessons/pfe-05",
+    "kb_lessons/pfe-06",
+    "kb_lessons/pfe-07",
+    "kb_lessons/pfe-08",
+    "kb_exsets/pfe-01",
+    "kb_exsets/pfe-02",
+    "kb_exsets/pfe-03",
+    "kb_exsets/pfe-04",
+    "kb_exsets/pfe-05",
+    "kb_exsets/pfe-06",
+    "kb_exsets/pfe-07",
+    "kb_exsets/pfe-08",
+    "kb_assess/performance-frontend",
+    "kb_projects/auditoria-otimizacao-app"
+   ]
+  },
+  "c28-arquitetura": {
+   "wave": "c2",
+   "file": "c28-arquitetura",
+   "status": "disponível",
+   "problems": [],
+   "id": "arquitetura-frontend",
+   "disciplineId": "fe-arch",
+   "title": "Arquitetura frontend: aplicações grandes, monorepos e microfrontends",
+   "hash": "530112a0bc2b1f1c",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:13.023Z",
+    "hash": "530112a0bc2b1f1c",
+    "detail": "validate.mjs c2 c28-arquitetura: OK"
+   },
+   "docs": [
+    "kb_courses/arquitetura-frontend",
+    "kb_lessons/arq-01",
+    "kb_lessons/arq-02",
+    "kb_lessons/arq-03",
+    "kb_lessons/arq-04",
+    "kb_lessons/arq-05",
+    "kb_lessons/arq-06",
+    "kb_lessons/arq-07",
+    "kb_exsets/arq-01",
+    "kb_exsets/arq-02",
+    "kb_exsets/arq-03",
+    "kb_exsets/arq-04",
+    "kb_exsets/arq-05",
+    "kb_exsets/arq-06",
+    "kb_exsets/arq-07",
+    "kb_assess/arquitetura-frontend",
+    "kb_projects/monorepo-dois-apps"
+   ]
+  },
+  "c31-sql-essencial": {
+   "wave": "c3",
+   "file": "c31-sql-essencial",
+   "status": "disponível",
+   "problems": [],
+   "id": "sql-essencial",
+   "disciplineId": "sql",
+   "title": "SQL essencial: modelo relacional, consultas, JOINs, agregações, subqueries e CTEs",
+   "hash": "8850a7923afe362d",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:13.994Z",
+    "hash": "8850a7923afe362d",
+    "detail": "validate.mjs c3 c31-sql-essencial: OK"
+   },
+   "docs": [
+    "kb_courses/sql-essencial",
+    "kb_lessons/sqe-01",
+    "kb_lessons/sqe-02",
+    "kb_lessons/sqe-03",
+    "kb_lessons/sqe-04",
+    "kb_lessons/sqe-05",
+    "kb_lessons/sqe-06",
+    "kb_lessons/sqe-07",
+    "kb_lessons/sqe-08",
+    "kb_lessons/sqe-09",
+    "kb_exsets/sqe-01",
+    "kb_exsets/sqe-02",
+    "kb_exsets/sqe-03",
+    "kb_exsets/sqe-04",
+    "kb_exsets/sqe-05",
+    "kb_exsets/sqe-06",
+    "kb_exsets/sqe-07",
+    "kb_exsets/sqe-08",
+    "kb_exsets/sqe-09",
+    "kb_assess/sql-essencial",
+    "kb_projects/relatorios-loja"
+   ]
+  },
+  "c32-sql-avancado": {
+   "wave": "c3",
+   "file": "c32-sql-avancado",
+   "status": "disponível",
+   "problems": [],
+   "id": "sql-avancado",
+   "disciplineId": "sql",
+   "title": "SQL avançado e analítico: window functions, views, procedures e análise de dados",
+   "hash": "35871d46d21588fb",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:14.956Z",
+    "hash": "35871d46d21588fb",
+    "detail": "validate.mjs c3 c32-sql-avancado: OK"
+   },
+   "docs": [
+    "kb_courses/sql-avancado",
+    "kb_lessons/sqa-01",
+    "kb_lessons/sqa-02",
+    "kb_lessons/sqa-03",
+    "kb_lessons/sqa-04",
+    "kb_lessons/sqa-05",
+    "kb_lessons/sqa-06",
+    "kb_exsets/sqa-01",
+    "kb_exsets/sqa-02",
+    "kb_exsets/sqa-03",
+    "kb_exsets/sqa-04",
+    "kb_exsets/sqa-05",
+    "kb_exsets/sqa-06",
+    "kb_assess/sql-avancado",
+    "kb_projects/painel-analitico"
+   ]
+  },
+  "c33-postgres-mysql": {
+   "wave": "c3",
+   "file": "c33-postgres-mysql",
+   "status": "disponível",
+   "problems": [],
+   "id": "postgres-mysql",
+   "disciplineId": "pg",
+   "title": "PostgreSQL e MySQL: instalação, tipos, índices, planos, otimização, replicação e backup",
+   "hash": "047580cb5bbe286c",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:15.949Z",
+    "hash": "047580cb5bbe286c",
+    "detail": "validate.mjs c3 c33-postgres-mysql: OK"
+   },
+   "docs": [
+    "kb_courses/postgres-mysql",
+    "kb_lessons/pgm-01",
+    "kb_lessons/pgm-02",
+    "kb_lessons/pgm-03",
+    "kb_lessons/pgm-04",
+    "kb_lessons/pgm-05",
+    "kb_lessons/pgm-06",
+    "kb_lessons/pgm-07",
+    "kb_lessons/pgm-08",
+    "kb_lessons/pgm-09",
+    "kb_exsets/pgm-01",
+    "kb_exsets/pgm-02",
+    "kb_exsets/pgm-03",
+    "kb_exsets/pgm-04",
+    "kb_exsets/pgm-05",
+    "kb_exsets/pgm-06",
+    "kb_exsets/pgm-07",
+    "kb_exsets/pgm-08",
+    "kb_exsets/pgm-09",
+    "kb_assess/postgres-mysql",
+    "kb_projects/tuning-banco"
+   ]
+  },
+  "c34-modelagem": {
+   "wave": "c3",
+   "file": "c34-modelagem",
+   "status": "disponível",
+   "problems": [],
+   "id": "modelagem-dados",
+   "disciplineId": "modeling",
+   "title": "Modelagem de dados: entidades, normalização, relacionamentos, desnormalização e escala",
+   "hash": "63820c42c3a76718",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:16.867Z",
+    "hash": "63820c42c3a76718",
+    "detail": "validate.mjs c3 c34-modelagem: OK"
+   },
+   "docs": [
+    "kb_courses/modelagem-dados",
+    "kb_lessons/mod-01",
+    "kb_lessons/mod-02",
+    "kb_lessons/mod-03",
+    "kb_lessons/mod-04",
+    "kb_lessons/mod-05",
+    "kb_lessons/mod-06",
+    "kb_exsets/mod-01",
+    "kb_exsets/mod-02",
+    "kb_exsets/mod-03",
+    "kb_exsets/mod-04",
+    "kb_exsets/mod-05",
+    "kb_exsets/mod-06",
+    "kb_assess/modelagem-dados",
+    "kb_projects/modelo-plataforma-cursos"
+   ]
+  },
+  "c35-transacoes": {
+   "wave": "c3",
+   "file": "c35-transacoes",
+   "status": "disponível",
+   "problems": [],
+   "id": "transacoes-concorrencia",
+   "disciplineId": "tx",
+   "title": "Transações e concorrência: ACID, isolamento, travas, deadlocks, MVCC e padrões de aplicação",
+   "hash": "bf3974ea14b8b845",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:17.827Z",
+    "hash": "bf3974ea14b8b845",
+    "detail": "validate.mjs c3 c35-transacoes: OK"
+   },
+   "docs": [
+    "kb_courses/transacoes-concorrencia",
+    "kb_lessons/trx-01",
+    "kb_lessons/trx-02",
+    "kb_lessons/trx-03",
+    "kb_lessons/trx-04",
+    "kb_lessons/trx-05",
+    "kb_lessons/trx-06",
+    "kb_lessons/trx-07",
+    "kb_exsets/trx-01",
+    "kb_exsets/trx-02",
+    "kb_exsets/trx-03",
+    "kb_exsets/trx-04",
+    "kb_exsets/trx-05",
+    "kb_exsets/trx-06",
+    "kb_exsets/trx-07",
+    "kb_assess/transacoes-concorrencia",
+    "kb_projects/reservas-sem-corrida"
+   ]
+  },
+  "c36-orms": {
+   "wave": "c3",
+   "file": "c36-orms",
+   "status": "disponível",
+   "problems": [],
+   "id": "orms-node",
+   "disciplineId": "orm",
+   "title": "ORMs com Node.js: Prisma, TypeORM, N+1 e quando usar SQL puro",
+   "hash": "309220f3780563cb",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:18.789Z",
+    "hash": "309220f3780563cb",
+    "detail": "validate.mjs c3 c36-orms: OK"
+   },
+   "docs": [
+    "kb_courses/orms-node",
+    "kb_lessons/orm-01",
+    "kb_lessons/orm-02",
+    "kb_lessons/orm-03",
+    "kb_lessons/orm-04",
+    "kb_lessons/orm-05",
+    "kb_lessons/orm-06",
+    "kb_exsets/orm-01",
+    "kb_exsets/orm-02",
+    "kb_exsets/orm-03",
+    "kb_exsets/orm-04",
+    "kb_exsets/orm-05",
+    "kb_exsets/orm-06",
+    "kb_assess/orms-node",
+    "kb_projects/api-catalogo-orm"
+   ]
+  },
+  "c37-nosql": {
+   "wave": "c3",
+   "file": "c37-nosql",
+   "status": "disponível",
+   "problems": [],
+   "id": "nosql-mongodb-redis",
+   "disciplineId": "nosql",
+   "title": "NoSQL na prática: MongoDB, Redis, modelagem de documentos e consistência",
+   "hash": "b1401a03021a24ee",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:19.779Z",
+    "hash": "b1401a03021a24ee",
+    "detail": "validate.mjs c3 c37-nosql: OK"
+   },
+   "docs": [
+    "kb_courses/nosql-mongodb-redis",
+    "kb_lessons/nsq-01",
+    "kb_lessons/nsq-02",
+    "kb_lessons/nsq-03",
+    "kb_lessons/nsq-04",
+    "kb_lessons/nsq-05",
+    "kb_lessons/nsq-06",
+    "kb_lessons/nsq-07",
+    "kb_lessons/nsq-08",
+    "kb_lessons/nsq-09",
+    "kb_exsets/nsq-01",
+    "kb_exsets/nsq-02",
+    "kb_exsets/nsq-03",
+    "kb_exsets/nsq-04",
+    "kb_exsets/nsq-05",
+    "kb_exsets/nsq-06",
+    "kb_exsets/nsq-07",
+    "kb_exsets/nsq-08",
+    "kb_exsets/nsq-09",
+    "kb_assess/nosql-mongodb-redis",
+    "kb_projects/feed-de-eventos"
+   ]
+  },
+  "c38-cache": {
+   "wave": "c3",
+   "file": "c38-cache",
+   "status": "disponível",
+   "problems": [],
+   "id": "estrategias-cache",
+   "disciplineId": "cache",
+   "title": "Estratégias de cache: cache-aside, write-through, invalidação e cache distribuído",
+   "hash": "9fc89c248c92c5da",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:20.691Z",
+    "hash": "9fc89c248c92c5da",
+    "detail": "validate.mjs c3 c38-cache: OK"
+   },
+   "docs": [
+    "kb_courses/estrategias-cache",
+    "kb_lessons/cch-01",
+    "kb_lessons/cch-02",
+    "kb_lessons/cch-03",
+    "kb_lessons/cch-04",
+    "kb_lessons/cch-05",
+    "kb_lessons/cch-06",
+    "kb_exsets/cch-01",
+    "kb_exsets/cch-02",
+    "kb_exsets/cch-03",
+    "kb_exsets/cch-04",
+    "kb_exsets/cch-05",
+    "kb_exsets/cch-06",
+    "kb_assess/estrategias-cache",
+    "kb_projects/camada-cache-api"
+   ]
+  },
+  "c41-node-express": {
+   "wave": "c4",
+   "file": "c41-node-express",
+   "status": "disponível",
+   "problems": [],
+   "id": "node-express",
+   "disciplineId": "node",
+   "title": "Node.js e Express 5: event loop, módulos, middlewares, erros, streams e produção",
+   "hash": "868bb9011a1e01d8",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:21.690Z",
+    "hash": "868bb9011a1e01d8",
+    "detail": "validate.mjs c4 c41-node-express: OK"
+   },
+   "docs": [
+    "kb_courses/node-express",
+    "kb_lessons/nex-01",
+    "kb_lessons/nex-02",
+    "kb_lessons/nex-03",
+    "kb_lessons/nex-04",
+    "kb_lessons/nex-05",
+    "kb_lessons/nex-06",
+    "kb_lessons/nex-07",
+    "kb_exsets/nex-01",
+    "kb_exsets/nex-02",
+    "kb_exsets/nex-03",
+    "kb_exsets/nex-04",
+    "kb_exsets/nex-05",
+    "kb_exsets/nex-06",
+    "kb_exsets/nex-07",
+    "kb_assess/node-express",
+    "kb_projects/api-express-producao"
+   ]
+  },
+  "c42-nestjs": {
+   "wave": "c4",
+   "file": "c42-nestjs",
+   "status": "disponível",
+   "problems": [],
+   "id": "nestjs",
+   "disciplineId": "nest",
+   "title": "NestJS 12: módulos, injeção de dependências, pipeline de requisição, testes, filas e arquitetura modular",
+   "hash": "58e8ace6d714ca84",
+   "validated": {
+    "ok": true,
+    "at": "2026-11-25T16:13:22.735Z",
+    "hash": "58e8ace6d714ca84",
+    "detail": "validate.mjs c4 c42-nestjs: OK"
+   },
+   "docs": [
+    "kb_courses/nestjs",
+    "kb_lessons/nst-01",
+    "kb_lessons/nst-02",
+    "kb_lessons/nst-03",
+    "kb_lessons/nst-04",
+    "kb_lessons/nst-05",
+    "kb_lessons/nst-06",
+    "kb_lessons/nst-07",
+    "kb_lessons/nst-08",
+    "kb_lessons/nst-09",
+    "kb_exsets/nst-01",
+    "kb_exsets/nst-02",
+    "kb_exsets/nst-03",
+    "kb_exsets/nst-04",
+    "kb_exsets/nst-05",
+    "kb_exsets/nst-06",
+    "kb_exsets/nst-07",
+    "kb_exsets/nst-08",
+    "kb_exsets/nst-09",
+    "kb_assess/nestjs",
+    "kb_projects/api-nest-modular"
+   ]
+  }
+ },
+ "docRevs": {
+  "kb_courses/react-essencial": {
+   "hash": "0c9779063f050841",
+   "rev": 4
+  },
+  "kb_lessons/rea-01": {
+   "hash": "f117db5c1b547dce",
+   "rev": 4
+  },
+  "kb_lessons/rea-02": {
+   "hash": "92f371d1c07a1e09",
+   "rev": 4
+  },
+  "kb_lessons/rea-03": {
+   "hash": "efbcdbc3b8ff36c7",
+   "rev": 4
+  },
+  "kb_lessons/rea-04": {
+   "hash": "80414d2615e123b5",
+   "rev": 4
+  },
+  "kb_lessons/rea-05": {
+   "hash": "ce43eb542ee623f2",
+   "rev": 4
+  },
+  "kb_lessons/rea-06": {
+   "hash": "b68f5c404027ad43",
+   "rev": 4
+  },
+  "kb_lessons/rea-07": {
+   "hash": "c5aef16a7be36107",
+   "rev": 4
+  },
+  "kb_lessons/rea-08": {
+   "hash": "cf22031709d7200f",
+   "rev": 4
+  },
+  "kb_lessons/rea-09": {
+   "hash": "39d3563a2a1ce266",
+   "rev": 4
+  },
+  "kb_lessons/rea-10": {
+   "hash": "a57c357081d03e2f",
+   "rev": 4
+  },
+  "kb_lessons/rea-11": {
+   "hash": "3f8e47fc44315bfe",
+   "rev": 4
+  },
+  "kb_exsets/rea-01": {
+   "hash": "8bc1224ae77c0c5c",
+   "rev": 4
+  },
+  "kb_exsets/rea-02": {
+   "hash": "6caad738b0844479",
+   "rev": 4
+  },
+  "kb_exsets/rea-03": {
+   "hash": "f0fc8d450dda43b0",
+   "rev": 4
+  },
+  "kb_exsets/rea-04": {
+   "hash": "447af3418a00d4f4",
+   "rev": 4
+  },
+  "kb_exsets/rea-05": {
+   "hash": "e48bc2b16e35b790",
+   "rev": 4
+  },
+  "kb_exsets/rea-06": {
+   "hash": "d481cfefcaf46a0a",
+   "rev": 4
+  },
+  "kb_exsets/rea-07": {
+   "hash": "bd6867fa83337060",
+   "rev": 4
+  },
+  "kb_exsets/rea-08": {
+   "hash": "ac61c8782dcd4fa9",
+   "rev": 4
+  },
+  "kb_exsets/rea-09": {
+   "hash": "dc958c82ae738cfc",
+   "rev": 4
+  },
+  "kb_exsets/rea-10": {
+   "hash": "d4b8b6b568d6d9e2",
+   "rev": 4
+  },
+  "kb_exsets/rea-11": {
+   "hash": "f57d73e891454f32",
+   "rev": 4
+  },
+  "kb_assess/react-essencial": {
+   "hash": "35e777930bd81978",
+   "rev": 4
+  },
+  "kb_projects/quadro-tarefas-acessivel": {
+   "hash": "6fb2f25c41a9fb29",
+   "rev": 4
+  },
+  "kb_courses/tailwind-design-systems": {
+   "hash": "1ca9b2f85acab0e0",
+   "rev": 4
+  },
+  "kb_lessons/tdw-01": {
+   "hash": "bc5f20a46b21651e",
+   "rev": 4
+  },
+  "kb_lessons/tdw-02": {
+   "hash": "38861adfb53a9cb5",
+   "rev": 4
+  },
+  "kb_lessons/tdw-03": {
+   "hash": "a86bed722da6e014",
+   "rev": 4
+  },
+  "kb_lessons/tdw-04": {
+   "hash": "eb0e28b7b52b12df",
+   "rev": 4
+  },
+  "kb_lessons/tdw-05": {
+   "hash": "0d120a968389a6ad",
+   "rev": 4
+  },
+  "kb_lessons/tdw-06": {
+   "hash": "73a25171cfa42ce3",
+   "rev": 4
+  },
+  "kb_lessons/tdw-07": {
+   "hash": "c8e1c41f6e5e2681",
+   "rev": 4
+  },
+  "kb_lessons/tdw-08": {
+   "hash": "6b887e85cefd1a69",
+   "rev": 4
+  },
+  "kb_lessons/tdw-09": {
+   "hash": "34eddaf50b0df865",
+   "rev": 4
+  },
+  "kb_exsets/tdw-01": {
+   "hash": "8ce246e1b604d394",
+   "rev": 4
+  },
+  "kb_exsets/tdw-02": {
+   "hash": "c6d2996fd1edc5f2",
+   "rev": 4
+  },
+  "kb_exsets/tdw-03": {
+   "hash": "f1da92b82bf63e53",
+   "rev": 4
+  },
+  "kb_exsets/tdw-04": {
+   "hash": "ccebfa8343f398b1",
+   "rev": 4
+  },
+  "kb_exsets/tdw-05": {
+   "hash": "a753f0d7bcd49906",
+   "rev": 4
+  },
+  "kb_exsets/tdw-06": {
+   "hash": "999cd608886c7115",
+   "rev": 4
+  },
+  "kb_exsets/tdw-07": {
+   "hash": "7c6d60d1337c5885",
+   "rev": 4
+  },
+  "kb_exsets/tdw-08": {
+   "hash": "082675703f990fae",
+   "rev": 4
+  },
+  "kb_exsets/tdw-09": {
+   "hash": "472a6681e4932964",
+   "rev": 4
+  },
+  "kb_assess/tailwind-design-systems": {
+   "hash": "c7da51046bf7eec7",
+   "rev": 4
+  },
+  "kb_projects/mini-design-system": {
+   "hash": "c410089d3b3dd520",
+   "rev": 4
+  },
+  "kb_courses/react-avancado": {
+   "hash": "508e77876394539d",
+   "rev": 4
+  },
+  "kb_lessons/rav-01": {
+   "hash": "135d8cb454de829a",
+   "rev": 4
+  },
+  "kb_lessons/rav-02": {
+   "hash": "08702284562d4100",
+   "rev": 4
+  },
+  "kb_lessons/rav-03": {
+   "hash": "9ef6bfe85587a5e7",
+   "rev": 4
+  },
+  "kb_lessons/rav-04": {
+   "hash": "3bb99ded76351ede",
+   "rev": 4
+  },
+  "kb_lessons/rav-05": {
+   "hash": "486a7cee834a5690",
+   "rev": 4
+  },
+  "kb_lessons/rav-06": {
+   "hash": "02c7a952803c360b",
+   "rev": 4
+  },
+  "kb_exsets/rav-01": {
+   "hash": "658cd076c4257882",
+   "rev": 4
+  },
+  "kb_exsets/rav-02": {
+   "hash": "7842f393c904de30",
+   "rev": 4
+  },
+  "kb_exsets/rav-03": {
+   "hash": "99989599e994ceaf",
+   "rev": 4
+  },
+  "kb_exsets/rav-04": {
+   "hash": "43ade2fb52e1b2c6",
+   "rev": 4
+  },
+  "kb_exsets/rav-05": {
+   "hash": "19f4041dec33e246",
+   "rev": 4
+  },
+  "kb_exsets/rav-06": {
+   "hash": "3a80fcd36e3fb161",
+   "rev": 4
+  },
+  "kb_assess/react-avancado": {
+   "hash": "09fe48154d2dd72a",
+   "rev": 4
+  },
+  "kb_projects/biblioteca-componentes-compostos": {
+   "hash": "c3fe52742a3ea77a",
+   "rev": 4
+  },
+  "kb_courses/estado-frontend": {
+   "hash": "ee62912d9d7599eb",
+   "rev": 4
+  },
+  "kb_lessons/est-01": {
+   "hash": "ed0e76cc26284b3e",
+   "rev": 4
+  },
+  "kb_lessons/est-02": {
+   "hash": "89476fc856d30ecf",
+   "rev": 4
+  },
+  "kb_lessons/est-03": {
+   "hash": "62b5f348e0d32485",
+   "rev": 4
+  },
+  "kb_lessons/est-04": {
+   "hash": "b1840912a9fd9e67",
+   "rev": 4
+  },
+  "kb_lessons/est-05": {
+   "hash": "5227f419a50891b1",
+   "rev": 4
+  },
+  "kb_lessons/est-06": {
+   "hash": "934295ec6d60585e",
+   "rev": 4
+  },
+  "kb_lessons/est-07": {
+   "hash": "2b8533a39b6796fd",
+   "rev": 4
+  },
+  "kb_lessons/est-08": {
+   "hash": "2063b12a979c4423",
+   "rev": 4
+  },
+  "kb_lessons/est-09": {
+   "hash": "74d71d7474bf8b0c",
+   "rev": 4
+  },
+  "kb_exsets/est-01": {
+   "hash": "e3e6ee0665b7aa70",
+   "rev": 4
+  },
+  "kb_exsets/est-02": {
+   "hash": "12e9031b6c818daa",
+   "rev": 4
+  },
+  "kb_exsets/est-03": {
+   "hash": "608d4a9aa29e3857",
+   "rev": 4
+  },
+  "kb_exsets/est-04": {
+   "hash": "be5c7f3fa2ccabad",
+   "rev": 4
+  },
+  "kb_exsets/est-05": {
+   "hash": "872ca4c40bc83e2c",
+   "rev": 4
+  },
+  "kb_exsets/est-06": {
+   "hash": "10dc0f0a078a3af4",
+   "rev": 4
+  },
+  "kb_exsets/est-07": {
+   "hash": "4fee032822f70414",
+   "rev": 4
+  },
+  "kb_exsets/est-08": {
+   "hash": "dab39e0e7ce272a0",
+   "rev": 4
+  },
+  "kb_exsets/est-09": {
+   "hash": "111478c9743c1709",
+   "rev": 4
+  },
+  "kb_assess/estado-frontend": {
+   "hash": "52e58caccf2d19dd",
+   "rev": 4
+  },
+  "kb_projects/painel-de-pedidos": {
+   "hash": "fb56db64dc7affa2",
+   "rev": 4
+  },
+  "kb_courses/nextjs": {
+   "hash": "8cdc950007b5c08f",
+   "rev": 4
+  },
+  "kb_lessons/nxt-01": {
+   "hash": "097d4856aeb1a2cf",
+   "rev": 4
+  },
+  "kb_lessons/nxt-02": {
+   "hash": "9bbcbc2e9acae9c4",
+   "rev": 4
+  },
+  "kb_lessons/nxt-03": {
+   "hash": "26c963a1358ab452",
+   "rev": 4
+  },
+  "kb_lessons/nxt-04": {
+   "hash": "daff229365cfc205",
+   "rev": 4
+  },
+  "kb_lessons/nxt-05": {
+   "hash": "31af22cf8ebaddc6",
+   "rev": 4
+  },
+  "kb_lessons/nxt-06": {
+   "hash": "543d142d4ed044f9",
+   "rev": 4
+  },
+  "kb_lessons/nxt-07": {
+   "hash": "1ff8a503318f84d8",
+   "rev": 4
+  },
+  "kb_lessons/nxt-08": {
+   "hash": "bb0bd5ebe97151a3",
+   "rev": 4
+  },
+  "kb_lessons/nxt-09": {
+   "hash": "9d37a8ab4c127c4a",
+   "rev": 4
+  },
+  "kb_lessons/nxt-10": {
+   "hash": "d3c1dcfe071c69bc",
+   "rev": 4
+  },
+  "kb_lessons/nxt-11": {
+   "hash": "73c3cf9429f7e1eb",
+   "rev": 4
+  },
+  "kb_exsets/nxt-01": {
+   "hash": "dd6808d6317a464f",
+   "rev": 4
+  },
+  "kb_exsets/nxt-02": {
+   "hash": "cde817598e55223e",
+   "rev": 4
+  },
+  "kb_exsets/nxt-03": {
+   "hash": "ec96834289aabbf7",
+   "rev": 4
+  },
+  "kb_exsets/nxt-04": {
+   "hash": "7ecb49a1b6143cc9",
+   "rev": 4
+  },
+  "kb_exsets/nxt-05": {
+   "hash": "44252778ecf189e4",
+   "rev": 4
+  },
+  "kb_exsets/nxt-06": {
+   "hash": "1deef42f07e5f248",
+   "rev": 4
+  },
+  "kb_exsets/nxt-07": {
+   "hash": "c38fdf656541d7a9",
+   "rev": 4
+  },
+  "kb_exsets/nxt-08": {
+   "hash": "3692cc471776ba75",
+   "rev": 4
+  },
+  "kb_exsets/nxt-09": {
+   "hash": "e2cbaaf56d32425a",
+   "rev": 4
+  },
+  "kb_exsets/nxt-10": {
+   "hash": "9e2a9dc921c52fda",
+   "rev": 4
+  },
+  "kb_exsets/nxt-11": {
+   "hash": "a13e8e9dd199e4a9",
+   "rev": 4
+  },
+  "kb_assess/nextjs": {
+   "hash": "3bf8fd77de907805",
+   "rev": 4
+  },
+  "kb_projects/loja-full-stack": {
+   "hash": "00aaaa86a844ad22",
+   "rev": 4
+  },
+  "kb_courses/testes-frontend": {
+   "hash": "2be2b79276a5b001",
+   "rev": 4
+  },
+  "kb_lessons/tfe-01": {
+   "hash": "4512229113c947a0",
+   "rev": 4
+  },
+  "kb_lessons/tfe-02": {
+   "hash": "a8444b25761b4d4f",
+   "rev": 4
+  },
+  "kb_lessons/tfe-03": {
+   "hash": "f1af40088cfc60f3",
+   "rev": 4
+  },
+  "kb_lessons/tfe-04": {
+   "hash": "0d7f22c5c4b35509",
+   "rev": 4
+  },
+  "kb_lessons/tfe-05": {
+   "hash": "69900dd89897a8f0",
+   "rev": 4
+  },
+  "kb_lessons/tfe-06": {
+   "hash": "2f4bc1ca67c0ae1a",
+   "rev": 4
+  },
+  "kb_lessons/tfe-07": {
+   "hash": "69b2dc7e4b63f653",
+   "rev": 4
+  },
+  "kb_lessons/tfe-08": {
+   "hash": "2a4d81be358d2148",
+   "rev": 4
+  },
+  "kb_exsets/tfe-01": {
+   "hash": "dd79e9cba8b0e89c",
+   "rev": 4
+  },
+  "kb_exsets/tfe-02": {
+   "hash": "b8ed94bcd4fce672",
+   "rev": 4
+  },
+  "kb_exsets/tfe-03": {
+   "hash": "0f06544326cc7891",
+   "rev": 4
+  },
+  "kb_exsets/tfe-04": {
+   "hash": "5d5041977093f880",
+   "rev": 4
+  },
+  "kb_exsets/tfe-05": {
+   "hash": "9b67db8fad426f5b",
+   "rev": 4
+  },
+  "kb_exsets/tfe-06": {
+   "hash": "ded57fdb2cd78e09",
+   "rev": 4
+  },
+  "kb_exsets/tfe-07": {
+   "hash": "c382d815deb3964f",
+   "rev": 4
+  },
+  "kb_exsets/tfe-08": {
+   "hash": "b0d9e01b9ca7d221",
+   "rev": 4
+  },
+  "kb_assess/testes-frontend": {
+   "hash": "f5786e5068f17c3a",
+   "rev": 4
+  },
+  "kb_projects/suite-de-testes-app": {
+   "hash": "d24aa2ac675ce243",
+   "rev": 4
+  },
+  "kb_courses/performance-frontend": {
+   "hash": "3375a4229d99aaa3",
+   "rev": 4
+  },
+  "kb_lessons/pfe-01": {
+   "hash": "ad0c179e70aef257",
+   "rev": 4
+  },
+  "kb_lessons/pfe-02": {
+   "hash": "93b19efe64879eb3",
+   "rev": 4
+  },
+  "kb_lessons/pfe-03": {
+   "hash": "63de7c97786e78f1",
+   "rev": 4
+  },
+  "kb_lessons/pfe-04": {
+   "hash": "38fac5fea62ac4e0",
+   "rev": 4
+  },
+  "kb_lessons/pfe-05": {
+   "hash": "5eb1f48ffd6f733c",
+   "rev": 4
+  },
+  "kb_lessons/pfe-06": {
+   "hash": "2d3d2a8ad88218c1",
+   "rev": 4
+  },
+  "kb_lessons/pfe-07": {
+   "hash": "cd1f8ae57180b8c8",
+   "rev": 4
+  },
+  "kb_lessons/pfe-08": {
+   "hash": "1ee60bac33c36166",
+   "rev": 4
+  },
+  "kb_exsets/pfe-01": {
+   "hash": "9a9e152be918ab4c",
+   "rev": 4
+  },
+  "kb_exsets/pfe-02": {
+   "hash": "6d4470b9f83d232e",
+   "rev": 4
+  },
+  "kb_exsets/pfe-03": {
+   "hash": "cfd519b15307b124",
+   "rev": 4
+  },
+  "kb_exsets/pfe-04": {
+   "hash": "d340b6a5b402cafa",
+   "rev": 4
+  },
+  "kb_exsets/pfe-05": {
+   "hash": "6eda9a61840c634d",
+   "rev": 4
+  },
+  "kb_exsets/pfe-06": {
+   "hash": "d2849face2acc6aa",
+   "rev": 4
+  },
+  "kb_exsets/pfe-07": {
+   "hash": "e27fab366dc38b8d",
+   "rev": 4
+  },
+  "kb_exsets/pfe-08": {
+   "hash": "50a1abe7d63356ed",
+   "rev": 4
+  },
+  "kb_assess/performance-frontend": {
+   "hash": "6e26bd0e1165fa7f",
+   "rev": 4
+  },
+  "kb_projects/auditoria-otimizacao-app": {
+   "hash": "b450c2eef8a9ec66",
+   "rev": 4
+  },
+  "kb_courses/arquitetura-frontend": {
+   "hash": "7f27af2253e0fe2a",
+   "rev": 4
+  },
+  "kb_lessons/arq-01": {
+   "hash": "cc2aafece55a7ebc",
+   "rev": 4
+  },
+  "kb_lessons/arq-02": {
+   "hash": "9d6642d45589ac5e",
+   "rev": 4
+  },
+  "kb_lessons/arq-03": {
+   "hash": "7a97e5c8b1f4773c",
+   "rev": 4
+  },
+  "kb_lessons/arq-04": {
+   "hash": "3ccec31665d4fd4a",
+   "rev": 4
+  },
+  "kb_lessons/arq-05": {
+   "hash": "6dccd9dc3115bf04",
+   "rev": 4
+  },
+  "kb_lessons/arq-06": {
+   "hash": "b5d76a306b4df9d5",
+   "rev": 4
+  },
+  "kb_lessons/arq-07": {
+   "hash": "73d0d78e2b482b31",
+   "rev": 4
+  },
+  "kb_exsets/arq-01": {
+   "hash": "e5470b589c56d5c4",
+   "rev": 4
+  },
+  "kb_exsets/arq-02": {
+   "hash": "f3a902505c799ff5",
+   "rev": 4
+  },
+  "kb_exsets/arq-03": {
+   "hash": "f0b5b231f7684720",
+   "rev": 4
+  },
+  "kb_exsets/arq-04": {
+   "hash": "4406a5ef0e6f5410",
+   "rev": 4
+  },
+  "kb_exsets/arq-05": {
+   "hash": "b2e7222f0393de4c",
+   "rev": 4
+  },
+  "kb_exsets/arq-06": {
+   "hash": "340dd4a3e160eacd",
+   "rev": 4
+  },
+  "kb_exsets/arq-07": {
+   "hash": "14bcb1d301533a9e",
+   "rev": 4
+  },
+  "kb_assess/arquitetura-frontend": {
+   "hash": "8498c2833661b02c",
+   "rev": 4
+  },
+  "kb_projects/monorepo-dois-apps": {
+   "hash": "88defc95bd2d2f22",
+   "rev": 4
+  },
+  "kb_courses/sql-essencial": {
+   "hash": "14e9ffe5c9574add",
+   "rev": 4
+  },
+  "kb_lessons/sqe-01": {
+   "hash": "1060c0a38b0a2835",
+   "rev": 4
+  },
+  "kb_lessons/sqe-02": {
+   "hash": "a1d17dc73928e6e1",
+   "rev": 4
+  },
+  "kb_lessons/sqe-03": {
+   "hash": "eca833d3389608fe",
+   "rev": 4
+  },
+  "kb_lessons/sqe-04": {
+   "hash": "256f82ba580aa1a3",
+   "rev": 4
+  },
+  "kb_lessons/sqe-05": {
+   "hash": "127e580f4270e258",
+   "rev": 4
+  },
+  "kb_lessons/sqe-06": {
+   "hash": "026c25fd987cb01e",
+   "rev": 4
+  },
+  "kb_lessons/sqe-07": {
+   "hash": "814f4852af3075bf",
+   "rev": 4
+  },
+  "kb_lessons/sqe-08": {
+   "hash": "f84177d4badd42f8",
+   "rev": 4
+  },
+  "kb_lessons/sqe-09": {
+   "hash": "e9723eae304b7f0f",
+   "rev": 4
+  },
+  "kb_exsets/sqe-01": {
+   "hash": "54738d012e214f41",
+   "rev": 4
+  },
+  "kb_exsets/sqe-02": {
+   "hash": "6db760b8727b55b3",
+   "rev": 4
+  },
+  "kb_exsets/sqe-03": {
+   "hash": "dd49df25b1453616",
+   "rev": 4
+  },
+  "kb_exsets/sqe-04": {
+   "hash": "afe8464f9eb72e3e",
+   "rev": 4
+  },
+  "kb_exsets/sqe-05": {
+   "hash": "ebdeb8c4e150a1f9",
+   "rev": 4
+  },
+  "kb_exsets/sqe-06": {
+   "hash": "a5545f37b7c41737",
+   "rev": 4
+  },
+  "kb_exsets/sqe-07": {
+   "hash": "2030f468b327e3be",
+   "rev": 4
+  },
+  "kb_exsets/sqe-08": {
+   "hash": "66afde255d3dc041",
+   "rev": 4
+  },
+  "kb_exsets/sqe-09": {
+   "hash": "fc9f2e2454f4276e",
+   "rev": 4
+  },
+  "kb_assess/sql-essencial": {
+   "hash": "437375438ab7047f",
+   "rev": 4
+  },
+  "kb_projects/relatorios-loja": {
+   "hash": "35be6d46f7f4afc6",
+   "rev": 4
+  },
+  "kb_courses/sql-avancado": {
+   "hash": "4451c0e5aab92a69",
+   "rev": 4
+  },
+  "kb_lessons/sqa-01": {
+   "hash": "6441beb8a6e1195a",
+   "rev": 4
+  },
+  "kb_lessons/sqa-02": {
+   "hash": "4e4945b2c1e0e973",
+   "rev": 4
+  },
+  "kb_lessons/sqa-03": {
+   "hash": "411d069bf2d7bb4e",
+   "rev": 4
+  },
+  "kb_lessons/sqa-04": {
+   "hash": "69deed222aaab33f",
+   "rev": 4
+  },
+  "kb_lessons/sqa-05": {
+   "hash": "ff1ff14d1452d87f",
+   "rev": 4
+  },
+  "kb_lessons/sqa-06": {
+   "hash": "6ec4cc6143f7d973",
+   "rev": 4
+  },
+  "kb_exsets/sqa-01": {
+   "hash": "4acee59a68633ff1",
+   "rev": 4
+  },
+  "kb_exsets/sqa-02": {
+   "hash": "c78b1708397109b5",
+   "rev": 4
+  },
+  "kb_exsets/sqa-03": {
+   "hash": "8dd3a93993c01902",
+   "rev": 4
+  },
+  "kb_exsets/sqa-04": {
+   "hash": "c7d0c3d961d0b55a",
+   "rev": 4
+  },
+  "kb_exsets/sqa-05": {
+   "hash": "c8d19ed50f6f322f",
+   "rev": 4
+  },
+  "kb_exsets/sqa-06": {
+   "hash": "561b5f4474aaf19b",
+   "rev": 4
+  },
+  "kb_assess/sql-avancado": {
+   "hash": "d50112a5bd68f711",
+   "rev": 4
+  },
+  "kb_projects/painel-analitico": {
+   "hash": "a3063ebb35cf4533",
+   "rev": 4
+  },
+  "kb_courses/postgres-mysql": {
+   "hash": "f376b219ac76d102",
+   "rev": 4
+  },
+  "kb_lessons/pgm-01": {
+   "hash": "04f713545d4781ee",
+   "rev": 4
+  },
+  "kb_lessons/pgm-02": {
+   "hash": "888ad7f8725578fd",
+   "rev": 4
+  },
+  "kb_lessons/pgm-03": {
+   "hash": "21af70de0ee5b9e6",
+   "rev": 4
+  },
+  "kb_lessons/pgm-04": {
+   "hash": "c49d6330e1965c9a",
+   "rev": 4
+  },
+  "kb_lessons/pgm-05": {
+   "hash": "91fa0599aae1cdfc",
+   "rev": 4
+  },
+  "kb_lessons/pgm-06": {
+   "hash": "7bb7d9ba635d9f74",
+   "rev": 4
+  },
+  "kb_lessons/pgm-07": {
+   "hash": "4421dee0604d0c3a",
+   "rev": 4
+  },
+  "kb_lessons/pgm-08": {
+   "hash": "9bb3b2fc31ae574b",
+   "rev": 4
+  },
+  "kb_lessons/pgm-09": {
+   "hash": "37e00095c4965b97",
+   "rev": 4
+  },
+  "kb_exsets/pgm-01": {
+   "hash": "366484ab410b80b5",
+   "rev": 4
+  },
+  "kb_exsets/pgm-02": {
+   "hash": "ee325633fe7c1b2d",
+   "rev": 4
+  },
+  "kb_exsets/pgm-03": {
+   "hash": "494dd8d11be49b47",
+   "rev": 4
+  },
+  "kb_exsets/pgm-04": {
+   "hash": "702ff5e57e06fd0f",
+   "rev": 4
+  },
+  "kb_exsets/pgm-05": {
+   "hash": "6449f64bdaa37850",
+   "rev": 4
+  },
+  "kb_exsets/pgm-06": {
+   "hash": "ab3ceabaf57405d1",
+   "rev": 4
+  },
+  "kb_exsets/pgm-07": {
+   "hash": "f57dc645743f504f",
+   "rev": 4
+  },
+  "kb_exsets/pgm-08": {
+   "hash": "e86827dd9367e1e4",
+   "rev": 4
+  },
+  "kb_exsets/pgm-09": {
+   "hash": "793229d006f60294",
+   "rev": 4
+  },
+  "kb_assess/postgres-mysql": {
+   "hash": "7b08b3bf44290c65",
+   "rev": 4
+  },
+  "kb_projects/tuning-banco": {
+   "hash": "23379d3f7254d26c",
+   "rev": 4
+  },
+  "kb_courses/modelagem-dados": {
+   "hash": "77d7a10d912be001",
+   "rev": 4
+  },
+  "kb_lessons/mod-01": {
+   "hash": "dc5499d4e1cd43af",
+   "rev": 4
+  },
+  "kb_lessons/mod-02": {
+   "hash": "e3706cb4645f46f7",
+   "rev": 4
+  },
+  "kb_lessons/mod-03": {
+   "hash": "d48e799caafa6e54",
+   "rev": 4
+  },
+  "kb_lessons/mod-04": {
+   "hash": "8e15dcb1c009a332",
+   "rev": 4
+  },
+  "kb_lessons/mod-05": {
+   "hash": "d32791bd263365a9",
+   "rev": 4
+  },
+  "kb_lessons/mod-06": {
+   "hash": "4816bf252e3b0e2a",
+   "rev": 4
+  },
+  "kb_exsets/mod-01": {
+   "hash": "5e214143cce6bae2",
+   "rev": 4
+  },
+  "kb_exsets/mod-02": {
+   "hash": "9b88953f5f4cc4dc",
+   "rev": 4
+  },
+  "kb_exsets/mod-03": {
+   "hash": "38f3affd338e9dd9",
+   "rev": 4
+  },
+  "kb_exsets/mod-04": {
+   "hash": "451c2ebd174a8287",
+   "rev": 4
+  },
+  "kb_exsets/mod-05": {
+   "hash": "01803e7b29975e1b",
+   "rev": 4
+  },
+  "kb_exsets/mod-06": {
+   "hash": "05becebc9a7cc676",
+   "rev": 4
+  },
+  "kb_assess/modelagem-dados": {
+   "hash": "7650dbcb3e047622",
+   "rev": 4
+  },
+  "kb_projects/modelo-plataforma-cursos": {
+   "hash": "ae232b33c713d760",
+   "rev": 4
+  },
+  "kb_courses/transacoes-concorrencia": {
+   "hash": "9fce45716f81c7bc",
+   "rev": 4
+  },
+  "kb_lessons/trx-01": {
+   "hash": "881fb94eaf62ad80",
+   "rev": 4
+  },
+  "kb_lessons/trx-02": {
+   "hash": "7ca18e041c474ec1",
+   "rev": 4
+  },
+  "kb_lessons/trx-03": {
+   "hash": "beab66c451ab5081",
+   "rev": 4
+  },
+  "kb_lessons/trx-04": {
+   "hash": "a8e63d4f180ed02e",
+   "rev": 4
+  },
+  "kb_lessons/trx-05": {
+   "hash": "379858a598c329ef",
+   "rev": 4
+  },
+  "kb_lessons/trx-06": {
+   "hash": "392c5b0d172e711e",
+   "rev": 4
+  },
+  "kb_lessons/trx-07": {
+   "hash": "238a32c5e7e9414b",
+   "rev": 4
+  },
+  "kb_exsets/trx-01": {
+   "hash": "9f464d75d342bb76",
+   "rev": 4
+  },
+  "kb_exsets/trx-02": {
+   "hash": "3aca1c2756f25cc4",
+   "rev": 4
+  },
+  "kb_exsets/trx-03": {
+   "hash": "cc676ebfd3531dd3",
+   "rev": 4
+  },
+  "kb_exsets/trx-04": {
+   "hash": "c65d499923bd6205",
+   "rev": 4
+  },
+  "kb_exsets/trx-05": {
+   "hash": "3885aa55ec0509d3",
+   "rev": 4
+  },
+  "kb_exsets/trx-06": {
+   "hash": "7fd3496f415f295a",
+   "rev": 4
+  },
+  "kb_exsets/trx-07": {
+   "hash": "a6a81d6df972d197",
+   "rev": 4
+  },
+  "kb_assess/transacoes-concorrencia": {
+   "hash": "b963f97ba589b70b",
+   "rev": 4
+  },
+  "kb_projects/reservas-sem-corrida": {
+   "hash": "bc8648e6bf899ee2",
+   "rev": 4
+  },
+  "kb_courses/orms-node": {
+   "hash": "90f86158d410c2c7",
+   "rev": 4
+  },
+  "kb_lessons/orm-01": {
+   "hash": "fed727966bbc9f29",
+   "rev": 4
+  },
+  "kb_lessons/orm-02": {
+   "hash": "cc0fa1db5be304b1",
+   "rev": 4
+  },
+  "kb_lessons/orm-03": {
+   "hash": "bd9ba8e3050b3fc8",
+   "rev": 4
+  },
+  "kb_lessons/orm-04": {
+   "hash": "bd619d3f4d94c75c",
+   "rev": 4
+  },
+  "kb_lessons/orm-05": {
+   "hash": "ec3e50eef832706c",
+   "rev": 4
+  },
+  "kb_lessons/orm-06": {
+   "hash": "3237cd230508e088",
+   "rev": 4
+  },
+  "kb_exsets/orm-01": {
+   "hash": "73985304990a3a8b",
+   "rev": 4
+  },
+  "kb_exsets/orm-02": {
+   "hash": "8a3cd7102bfa6ccb",
+   "rev": 4
+  },
+  "kb_exsets/orm-03": {
+   "hash": "4f8e6b5c38f10ec5",
+   "rev": 4
+  },
+  "kb_exsets/orm-04": {
+   "hash": "a29e791e4b0408ed",
+   "rev": 4
+  },
+  "kb_exsets/orm-05": {
+   "hash": "3e47341f02f9cc07",
+   "rev": 4
+  },
+  "kb_exsets/orm-06": {
+   "hash": "72d3ca11880e6f50",
+   "rev": 4
+  },
+  "kb_assess/orms-node": {
+   "hash": "a247dddc497d59be",
+   "rev": 4
+  },
+  "kb_projects/api-catalogo-orm": {
+   "hash": "f381e56990853454",
+   "rev": 4
+  },
+  "kb_courses/nosql-mongodb-redis": {
+   "hash": "23362ad89c0bea6b",
+   "rev": 4
+  },
+  "kb_lessons/nsq-01": {
+   "hash": "67cbf12553734e70",
+   "rev": 4
+  },
+  "kb_lessons/nsq-02": {
+   "hash": "2ea7e233d9a546f4",
+   "rev": 4
+  },
+  "kb_lessons/nsq-03": {
+   "hash": "db60f628c82d804b",
+   "rev": 4
+  },
+  "kb_lessons/nsq-04": {
+   "hash": "0ef33c6e340f9b5a",
+   "rev": 4
+  },
+  "kb_lessons/nsq-05": {
+   "hash": "7c1d1036d7a3dba5",
+   "rev": 4
+  },
+  "kb_lessons/nsq-06": {
+   "hash": "091c9422b9e4aa89",
+   "rev": 4
+  },
+  "kb_lessons/nsq-07": {
+   "hash": "5b3ab98c04c4cafa",
+   "rev": 4
+  },
+  "kb_lessons/nsq-08": {
+   "hash": "59f67200f853a4df",
+   "rev": 4
+  },
+  "kb_lessons/nsq-09": {
+   "hash": "3ef21ee359984e82",
+   "rev": 4
+  },
+  "kb_exsets/nsq-01": {
+   "hash": "75c1c06bf4418b9e",
+   "rev": 4
+  },
+  "kb_exsets/nsq-02": {
+   "hash": "4e34cf48f6f0ea31",
+   "rev": 4
+  },
+  "kb_exsets/nsq-03": {
+   "hash": "6a1e06bff1c07e5e",
+   "rev": 4
+  },
+  "kb_exsets/nsq-04": {
+   "hash": "8087c96d56a24977",
+   "rev": 4
+  },
+  "kb_exsets/nsq-05": {
+   "hash": "e9b82b03c1a94094",
+   "rev": 4
+  },
+  "kb_exsets/nsq-06": {
+   "hash": "f3304b025b8bbd7d",
+   "rev": 4
+  },
+  "kb_exsets/nsq-07": {
+   "hash": "7b8a5f14aaece718",
+   "rev": 4
+  },
+  "kb_exsets/nsq-08": {
+   "hash": "e3d158c211e4cee3",
+   "rev": 4
+  },
+  "kb_exsets/nsq-09": {
+   "hash": "353f01693617757c",
+   "rev": 4
+  },
+  "kb_assess/nosql-mongodb-redis": {
+   "hash": "9774c99055e1ba29",
+   "rev": 4
+  },
+  "kb_projects/feed-de-eventos": {
+   "hash": "a71c008759f3ebc8",
+   "rev": 4
+  },
+  "kb_courses/estrategias-cache": {
+   "hash": "e3dee60290e98831",
+   "rev": 4
+  },
+  "kb_lessons/cch-01": {
+   "hash": "4b8a5c33e0d6facc",
+   "rev": 4
+  },
+  "kb_lessons/cch-02": {
+   "hash": "11cc9af595872753",
+   "rev": 4
+  },
+  "kb_lessons/cch-03": {
+   "hash": "f6afa7f0ec9052f1",
+   "rev": 4
+  },
+  "kb_lessons/cch-04": {
+   "hash": "166b9645ceaae9f2",
+   "rev": 4
+  },
+  "kb_lessons/cch-05": {
+   "hash": "03e8164516ac0cbf",
+   "rev": 4
+  },
+  "kb_lessons/cch-06": {
+   "hash": "82528382a1d574f5",
+   "rev": 4
+  },
+  "kb_exsets/cch-01": {
+   "hash": "77e6c707e12eaa55",
+   "rev": 4
+  },
+  "kb_exsets/cch-02": {
+   "hash": "e6d112a0496c184d",
+   "rev": 4
+  },
+  "kb_exsets/cch-03": {
+   "hash": "136a1659b613c298",
+   "rev": 4
+  },
+  "kb_exsets/cch-04": {
+   "hash": "d6a5f7f30ecea0db",
+   "rev": 4
+  },
+  "kb_exsets/cch-05": {
+   "hash": "d5a8461d5a276319",
+   "rev": 4
+  },
+  "kb_exsets/cch-06": {
+   "hash": "189ce32797a6f6d0",
+   "rev": 4
+  },
+  "kb_assess/estrategias-cache": {
+   "hash": "5c9429351d3d07a4",
+   "rev": 4
+  },
+  "kb_projects/camada-cache-api": {
+   "hash": "795f2f504b61d01b",
+   "rev": 4
+  },
+  "kb_courses/node-express": {
+   "hash": "625a49447d2ee247",
+   "rev": 4
+  },
+  "kb_lessons/nex-01": {
+   "hash": "070a7c7b11d4227e",
+   "rev": 4
+  },
+  "kb_lessons/nex-02": {
+   "hash": "dc530d51e52aea13",
+   "rev": 4
+  },
+  "kb_lessons/nex-03": {
+   "hash": "b4749de57bb61ae2",
+   "rev": 4
+  },
+  "kb_lessons/nex-04": {
+   "hash": "d5bb80b4f9168266",
+   "rev": 4
+  },
+  "kb_lessons/nex-05": {
+   "hash": "1cdd61d96cfb3c7a",
+   "rev": 4
+  },
+  "kb_lessons/nex-06": {
+   "hash": "f3a308ff2433340a",
+   "rev": 4
+  },
+  "kb_lessons/nex-07": {
+   "hash": "cd6833ec7555971c",
+   "rev": 4
+  },
+  "kb_exsets/nex-01": {
+   "hash": "fc62f8a1dc77dce6",
+   "rev": 4
+  },
+  "kb_exsets/nex-02": {
+   "hash": "6c72eb69d12044c0",
+   "rev": 4
+  },
+  "kb_exsets/nex-03": {
+   "hash": "14a3c7ce10c4d9af",
+   "rev": 4
+  },
+  "kb_exsets/nex-04": {
+   "hash": "5e1eddae7314559f",
+   "rev": 4
+  },
+  "kb_exsets/nex-05": {
+   "hash": "3eb99a7d34da3a27",
+   "rev": 4
+  },
+  "kb_exsets/nex-06": {
+   "hash": "03c6b1e8a959c86e",
+   "rev": 4
+  },
+  "kb_exsets/nex-07": {
+   "hash": "79341fb87b1973dd",
+   "rev": 4
+  },
+  "kb_assess/node-express": {
+   "hash": "e96603166527deaf",
+   "rev": 4
+  },
+  "kb_projects/api-express-producao": {
+   "hash": "413aad5f251ca619",
+   "rev": 4
+  },
+  "kb_courses/nestjs": {
+   "hash": "e01e53694d0d55b1",
+   "rev": 4
+  },
+  "kb_lessons/nst-01": {
+   "hash": "dca691dd8c2771bd",
+   "rev": 4
+  },
+  "kb_lessons/nst-02": {
+   "hash": "d9f6f7b35cd73975",
+   "rev": 4
+  },
+  "kb_lessons/nst-03": {
+   "hash": "44aaeaa09d4ea595",
+   "rev": 4
+  },
+  "kb_lessons/nst-04": {
+   "hash": "04a8bade7326fffd",
+   "rev": 4
+  },
+  "kb_lessons/nst-05": {
+   "hash": "6fde4f79f9bbd821",
+   "rev": 4
+  },
+  "kb_lessons/nst-06": {
+   "hash": "1005e2f7c01f9cd1",
+   "rev": 4
+  },
+  "kb_lessons/nst-07": {
+   "hash": "4b02efa5820adbac",
+   "rev": 4
+  },
+  "kb_lessons/nst-08": {
+   "hash": "7ccd0f062c602e31",
+   "rev": 4
+  },
+  "kb_lessons/nst-09": {
+   "hash": "b0d7f80d5c178077",
+   "rev": 4
+  },
+  "kb_exsets/nst-01": {
+   "hash": "318a028d46ab7f60",
+   "rev": 4
+  },
+  "kb_exsets/nst-02": {
+   "hash": "1f75254e7cd15ef9",
+   "rev": 4
+  },
+  "kb_exsets/nst-03": {
+   "hash": "6e6bcfd7a34c8670",
+   "rev": 4
+  },
+  "kb_exsets/nst-04": {
+   "hash": "3092f06a7acf60b7",
+   "rev": 4
+  },
+  "kb_exsets/nst-05": {
+   "hash": "3da13204f9403135",
+   "rev": 4
+  },
+  "kb_exsets/nst-06": {
+   "hash": "72408770099023c1",
+   "rev": 4
+  },
+  "kb_exsets/nst-07": {
+   "hash": "8999d0d79813e5af",
+   "rev": 4
+  },
+  "kb_exsets/nst-08": {
+   "hash": "f9d11497f098cb8b",
+   "rev": 4
+  },
+  "kb_exsets/nst-09": {
+   "hash": "b436c4cc32c7a440",
+   "rev": 4
+  },
+  "kb_assess/nestjs": {
+   "hash": "d453afa870efbbd8",
+   "rev": 4
+  },
+  "kb_projects/api-nest-modular": {
+   "hash": "1be231d403c09cb0",
+   "rev": 4
+  },
+  "kb_pages/producao-c2-c11": {
+   "hash": "8acbb585087a42a2",
+   "rev": 4
+  }
+ },
+ "generatedBy": "preview/build-preview.mjs"
+}

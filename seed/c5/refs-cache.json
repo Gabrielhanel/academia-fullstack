@@ -1887,5 +1887,389 @@
   "page": "CREATE TABLE",
   "final": "https://www.sqlite.org/lang_createtable.html",
   "at": "2026-11-25"
+ },
+ "https://jestjs.io/docs/getting-started": {
+  "status": 200,
+  "page": "Getting Started · Jest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://jestjs.io/docs/mock-functions": {
+  "status": 200,
+  "page": "Mock Functions · Jest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://jestjs.io/docs/ecmascript-modules": {
+  "status": 200,
+  "page": "ECMAScript Modules · Jest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://jestjs.io/docs/snapshot-testing": {
+  "status": 200,
+  "page": "Snapshot Testing · Jest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/": {
+  "status": 200,
+  "page": "Getting Started | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/comparisons": {
+  "status": 200,
+  "page": "Comparisons with Other Test Runners | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://vitest.dev/guide/mocking": {
+  "status": 200,
+  "page": "Mocking | Guide | Vitest",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.cypress.io/app/core-concepts/retry-ability": {
+  "status": 200,
+  "page": "Retry-ability in Cypress | Cypress Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions": {
+  "status": 200,
+  "page": "GitHub Actions documentation - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.cypress.io/app/core-concepts/best-practices": {
+  "status": 200,
+  "page": "Cypress best practices | Cypress Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://expressjs.com/": {
+  "status": 200,
+  "page": "Express.js · Node.js web application framework",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/intro": {
+  "status": 200,
+  "page": "Installation | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.cypress.io/": {
+  "status": 200,
+  "page": "Cypress Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/locators": {
+  "status": 200,
+  "page": "Locators | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/test-sharding": {
+  "status": 200,
+  "page": "Sharding | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/ci": {
+  "status": 200,
+  "page": "Continuous Integration | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.cypress.io/app/guides/network-requests": {
+  "status": 200,
+  "page": "Intercepting network requests | Cypress Documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions": {
+  "status": 200,
+  "page": "Secure use reference - GitHub Docs",
+  "final": "https://docs.github.com/en/actions/reference/security/secure-use",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/trace-viewer": {
+  "status": 200,
+  "page": "Trace viewer | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://playwright.dev/docs/best-practices": {
+  "status": 200,
+  "page": "Best Practices | Playwright",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/rhysd/actionlint": {
+  "status": 200,
+  "page": "GitHub - rhysd/actionlint: :octocat: Static checker for GitHub Actions workflow files · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/ladjs/supertest": {
+  "status": 200,
+  "page": "GitHub - forwardemail/supertest: 🕷 Super-agent driven library for testing node.js HTTP servers using a fluent",
+  "final": "https://github.com/forwardemail/supertest",
+  "at": "2026-11-25"
+ },
+ "https://docs.pact.io/getting_started/how_pact_works": {
+  "status": 200,
+  "page": "How Pact works | Pact Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://eslint.org/docs/latest/use/getting-started": {
+  "status": 200,
+  "page": "Getting Started with ESLint - ESLint - Pluggable JavaScript Linter",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.pact.io/pact_broker/can_i_deploy": {
+  "status": 200,
+  "page": "Can I Deploy | Pact Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html": {
+  "status": 200,
+  "page": "TypeScript: Documentation - JS Projects Utilizing TypeScript",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/k6/latest/": {
+  "status": 200,
+  "page": "Grafana k6 | Grafana k6 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.pact.io/implementation_guides/javascript/": {
+  "status": 200,
+  "page": "Overview | Pact Docs",
+  "final": "https://docs.pact.io/implementation_guides/javascript/readme",
+  "at": "2026-11-25"
+ },
+ "https://github.com/bcoe/c8": {
+  "status": 200,
+  "page": "GitHub - bcoe/c8: output coverage reports using Node.js&#39; built in coverage · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/scenarios/concepts/open-vs-closed/": {
+  "status": 200,
+  "page": "Open and closed models | Grafana k6 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/sverweij/dependency-cruiser": {
+  "status": 200,
+  "page": "GitHub - sverweij/dependency-cruiser: Validate and visualize dependencies. Your rules. JavaScript, TypeScript,",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/consumerDrivenContracts.html": {
+  "status": 200,
+  "page": "Consumer-Driven Contracts: A Service Evolution Pattern",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/ContractTest.html": {
+  "status": 200,
+  "page": "Contract Test",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/k6/latest/testing-guides/test-types/": {
+  "status": 200,
+  "page": "Load test types | Grafana k6 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/scenarios/": {
+  "status": 200,
+  "page": "Scenarios | Grafana k6 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/thresholds/": {
+  "status": 200,
+  "page": "Thresholds | Grafana k6 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/workbook/implementing-slos/": {
+  "status": 200,
+  "page": "Google SRE - Continuous Improvement To Get Reliability",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://v8.dev/blog/ignition-interpreter": {
+  "status": 200,
+  "page": "Firing up the Ignition interpreter · V8",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://v8.dev/docs": {
+  "status": 200,
+  "page": "Documentation · V8",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://v8.dev/blog/trash-talk": {
+  "status": 200,
+  "page": "Trash talk: the Orinoco garbage collector · V8",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://v8.dev/blog/maglev": {
+  "status": 200,
+  "page": "Maglev - V8’s Fastest Optimizing JIT · V8",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://en.wikipedia.org/wiki/Tracing_garbage_collection": {
+  "status": 200,
+  "page": "Tracing garbage collection - Wikipedia",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nodejs.org/en/learn/diagnostics/memory/understanding-and-tuning-memory": {
+  "status": 200,
+  "page": "Understanding and Tuning Memory | Node.js Learn",
+  "final": "https://nodejs.org/learn/diagnostics/memory/understanding-and-tuning-memory",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/gc.html": {
+  "status": 200,
+  "page": "gc — Garbage Collector interface &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.cs.cornell.edu/courses/cs6120/2019fa/": {
+  "status": 200,
+  "page": "CS 6120",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/ast.html": {
+  "status": 200,
+  "page": "ast — Abstract syntax trees &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://craftinginterpreters.com/": {
+  "status": 200,
+  "page": "Crafting Interpreters",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://mathiasbynens.be/notes/shapes-ics": {
+  "status": 200,
+  "page": "JavaScript engine fundamentals: Shapes and Inline Caches · Mathias Bynens",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.python.org/3/library/dis.html": {
+  "status": 200,
+  "page": "dis — Disassembler for Python bytecode &#8212; Python 3.15.2 documentation",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html": {
+  "status": 200,
+  "page": "Optimize Options (Using the GNU Compiler Collection (GCC))",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://dora.dev/guides/dora-metrics/": {
+  "status": 200,
+  "page": "DORA | DORA’s software delivery performance metrics",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://en.wikipedia.org/wiki/Cyclomatic_complexity": {
+  "status": 200,
+  "page": "Cyclomatic complexity - Wikipedia",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://conventionalcomments.org/": {
+  "status": 200,
+  "page": "Conventional Comments",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://en.wikipedia.org/wiki/Bus_factor": {
+  "status": 200,
+  "page": "Bus factor - Wikipedia",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010": {
+  "status": 200,
+  "page": "ISO 25010",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://google.github.io/eng-practices/review/reviewer/standard.html": {
+  "status": 200,
+  "page": "The Standard of Code Review | eng-practices",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://google.github.io/eng-practices/review/": {
+  "status": 200,
+  "page": "Introduction {#intro} | eng-practices",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://google.github.io/eng-practices/review/developer/small-cls.html": {
+  "status": 200,
+  "page": "Small CLs | eng-practices",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/PullRequest.html": {
+  "status": 200,
+  "page": "Pull Request",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/postmortem-culture/": {
+  "status": 200,
+  "page": "Google SRE - Blameless Postmortem for System Resilience",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://sre.google/sre-book/eliminating-toil/": {
+  "status": 200,
+  "page": "Google SRE - What is Toil in SRE: Understanding Its Impact",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://www.sonarsource.com/resources/cognitive-complexity/": {
+  "status": 200,
+  "page": "Cognitive Complexity | Sonar SonarSource | Sonar",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/OpportunisticRefactoring.html": {
+  "status": 200,
+  "page": "Opportunistic Refactoring",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://codescene.io/docs/guides/technical/hotspots.html": {
+  "status": 200,
+  "page": "Technical Debt &#8212; CodeScene 1 Documentation",
+  "final": "",
+  "at": "2026-11-25"
  }
 }

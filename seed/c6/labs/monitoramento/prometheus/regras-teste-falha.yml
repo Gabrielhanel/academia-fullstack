@@ -1,0 +1,18 @@
+rule_files:
+  - regras.yml
+evaluation_interval: 5s
+tests:
+  - interval: 5s
+    input_series:
+      - series: 'http_requests_total{rota="/ok",status="200"}'
+        values: '0+50x40'
+      - series: 'http_requests_total{rota="/erro",status="500"}'
+        values: '0+0x10 25+25x30'
+    alert_rule_test:
+      - eval_time: 40s
+        alertname: TaxaDeErroAlta
+        exp_alerts:
+          - exp_labels:
+              severidade: critica
+            exp_annotations:
+              resumo: Taxa de erro acima de 5%

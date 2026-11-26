@@ -1,0 +1,23 @@
+== Fase 1: 100% blue (v1) ==
+     50 
+     50 {"versao":"v1","cor":"blue"}
+== Fase 2: canary 90/10 ==
+2026/11/25 23:52:22 [notice] 29#29: signal process started
+    200 
+    180 {"versao":"v1","cor":"blue"}
+     20 {"versao":"v2","cor":"green"}
+== Fase 3: blue-green, troca para green com reload durante carga ==
+2026/11/25 23:52:29 [emerg] 43#43: invalid parameter "weight=0" in /etc/nginx/conf.d/default.conf:2
+nginx: [emerg] invalid parameter "weight=0" in /etc/nginx/conf.d/default.conf:2
+códigos HTTP durante a troca (300 requisições):
+    300 200
+após a troca:
+     50 
+     45 {"versao":"v1","cor":"blue"}
+      5 {"versao":"v2","cor":"green"}
+== Fase 4: rollback para blue ==
+2026/11/25 23:52:38 [emerg] 49#49: invalid parameter "weight=0" in /etc/nginx/conf.d/default.conf:2
+nginx: [emerg] invalid parameter "weight=0" in /etc/nginx/conf.d/default.conf:2
+     50 
+     44 {"versao":"v1","cor":"blue"}
+      6 {"versao":"v2","cor":"green"}

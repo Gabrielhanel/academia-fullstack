@@ -1,0 +1,52 @@
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+== 1. Proxy reverso: cabeçalhos vistos pela aplicação ==
+-- com proxy_set_header:
+{"instancia":"app1","host":"localhost","xff":"172.21.0.1","xrealip":"172.21.0.1","xproto":"https","remoto":"172.21.0.5"}
+-- sem proxy_set_header (padrão do nginx):
+{"instancia":"app1","host":"app_rr","xff":null,"xrealip":null,"xproto":null,"remoto":"172.21.0.5"}
+== 2. TLS ==
+HTTPS: código=200 versão_http=2 verificação=0
+sem confiar no certificado: curl exit=60 (60 = certificado não verificado)
+HTTP/1.1 301 Moved Permanently
+Location: https://localhost:38443/caminho?x=1
+strict-transport-security: max-age=31536000
+subject=CN=localhost
+notBefore=Nov 26 00:00:43 2026 GMT
+notAfter=Dec 26 00:00:43 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:localhost, IP Address:127.0.0.1
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384     Protocol  : TLSv1.2     Cipher    : ECDHE-RSA-AES256-GCM-SHA384 (tls1_2)
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384 (tls1_3)
+== 3. Balanceamento round-robin: 90 requisições ==
+     30 "instancia":"app1"
+     32 "instancia":"app2"
+     28 "instancia":"app3"
+== 3b. app1 lenta (400 ms em /lento): 120 requisições, 12 em paralelo ==
+-- round-robin (/lento):
+     39 "instancia":"app1"
+     40 "instancia":"app2"
+     41 "instancia":"app3"
+-- least_conn (/lc/lento):
+     14 "instancia":"app1"
+     56 "instancia":"app2"
+     50 "instancia":"app3"
+== 4. Compressão gzip em /grande ==
+sem gzip: 20320 bytes
+com gzip (transferido): 1565 bytes
+== 5. Rate limit 5 r/s, burst 5: 30 requisições seguidas ==
+     12 200
+     18 429
+== 6. Failover: app2 parado ==
+-- com proxy_next_upstream (60 req) códigos:
+     60 200
+-- distribuição das respostas /fo/:
+     31 "instancia":"app1"
+     29 "instancia":"app3"
+-- sem proxy_next_upstream (60 req) códigos:
+     56 200
+      4 504
+-- após religar app2:
+     10 "instancia":"app1"
+      8 "instancia":"app2"
+     12 "instancia":"app3"

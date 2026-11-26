@@ -1,0 +1,7 @@
+Período: 2026-01-05 a 2026-02-02 | implantações: 12 | incidentes: 2 (dados sintéticos)
+{
+  "frequenciaPorSemana": 3,
+  "leadTimeMedianoHoras": 6.5,
+  "taxaDeFalhaPct": 16.7,
+  "tempoMedianoDeRestauracaoHoras": 3.8
+}

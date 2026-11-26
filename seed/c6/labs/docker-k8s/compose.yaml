@@ -1,0 +1,29 @@
+name: labdk
+services:
+  app:
+    build: ./app
+    image: lab-otimizado
+    environment:
+      DATABASE_URL: postgres://app:segredo-de-teste@db:5432/app
+      REDIS_URL: redis://cache:6379
+      APP_VERSION: "1.0.0"
+    ports: ["127.0.0.1:38080:3000"]
+    depends_on:
+      db: { condition: service_healthy }
+      cache: { condition: service_healthy }
+    restart: unless-stopped
+    mem_limit: 256m
+    read_only: true
+    tmpfs: ["/tmp"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+  db:
+    image: postgres:17
+    environment: { POSTGRES_USER: app, POSTGRES_PASSWORD: segredo-de-teste, POSTGRES_DB: app }
+    volumes: ["dados-db:/var/lib/postgresql/data"]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U app -d app"], interval: 3s, timeout: 3s, retries: 10 }
+  cache:
+    image: redis:8
+    healthcheck: { test: ["CMD", "redis-cli", "ping"], interval: 3s, timeout: 3s, retries: 10 }
+volumes:
+  dados-db:

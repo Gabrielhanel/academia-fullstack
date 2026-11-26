@@ -1,0 +1,5322 @@
+{
+ "https://adr.github.io/": {
+  "at": "2026-11-25T16:56:25.269Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://ajv.js.org/": {
+  "at": "2026-11-25T16:56:25.279Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://casl.js.org/": {
+  "at": "2026-11-25T16:56:25.425Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/": {
+  "at": "2026-11-25T16:56:25.491Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.605Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://12factor.net/": {
+  "at": "2026-11-25T16:56:25.615Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.745Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.796Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://12factor.net/logs": {
+  "at": "2026-11-25T16:56:25.815Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.926Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:25.985Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloudevents.io/": {
+  "at": "2026-11-25T16:56:26.005Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:26.145Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://algs4.cs.princeton.edu/home/": {
+  "at": "2026-11-25T16:56:26.203Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:26.216Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html": {
+  "at": "2026-11-25T16:56:26.337Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cva.style/docs": {
+  "at": "2026-11-25T16:56:26.395Z",
+  "result": "redirecionado",
+  "detail": "vai para https://cva.style/"
+ },
+ "https://csrc.nist.gov/pubs/sp/800/162/upd2/final": {
+  "at": "2026-11-25T16:56:26.518Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/": {
+  "at": "2026-11-25T16:56:26.586Z",
+  "result": "redirecionado",
+  "detail": "vai para https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter"
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header/": {
+  "at": "2026-11-25T16:56:26.635Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions": {
+  "at": "2026-11-25T16:56:26.644Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/data-types.html": {
+  "at": "2026-11-25T16:56:27.496Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/create-table-foreign-keys.html": {
+  "at": "2026-11-25T16:56:27.499Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-storage-engine.html": {
+  "at": "2026-11-25T16:56:27.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-transaction-isolation-levels.html": {
+  "at": "2026-11-25T16:56:27.808Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/mysql-acid.html": {
+  "at": "2026-11-25T16:56:28.115Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/mysql.html": {
+  "at": "2026-11-25T16:56:28.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-undo-logs.html": {
+  "at": "2026-11-25T16:56:28.435Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html": {
+  "at": "2026-11-25T16:56:28.605Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/optimization-indexes.html": {
+  "at": "2026-11-25T16:56:28.665Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/partitioning.html": {
+  "at": "2026-11-25T16:56:28.935Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/replication.html": {
+  "at": "2026-11-25T16:56:28.938Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/sql-mode.html": {
+  "at": "2026-11-25T16:56:29.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/using-explain.html": {
+  "at": "2026-11-25T16:56:29.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-locking.html": {
+  "at": "2026-11-25T16:56:29.825Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-locking-reads.html": {
+  "at": "2026-11-25T16:56:29.855Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-deadlock-detection.html": {
+  "at": "2026-11-25T16:56:30.085Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-deadlocks.html": {
+  "at": "2026-11-25T16:56:30.135Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-consistent-read.html": {
+  "at": "2026-11-25T16:56:30.385Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.chrome.com/docs/devtools/memory-problems": {
+  "at": "2026-11-25T16:56:30.388Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.chrome.com/docs/devtools/memory-problems?hl=fr"
+ },
+ "https://dev.mysql.com/doc/refman/8.4/en/innodb-multi-versioning.html": {
+  "at": "2026-11-25T16:56:30.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/Recursion": {
+  "at": "2026-11-25T16:56:30.436Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting": {
+  "at": "2026-11-25T16:56:30.455Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events": {
+  "at": "2026-11-25T16:56:30.655Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking": {
+  "at": "2026-11-25T16:56:30.755Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.chrome.com/docs/crux": {
+  "at": "2026-11-25T16:56:30.835Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content": {
+  "at": "2026-11-25T16:56:30.855Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model": {
+  "at": "2026-11-25T16:56:30.966Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/timeout_static": {
+  "at": "2026-11-25T16:56:31.056Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent": {
+  "at": "2026-11-25T16:56:31.075Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel": {
+  "at": "2026-11-25T16:56:31.176Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/FormData": {
+  "at": "2026-11-25T16:56:31.385Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide": {
+  "at": "2026-11-25T16:56:31.405Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model": {
+  "at": "2026-11-25T16:56:31.495Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+ },
+ "https://developer.chrome.com/docs/lighthouse/overview": {
+  "at": "2026-11-25T16:56:31.565Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.chrome.com/docs/lighthouse/overview?hl=ar"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon": {
+  "at": "2026-11-25T16:56:31.605Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Prioritized_Task_Scheduling_API": {
+  "at": "2026-11-25T16:56:31.906Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/sign": {
+  "at": "2026-11-25T16:56:31.975Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.chrome.com/docs/devtools/performance": {
+  "at": "2026-11-25T16:56:32.105Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.chrome.com/docs/devtools/performance?hl=ko"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API": {
+  "at": "2026-11-25T16:56:32.115Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Web_components": {
+  "at": "2026-11-25T16:56:32.175Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles": {
+  "at": "2026-11-25T16:56:32.386Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid": {
+  "at": "2026-11-25T16:56:32.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources": {
+  "at": "2026-11-25T16:56:32.620Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources?hl=fr"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display": {
+  "at": "2026-11-25T16:56:32.825Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-display"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer": {
+  "at": "2026-11-25T16:56:32.829Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@layer"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion": {
+  "at": "2026-11-25T16:56:33.045Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity": {
+  "at": "2026-11-25T16:56:33.055Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries": {
+  "at": "2026-11-25T16:56:33.325Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout": {
+  "at": "2026-11-25T16:56:33.515Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties": {
+  "at": "2026-11-25T16:56:33.546Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preconnect": {
+  "at": "2026-11-25T16:56:33.935Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preconnect"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload": {
+  "at": "2026-11-25T16:56:33.955Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images": {
+  "at": "2026-11-25T16:56:34.145Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog": {
+  "at": "2026-11-25T16:56:34.155Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+  "at": "2026-11-25T16:56:34.165Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching": {
+  "at": "2026-11-25T16:56:34.375Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS": {
+  "at": "2026-11-25T16:56:34.385Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Conditional_requests": {
+  "at": "2026-11-25T16:56:34.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Content_negotiation": {
+  "at": "2026-11-25T16:56:34.665Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control": {
+  "at": "2026-11-25T16:56:34.686Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies": {
+  "at": "2026-11-25T16:56:34.785Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie": {
+  "at": "2026-11-25T16:56:34.895Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status": {
+  "at": "2026-11-25T16:56:34.915Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods": {
+  "at": "2026-11-25T16:56:34.986Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide": {
+  "at": "2026-11-25T16:56:35.195Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop": {
+  "at": "2026-11-25T16:56:35.376Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures": {
+  "at": "2026-11-25T16:56:35.405Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling": {
+  "at": "2026-11-25T16:56:35.585Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness": {
+  "at": "2026-11-25T16:56:35.605Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators": {
+  "at": "2026-11-25T16:56:35.795Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions": {
+  "at": "2026-11-25T16:56:35.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types": {
+  "at": "2026-11-25T16:56:36.006Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration": {
+  "at": "2026-11-25T16:56:36.015Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules": {
+  "at": "2026-11-25T16:56:36.215Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises": {
+  "at": "2026-11-25T16:56:36.218Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model": {
+  "at": "2026-11-25T16:56:36.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array": {
+  "at": "2026-11-25T16:56:36.425Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort": {
+  "at": "2026-11-25T16:56:36.446Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map": {
+  "at": "2026-11-25T16:56:36.625Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER": {
+  "at": "2026-11-25T16:56:36.655Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise": {
+  "at": "2026-11-25T16:56:36.825Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled": {
+  "at": "2026-11-25T16:56:36.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all": {
+  "at": "2026-11-25T16:56:36.865Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race": {
+  "at": "2026-11-25T16:56:37.075Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any": {
+  "at": "2026-11-25T16:56:37.225Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set": {
+  "at": "2026-11-25T16:56:37.285Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String": {
+  "at": "2026-11-25T16:56:37.505Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await": {
+  "at": "2026-11-25T16:56:37.595Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function": {
+  "at": "2026-11-25T16:56:37.845Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types": {
+  "at": "2026-11-25T16:56:38.146Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import": {
+  "at": "2026-11-25T16:56:38.286Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Critical_rendering_path": {
+  "at": "2026-11-25T16:56:38.355Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML": {
+  "at": "2026-11-25T16:56:38.505Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout": {
+  "at": "2026-11-25T16:56:38.566Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.bullmq.io/": {
+  "at": "2026-11-25T16:56:38.712Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.bullmq.io/guide/jobs/stalled": {
+  "at": "2026-11-25T16:56:38.745Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/AbortController": {
+  "at": "2026-11-25T16:56:38.815Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.bullmq.io/guide/rate-limiting": {
+  "at": "2026-11-25T16:56:38.875Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout": {
+  "at": "2026-11-25T16:56:38.881Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.bullmq.io/guide/retrying-failing-jobs": {
+  "at": "2026-11-25T16:56:38.906Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html": {
+  "at": "2026-11-25T16:56:38.929Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme": {
+  "at": "2026-11-25T16:56:38.965Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme"
+ },
+ "https://docs.bullmq.io/guide/workers/concurrency": {
+  "at": "2026-11-25T16:56:39.036Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events": {
+  "at": "2026-11-25T16:56:39.125Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.bullmq.io/guide/queues": {
+  "at": "2026-11-25T16:56:39.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning": {
+  "at": "2026-11-25T16:56:39.556Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning"
+ },
+ "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens": {
+  "at": "2026-11-25T16:56:39.695Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/custom-decorators": {
+  "at": "2026-11-25T16:56:39.885Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/first-steps": {
+  "at": "2026-11-25T16:56:39.915Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/circular-dependency": {
+  "at": "2026-11-25T16:56:39.945Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches": {
+  "at": "2026-11-25T16:56:39.975Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/controllers": {
+  "at": "2026-11-25T16:56:40.005Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/custom-providers": {
+  "at": "2026-11-25T16:56:40.295Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/execution-context": {
+  "at": "2026-11-25T16:56:40.305Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/injection-scopes": {
+  "at": "2026-11-25T16:56:40.325Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/testing": {
+  "at": "2026-11-25T16:56:40.355Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/get-started/using-github/github-flow": {
+  "at": "2026-11-25T16:56:40.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/guards": {
+  "at": "2026-11-25T16:56:40.385Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/lifecycle-events": {
+  "at": "2026-11-25T16:56:41.325Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/modules": {
+  "at": "2026-11-25T16:56:41.355Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/openapi/introduction": {
+  "at": "2026-11-25T16:56:41.385Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/microservices/basics": {
+  "at": "2026-11-25T16:56:41.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/pipes": {
+  "at": "2026-11-25T16:56:41.415Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/providers": {
+  "at": "2026-11-25T16:56:41.425Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/techniques/configuration": {
+  "at": "2026-11-25T16:56:41.455Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/techniques/queues": {
+  "at": "2026-11-25T16:56:41.835Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/recipes/cqrs": {
+  "at": "2026-11-25T16:56:41.885Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/techniques/validation": {
+  "at": "2026-11-25T16:56:42.145Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/fundamentals/dynamic-modules": {
+  "at": "2026-11-25T16:56:42.367Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.npmjs.com/cli/using-npm/workspaces": {
+  "at": "2026-11-25T16:56:42.635Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.npmjs.com/cli/v10/configuring-npm/package-json": {
+  "at": "2026-11-25T16:56:42.638Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/exception-filters": {
+  "at": "2026-11-25T16:56:42.642Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/faq/request-lifecycle": {
+  "at": "2026-11-25T16:56:42.783Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html": {
+  "at": "2026-11-25T16:56:42.789Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.pact.io/": {
+  "at": "2026-11-25T16:56:42.945Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.npmjs.com/cli/v11/configuring-npm/package-json": {
+  "at": "2026-11-25T16:56:42.955Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.npmjs.com/cli/v11/commands/npm-ci": {
+  "at": "2026-11-25T16:56:43.005Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github": {
+  "at": "2026-11-25T16:56:43.076Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Database_normalization": {
+  "at": "2026-11-25T16:56:43.079Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Denormalization": {
+  "at": "2026-11-25T16:56:43.123Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/NoSQL": {
+  "at": "2026-11-25T16:56:43.129Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model": {
+  "at": "2026-11-25T16:56:43.155Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Functional_dependency": {
+  "at": "2026-11-25T16:56:43.173Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.nestjs.com/interceptors": {
+  "at": "2026-11-25T16:56:43.215Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/docker-engine": {
+  "at": "2026-11-25T16:56:43.467Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/apache-kafka": {
+  "at": "2026-11-25T16:56:43.475Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/nextjs": {
+  "at": "2026-11-25T16:56:43.495Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/nodejs": {
+  "at": "2026-11-25T16:56:43.504Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.stripe.com/api/idempotent_requests": {
+  "at": "2026-11-25T16:56:43.665Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/rabbitmq": {
+  "at": "2026-11-25T16:56:43.877Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.stripe.com/webhooks": {
+  "at": "2026-11-25T16:56:43.885Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/postgresql": {
+  "at": "2026-11-25T16:56:43.886Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://esbuild.github.io/api/": {
+  "at": "2026-11-25T16:56:44.186Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/pt/actions": {
+  "at": "2026-11-25T16:56:44.190Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/react-native": {
+  "at": "2026-11-25T16:56:44.205Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/kubernetes": {
+  "at": "2026-11-25T16:56:44.206Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/react": {
+  "at": "2026-11-25T16:56:44.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://expressjs.com/en/advanced/best-practice-performance.html": {
+  "at": "2026-11-25T16:56:44.645Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/advanced/best-practice-performance/"
+ },
+ "https://expressjs.com/en/5x/api.html": {
+  "at": "2026-11-25T16:56:44.656Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/5x/api/"
+ },
+ "https://endoflife.date/nestjs": {
+  "at": "2026-11-25T16:56:44.705Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://endoflife.date/redis": {
+  "at": "2026-11-25T16:56:44.765Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://expressjs.com/en/guide/routing.html": {
+  "at": "2026-11-25T16:56:44.845Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/guide/routing/"
+ },
+ "https://expressjs.com/en/guide/migrating-5.html": {
+  "at": "2026-11-25T16:56:44.905Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/guide/migrating-5/"
+ },
+ "https://endoflife.date/kotlin": {
+  "at": "2026-11-25T16:56:45.065Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://expressjs.com/en/advanced/best-practice-security.html": {
+  "at": "2026-11-25T16:56:45.105Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/advanced/best-practice-security/"
+ },
+ "https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html": {
+  "at": "2026-11-25T16:56:45.145Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/advanced/healthcheck-graceful-shutdown/"
+ },
+ "https://expressjs.com/en/guide/error-handling.html": {
+  "at": "2026-11-25T16:56:45.335Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/guide/error-handling/"
+ },
+ "https://expressjs.com/en/guide/writing-middleware.html": {
+  "at": "2026-11-25T16:56:45.415Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/guide/writing-middleware/"
+ },
+ "https://getpino.io/": {
+  "at": "2026-11-25T16:56:45.425Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/book/en/v2": {
+  "at": "2026-11-25T16:56:45.465Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs": {
+  "at": "2026-11-25T16:56:45.485Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://expressjs.com/en/guide/using-middleware.html": {
+  "at": "2026-11-25T16:56:45.585Z",
+  "result": "redirecionado",
+  "detail": "vai para https://expressjs.com/en/guide/using-middleware/"
+ },
+ "https://git-scm.com/docs/git-reset": {
+  "at": "2026-11-25T16:56:45.635Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-restore": {
+  "at": "2026-11-25T16:56:45.675Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/gitignore": {
+  "at": "2026-11-25T16:56:45.695Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://feature-sliced.design/": {
+  "at": "2026-11-25T16:56:45.715Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-switch": {
+  "at": "2026-11-25T16:56:45.835Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-merge": {
+  "at": "2026-11-25T16:56:45.895Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-push": {
+  "at": "2026-11-25T16:56:46.035Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-reflog": {
+  "at": "2026-11-25T16:56:46.085Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-bisect": {
+  "at": "2026-11-25T16:56:46.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://git-scm.com/docs/git-revert": {
+  "at": "2026-11-25T16:56:46.315Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/GoogleChrome/lighthouse-ci": {
+  "at": "2026-11-25T16:56:46.495Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md": {
+  "at": "2026-11-25T16:56:46.606Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/forwardemail/supertest": {
+  "at": "2026-11-25T16:56:47.126Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/graphql/dataloader": {
+  "at": "2026-11-25T16:56:47.166Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/mapbox/pixelmatch": {
+  "at": "2026-11-25T16:56:47.715Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/lukeed/clsx": {
+  "at": "2026-11-25T16:56:47.735Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/microsoft/api-guidelines": {
+  "at": "2026-11-25T16:56:48.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/nickcolley/jest-axe": {
+  "at": "2026-11-25T16:56:48.375Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/panva/jose": {
+  "at": "2026-11-25T16:56:48.815Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/reduxjs/redux-devtools": {
+  "at": "2026-11-25T16:56:49.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/rust-lang/rfcs": {
+  "at": "2026-11-25T16:56:49.675Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/siimon/prom-client": {
+  "at": "2026-11-25T16:56:49.905Z",
+  "result": "redirecionado",
+  "detail": "vai para https://github.com/prometheus/client_js"
+ },
+ "https://github.com/sverweij/dependency-cruiser": {
+  "at": "2026-11-25T16:56:50.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/typestack/class-validator": {
+  "at": "2026-11-25T16:56:50.595Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/websockets/ws": {
+  "at": "2026-11-25T16:56:50.985Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://google.aip.dev/": {
+  "at": "2026-11-25T16:56:51.016Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/dequelabs/axe-core": {
+  "at": "2026-11-25T16:56:51.145Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/grafana/latest/": {
+  "at": "2026-11-25T16:56:51.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://graphql.org/learn/": {
+  "at": "2026-11-25T16:56:51.396Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://graphql.github.io/graphql-over-http/": {
+  "at": "2026-11-25T16:56:51.497Z",
+  "result": "redirecionado",
+  "detail": "vai para http://http-spec.graphql.org/"
+ },
+ "https://github.com/expressjs/session": {
+  "at": "2026-11-25T16:56:51.556Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/dcastil/tailwind-merge": {
+  "at": "2026-11-25T16:56:51.726Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://hub.docker.com/_/mongo": {
+  "at": "2026-11-25T16:56:51.935Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://helmetjs.github.io/": {
+  "at": "2026-11-25T16:56:51.966Z",
+  "result": "redirecionado",
+  "detail": "vai para https://helmet.js.org/"
+ },
+ "https://hub.docker.com/_/mysql": {
+  "at": "2026-11-25T16:56:51.995Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://hub.docker.com/_/redis": {
+  "at": "2026-11-25T16:56:52.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://immerjs.github.io/immer/": {
+  "at": "2026-11-25T16:56:52.259Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/changesets/changesets": {
+  "at": "2026-11-25T16:56:52.275Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://jepsen.io/consistency": {
+  "at": "2026-11-25T16:56:52.315Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://hub.docker.com/_/postgres": {
+  "at": "2026-11-25T16:56:52.336Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/express-rate-limit/express-rate-limit": {
+  "at": "2026-11-25T16:56:52.398Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://json-schema.org/": {
+  "at": "2026-11-25T16:56:52.445Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://jestjs.io/docs/getting-started": {
+  "at": "2026-11-25T16:56:52.485Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://html.spec.whatwg.org/multipage/webappapis.html": {
+  "at": "2026-11-25T16:56:52.566Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kysely.dev/": {
+  "at": "2026-11-25T16:56:52.686Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://legacy.reactjs.org/docs/reconciliation.html": {
+  "at": "2026-11-25T16:56:52.705Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/GoogleChrome/web-vitals": {
+  "at": "2026-11-25T16:56:52.915Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/evodb.html": {
+  "at": "2026-11-25T16:56:52.963Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library": {
+  "at": "2026-11-25T16:56:53.216Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications": {
+  "at": "2026-11-25T16:56:53.225Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/micro-frontends.html": {
+  "at": "2026-11-25T16:56:53.316Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/CircuitBreaker.html": {
+  "at": "2026-11-25T16:56:53.456Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kentcdodds.com/blog/write-tests": {
+  "at": "2026-11-25T16:56:53.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/OrmHate.html": {
+  "at": "2026-11-25T16:56:53.806Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/ParallelChange.html": {
+  "at": "2026-11-25T16:56:53.956Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TolerantReader.html": {
+  "at": "2026-11-25T16:56:54.246Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/eaaCatalog/activeRecord.html": {
+  "at": "2026-11-25T16:56:54.397Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://medium.com/eightshapes-llc/team-models-for-scaling-a-design-system-2cf9d03be6a0": {
+  "at": "2026-11-25T16:56:54.513Z",
+  "result": "bloqueado",
+  "detail": "HTTP 403 (o site recusa verificação automática; confira no navegador)"
+ },
+ "https://martinfowler.com/eaaCatalog/dataMapper.html": {
+  "at": "2026-11-25T16:56:54.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/syntax/entityRelationshipDiagram.html": {
+  "at": "2026-11-25T16:56:54.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/nonDeterminism.html": {
+  "at": "2026-11-25T16:56:54.838Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://microservices.io/patterns/apigateway.html": {
+  "at": "2026-11-25T16:56:55.045Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://microservices.io/patterns/communication-style/idempotent-consumer.html": {
+  "at": "2026-11-25T16:56:55.095Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://microservices.io/patterns/data/transactional-outbox.html": {
+  "at": "2026-11-25T16:56:55.125Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://microservices.io/patterns/data/saga.html": {
+  "at": "2026-11-25T16:56:55.215Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/microservices.html": {
+  "at": "2026-11-25T16:56:55.274Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/StranglerFigApplication.html": {
+  "at": "2026-11-25T16:56:55.326Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://micro-frontends.org/": {
+  "at": "2026-11-25T16:56:55.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mswjs.io/docs/": {
+  "at": "2026-11-25T16:56:55.465Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://module-federation.io/": {
+  "at": "2026-11-25T16:56:55.489Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://module-federation.io/guide/start/index.html": {
+  "at": "2026-11-25T16:56:55.497Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mswjs.io/docs/best-practices": {
+  "at": "2026-11-25T16:56:55.525Z",
+  "result": "redirecionado",
+  "detail": "vai para https://mswjs.io/guides/best-practices/"
+ },
+ "https://mswjs.io/docs/integrations/node": {
+  "at": "2026-11-25T16:56:55.535Z",
+  "result": "redirecionado",
+  "detail": "vai para https://mswjs.io/guides/integrations/node"
+ },
+ "https://mswjs.io/docs/integrations/browser": {
+  "at": "2026-11-25T16:56:55.635Z",
+  "result": "redirecionado",
+  "detail": "vai para https://mswjs.io/guides/integrations/browser"
+ },
+ "https://martinfowler.com/bliki/ConwaysLaw.html": {
+  "at": "2026-11-25T16:56:55.766Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/MonolithFirst.html": {
+  "at": "2026-11-25T16:56:55.776Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/api-reference/directives/use-cache": {
+  "at": "2026-11-25T16:56:55.955Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/installation": {
+  "at": "2026-11-25T16:56:56.026Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/richardsonMaturityModel.html": {
+  "at": "2026-11-25T16:56:56.256Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/caching": {
+  "at": "2026-11-25T16:56:56.367Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/metadata-and-og-images": {
+  "at": "2026-11-25T16:56:56.456Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/layouts-and-pages": {
+  "at": "2026-11-25T16:56:56.816Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/project-structure": {
+  "at": "2026-11-25T16:56:56.875Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/mutating-data": {
+  "at": "2026-11-25T16:56:57.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/proxy": {
+  "at": "2026-11-25T16:56:57.275Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/revalidating": {
+  "at": "2026-11-25T16:56:57.583Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/route-handlers": {
+  "at": "2026-11-25T16:56:57.585Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/server-and-client-components": {
+  "at": "2026-11-25T16:56:57.645Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/authentication": {
+  "at": "2026-11-25T16:56:57.685Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/authentication-with-cache-components": {
+  "at": "2026-11-25T16:56:58.110Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/data-security": {
+  "at": "2026-11-25T16:56:58.155Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/environment-variables": {
+  "at": "2026-11-25T16:56:58.186Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/incremental-static-regeneration": {
+  "at": "2026-11-25T16:56:58.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/instrumentation": {
+  "at": "2026-11-25T16:56:58.810Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/lazy-loading": {
+  "at": "2026-11-25T16:56:59.135Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/forms": {
+  "at": "2026-11-25T16:56:59.156Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/redirecting": {
+  "at": "2026-11-25T16:56:59.545Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/production-checklist": {
+  "at": "2026-11-25T16:56:59.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/scripts": {
+  "at": "2026-11-25T16:56:59.856Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/server-actions": {
+  "at": "2026-11-25T16:56:59.935Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/self-hosting": {
+  "at": "2026-11-25T16:57:00.265Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/server-and-client-boundary": {
+  "at": "2026-11-25T16:57:00.435Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/fetching-data": {
+  "at": "2026-11-25T16:57:00.536Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/async_context.html": {
+  "at": "2026-11-25T16:57:00.626Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/buffer.html": {
+  "at": "2026-11-25T16:57:00.675Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://node-postgres.com/": {
+  "at": "2026-11-25T16:57:00.715Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/cli.html": {
+  "at": "2026-11-25T16:57:00.730Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/crypto.html": {
+  "at": "2026-11-25T16:57:00.735Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/esm.html": {
+  "at": "2026-11-25T16:57:00.775Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/guides/streaming": {
+  "at": "2026-11-25T16:57:00.777Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/fonts": {
+  "at": "2026-11-25T16:57:00.935Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/http.html": {
+  "at": "2026-11-25T16:57:00.956Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/modules.html": {
+  "at": "2026-11-25T16:57:00.995Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/process.html": {
+  "at": "2026-11-25T16:57:01.005Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/test.html": {
+  "at": "2026-11-25T16:57:01.075Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/util.html": {
+  "at": "2026-11-25T16:57:01.115Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/worker_threads.html": {
+  "at": "2026-11-25T16:57:01.135Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/deploying": {
+  "at": "2026-11-25T16:57:01.197Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/stream.html": {
+  "at": "2026-11-25T16:57:01.215Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/linking-and-navigating": {
+  "at": "2026-11-25T16:57:01.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/en/learn/asynchronous-work/dont-block-the-event-loop": {
+  "at": "2026-11-25T16:57:01.285Z",
+  "result": "redirecionado",
+  "detail": "vai para https://nodejs.org/learn/asynchronous-work/dont-block-the-event-loop"
+ },
+ "https://nodejs.org/en/learn/getting-started/profiling": {
+  "at": "2026-11-25T16:57:01.375Z",
+  "result": "redirecionado",
+  "detail": "vai para https://nodejs.org/learn/getting-started/profiling"
+ },
+ "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick": {
+  "at": "2026-11-25T16:57:01.466Z",
+  "result": "redirecionado",
+  "detail": "vai para https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick"
+ },
+ "https://nodejs.org/api/perf_hooks.html": {
+  "at": "2026-11-25T16:57:01.516Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/packages.html": {
+  "at": "2026-11-25T16:57:01.595Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/images": {
+  "at": "2026-11-25T16:57:01.617Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nextjs.org/docs/app/getting-started/error-handling": {
+  "at": "2026-11-25T16:57:01.745Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/": {
+  "at": "2026-11-25T16:57:01.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opentelemetry.io/docs/": {
+  "at": "2026-11-25T16:57:01.905Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opentelemetry.io/docs/concepts/sampling/": {
+  "at": "2026-11-25T16:57:01.925Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://openid.net/specs/openid-connect-discovery-1_0.html": {
+  "at": "2026-11-25T16:57:01.986Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://openid.net/specs/openid-connect-core-1_0.html": {
+  "at": "2026-11-25T16:57:01.990Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://oauth.net/2.1/": {
+  "at": "2026-11-25T16:57:01.997Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nx.dev/docs/features/run-tasks": {
+  "at": "2026-11-25T16:57:02.006Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nx.dev/docs/features/enforce-module-boundaries": {
+  "at": "2026-11-25T16:57:02.189Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opentelemetry.io/docs/languages/js/": {
+  "at": "2026-11-25T16:57:02.207Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/intro": {
+  "at": "2026-11-25T16:57:02.208Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opendatastructures.org/": {
+  "at": "2026-11-25T16:57:02.247Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/locators": {
+  "at": "2026-11-25T16:57:02.275Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/best-practices": {
+  "at": "2026-11-25T16:57:02.306Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/test-retries": {
+  "at": "2026-11-25T16:57:02.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://owasp.org/API-Security/": {
+  "at": "2026-11-25T16:57:02.396Z",
+  "result": "redirecionado",
+  "detail": "vai para https://api-security.owasp.org/"
+ },
+ "https://pnpm.io/workspaces": {
+  "at": "2026-11-25T16:57:02.405Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/introduction/overview/": {
+  "at": "2026-11-25T16:57:02.466Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/test-snapshots": {
+  "at": "2026-11-25T16:57:02.515Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://pages.nist.gov/800-63-4/sp800-63b.html": {
+  "at": "2026-11-25T16:57:02.525Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/api/": {
+  "at": "2026-11-25T16:57:02.559Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/alerting/latest/alertmanager/": {
+  "at": "2026-11-25T16:57:02.755Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/basics/": {
+  "at": "2026-11-25T16:57:02.812Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/blog/2022/03/29/react-v18": {
+  "at": "2026-11-25T16:57:02.965Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn": {
+  "at": "2026-11-25T16:57:02.982Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/": {
+  "at": "2026-11-25T16:57:02.993Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/choosing-the-state-structure": {
+  "at": "2026-11-25T16:57:02.996Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/": {
+  "at": "2026-11-25T16:57:03.018Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/conditional-rendering": {
+  "at": "2026-11-25T16:57:03.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/extracting-state-logic-into-a-reducer": {
+  "at": "2026-11-25T16:57:03.027Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/keeping-components-pure": {
+  "at": "2026-11-25T16:57:03.058Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/lifecycle-of-reactive-effects": {
+  "at": "2026-11-25T16:57:03.065Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/manipulating-the-dom-with-refs": {
+  "at": "2026-11-25T16:57:03.085Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/passing-props-to-a-component": {
+  "at": "2026-11-25T16:57:03.115Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/practices/histograms/": {
+  "at": "2026-11-25T16:57:03.118Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/passing-data-deeply-with-context": {
+  "at": "2026-11-25T16:57:03.125Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/preserving-and-resetting-state": {
+  "at": "2026-11-25T16:57:03.145Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/practices/naming/": {
+  "at": "2026-11-25T16:57:03.155Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/react-compiler/introduction": {
+  "at": "2026-11-25T16:57:03.165Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/react-developer-tools": {
+  "at": "2026-11-25T16:57:03.185Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/render-and-commit": {
+  "at": "2026-11-25T16:57:03.205Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/rendering-lists": {
+  "at": "2026-11-25T16:57:03.225Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/responding-to-events": {
+  "at": "2026-11-25T16:57:03.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/reusing-logic-with-custom-hooks": {
+  "at": "2026-11-25T16:57:03.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/scaling-up-with-reducer-and-context": {
+  "at": "2026-11-25T16:57:03.287Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/sharing-state-between-components": {
+  "at": "2026-11-25T16:57:03.325Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/start-a-new-react-project": {
+  "at": "2026-11-25T16:57:03.345Z",
+  "result": "redirecionado",
+  "detail": "vai para https://react.dev/learn/creating-a-react-app"
+ },
+ "https://react.dev/learn/state-a-components-memory": {
+  "at": "2026-11-25T16:57:03.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/synchronizing-with-effects": {
+  "at": "2026-11-25T16:57:03.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react-spectrum.adobe.com/react-aria/index.html": {
+  "at": "2026-11-25T16:57:03.405Z",
+  "result": "redirecionado",
+  "detail": "vai para https://react-aria.adobe.com/"
+ },
+ "https://react.dev/learn/state-as-a-snapshot": {
+  "at": "2026-11-25T16:57:03.425Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/thinking-in-react": {
+  "at": "2026-11-25T16:57:03.427Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/understanding-your-ui-as-a-tree": {
+  "at": "2026-11-25T16:57:03.455Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/updating-objects-in-state": {
+  "at": "2026-11-25T16:57:03.465Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react-redux.js.org/api/hooks": {
+  "at": "2026-11-25T16:57:03.486Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/react-redux/api/hooks"
+ },
+ "https://react.dev/learn/you-might-not-need-an-effect": {
+  "at": "2026-11-25T16:57:03.495Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/writing-markup-with-jsx": {
+  "at": "2026-11-25T16:57:03.505Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react-dom/components/form": {
+  "at": "2026-11-25T16:57:03.525Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react-dom/components/input": {
+  "at": "2026-11-25T16:57:03.535Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react-dom/hooks/useFormStatus": {
+  "at": "2026-11-25T16:57:03.565Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/Activity": {
+  "at": "2026-11-25T16:57:03.568Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/Component": {
+  "at": "2026-11-25T16:57:03.625Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/StrictMode": {
+  "at": "2026-11-25T16:57:03.675Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/Suspense": {
+  "at": "2026-11-25T16:57:03.715Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/act": {
+  "at": "2026-11-25T16:57:03.765Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/cloneElement": {
+  "at": "2026-11-25T16:57:03.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/lazy": {
+  "at": "2026-11-25T16:57:03.866Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/Children": {
+  "at": "2026-11-25T16:57:03.896Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/memo": {
+  "at": "2026-11-25T16:57:03.915Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/startTransition": {
+  "at": "2026-11-25T16:57:03.946Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/use": {
+  "at": "2026-11-25T16:57:03.955Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useActionState": {
+  "at": "2026-11-25T16:57:03.985Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useCallback": {
+  "at": "2026-11-25T16:57:04.015Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useContext": {
+  "at": "2026-11-25T16:57:04.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useDeferredValue": {
+  "at": "2026-11-25T16:57:04.055Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useEffect": {
+  "at": "2026-11-25T16:57:04.065Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useId": {
+  "at": "2026-11-25T16:57:04.095Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useMemo": {
+  "at": "2026-11-25T16:57:04.135Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useReducer": {
+  "at": "2026-11-25T16:57:04.175Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useSyncExternalStore": {
+  "at": "2026-11-25T16:57:04.235Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useLayoutEffect": {
+  "at": "2026-11-25T16:57:04.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/rsc/server-components": {
+  "at": "2026-11-25T16:57:04.285Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/react/useTransition": {
+  "at": "2026-11-25T16:57:04.295Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/rsc/use-client": {
+  "at": "2026-11-25T16:57:04.315Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/rules/rules-of-hooks": {
+  "at": "2026-11-25T16:57:04.325Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/reference/eslint-plugin-react-hooks": {
+  "at": "2026-11-25T16:57:04.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/describing-the-ui": {
+  "at": "2026-11-25T16:57:04.366Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/typescript": {
+  "at": "2026-11-25T16:57:04.405Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/javascript-in-jsx-with-curly-braces": {
+  "at": "2026-11-25T16:57:04.445Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/queueing-a-series-of-state-updates": {
+  "at": "2026-11-25T16:57:04.465Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://react.dev/learn/referencing-values-with-refs": {
+  "at": "2026-11-25T16:57:04.526Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/commands/": {
+  "at": "2026-11-25T16:57:04.565Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/data-types/probabilistic/hyperloglogs/": {
+  "at": "2026-11-25T16:57:04.975Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/data-types/streams/": {
+  "at": "2026-11-25T16:57:05.615Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/commands/expire/": {
+  "at": "2026-11-25T16:57:05.766Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/pubsub/": {
+  "at": "2026-11-25T16:57:06.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/reference/eviction/": {
+  "at": "2026-11-25T16:57:07.056Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/using-commands/pipelining/": {
+  "at": "2026-11-25T16:57:07.216Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/using-commands/transactions/": {
+  "at": "2026-11-25T16:57:07.576Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/": {
+  "at": "2026-11-25T16:57:07.886Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/operate/oss_and_stack/management/security/": {
+  "at": "2026-11-25T16:57:07.936Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/": {
+  "at": "2026-11-25T16:57:08.225Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/clients/client-side-caching/": {
+  "at": "2026-11-25T16:57:08.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/using-commands/keyspace/": {
+  "at": "2026-11-25T16:57:08.745Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux-toolkit.js.org/api/configureStore": {
+  "at": "2026-11-25T16:57:08.786Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/api/configureStore"
+ },
+ "https://redis.io/docs/latest/develop/data-types/": {
+  "at": "2026-11-25T16:57:09.066Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux-toolkit.js.org/api/createAsyncThunk": {
+  "at": "2026-11-25T16:57:09.256Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/api/createAsyncThunk"
+ },
+ "https://redux-toolkit.js.org/api/createListenerMiddleware": {
+  "at": "2026-11-25T16:57:09.257Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/api/createListenerMiddleware"
+ },
+ "https://redis.io/docs/latest/commands/scan/": {
+  "at": "2026-11-25T16:57:09.286Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux-toolkit.js.org/rtk-query/overview": {
+  "at": "2026-11-25T16:57:09.336Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/rtk-query/overview"
+ },
+ "https://redux.js.org/style-guide/": {
+  "at": "2026-11-25T16:57:09.636Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux-toolkit.js.org/api/createEntityAdapter": {
+  "at": "2026-11-25T16:57:09.646Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/api/createEntityAdapter"
+ },
+ "https://redux-toolkit.js.org/tutorials/quick-start": {
+  "at": "2026-11-25T16:57:09.685Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/tutorials/quick-start"
+ },
+ "https://redux.js.org/introduction/why-rtk-is-redux-today": {
+  "at": "2026-11-25T16:57:09.738Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/develop/clients/patterns/distributed-locks/": {
+  "at": "2026-11-25T16:57:09.775Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://rxjs.dev/guide/overview": {
+  "at": "2026-11-25T16:57:09.966Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/commands/set/": {
+  "at": "2026-11-25T16:57:10.053Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://samnewman.io/patterns/architectural/bff/": {
+  "at": "2026-11-25T16:57:10.065Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redis.io/docs/latest/commands/lmove/": {
+  "at": "2026-11-25T16:57:10.076Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux.js.org/usage/structuring-reducers/normalizing-state-shape": {
+  "at": "2026-11-25T16:57:10.110Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://redux-toolkit.js.org/api/createSlice": {
+  "at": "2026-11-25T16:57:10.246Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/toolkit/api/createSlice"
+ },
+ "https://semver.org/": {
+  "at": "2026-11-25T16:57:10.336Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://semver.org/lang/pt-BR/": {
+  "at": "2026-11-25T16:57:10.355Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://single-spa.js.org/": {
+  "at": "2026-11-25T16:57:10.357Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://spec.graphql.org/": {
+  "at": "2026-11-25T16:57:10.410Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://storybook.js.org/docs": {
+  "at": "2026-11-25T16:57:10.555Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://spec.openapis.org/oas/v3.1.0": {
+  "at": "2026-11-25T16:57:10.606Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/embracing-risk/": {
+  "at": "2026-11-25T16:57:10.607Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/workbook/alerting-on-slos/": {
+  "at": "2026-11-25T16:57:10.825Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://reselect.js.org/": {
+  "at": "2026-11-25T16:57:10.866Z",
+  "result": "redirecionado",
+  "detail": "vai para https://redux.js.org/reselect/"
+ },
+ "https://storybook.js.org/docs/writing-docs/autodocs": {
+  "at": "2026-11-25T16:57:10.915Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/adding-custom-styles": {
+  "at": "2026-11-25T16:57:11.138Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://storybook.js.org/docs/api/csf": {
+  "at": "2026-11-25T16:57:11.141Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/detecting-classes-in-source-files": {
+  "at": "2026-11-25T16:57:11.196Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/dark-mode": {
+  "at": "2026-11-25T16:57:11.198Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://storybook.js.org/docs/writing-tests/interaction-testing": {
+  "at": "2026-11-25T16:57:11.236Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/functions-and-directives": {
+  "at": "2026-11-25T16:57:11.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/responsive-design": {
+  "at": "2026-11-25T16:57:11.315Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/monitoring-distributed-systems/": {
+  "at": "2026-11-25T16:57:11.325Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://storybook.js.org/docs/writing-tests/accessibility-testing": {
+  "at": "2026-11-25T16:57:11.327Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/hover-focus-and-other-states": {
+  "at": "2026-11-25T16:57:11.336Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/upgrade-guide": {
+  "at": "2026-11-25T16:57:11.386Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://storybook.js.org/docs/writing-tests": {
+  "at": "2026-11-25T16:57:11.415Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/reusing-styles": {
+  "at": "2026-11-25T16:57:11.425Z",
+  "result": "redirecionado",
+  "detail": "vai para https://tailwindcss.com/docs/styling-with-utility-classes"
+ },
+ "https://tailwindcss.com/docs/styling-with-utility-classes": {
+  "at": "2026-11-25T16:57:11.436Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/theme": {
+  "at": "2026-11-25T16:57:11.505Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tailwindcss.com/docs/installation/using-vite": {
+  "at": "2026-11-25T16:57:11.575Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://styledictionary.com/": {
+  "at": "2026-11-25T16:57:11.601Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/service-level-objectives/": {
+  "at": "2026-11-25T16:57:11.695Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/caching": {
+  "at": "2026-11-25T16:57:11.906Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/query-keys": {
+  "at": "2026-11-25T16:57:11.976Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/ssr": {
+  "at": "2026-11-25T16:57:12.136Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/important-defaults": {
+  "at": "2026-11-25T16:57:12.187Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/testing": {
+  "at": "2026-11-25T16:57:12.206Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/infinite-queries": {
+  "at": "2026-11-25T16:57:12.288Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation": {
+  "at": "2026-11-25T16:57:12.376Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/queries": {
+  "at": "2026-11-25T16:57:12.456Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/mutations": {
+  "at": "2026-11-25T16:57:12.545Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tc39.es/ecma262/": {
+  "at": "2026-11-25T16:57:12.586Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/dom-testing-library/api-async/": {
+  "at": "2026-11-25T16:57:12.615Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates": {
+  "at": "2026-11-25T16:57:12.666Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/react-testing-library/setup/": {
+  "at": "2026-11-25T16:57:12.667Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/react-testing-library/api/": {
+  "at": "2026-11-25T16:57:12.725Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching": {
+  "at": "2026-11-25T16:57:12.806Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/guiding-principles/": {
+  "at": "2026-11-25T16:57:12.845Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://tanstack.com/query/latest/docs/framework/react/overview": {
+  "at": "2026-11-25T16:57:12.886Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://the-guild.dev/graphql/yoga-server": {
+  "at": "2026-11-25T16:57:12.936Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/user-event/intro/": {
+  "at": "2026-11-25T16:57:12.946Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/queries/about/": {
+  "at": "2026-11-25T16:57:13.016Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/caching": {
+  "at": "2026-11-25T16:57:13.038Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/constructing-ci": {
+  "at": "2026-11-25T16:57:13.073Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing-library.com/docs/react-testing-library/intro/": {
+  "at": "2026-11-25T16:57:13.076Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository": {
+  "at": "2026-11-25T16:57:13.135Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/": {
+  "at": "2026-11-25T16:57:13.137Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/advanced-topics/logging": {
+  "at": "2026-11-25T16:57:13.191Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://turborepo.dev/docs/crafting-your-repository/running-tasks": {
+  "at": "2026-11-25T16:57:13.196Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/query-builder/select-query-builder": {
+  "at": "2026-11-25T16:57:13.236Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/relations/relations": {
+  "at": "2026-11-25T16:57:13.296Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/entity/entities": {
+  "at": "2026-11-25T16:57:13.356Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/migrations/why": {
+  "at": "2026-11-25T16:57:13.481Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vite.dev/guide/": {
+  "at": "2026-11-25T16:57:13.487Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vite.dev/guide/build": {
+  "at": "2026-11-25T16:57:13.515Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/getting-started": {
+  "at": "2026-11-25T16:57:13.517Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typeorm.io/docs/advanced-topics/transactions": {
+  "at": "2026-11-25T16:57:13.567Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vitest.dev/guide/": {
+  "at": "2026-11-25T16:57:13.655Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://trunkbaseddevelopment.com/": {
+  "at": "2026-11-25T16:57:13.675Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vitest.dev/guide/coverage": {
+  "at": "2026-11-25T16:57:13.676Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vitest.dev/guide/mocking": {
+  "at": "2026-11-25T16:57:13.855Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vitest.dev/guide/environment": {
+  "at": "2026-11-25T16:57:13.936Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://use-the-index-luke.com/no-offset": {
+  "at": "2026-11-25T16:57:14.267Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/fetch-priority": {
+  "at": "2026-11-25T16:57:14.417Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/cls": {
+  "at": "2026-11-25T16:57:14.596Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/optimize-long-tasks": {
+  "at": "2026-11-25T16:57:14.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/reduce-javascript-payloads-with-code-splitting": {
+  "at": "2026-11-25T16:57:15.286Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/virtualize-long-lists-react-window": {
+  "at": "2026-11-25T16:57:15.676Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/performance-budgets-101": {
+  "at": "2026-11-25T16:57:15.756Z",
+  "result": "redirecionado",
+  "detail": "vai para https://web.dev/articles/performance-budgets-101?hl=ar"
+ },
+ "https://www.asyncapi.com/docs": {
+  "at": "2026-11-25T16:57:16.037Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/vitals": {
+  "at": "2026-11-25T16:57:16.507Z",
+  "result": "redirecionado",
+  "detail": "vai para https://web.dev/articles/vitals?hl=ko"
+ },
+ "https://www.conventionalcommits.org/en/v1.0.0/": {
+  "at": "2026-11-25T16:57:16.537Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/font-best-practices": {
+  "at": "2026-11-25T16:57:16.576Z",
+  "result": "redirecionado",
+  "detail": "vai para https://web.dev/articles/font-best-practices?hl=fa"
+ },
+ "https://www.designtokens.org/tr/drafts/format/": {
+  "at": "2026-11-25T16:57:16.706Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.graphql-js.org/": {
+  "at": "2026-11-25T16:57:17.146Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.graphql-js.org/docs/"
+ },
+ "https://web.dev/articles/optimize-cls": {
+  "at": "2026-11-25T16:57:17.166Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.enterpriseintegrationpatterns.com/": {
+  "at": "2026-11-25T16:57:17.197Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/lcp": {
+  "at": "2026-11-25T16:57:17.466Z",
+  "result": "redirecionado",
+  "detail": "vai para https://web.dev/articles/lcp?hl=it"
+ },
+ "https://web.dev/articles/optimize-inp": {
+  "at": "2026-11-25T16:57:17.656Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/": {
+  "at": "2026-11-25T16:57:17.836Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/administration/security-checklist/": {
+  "at": "2026-11-25T16:57:17.956Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/lab-and-field-data-differences": {
+  "at": "2026-11-25T16:57:18.136Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/core/schema-validation/": {
+  "at": "2026-11-25T16:57:18.475Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://web.dev/articles/inp": {
+  "at": "2026-11-25T16:57:18.496Z",
+  "result": "redirecionado",
+  "detail": "vai para https://web.dev/articles/inp?hl=bn"
+ },
+ "https://www.mongodb.com/docs/manual/crud/": {
+  "at": "2026-11-25T16:57:18.996Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/": {
+  "at": "2026-11-25T16:57:19.836Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.mongodb.com/docs/manual/data-modeling/best-practices/"
+ },
+ "https://www.mongodb.com/blog/post/building-with-patterns-a-summary": {
+  "at": "2026-11-25T16:57:20.036Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.mongodb.com/company/blog/building-with-patterns-a-summary"
+ },
+ "https://www.mongodb.com/docs/manual/indexes/": {
+  "at": "2026-11-25T16:57:20.366Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/introduction/": {
+  "at": "2026-11-25T16:57:20.436Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.mongodb.com/docs/manual/"
+ },
+ "https://www.mongodb.com/docs/manual/reference/bson-types/": {
+  "at": "2026-11-25T16:57:20.546Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/explain-results/": {
+  "at": "2026-11-25T16:57:20.626Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/limits/": {
+  "at": "2026-11-25T16:57:20.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/mql/aggregation-stages/": {
+  "at": "2026-11-25T16:57:20.806Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/read-concern/": {
+  "at": "2026-11-25T16:57:21.076Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/write-concern/": {
+  "at": "2026-11-25T16:57:21.255Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/": {
+  "at": "2026-11-25T16:57:21.355Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/replication/": {
+  "at": "2026-11-25T16:57:21.446Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.openpolicyagent.org/docs": {
+  "at": "2026-11-25T16:57:21.565Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/core/aggregation-pipeline-optimization/": {
+  "at": "2026-11-25T16:57:21.606Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/data-modeling/": {
+  "at": "2026-11-25T16:57:21.996Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/core/write-operations-atomicity/": {
+  "at": "2026-11-25T16:57:22.166Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/core/index-ttl/": {
+  "at": "2026-11-25T16:57:22.296Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/core/backups/": {
+  "at": "2026-11-25T16:57:22.726Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.mongodb.com/docs/manual/aggregation/": {
+  "at": "2026-11-25T16:57:22.976Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/app-pgbasebackup.html": {
+  "at": "2026-11-25T16:57:23.586Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/app-pgdump.html": {
+  "at": "2026-11-25T16:57:23.587Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/btree-gist.html": {
+  "at": "2026-11-25T16:57:23.796Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/continuous-archiving.html": {
+  "at": "2026-11-25T16:57:23.798Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype-enum.html": {
+  "at": "2026-11-25T16:57:24.006Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype-datetime.html": {
+  "at": "2026-11-25T16:57:24.008Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype-json.html": {
+  "at": "2026-11-25T16:57:24.216Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype-numeric.html": {
+  "at": "2026-11-25T16:57:24.217Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype-uuid.html": {
+  "at": "2026-11-25T16:57:24.426Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/datatype.html": {
+  "at": "2026-11-25T16:57:24.427Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/ddl-constraints.html": {
+  "at": "2026-11-25T16:57:24.637Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/ddl-partitioning.html": {
+  "at": "2026-11-25T16:57:24.639Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/ddl-rowsecurity.html": {
+  "at": "2026-11-25T16:57:24.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/ddl-system-columns.html": {
+  "at": "2026-11-25T16:57:24.896Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/errcodes-appendix.html": {
+  "at": "2026-11-25T16:57:25.106Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/dml-returning.html": {
+  "at": "2026-11-25T16:57:25.146Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/explicit-locking.html": {
+  "at": "2026-11-25T16:57:25.316Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-aggregate.html": {
+  "at": "2026-11-25T16:57:25.356Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-array.html": {
+  "at": "2026-11-25T16:57:25.526Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-comparison.html": {
+  "at": "2026-11-25T16:57:25.566Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-conditional.html": {
+  "at": "2026-11-25T16:57:25.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-datetime.html": {
+  "at": "2026-11-25T16:57:25.776Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-json.html": {
+  "at": "2026-11-25T16:57:25.946Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-matching.html": {
+  "at": "2026-11-25T16:57:25.986Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-srf.html": {
+  "at": "2026-11-25T16:57:26.156Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-subquery.html": {
+  "at": "2026-11-25T16:57:26.197Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/functions-window.html": {
+  "at": "2026-11-25T16:57:26.366Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/gin.html": {
+  "at": "2026-11-25T16:57:26.406Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/high-availability.html": {
+  "at": "2026-11-25T16:57:26.616Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/gist.html": {
+  "at": "2026-11-25T16:57:26.637Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes-expressional.html": {
+  "at": "2026-11-25T16:57:26.826Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes-index-only-scans.html": {
+  "at": "2026-11-25T16:57:26.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes-multicolumn.html": {
+  "at": "2026-11-25T16:57:27.038Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes-partial.html": {
+  "at": "2026-11-25T16:57:27.056Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes-types.html": {
+  "at": "2026-11-25T16:57:27.246Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/indexes.html": {
+  "at": "2026-11-25T16:57:27.266Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/ltree.html": {
+  "at": "2026-11-25T16:57:27.456Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/monitoring-stats.html": {
+  "at": "2026-11-25T16:57:27.476Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/mvcc-caveats.html": {
+  "at": "2026-11-25T16:57:27.666Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/mvcc-intro.html": {
+  "at": "2026-11-25T16:57:27.686Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/performance-tips.html": {
+  "at": "2026-11-25T16:57:27.878Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/pgstatstatements.html": {
+  "at": "2026-11-25T16:57:27.897Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/pgtrgm.html": {
+  "at": "2026-11-25T16:57:28.086Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/planner-stats.html": {
+  "at": "2026-11-25T16:57:28.107Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/queries-limit.html": {
+  "at": "2026-11-25T16:57:28.316Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/plpgsql.html": {
+  "at": "2026-11-25T16:57:28.346Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/queries-order.html": {
+  "at": "2026-11-25T16:57:28.526Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/queries-table-expressions.html": {
+  "at": "2026-11-25T16:57:28.556Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/queries-with.html": {
+  "at": "2026-11-25T16:57:28.736Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/rangetypes.html": {
+  "at": "2026-11-25T16:57:28.766Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/routine-vacuuming.html": {
+  "at": "2026-11-25T16:57:28.946Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/rules-materializedviews.html": {
+  "at": "2026-11-25T16:57:28.976Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/rules-views.html": {
+  "at": "2026-11-25T16:57:29.156Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/runtime-config-client.html": {
+  "at": "2026-11-25T16:57:29.186Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/runtime-config-locks.html": {
+  "at": "2026-11-25T16:57:29.366Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-altertable.html": {
+  "at": "2026-11-25T16:57:29.396Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-copy.html": {
+  "at": "2026-11-25T16:57:29.607Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-call.html": {
+  "at": "2026-11-25T16:57:29.616Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createfunction.html": {
+  "at": "2026-11-25T16:57:29.816Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createindex.html": {
+  "at": "2026-11-25T16:57:29.826Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-creatematerializedview.html": {
+  "at": "2026-11-25T16:57:30.026Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createprocedure.html": {
+  "at": "2026-11-25T16:57:30.086Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createtable.html": {
+  "at": "2026-11-25T16:57:30.237Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createtrigger.html": {
+  "at": "2026-11-25T16:57:30.296Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-createview.html": {
+  "at": "2026-11-25T16:57:30.446Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-delete.html": {
+  "at": "2026-11-25T16:57:30.507Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-explain.html": {
+  "at": "2026-11-25T16:57:30.656Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-expressions.html": {
+  "at": "2026-11-25T16:57:30.716Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-insert.html": {
+  "at": "2026-11-25T16:57:30.867Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-prepare.html": {
+  "at": "2026-11-25T16:57:30.926Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-refreshmaterializedview.html": {
+  "at": "2026-11-25T16:57:31.076Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-savepoint.html": {
+  "at": "2026-11-25T16:57:31.176Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-select.html": {
+  "at": "2026-11-25T16:57:31.286Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-set-transaction.html": {
+  "at": "2026-11-25T16:57:31.386Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/sql-update.html": {
+  "at": "2026-11-25T16:57:31.496Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/transaction-iso.html": {
+  "at": "2026-11-25T16:57:31.596Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/triggers.html": {
+  "at": "2026-11-25T16:57:31.756Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/tutorial-agg.html": {
+  "at": "2026-11-25T16:57:31.856Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/tutorial-join.html": {
+  "at": "2026-11-25T16:57:31.967Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/tutorial-table.html": {
+  "at": "2026-11-25T16:57:32.107Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/tutorial-transactions.html": {
+  "at": "2026-11-25T16:57:32.176Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/tutorial-window.html": {
+  "at": "2026-11-25T16:57:32.316Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/user-manag.html": {
+  "at": "2026-11-25T16:57:32.386Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/using-explain.html": {
+  "at": "2026-11-25T16:57:32.526Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/wal-async-commit.html": {
+  "at": "2026-11-25T16:57:32.646Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/wal.html": {
+  "at": "2026-11-25T16:57:32.776Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/warm-standby.html": {
+  "at": "2026-11-25T16:57:32.856Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/xfunc.html": {
+  "at": "2026-11-25T16:57:33.027Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/brin.html": {
+  "at": "2026-11-25T16:57:33.086Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/backup.html": {
+  "at": "2026-11-25T16:57:33.246Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/applevel-consistency.html": {
+  "at": "2026-11-25T16:57:33.346Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/auth-pg-hba-conf.html": {
+  "at": "2026-11-25T16:57:33.476Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.postgresql.org/docs/17/app-pgrestore.html": {
+  "at": "2026-11-25T16:57:33.576Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.prisma.io/docs/orm/prisma-client": {
+  "at": "2026-11-25T16:57:33.608Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/fundamentals/reading-data"
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/observability-and-logging/logging": {
+  "at": "2026-11-25T16:57:33.686Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/v7/prisma-client/observability-and-logging/logging"
+ },
+ "https://www.postgresql.org/docs/17/app-psql.html": {
+  "at": "2026-11-25T16:57:33.726Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.prisma.io/docs/orm/prisma-migrate": {
+  "at": "2026-11-25T16:57:34.036Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/migrations/how-migrations-work"
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/raw-queries": {
+  "at": "2026-11-25T16:57:34.107Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/v7/prisma-client/using-raw-sql/raw-queries"
+ },
+ "https://www.prisma.io/docs/orm/prisma-schema/overview": {
+  "at": "2026-11-25T16:57:34.177Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/contract-authoring/psl-syntax"
+ },
+ "https://www.prisma.io/docs/orm/reference/prisma-config-reference": {
+  "at": "2026-11-25T16:57:34.557Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/v7/reference/prisma-config-reference"
+ },
+ "https://www.prisma.io/docs/orm/reference/error-reference": {
+  "at": "2026-11-25T16:57:34.596Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rabbitmq.com/docs/reliability": {
+  "at": "2026-11-25T16:57:34.926Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/queries/crud": {
+  "at": "2026-11-25T16:57:34.946Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/fundamentals/reading-data"
+ },
+ "https://www.radix-ui.com/primitives/docs/overview/introduction": {
+  "at": "2026-11-25T16:57:34.967Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.radix-ui.com/primitives/docs/guides/composition": {
+  "at": "2026-11-25T16:57:34.968Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries": {
+  "at": "2026-11-25T16:57:35.176Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/fundamentals/relations-and-joins"
+ },
+ "https://www.prisma.io/docs/orm/prisma-schema/data-model/relations": {
+  "at": "2026-11-25T16:57:35.546Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/data-modeling/relational-databases"
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/queries/transactions": {
+  "at": "2026-11-25T16:57:35.686Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/fundamentals/transactions"
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/queries/pagination": {
+  "at": "2026-11-25T16:57:35.846Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/fundamentals/reading-data"
+ },
+ "https://www.prisma.io/docs/orm/prisma-client/queries/query-optimization-performance": {
+  "at": "2026-11-25T16:57:35.937Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.prisma.io/docs/orm/v7/prisma-client/queries/advanced/query-optimization-performance"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6238": {
+  "at": "2026-11-25T16:57:35.976Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc6238/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc4226": {
+  "at": "2026-11-25T16:57:36.036Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc4226/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8594": {
+  "at": "2026-11-25T16:57:36.827Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc8594/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8725": {
+  "at": "2026-11-25T16:57:36.986Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc8725/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9106": {
+  "at": "2026-11-25T16:57:37.806Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9106/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9111": {
+  "at": "2026-11-25T16:57:38.930Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9111/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9110": {
+  "at": "2026-11-25T16:57:38.936Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9110/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9457": {
+  "at": "2026-11-25T16:57:39.896Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9457/"
+ },
+ "https://www.rfc-editor.org/rfc/rfc9700": {
+  "at": "2026-11-25T16:57:40.358Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9700/"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/classes.html": {
+  "at": "2026-11-25T16:57:40.816Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc6585": {
+  "at": "2026-11-25T16:57:40.818Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc6585/"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html": {
+  "at": "2026-11-25T16:57:40.996Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html": {
+  "at": "2026-11-25T16:57:40.998Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc9745": {
+  "at": "2026-11-25T16:57:41.146Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc9745/"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/generics.html": {
+  "at": "2026-11-25T16:57:41.187Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/functions.html": {
+  "at": "2026-11-25T16:57:41.189Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/modules.html": {
+  "at": "2026-11-25T16:57:41.356Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html": {
+  "at": "2026-11-25T16:57:41.367Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/narrowing.html": {
+  "at": "2026-11-25T16:57:41.526Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/objects.html": {
+  "at": "2026-11-25T16:57:41.529Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html": {
+  "at": "2026-11-25T16:57:41.687Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html": {
+  "at": "2026-11-25T16:57:41.696Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/utility-types.html": {
+  "at": "2026-11-25T16:57:41.847Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/tsconfig/": {
+  "at": "2026-11-25T16:57:41.867Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc6455": {
+  "at": "2026-11-25T16:57:41.966Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc6455/"
+ },
+ "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html": {
+  "at": "2026-11-25T16:57:42.046Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/TR/WCAG22/": {
+  "at": "2026-11-25T16:57:42.050Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/TR/trace-context/": {
+  "at": "2026-11-25T16:57:42.056Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/": {
+  "at": "2026-11-25T16:57:42.067Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/": {
+  "at": "2026-11-25T16:57:42.084Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/": {
+  "at": "2026-11-25T16:57:42.086Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/": {
+  "at": "2026-11-25T16:57:42.116Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc7519": {
+  "at": "2026-11-25T16:57:42.118Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc7519/"
+ },
+ "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html": {
+  "at": "2026-11-25T16:57:42.136Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/": {
+  "at": "2026-11-25T16:57:42.246Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/tutorials/forms/": {
+  "at": "2026-11-25T16:57:42.297Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc7636": {
+  "at": "2026-11-25T16:57:42.358Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc7636/"
+ },
+ "https://www.w3.org/WAI/tutorials/forms/validation/": {
+  "at": "2026-11-25T16:57:42.429Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf": {
+  "at": "2026-11-25T16:57:42.446Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/WAI/standards-guidelines/wcag/": {
+  "at": "2026-11-25T16:57:42.456Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.w3.org/TR/webauthn-3/": {
+  "at": "2026-11-25T16:57:42.487Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://zod.dev/": {
+  "at": "2026-11-25T16:57:42.576Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://zustand.docs.pmnd.rs/learn/getting-started/introduction": {
+  "at": "2026-11-25T16:57:42.667Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc6749": {
+  "at": "2026-11-25T16:57:42.676Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc6749/"
+ },
+ "https://zustand.docs.pmnd.rs/learn/guides/prevent-rerenders-with-use-shallow": {
+  "at": "2026-11-25T16:57:42.687Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://zustand.docs.pmnd.rs/learn/guides/slices-pattern": {
+  "at": "2026-11-25T16:57:42.856Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://zustand.docs.pmnd.rs/reference/middlewares/persist": {
+  "at": "2026-11-25T16:57:42.946Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.rfc-editor.org/rfc/rfc7517": {
+  "at": "2026-11-25T16:57:43.396Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.rfc-editor.org/info/rfc7517/"
+ },
+ "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing": {
+  "at": "2026-11-25T16:58:02.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://istio.io/latest/about/service-mesh/": {
+  "at": "2026-11-25T16:58:02.854Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://microservices.io/patterns/index.html": {
+  "at": "2026-11-25T16:58:02.861Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grpc.io/docs/what-is-grpc/introduction/": {
+  "at": "2026-11-25T16:58:02.909Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://linkerd.io/2/overview/": {
+  "at": "2026-11-25T16:58:02.958Z",
+  "result": "redirecionado",
+  "detail": "vai para https://linkerd.io/docs/overview/"
+ },
+ "https://spiffe.io/docs/latest/spiffe-about/overview/": {
+  "at": "2026-11-25T16:58:02.997Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.cidrdb.org/cidr2007/papers/cidr07p15.pdf": {
+  "at": "2026-11-25T16:58:03.118Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/BoundedContext.html": {
+  "at": "2026-11-25T16:58:03.184Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.enterpriseintegrationpatterns.com/patterns/messaging/": {
+  "at": "2026-11-25T16:58:03.339Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/CQRS.html": {
+  "at": "2026-11-25T16:58:03.500Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/eaaDev/EventSourcing.html": {
+  "at": "2026-11-25T16:58:03.650Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf": {
+  "at": "2026-11-25T16:58:03.658Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/http/http_routing": {
+  "at": "2026-11-25T16:58:03.928Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/": {
+  "at": "2026-11-25T16:58:03.931Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/circuit_breaking": {
+  "at": "2026-11-25T16:58:04.229Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/outlier": {
+  "at": "2026-11-25T16:58:04.257Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html": {
+  "at": "2026-11-25T23:27:21.366Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://codescene.io/docs/guides/technical/hotspots.html": {
+  "at": "2026-11-25T23:27:21.471Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://c4model.com/": {
+  "at": "2026-11-25T23:27:21.643Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://blog.ploeh.dk/2011/07/28/CompositionRoot/": {
+  "at": "2026-11-25T23:27:21.661Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html": {
+  "at": "2026-11-25T23:27:21.737Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://adr.github.io/madr/": {
+  "at": "2026-11-25T23:27:22.521Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://arc42.org/": {
+  "at": "2026-11-25T23:27:22.537Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://conventionalcomments.org/": {
+  "at": "2026-11-25T23:27:22.846Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "http://www.laputan.org/mud/": {
+  "at": "2026-11-25T23:27:22.915Z",
+  "result": "redirecionado",
+  "detail": "vai para https://www.laputan.org/mud/"
+ },
+ "https://cucumber.io/docs/cucumber/": {
+  "at": "2026-11-25T23:27:22.919Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cucumber.io/docs/gherkin/reference/": {
+  "at": "2026-11-25T23:27:22.923Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements": {
+  "at": "2026-11-25T23:27:22.962Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy": {
+  "at": "2026-11-25T23:27:23.042Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dannorth.net/introducing-bdd/": {
+  "at": "2026-11-25T23:27:23.075Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols": {
+  "at": "2026-11-25T23:27:23.237Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.cypress.io/": {
+  "at": "2026-11-25T23:27:23.617Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.cypress.io/app/core-concepts/best-practices": {
+  "at": "2026-11-25T23:27:23.681Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://craftinginterpreters.com/": {
+  "at": "2026-11-25T23:27:23.729Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.cypress.io/app/core-concepts/retry-ability": {
+  "at": "2026-11-25T23:27:23.945Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.cypress.io/app/guides/network-requests": {
+  "at": "2026-11-25T23:27:23.948Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.pact.io/getting_started/how_pact_works": {
+  "at": "2026-11-25T23:27:24.150Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions": {
+  "at": "2026-11-25T23:27:24.200Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.github.com/en/actions/reference/security/secure-use"
+ },
+ "https://diataxis.fr/": {
+  "at": "2026-11-25T23:27:24.243Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/argparse.html": {
+  "at": "2026-11-25T23:27:24.440Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/howto/free-threading-python.html": {
+  "at": "2026-11-25T23:27:24.465Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/asyncio-task.html": {
+  "at": "2026-11-25T23:27:24.469Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/concurrent.futures.html": {
+  "at": "2026-11-25T23:27:24.508Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.pydantic.dev/latest/": {
+  "at": "2026-11-25T23:27:24.547Z",
+  "result": "redirecionado",
+  "detail": "vai para https://pydantic.dev/docs/validation/latest/get-started/"
+ },
+ "https://docs.pytest.org/en/stable/": {
+  "at": "2026-11-25T23:27:24.597Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/asyncio.html": {
+  "at": "2026-11-25T23:27:24.602Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.pact.io/pact_broker/can_i_deploy": {
+  "at": "2026-11-25T23:27:24.624Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/copy.html": {
+  "at": "2026-11-25T23:27:24.663Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/decimal.html": {
+  "at": "2026-11-25T23:27:24.747Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/functools.html": {
+  "at": "2026-11-25T23:27:24.802Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.pact.io/implementation_guides/javascript/": {
+  "at": "2026-11-25T23:27:25.023Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.pact.io/implementation_guides/javascript/readme"
+ },
+ "https://docs.python.org/3/library/gc.html": {
+  "at": "2026-11-25T23:27:25.282Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/logging.html": {
+  "at": "2026-11-25T23:27:25.284Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/stdtypes.html": {
+  "at": "2026-11-25T23:27:25.443Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.python.org/3/builtins/stdtypes.html"
+ },
+ "https://docs.python.org/3/library/pathlib.html": {
+  "at": "2026-11-25T23:27:25.449Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/subprocess.html": {
+  "at": "2026-11-25T23:27:25.560Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/tempfile.html": {
+  "at": "2026-11-25T23:27:25.562Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions": {
+  "at": "2026-11-25T23:27:25.661Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/venv.html": {
+  "at": "2026-11-25T23:27:25.766Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/reference/import.html": {
+  "at": "2026-11-25T23:27:25.793Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/tutorial/controlflow.html": {
+  "at": "2026-11-25T23:27:25.832Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/typing.html": {
+  "at": "2026-11-25T23:27:25.871Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/tutorial/index.html": {
+  "at": "2026-11-25T23:27:25.883Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/tutorial/modules.html": {
+  "at": "2026-11-25T23:27:26.008Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/dis.html": {
+  "at": "2026-11-25T23:27:26.029Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/reference/datamodel.html": {
+  "at": "2026-11-25T23:27:26.102Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/dataclasses.html": {
+  "at": "2026-11-25T23:27:26.103Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/multiprocessing.html": {
+  "at": "2026-11-25T23:27:26.396Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/ast.html": {
+  "at": "2026-11-25T23:27:26.490Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dora.dev/guides/dora-metrics/": {
+  "at": "2026-11-25T23:27:26.492Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.python.org/3/library/csv.html": {
+  "at": "2026-11-25T23:27:27.125Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Anti-pattern": {
+  "at": "2026-11-25T23:27:27.626Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Tracing_garbage_collection": {
+  "at": "2026-11-25T23:27:27.977Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://eslint.org/docs/latest/rules/complexity": {
+  "at": "2026-11-25T23:27:28.471Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://engineering.atspotify.com/2018/01/testing-of-microservices": {
+  "at": "2026-11-25T23:27:28.579Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method": {
+  "at": "2026-11-25T23:27:29.017Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Bus_factor": {
+  "at": "2026-11-25T23:27:29.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://eslint.org/docs/latest/rules/eqeqeq": {
+  "at": "2026-11-25T23:27:29.310Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://eslint.org/docs/latest/rules/no-magic-numbers": {
+  "at": "2026-11-25T23:27:29.373Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Cyclomatic_complexity": {
+  "at": "2026-11-25T23:27:29.518Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://en.wikipedia.org/wiki/Decision-matrix_method": {
+  "at": "2026-11-25T23:27:29.582Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://eslint.org/docs/latest/use/getting-started": {
+  "at": "2026-11-25T23:27:29.877Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://eslint.org/docs/latest/rules/max-depth": {
+  "at": "2026-11-25T23:27:29.897Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://expressjs.com/": {
+  "at": "2026-11-25T23:27:29.904Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fastapi.tiangolo.com/": {
+  "at": "2026-11-25T23:27:30.304Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fastapi.tiangolo.com/async/": {
+  "at": "2026-11-25T23:27:30.386Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fastapi.tiangolo.com/tutorial/testing/": {
+  "at": "2026-11-25T23:27:30.452Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fastapi.tiangolo.com/tutorial/dependencies/": {
+  "at": "2026-11-25T23:27:30.796Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fast-check.dev/": {
+  "at": "2026-11-25T23:27:31.175Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/bcoe/c8": {
+  "at": "2026-11-25T23:27:31.401Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/kucherenko/jscpd": {
+  "at": "2026-11-25T23:27:31.649Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html": {
+  "at": "2026-11-25T23:27:31.796Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/thomvaill/log4brains": {
+  "at": "2026-11-25T23:27:32.027Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://google.github.io/eng-practices/review/": {
+  "at": "2026-11-25T23:27:32.311Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/mermaid-js/mermaid-cli": {
+  "at": "2026-11-25T23:27:32.460Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://google.github.io/eng-practices/review/developer/small-cls.html": {
+  "at": "2026-11-25T23:27:32.655Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://google.github.io/styleguide/jsguide.html": {
+  "at": "2026-11-25T23:27:32.666Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://google.github.io/eng-practices/review/reviewer/standard.html": {
+  "at": "2026-11-25T23:27:33.434Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/rhysd/actionlint": {
+  "at": "2026-11-25T23:27:33.450Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/ladjs/supertest": {
+  "at": "2026-11-25T23:27:34.002Z",
+  "result": "redirecionado",
+  "detail": "vai para https://github.com/forwardemail/supertest"
+ },
+ "https://github.com/npryce/adr-tools": {
+  "at": "2026-11-25T23:27:34.278Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://jestjs.io/docs/ecmascript-modules": {
+  "at": "2026-11-25T23:27:35.172Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010": {
+  "at": "2026-11-25T23:27:35.313Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/k6/latest/": {
+  "at": "2026-11-25T23:27:35.430Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/k6/latest/testing-guides/test-types/": {
+  "at": "2026-11-25T23:27:35.433Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://jestjs.io/docs/mock-functions": {
+  "at": "2026-11-25T23:27:35.445Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://jestjs.io/docs/snapshot-testing": {
+  "at": "2026-11-25T23:27:35.457Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/thresholds/": {
+  "at": "2026-11-25T23:27:35.749Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/scenarios/": {
+  "at": "2026-11-25T23:27:35.750Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/k6/latest/using-k6/scenarios/concepts/open-vs-closed/": {
+  "at": "2026-11-25T23:27:36.110Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/consumerDrivenContracts.html": {
+  "at": "2026-11-25T23:27:36.287Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/injection.html": {
+  "at": "2026-11-25T23:27:37.508Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/OpportunisticRefactoring.html": {
+  "at": "2026-11-25T23:27:38.395Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TechnicalDebt.html": {
+  "at": "2026-11-25T23:27:39.552Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/PullRequest.html": {
+  "at": "2026-11-25T23:27:40.375Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TechnicalDebtQuadrant.html": {
+  "at": "2026-11-25T23:27:40.544Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TestCoverage.html": {
+  "at": "2026-11-25T23:27:41.033Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TestDouble.html": {
+  "at": "2026-11-25T23:27:41.488Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TestDrivenDevelopment.html": {
+  "at": "2026-11-25T23:27:41.776Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/TestPyramid.html": {
+  "at": "2026-11-25T23:27:42.268Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/UnitTest.html": {
+  "at": "2026-11-25T23:27:42.565Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/Yagni.html": {
+  "at": "2026-11-25T23:27:43.633Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/AnemicDomainModel.html": {
+  "at": "2026-11-25T23:27:43.867Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/": {
+  "at": "2026-11-25T23:27:44.068Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/syntax/c4.html": {
+  "at": "2026-11-25T23:27:44.447Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/syntax/sequenceDiagram.html": {
+  "at": "2026-11-25T23:27:44.747Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/syntax/classDiagram.html": {
+  "at": "2026-11-25T23:27:44.748Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/mocksArentStubs.html": {
+  "at": "2026-11-25T23:27:44.751Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/IntegrationTest.html": {
+  "at": "2026-11-25T23:27:45.249Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mermaid.js.org/syntax/stateDiagram.html": {
+  "at": "2026-11-25T23:27:45.251Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mathiasbynens.be/notes/shapes-ics": {
+  "at": "2026-11-25T23:27:45.279Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/events.html": {
+  "at": "2026-11-25T23:27:45.492Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/api/sqlite.html": {
+  "at": "2026-11-25T23:27:45.527Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nodejs.org/en/learn/diagnostics/memory/understanding-and-tuning-memory": {
+  "at": "2026-11-25T23:27:45.759Z",
+  "result": "redirecionado",
+  "detail": "vai para https://nodejs.org/learn/diagnostics/memory/understanding-and-tuning-memory"
+ },
+ "https://martinfowler.com/articles/practical-test-pyramid.html": {
+  "at": "2026-11-25T23:27:45.811Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/": {
+  "at": "2026-11-25T23:27:45.850Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://peps.python.org/pep-0008/": {
+  "at": "2026-11-25T23:27:46.082Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://peps.python.org/pep-0020/": {
+  "at": "2026-11-25T23:27:46.121Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/CodeSmell.html": {
+  "at": "2026-11-25T23:27:46.174Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://plantuml.com/": {
+  "at": "2026-11-25T23:27:46.273Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/ContractTest.html": {
+  "at": "2026-11-25T23:27:46.365Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/actionability": {
+  "at": "2026-11-25T23:27:46.389Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://peps.python.org/pep-0649/": {
+  "at": "2026-11-25T23:27:46.393Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://peps.python.org/pep-0484/": {
+  "at": "2026-11-25T23:27:46.396Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/ci": {
+  "at": "2026-11-25T23:27:46.426Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://peps.python.org/pep-0544/": {
+  "at": "2026-11-25T23:27:46.653Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/trace-viewer": {
+  "at": "2026-11-25T23:27:46.654Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://playwright.dev/docs/test-sharding": {
+  "at": "2026-11-25T23:27:46.657Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://pptr.dev/": {
+  "at": "2026-11-25T23:27:47.853Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/adapter": {
+  "at": "2026-11-25T23:27:48.457Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/builder": {
+  "at": "2026-11-25T23:27:48.459Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/factory-method": {
+  "at": "2026-11-25T23:27:48.718Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/observer": {
+  "at": "2026-11-25T23:27:48.720Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.com/catalog/": {
+  "at": "2026-11-25T23:27:48.795Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/state": {
+  "at": "2026-11-25T23:27:49.093Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/singleton": {
+  "at": "2026-11-25T23:27:49.094Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/refactoring/smells": {
+  "at": "2026-11-25T23:27:49.588Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/strategy": {
+  "at": "2026-11-25T23:27:49.592Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/decorator": {
+  "at": "2026-11-25T23:27:49.759Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/catalog": {
+  "at": "2026-11-25T23:27:49.761Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/command": {
+  "at": "2026-11-25T23:27:49.924Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://refactoring.guru/design-patterns/chain-of-responsibility": {
+  "at": "2026-11-25T23:27:49.926Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/eliminating-toil/": {
+  "at": "2026-11-25T23:27:50.354Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://mypy.readthedocs.io/en/stable/": {
+  "at": "2026-11-25T23:27:50.384Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/postmortem-culture/": {
+  "at": "2026-11-25T23:27:50.686Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://structurizr.com/": {
+  "at": "2026-11-25T23:27:50.833Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing.googleblog.com/2010/12/test-sizes.html": {
+  "at": "2026-11-25T23:27:51.128Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/workbook/implementing-slos/": {
+  "at": "2026-11-25T23:27:51.285Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://typing.python.org/en/latest/spec/": {
+  "at": "2026-11-25T23:27:51.346Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://stryker-mutator.io/docs/": {
+  "at": "2026-11-25T23:27:51.459Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://v8.dev/blog/ignition-interpreter": {
+  "at": "2026-11-25T23:27:51.522Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://v8.dev/blog/maglev": {
+  "at": "2026-11-25T23:27:51.561Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://v8.dev/docs": {
+  "at": "2026-11-25T23:27:51.570Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testcontainers.com/": {
+  "at": "2026-11-25T23:27:51.679Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html": {
+  "at": "2026-11-25T23:27:51.721Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://v8.dev/blog/trash-talk": {
+  "at": "2026-11-25T23:27:51.759Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://uvicorn.dev/": {
+  "at": "2026-11-25T23:27:51.809Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://vitest.dev/guide/comparisons": {
+  "at": "2026-11-25T23:27:52.181Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions": {
+  "at": "2026-11-25T23:27:53.447Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.cs.cmu.edu/~wing/publications/LiskovWing94.pdf": {
+  "at": "2026-11-25T23:27:53.647Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.cs.cornell.edu/courses/cs6120/2019fa/": {
+  "at": "2026-11-25T23:27:53.927Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.omg.org/spec/UML/": {
+  "at": "2026-11-25T23:27:53.930Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.industrialempathy.com/posts/design-docs-at-google/": {
+  "at": "2026-11-25T23:27:54.081Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html": {
+  "at": "2026-11-25T23:27:54.977Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records": {
+  "at": "2026-11-25T23:27:55.004Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610": {
+  "at": "2026-11-25T23:27:55.026Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.informit.com/store/clean-code-a-handbook-of-agile-software-craftsmanship-9780132350884": {
+  "at": "2026-11-25T23:27:55.033Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.informit.com/store/working-effectively-with-legacy-code-9780131177055": {
+  "at": "2026-11-25T23:27:55.296Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.informit.com/store/test-driven-development-by-example-9780321146533": {
+  "at": "2026-11-25T23:27:55.327Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.sqlite.org/lang_createtable.html": {
+  "at": "2026-11-25T23:27:55.433Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.writethedocs.org/guide/docs-as-code/": {
+  "at": "2026-11-25T23:27:55.459Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.sonarsource.com/resources/cognitive-complexity/": {
+  "at": "2026-11-25T23:27:55.850Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://argo-cd.readthedocs.io/en/stable/": {
+  "at": "2026-11-26T00:37:11.073Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://argoproj.github.io/rollouts/": {
+  "at": "2026-11-26T00:37:11.102Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/": {
+  "at": "2026-11-26T00:37:11.121Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://azure.microsoft.com/en-us/pricing/calculator/": {
+  "at": "2026-11-26T00:37:11.172Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://aws.amazon.com/compliance/shared-responsibility-model/": {
+  "at": "2026-11-26T00:37:11.189Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://aws.amazon.com/pricing/": {
+  "at": "2026-11-26T00:37:11.669Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/architecture/framework": {
+  "at": "2026-11-26T00:37:12.346Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/architecture/framework"
+ },
+ "https://csrc.nist.gov/pubs/sp/800/145/final": {
+  "at": "2026-11-26T00:37:12.923Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy": {
+  "at": "2026-11-26T00:37:13.128Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy"
+ },
+ "https://cloud.google.com/iam/docs/overview": {
+  "at": "2026-11-26T00:37:13.364Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/iam/docs/overview?hl=ko"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc6585": {
+  "at": "2026-11-26T00:37:13.530Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc9110": {
+  "at": "2026-11-26T00:37:13.729Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc6797": {
+  "at": "2026-11-26T00:37:13.938Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/iam/docs/service-account-overview": {
+  "at": "2026-11-26T00:37:13.948Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/iam/docs/service-account-overview"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc8446": {
+  "at": "2026-11-26T00:37:14.154Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/pricing": {
+  "at": "2026-11-26T00:37:14.347Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/cli/commands/plan": {
+  "at": "2026-11-26T00:37:14.359Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/docs": {
+  "at": "2026-11-26T00:37:14.368Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/products": {
+  "at": "2026-11-26T00:37:14.372Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/files/dependency-lock": {
+  "at": "2026-11-26T00:37:14.551Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each": {
+  "at": "2026-11-26T00:37:14.554Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/state": {
+  "at": "2026-11-26T00:37:14.757Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/values/variables": {
+  "at": "2026-11-26T00:37:14.958Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/state/sensitive-data": {
+  "at": "2026-11-26T00:37:14.965Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.hashicorp.com/terraform/language/manage-sensitive-data"
+ },
+ "https://developer.hashicorp.com/terraform/intro/core-workflow": {
+  "at": "2026-11-26T00:37:15.164Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/modules": {
+  "at": "2026-11-26T00:37:15.166Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/vpc/docs/vpc": {
+  "at": "2026-11-26T00:37:15.170Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/vpc/docs/vpc"
+ },
+ "https://developer.hashicorp.com/terraform/language": {
+  "at": "2026-11-26T00:37:15.383Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/terraform/language/backend": {
+  "at": "2026-11-26T00:37:15.384Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html": {
+  "at": "2026-11-26T00:37:15.587Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cloud.google.com/run/docs/overview/what-is-cloud-run": {
+  "at": "2026-11-26T00:37:15.780Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run?hl=zh-tw"
+ },
+ "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html": {
+  "at": "2026-11-26T00:37:15.984Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html": {
+  "at": "2026-11-26T00:37:16.193Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html": {
+  "at": "2026-11-26T00:37:16.443Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/build/building/best-practices/": {
+  "at": "2026-11-26T00:37:16.613Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html": {
+  "at": "2026-11-26T00:37:16.617Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/build/building/multi-stage/": {
+  "at": "2026-11-26T00:37:16.821Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/compose/": {
+  "at": "2026-11-26T00:37:16.823Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/engine/containers/resource_constraints/": {
+  "at": "2026-11-26T00:37:17.023Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/engine/security/": {
+  "at": "2026-11-26T00:37:17.025Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html": {
+  "at": "2026-11-26T00:37:17.031Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html": {
+  "at": "2026-11-26T00:37:17.038Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/reference/compose-file/": {
+  "at": "2026-11-26T00:37:17.068Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/": {
+  "at": "2026-11-26T00:37:17.130Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.docker.com/learn/content/what-is-a-container/"
+ },
+ "https://docs.docker.com/compose/how-tos/startup-order/": {
+  "at": "2026-11-26T00:37:17.151Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.docker.com/build/cache/": {
+  "at": "2026-11-26T00:37:17.242Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html": {
+  "at": "2026-11-26T00:37:17.439Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/concepts/security/openid-connect": {
+  "at": "2026-11-26T00:37:17.440Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/reference/security/secure-use": {
+  "at": "2026-11-26T00:37:17.475Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/get-started/understand-github-actions": {
+  "at": "2026-11-26T00:37:17.646Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.openssl.org/master/man1/openssl-s_client/": {
+  "at": "2026-11-26T00:37:17.843Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html": {
+  "at": "2026-11-26T00:37:17.852Z",
+  "result": "redirecionado",
+  "detail": "vai para https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html"
+ },
+ "https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching": {
+  "at": "2026-11-26T00:37:18.098Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments": {
+  "at": "2026-11-26T00:37:18.147Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://dora.dev/guides/dora-metrics-four-keys/": {
+  "at": "2026-11-26T00:37:18.148Z",
+  "result": "redirecionado",
+  "detail": "vai para https://dora.dev/guides/dora-metrics/"
+ },
+ "https://helm.sh/docs/": {
+  "at": "2026-11-26T00:37:18.311Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://helm.sh/docs/chart_best_practices/": {
+  "at": "2026-11-26T00:37:18.327Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/hadolint/hadolint": {
+  "at": "2026-11-26T00:37:18.409Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers": {
+  "at": "2026-11-26T00:37:18.457Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://helm.sh/docs/topics/charts/": {
+  "at": "2026-11-26T00:37:18.489Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/": {
+  "at": "2026-11-26T00:37:18.534Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/overview/": {
+  "at": "2026-11-26T00:37:18.563Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/yannh/kubeconform": {
+  "at": "2026-11-26T00:37:18.622Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/": {
+  "at": "2026-11-26T00:37:18.797Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/workloads/pods/": {
+  "at": "2026-11-26T00:37:18.799Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/": {
+  "at": "2026-11-26T00:37:18.965Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/setup/best-practices/": {
+  "at": "2026-11-26T00:37:18.971Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/tasks/run-application/configure-pdb/": {
+  "at": "2026-11-26T00:37:19.182Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/": {
+  "at": "2026-11-26T00:37:19.215Z",
+  "result": "redirecionado",
+  "detail": "vai para https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/"
+ },
+ "https://kubernetes.io/docs/concepts/security/secrets-good-practices/": {
+  "at": "2026-11-26T00:37:19.362Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/reference/access-authn-authz/rbac/": {
+  "at": "2026-11-26T00:37:19.389Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/app-service/overview": {
+  "at": "2026-11-26T00:37:19.458Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview": {
+  "at": "2026-11-26T00:37:19.510Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/services-networking/service/": {
+  "at": "2026-11-26T00:37:19.556Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/well-architected/": {
+  "at": "2026-11-26T00:37:19.571Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/security/pod-security-standards/": {
+  "at": "2026-11-26T00:37:19.583Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview": {
+  "at": "2026-11-26T00:37:19.600Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://kubernetes.io/docs/concepts/services-networking/network-policies/": {
+  "at": "2026-11-26T00:37:19.764Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources": {
+  "at": "2026-11-26T00:37:19.816Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview": {
+  "at": "2026-11-26T00:37:19.833Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://learn.microsoft.com/en-us/azure/role-based-access-control/overview": {
+  "at": "2026-11-26T00:37:20.068Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://letsencrypt.org/how-it-works/": {
+  "at": "2026-11-26T00:37:20.144Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/articles/continuousIntegration.html": {
+  "at": "2026-11-26T00:37:20.306Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://man7.org/linux/man-pages/man7/cgroups.7.html": {
+  "at": "2026-11-26T00:37:20.927Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax": {
+  "at": "2026-11-26T00:37:20.929Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/BlueGreenDeployment.html": {
+  "at": "2026-11-26T00:37:21.236Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/beginners_guide.html": {
+  "at": "2026-11-26T00:37:21.408Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://man7.org/linux/man-pages/man7/namespaces.7.html": {
+  "at": "2026-11-26T00:37:21.468Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/DeploymentPipeline.html": {
+  "at": "2026-11-26T00:37:21.554Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://martinfowler.com/bliki/CanaryRelease.html": {
+  "at": "2026-11-26T00:37:21.743Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_gzip_module.html": {
+  "at": "2026-11-26T00:37:21.910Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/control.html": {
+  "at": "2026-11-26T00:37:21.924Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_upstream_module.html": {
+  "at": "2026-11-26T00:37:22.417Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_ssl_module.html": {
+  "at": "2026-11-26T00:37:22.441Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_v2_module.html": {
+  "at": "2026-11-26T00:37:22.921Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_limit_req_module.html": {
+  "at": "2026-11-26T00:37:22.939Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opencontainers.org/": {
+  "at": "2026-11-26T00:37:22.943Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opentofu.org/docs/": {
+  "at": "2026-11-26T00:37:23.065Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://registry.terraform.io/providers/hashicorp/local/latest/docs": {
+  "at": "2026-11-26T00:37:23.210Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://registry.terraform.io/providers/hashicorp/random/latest/docs": {
+  "at": "2026-11-26T00:37:23.253Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://ssl-config.mozilla.org/": {
+  "at": "2026-11-26T00:37:23.284Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/configuring_https_servers.html": {
+  "at": "2026-11-26T00:37:23.435Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_realip_module.html": {
+  "at": "2026-11-26T00:37:23.451Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.finops.org/introduction/what-is-finops/": {
+  "at": "2026-11-26T00:37:23.817Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/load_balancing.html": {
+  "at": "2026-11-26T00:37:24.179Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_core_module.html": {
+  "at": "2026-11-26T00:37:24.733Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://nginx.org/en/docs/http/ngx_http_proxy_module.html": {
+  "at": "2026-11-26T00:37:24.753Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/": {
+  "at": "2026-11-26T01:56:08.835Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.081Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.089Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.187Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.330Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.421Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.519Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.650Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html": {
+  "at": "2026-11-26T01:56:09.651Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://csrc.nist.gov/pubs/fips/180-4/upd1/final": {
+  "at": "2026-11-26T01:56:09.797Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://csrc.nist.gov/pubs/fips/203/final": {
+  "at": "2026-11-26T01:56:09.959Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://csrc.nist.gov/pubs/sp/800/38/d/final": {
+  "at": "2026-11-26T01:56:10.024Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://csrc.nist.gov/pubs/fips/204/final": {
+  "at": "2026-11-26T01:56:10.162Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc1918": {
+  "at": "2026-11-26T01:56:10.319Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cwe.mitre.org/data/definitions/352.html": {
+  "at": "2026-11-26T01:56:10.362Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc5869": {
+  "at": "2026-11-26T01:56:10.396Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc7914": {
+  "at": "2026-11-26T01:56:10.468Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc2104": {
+  "at": "2026-11-26T01:56:10.524Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc8032": {
+  "at": "2026-11-26T01:56:10.544Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc3986": {
+  "at": "2026-11-26T01:56:10.727Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.hashicorp.com/vault/docs": {
+  "at": "2026-11-26T01:56:10.806Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc9106": {
+  "at": "2026-11-26T01:56:10.911Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP": {
+  "at": "2026-11-26T01:56:10.945Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cwe.mitre.org/data/definitions/79.html": {
+  "at": "2026-11-26T01:56:10.998Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cwe.mitre.org/data/definitions/89.html": {
+  "at": "2026-11-26T01:56:11.051Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://datatracker.ietf.org/doc/html/rfc7748": {
+  "at": "2026-11-26T01:56:11.148Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.openssl.org/master/man1/openssl-verify/": {
+  "at": "2026-11-26T01:56:11.356Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html": {
+  "at": "2026-11-26T01:56:11.444Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy": {
+  "at": "2026-11-26T01:56:11.529Z",
+  "result": "redirecionado",
+  "detail": "vai para https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy"
+ },
+ "https://grafana.com/docs/grafana/latest/administration/provisioning/": {
+  "at": "2026-11-26T01:56:11.571Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://cwe.mitre.org/data/definitions/942.html": {
+  "at": "2026-11-26T01:56:11.600Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/grafana/latest/dashboards/": {
+  "at": "2026-11-26T01:56:11.783Z",
+  "result": "redirecionado",
+  "detail": "vai para https://grafana.com/docs/grafana/latest/visualizations/dashboards/"
+ },
+ "https://cwe.mitre.org/data/definitions/918.html": {
+  "at": "2026-11-26T01:56:11.825Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://github.com/gitleaks/gitleaks": {
+  "at": "2026-11-26T01:56:11.857Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://opentelemetry.io/docs/concepts/signals/": {
+  "at": "2026-11-26T01:56:11.905Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://grafana.com/docs/grafana/latest/developers/http_api/": {
+  "at": "2026-11-26T01:56:12.049Z",
+  "result": "redirecionado",
+  "detail": "vai para https://grafana.com/docs/grafana/latest/developer-resources/api-reference/http-api/api-legacy/"
+ },
+ "https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/best-practices/": {
+  "at": "2026-11-26T01:56:12.255Z",
+  "result": "redirecionado",
+  "detail": "vai para https://grafana.com/docs/grafana/latest/visualizations/dashboards/build-dashboards/best-practices/"
+ },
+ "https://owasp.org/API-Security/editions/2023/en/0x11-t10/": {
+  "at": "2026-11-26T01:56:12.559Z",
+  "result": "redirecionado",
+  "detail": "vai para https://api-security.owasp.org/editions/2023/en/0x11-t10/"
+ },
+ "https://portswigger.net/web-security": {
+  "at": "2026-11-26T01:56:12.686Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://fetch.spec.whatwg.org/": {
+  "at": "2026-11-26T01:56:12.701Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://owasp.org/Top10/2025/": {
+  "at": "2026-11-26T01:56:12.767Z",
+  "result": "redirecionado",
+  "detail": "vai para https://top10.owasp.org/2025/"
+ },
+ "https://prometheus.io/docs/concepts/metric_types/": {
+  "at": "2026-11-26T01:56:12.805Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/alerting/latest/configuration/": {
+  "at": "2026-11-26T01:56:12.816Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/configuration/": {
+  "at": "2026-11-26T01:56:13.095Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://owasp.org/www-project-application-security-verification-standard/": {
+  "at": "2026-11-26T01:56:13.113Z",
+  "result": "redirecionado",
+  "detail": "vai para https://asvs.owasp.org/"
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/functions/": {
+  "at": "2026-11-26T01:56:13.313Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://owasp.org/Top10/2025/0x00_2025-Introduction/": {
+  "at": "2026-11-26T01:56:13.342Z",
+  "result": "redirecionado",
+  "detail": "vai para https://top10.owasp.org/2025/0x00_2025-Introduction/"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/unit_testing_rules/": {
+  "at": "2026-11-26T01:56:13.620Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/": {
+  "at": "2026-11-26T01:56:13.634Z",
+  "result": "redirecionado",
+  "detail": "vai para https://top10.owasp.org/2025/A01_2025-Broken_Access_Control/"
+ },
+ "https://prometheus.io/docs/practices/alerting/": {
+  "at": "2026-11-26T01:56:13.703Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://www.chromium.org/updates/same-site/": {
+  "at": "2026-11-26T01:56:13.908Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://shattered.io/": {
+  "at": "2026-11-26T01:56:13.914Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/practices/instrumentation/": {
+  "at": "2026-11-26T01:56:14.066Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://prometheus.io/docs/instrumenting/exposition_formats/": {
+  "at": "2026-11-26T01:56:14.066Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://sre.google/sre-book/being-on-call/": {
+  "at": "2026-11-26T01:56:14.294Z",
+  "result": "ok",
+  "detail": ""
+ },
+ "https://url.spec.whatwg.org/": {
+  "at": "2026-11-26T01:56:14.438Z",
+  "result": "ok",
+  "detail": ""
+ }
+}

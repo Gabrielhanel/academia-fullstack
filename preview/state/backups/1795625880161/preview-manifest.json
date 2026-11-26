@@ -1,0 +1,29 @@
+{
+ "packRev": 7,
+ "courses": [
+  "react-essencial",
+  "tailwind-design-systems",
+  "react-avancado",
+  "estado-frontend",
+  "nextjs",
+  "testes-frontend",
+  "performance-frontend",
+  "arquitetura-frontend",
+  "sql-essencial",
+  "sql-avancado",
+  "postgres-mysql",
+  "modelagem-dados",
+  "transacoes-concorrencia",
+  "orms-node",
+  "nosql-mongodb-redis",
+  "estrategias-cache",
+  "node-express",
+  "nestjs",
+  "apis",
+  "auth",
+  "filas-async",
+  "observabilidade"
+ ],
+ "pageId": "producao-c2-c11",
+ "docs": 636
+}

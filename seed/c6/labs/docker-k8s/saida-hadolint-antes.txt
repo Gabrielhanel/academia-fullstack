@@ -1,0 +1,7 @@
+## hadolint app/Dockerfile.ingenuo
+exit=0
+## hadolint app/Dockerfile
+-:12 DL3066 [92minfo[0m: Non-numeric user-id may not be resolvable by host system
+-:14 DL3025 [1m[93mwarning[0m: Use arguments JSON notation for CMD and ENTRYPOINT arguments
+exit=1
+Haskell Dockerfile Linter 2.15.1

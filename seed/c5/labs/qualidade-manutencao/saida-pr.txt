@@ -1,0 +1,5 @@
++5 -3 8 XS revisão rápida
++20 -10 30 S revisão rápida
++100 -60 160 M revisão normal
++250 -150 400 L considere dividir
++400 -300 700 XL divida antes de revisar

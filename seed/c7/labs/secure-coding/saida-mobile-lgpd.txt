@@ -1,0 +1,42 @@
+$ node mobile.mjs
+== 1. Fixação de chave pública (SPKI pinning), modelo
+pin do servidor (SHA-256 do SPKI, base64): 5CqZP02STMqTH/qGV9mqi++s2uX5gUvd/l9/k/ak0Sw=
+conexão com o certificado correto aceita: true
+certificado de outro emissor/chave (intermediário) aceito: false (mesmo que um certificado válido de uma CA confiável pelo sistema)
+certificado RENOVADO com a mesma chave aceito: true | certificados diferentes (serial/validade): true
+rotação de chave SEM pin de reserva — app com um só pin aceita a nova chave: false → app quebrado até atualizar
+rotação COM pin de reserva já distribuído (pins [atual, reserva]) aceita: true
+
+== 2. Segredos embutidos no pacote do aplicativo
+texto claro          scanner por padrão/entropia: 3 achado(s) atribuicao-generica, github-token, atribuicao-generica
+ofuscado em base64   scanner por padrão/entropia: 0 achado(s) 
+dividido em partes   scanner por padrão/entropia: 0 achado(s) 
+qualquer pessoa com o pacote decodifica o base64 em uma linha: true → ofuscação não é proteção
+o pacote de um aplicativo é um arquivo (APK/IPA = zip): o atacante o recebe inteiro e roda ferramentas locais
+
+$ node lgpd.mjs
+== 1. CPF: validação e mascaramento
+CPF sintético: 12345678909 | válido: true | alterado válido: false | mascarado para logs: 123.***.***-09
+
+== 2. Pseudonimização: SHA-256 sem chave x HMAC com chave (CPF tem só 10^9 possibilidades)
+hash simples: CPF recuperado = true após 456790 tentativas em 3235 ms (141 mil/s, com o cálculo do dígito verificador, em Node)
+extrapolação para TODO o espaço de 10^9 CPFs: ≈ 118 min em 1 núcleo, sem salt (GPUs são ordens de grandeza mais rápidas; não medido aqui)
+HMAC com chave secreta: o atacante sem a chave não consegue validar candidatos (50.000 tentativas com chaves aleatórias: 0 acertos); o controlador, com a chave, gera o mesmo token para o mesmo CPF: true
+
+== 3. k-anonimato em um conjunto sintético de 2.000 pessoas
+quase-identificadores (idade, CEP completo, sexo): k mínimo = 1; 1998 de 2000 pessoas são ÚNICAS (reidentificáveis combinando as 3 informações); 1999 classes
+generalizando (faixa de 10 anos, 2 primeiros dígitos do CEP, sexo): k mínimo = 1; únicos = 21; 283 classes
+para k ≥ 5: 162 registros em classes menores que 5 seriam suprimidos (8.1% dos dados)
+limite: k-anonimato não impede inferência por atributo (todos de uma classe podem ter o mesmo diagnóstico): checar diversidade (l-diversidade)
+menor número de diagnósticos distintos por classe generalizada: 1
+
+== 4. Minimização: campos sem finalidade declarada
+campos sem finalidade (candidatos a remover ou justificar): data_nascimento, localizacao_gps, cor_favorita
+campos sensíveis (exigem hipótese do art. 11 e cuidado reforçado): diagnostico
+
+== 5. Retenção e direitos do titular (modelo)
+política (dias): carrinho 90, log-acesso 180, nota-fiscal 1825 (exemplo; prazos reais dependem de lei e finalidade)
+registros vencidos a eliminar: [1,3]
+exportação (acesso/portabilidade) do titular T1: registros por fonte {"cadastro":1,"pedidos":2,"marketing":1,"logs":1}
+eliminação do titular T1: {"cadastro":{"removidos":1,"mantidosPorObrigacaoLegal":0},"pedidos":{"removidos":1,"mantidosPorObrigacaoLegal":1},"marketing":{"removidos":1,"mantidosPorObrigacaoLegal":0},"logs":{"removidos":1,"mantidosPorObrigacaoLegal":0}}
+estado depois: {"cadastro":1,"pedidos":1,"marketing":0,"logs":0} (backups e terceiros também precisam ser tratados: não modelado)

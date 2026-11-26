@@ -1,0 +1,14 @@
+OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)
+== certificado folha
+  subject=CN=api.exemplo.test
+  issuer=CN=CA de Laboratorio
+  notBefore=Nov 26 01:43:01 2026 GMT
+  notAfter=Dec  6 01:43:01 2026 GMT
+  X509v3 Subject Alternative Name: 
+      DNS:api.exemplo.test
+== verificar contra a CA: leaf.crt: OK
+== verificar contra outra CA: CN=api.exemplo.test error 20 at 0 depth lookup: unable to get local issuer certificate error leaf.crt: verification failed 
+== verificar daqui a 20 dias (folha vale 10): CN=api.exemplo.test error 10 at 0 depth lookup: certificate has expired error leaf.crt: verification failed 
+== verificar nome: leaf.crt: OK | com nome errado: CN=api.exemplo.test error 62 at 0 depth lookup: hostname mismatch error leaf.crt: verification failed 
+== adulterar o certificado (1 byte na região da assinatura) e verificar:
+  CN=api.exemplo.test error 7 at 0 depth lookup: certificate signature failure error adulterado.crt: verification failed 4047AB0BF27C0000:error:030000EA:digital envelope routines:EVP_DigestVerifyFinal:provider signature failure:../crypto/evp/m_sigver.c:701:ECDSA digest_verify_final: 4047AB0BF27C0000:error:06880006:asn1 encoding routines:ASN1_item_verify_ctx:EVP lib:../crypto/asn1/a_verify.c:219: 

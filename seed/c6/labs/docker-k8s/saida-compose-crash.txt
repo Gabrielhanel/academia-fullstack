@@ -1,0 +1,6 @@
+## ANTES da correção: parar o banco derruba o processo da aplicação?
+app running
+reinícios: 1 | último código de saída: 0
+app-1  |     throw er; // Unhandled 'error' event
+app-1  | error: terminating connection due to administrator command
+app-1  |     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:306:11)

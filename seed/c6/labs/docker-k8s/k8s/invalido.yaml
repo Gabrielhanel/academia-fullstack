@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: quebrado }
+spec:
+  replica: 3
+  selector: { matchLabels: { app: quebrado } }
+  template:
+    metadata: { labels: { app: quebrado } }
+    spec:
+      containers:
+        - name: app
+          imagem: nginx
+          ports: [{ containerPort: "80" }]
+---
+apiVersion: v1
+kind: Service
+metadata: { name: quebrado }
+spec:
+  type: ClusterIP
+  ports: [{ port: 80, protocol: TCPP }]

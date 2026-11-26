@@ -1,0 +1,36 @@
+== 1. AES-256-GCM: confidencialidade + integridade
+claro 38 B → cifrado 38 B + nonce 12 B + tag 16 B (sobrecarga 28 B)
+decifra correta: saldo=1000;conta=ana (dado sintético)
+1 bit do cifrado alterado → falha de autenticação: Unsupported state or unable to authenticate data
+AAD diferente (contexto) → falha: Unsupported state or unable to authenticate data
+
+== 2. Reutilizar o nonce no GCM/CTR vaza o XOR dos textos claros (dois-time pad)
+c1 XOR c2 == p1 XOR p2 (mesmo nonce e chave): true → quem conhece um claro recupera o outro
+com nonce novo, o XOR dos cifrados continua igual ao dos claros? false
+
+== 3. Modo ECB revela padrões; GCM não
+10 blocos idênticos → blocos cifrados distintos: ECB 1 | GCM 10
+
+== 4. HKDF: derivar chaves distintas de um segredo
+chaves derivadas com rótulos diferentes são diferentes: true
+
+== 5. Assimétrica: desempenho e tamanhos (1 núcleo)
+Ed25519      chave pública   44 B | assinatura   64 B | assinar   3548 /s | verificar   1719 /s | válida: true
+ECDSA P-256  chave pública   91 B | assinatura   72 B | assinar   5659 /s | verificar   2464 /s | válida: true
+RSA-PSS 2048 chave pública  294 B | assinatura  256 B | assinar    355 /s | verificar   6597 /s | válida: true
+ML-DSA-65    chave pública 1974 B | assinatura 3309 B | assinar    197 /s | verificar   1043 /s | válida: true
+Ed25519: assinatura sobre mensagem adulterada é válida? false
+
+== 6. RSA-OAEP: limite do tamanho do claro e uso correto (híbrido)
+190 bytes: cifrou (máximo = 256 − 2×32 − 2 = 190)
+191 bytes: recusado → ERR_OSSL_RSA_DATA_TOO_LARGE_FOR_KEY_SIZE
+
+== 7. Troca de chaves híbrida: X25519 + HKDF + AES-GCM (ECIES simplificado)
+segredo compartilhado igual nos dois lados: true (32 B)
+Bob decifra: mensagem sintética
+sem autenticar as chaves públicas, um intermediário poderia trocá-las (por isso certificados/assinaturas)
+
+== 8. Pós-quântica no Node (ML-KEM-768 e ML-DSA-65): tamanhos
+ML-KEM-768: chave pública 1206 B, texto cifrado de encapsulamento 1088 B, segredo 32 B, iguais: true
+X25519 para comparação: chave pública 44 B, "ciphertext" = chave efêmera de 32 B
+versão OpenSSL do Node: 3.5.9 | Node: v26.13.1

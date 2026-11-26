@@ -1,0 +1,13 @@
+Chrome: Chrome/157.0.8103.50
+XSS (vulnerável): alert refletido executou 1x; armazenado executou 1x
+XSS (corrigida): alert refletido executou 0x; armazenado executou 0x
+document.cookie (vulnerável): contém sid (roubável por XSS)
+document.cookie (corrigida): vazio (HttpOnly)
+CSRF (vulnerável) atacante same-site (localhost:outra-porta): saldo 1000 → 900 (TRANSFERÊNCIA FEITA)
+CSRF (vulnerável) atacante cross-site (127.0.0.1): saldo 900 → 800 (TRANSFERÊNCIA FEITA)
+CSRF (corrigida) atacante same-site (localhost:outra-porta): saldo 1000 → 1000 (sem efeito)
+CSRF (corrigida) atacante cross-site (127.0.0.1): saldo 1000 → 1000 (sem efeito)
+CORS (vulnerável) atacante same-site: LIDO:{"saldo":800}
+CORS (vulnerável) atacante cross-site: LIDO:{"erro":"não autenticado"}
+CORS (corrigida) atacante same-site: BLOQUEADO
+CORS (corrigida) atacante cross-site: BLOQUEADO

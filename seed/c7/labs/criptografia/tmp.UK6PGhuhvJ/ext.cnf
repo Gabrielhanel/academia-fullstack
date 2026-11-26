@@ -1,0 +1,4 @@
+subjectAltName=DNS:api.exemplo.test
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature
+extendedKeyUsage=serverAuth

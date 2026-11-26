@@ -1,0 +1,68 @@
+
+=== 1. promtool: configuração, regras e regras defeituosas ===
+  SUCCESS: 1 rule files found
+ SUCCESS: /p/prometheus.yml is valid prometheus config file syntax
+  SUCCESS: 4 rules found
+  FAILED:
+/p/regras-defeituosas.yml: 5:15: group "ruim", rule 1, "ExpressaoQuebrada": could not parse expression: 1:37: parse error: unclosed left parenthesis
+
+=== 2. promtool test rules: teste correto e teste que espera alerta cedo demais ===
+  SUCCESS
+  FAILED:
+    alertname: TaxaDeErroAlta, time: 40s, 
+              Labels:{alertname="TaxaDeErroAlta", severidade="critica"}
+        got:[]
+
+=== 3. amtool check-config ===
+Checking '/a/alertmanager.yml'  SUCCESS
+
+=== 4. subindo a pilha ===
+alvos: up{job="app"} = 1
+
+=== 5. tráfego saudável: 35 s a 10 rps, 0% de erro ===
+carga 35s a 10 rps, 0% erro: {"200":345}
+taxa de requisições (30 s) = 9.88 req/s
+razão de erros (30 s) = vazio  (vazio: ainda não existe série com status 5xx)
+alertas ativos: vazio
+
+=== 6. injeção de erros (40 s, 10 rps, 30% de erro) seguida de recuperação (60 s, 10 rps, 0% de erro) ===
+carga 40s a 10 rps, 30% erro: {"200":278,"500":120}
+carga 60s a 10 rps, 0% erro: {"200":567}
+-- Alertmanager (API v2) agora:
+nenhum alerta ativo
+
+=== 7. p95: histograma x logs (acumulado desde o início do app, rota /ok) ===
+histogram_quantile(0.95) do Prometheus = 0.375 s
+linhas de log: 1310 por status: {"200":1190,"500":120}
+/ok: n = 1190 | p50 exato = 35.797 ms | p95 exato = 300.172 ms | p99 exato = 300.824 ms
+contador /ok 200 no Prometheus: 1190
+
+=== 8. app fora do ar: docker stop por ~30 s ===
+
+=== 9. Grafana (API local, acesso anônimo apenas no laboratório) ===
+health: database = ok | version = 13.3.2
+dashboards provisionados: 1 App do laboratório
+painéis do dashboard: 3 | Requisições por segundo / Razão de erros / Latência p95 (histograma)
+saúde do datasource: OK - Successfully queried the Prometheus API.
+up{job="app"} via Grafana = 1 | direto no Prometheus = 1
+
+=== 10. linha do tempo dos alertas (consultas query_range e log do webhook) ===
+TaxaDeErroAlta (referência: início da injeção de erros)
+  pending a partir de +10 s | firing a partir de +25 s
+  webhook firing em +30 s
+TaxaDeErroAlta (referência: início da recuperação, tráfego saudável)
+  última amostra firing em +24 s | webhook resolved em +30 s
+AppForaDoAr (referência: docker stop)
+  pending a partir de +14 s | firing a partir de +24 s | webhook firing em +30 s
+AppForaDoAr (referência: docker start)
+  webhook resolved em +9 s
+
+=== 11. versões ===
+promtool, version 3.16.0 (branch: HEAD, revision: e2e28adeee2c5883d000fc82aca6008cfbf7e96d)
+amtool, version 0.35.1 (branch: HEAD, revision: cc2a702d3833dcdb115465827b2820cdef8a0a38)
+grafana: 13.3.2
+-- log do webhook (todos os alertas recebidos):
+2026-11-26T00:38:37.136Z ALERTA status=firing alertname=TaxaDeErroAlta severidade=critica
+2026-11-26T00:39:17.105Z ALERTA status=resolved alertname=TaxaDeErroAlta severidade=critica
+2026-11-26T01:12:58.547Z ALERTA status=firing alertname=AppForaDoAr severidade=critica
+2026-11-26T01:13:18.550Z ALERTA status=resolved alertname=AppForaDoAr severidade=critica

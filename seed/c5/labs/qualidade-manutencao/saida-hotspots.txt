@@ -1,0 +1,6 @@
+arquivo            commits linhas complex. pontuação autores concentração
+src/pedido.js           25    375      301      7525       1         100%
+src/config.js            2     30       25        50       2          50%
+src/util.js             15     15        1        15       3          40%
+src/legado.js            1     15       13        13       1         100%
+src/relatorio.js         4      4        1         4       2          75%

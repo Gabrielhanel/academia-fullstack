@@ -1,0 +1,11 @@
+route:
+  receiver: hook
+  group_by: [alertname]
+  group_wait: 5s
+  group_interval: 10s
+  repeat_interval: 1h
+receivers:
+  - name: hook
+    webhook_configs:
+      - url: http://lab-mon-hook:9000/alerta
+        send_resolved: true

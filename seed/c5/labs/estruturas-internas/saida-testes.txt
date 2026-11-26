@@ -1,0 +1,13 @@
+✔ lexer: tokens e erro léxico (14.309308ms)
+✔ parser: precedência e associatividade na AST (3.081235ms)
+✔ as duas estratégias dão o mesmo resultado (7.409188ms)
+✔ erros semânticos: variável não definida (1.203826ms)
+✔ bytecode gerado para uma expressão simples (0.839499ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 396.648721

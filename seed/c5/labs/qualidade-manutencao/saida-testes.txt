@@ -1,0 +1,13 @@
+✔ DORA: valores simples (8.620069ms)
+✔ SLO: orçamento e taxa de queima (1.025387ms)
+✔ SLO: alertas de múltiplas janelas (1.369905ms)
+✔ tamanho do PR (1.099765ms)
+✔ hotspots: complexidade, leitura do histórico e ranking (3.727157ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 367.894888

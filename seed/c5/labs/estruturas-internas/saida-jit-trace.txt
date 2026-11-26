@@ -1,0 +1,10 @@
+== trace-opt/trace-deopt (resumo)
+[marking 0x… <JSFunction somar (sfi = 0x…)> for optimization to MAGLEV, ConcurrencyMode::kConcurrent, reason: hot and stable]
+[compiling method 0x… <JSFunction somar (sfi = 0x…)> (target MAGLEV), mode: ConcurrencyMode::kConcurrent]
+[completed compiling 0x… <JSFunction somar (sfi = 0x…)> (target MAGLEV) - took 0.001, 0.422, 0.004 ms]
+fase 1 (números): 900000
+[bailout (kind: deopt-eager, reason: not a Smi): begin. deoptimizing 0x… <JSFunction somar (sfi = 0x…)>, 0x… <Code MAGLEV>, opt id 2, bytecode offset 2, deopt exit 0, FP to SP delta 24, caller SP 0x…,
+[marking 0x… <JSFunction somar (sfi = 0x…)> for optimization to MAGLEV, ConcurrencyMode::kConcurrent, reason: hot and stable]
+[compiling method 0x… <JSFunction somar (sfi = 0x…)> (target MAGLEV), mode: ConcurrencyMode::kConcurrent]
+[completed compiling 0x… <JSFunction somar (sfi = 0x…)> (target MAGLEV) - took 0.001, 0.252, 0.006 ms]
+fase 2 (strings): 2000

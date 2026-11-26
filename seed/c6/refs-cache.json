@@ -1,0 +1,830 @@
+{
+ "https://docs.docker.com/engine/security/": {
+  "status": 200,
+  "page": "Docker Engine security | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/build/building/multi-stage/": {
+  "status": 200,
+  "page": "Multi-stage builds | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/engine/containers/resource_constraints/": {
+  "status": 200,
+  "page": "Resource constraints | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/compose/how-tos/startup-order/": {
+  "status": 200,
+  "page": "Control startup and shutdown order in Compose | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/reference/compose-file/": {
+  "status": 200,
+  "page": "Compose file reference | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/build/building/best-practices/": {
+  "status": 200,
+  "page": "Building best practices | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/build/cache/": {
+  "status": 200,
+  "page": "Docker build cache | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/compose/": {
+  "status": 200,
+  "page": "Docker Compose | Docker Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/": {
+  "status": 200,
+  "page": "Configure Liveness, Readiness and Startup Probes | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/get-started/docker-overview/": {
+  "status": 404,
+  "page": "",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://helm.sh/docs/": {
+  "status": 200,
+  "page": "Docs Home | Helm",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://argo-cd.readthedocs.io/en/stable/": {
+  "status": 200,
+  "page": "Argo CD - Declarative GitOps CD for Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/": {
+  "status": 200,
+  "page": "Deployments | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/services-networking/network-policies/": {
+  "status": 200,
+  "page": "Network Policies | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/reference/access-authn-authz/rbac/": {
+  "status": 200,
+  "page": "Using RBAC Authorization | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://opencontainers.org/": {
+  "status": 200,
+  "page": "Open Container Initiative - Open Container Initiative",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/tasks/run-application/configure-pdb/": {
+  "status": 200,
+  "page": "Specifying a Disruption Budget for your Application | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/overview/": {
+  "status": 200,
+  "page": "Overview | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://helm.sh/docs/topics/charts/#schema-files": {
+  "status": 200,
+  "page": "Charts | Helm",
+  "final": "https://helm.sh/docs/topics/charts/",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/workloads/pods/": {
+  "status": 200,
+  "page": "Pods | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/services-networking/service/": {
+  "status": 200,
+  "page": "Service | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/": {
+  "status": 200,
+  "page": "Resource Management for Pods and Containers | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://helm.sh/docs/chart_best_practices/": {
+  "status": 200,
+  "page": "Best Practices | Helm",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/security/pod-security-standards/": {
+  "status": 200,
+  "page": "Pod Security Standards | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/concepts/security/secrets-good-practices/": {
+  "status": 200,
+  "page": "Good practices for Kubernetes Secrets | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/setup/best-practices/": {
+  "status": 200,
+  "page": "Best practices | Kubernetes",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/": {
+  "status": 200,
+  "page": "Horizontal Pod Autoscaling | Kubernetes",
+  "final": "https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/",
+  "at": "2026-11-25"
+ },
+ "https://12factor.net/": {
+  "status": 200,
+  "page": "The Twelve-Factor App",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/yannh/kubeconform": {
+  "status": 200,
+  "page": "GitHub - yannh/kubeconform: A FAST Kubernetes manifests validator, with support for Custom Resources! · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://man7.org/linux/man-pages/man7/namespaces.7.html": {
+  "status": 200,
+  "page": "namespaces(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/hadolint/hadolint": {
+  "status": 200,
+  "page": "GitHub - hadolint/hadolint: Dockerfile linter, validate inline bash, written in Haskell · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://man7.org/linux/man-pages/man7/cgroups.7.html": {
+  "status": 200,
+  "page": "cgroups(7) - Linux manual page",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/": {
+  "status": 200,
+  "page": "What is a container? | Docker Learn",
+  "final": "https://docs.docker.com/learn/content/what-is-a-container/",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/concepts/security/openid-connect": {
+  "status": 200,
+  "page": "OpenID Connect - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://dora.dev/guides/dora-metrics-four-keys/": {
+  "status": 200,
+  "page": "DORA | DORA’s software delivery performance metrics",
+  "final": "https://dora.dev/guides/dora-metrics/",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/get-started/understand-github-actions": {
+  "status": 200,
+  "page": "Understanding GitHub Actions - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments": {
+  "status": 200,
+  "page": "Managing environments for deployment - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/reference/security/secure-use": {
+  "status": 200,
+  "page": "Secure use reference - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching": {
+  "status": 200,
+  "page": "Dependency caching reference - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax": {
+  "status": 200,
+  "page": "Workflow syntax for GitHub Actions - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-cloud-providers": {
+  "status": 200,
+  "page": "Configuring OpenID Connect in cloud providers - GitHub Docs",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://argoproj.github.io/rollouts/": {
+  "status": 200,
+  "page": "Argo Rollouts | Argo",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/articles/continuousIntegration.html": {
+  "status": 200,
+  "page": "Continuous Integration",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://github.com/rhysd/actionlint": {
+  "status": 200,
+  "page": "GitHub - rhysd/actionlint: :octocat: Static checker for GitHub Actions workflow files · GitHub",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/DeploymentPipeline.html": {
+  "status": 200,
+  "page": "Deployment Pipeline",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/ParallelChange.html": {
+  "status": 200,
+  "page": "Parallel Change",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/BlueGreenDeployment.html": {
+  "status": 200,
+  "page": "Blue Green Deployment",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://martinfowler.com/bliki/CanaryRelease.html": {
+  "status": 200,
+  "page": "Canary Release",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://trunkbaseddevelopment.com/": {
+  "status": 200,
+  "page": "Introduction",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_upstream_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_upstream_module",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://nginx.org/en/docs/control.html": {
+  "status": 200,
+  "page": "Controlling nginx",
+  "final": "",
+  "at": "2026-11-25"
+ },
+ "https://letsencrypt.org/how-it-works/": {
+  "status": 200,
+  "page": "How It Works - Let&#39;s Encrypt",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://ssl-config.mozilla.org/": {
+  "status": 200,
+  "page": "Mozilla SSL Configuration Generator",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc6585#section-4": {
+  "status": 200,
+  "page": "RFC 6585 - Additional HTTP Status Codes",
+  "final": "https://datatracker.ietf.org/doc/html/rfc6585",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc8446": {
+  "status": 200,
+  "page": "RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc9110#name-idempotent-methods": {
+  "status": 200,
+  "page": "RFC 9110 - HTTP Semantics",
+  "final": "https://datatracker.ietf.org/doc/html/rfc9110",
+  "at": "2026-11-26"
+ },
+ "https://docs.openssl.org/master/man1/openssl-s_client/": {
+  "status": 200,
+  "page": "openssl-s_client - OpenSSL Documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://datatracker.ietf.org/doc/html/rfc6797": {
+  "status": 200,
+  "page": "RFC 6797 - HTTP Strict Transport Security (HSTS)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/beginners_guide.html": {
+  "status": 200,
+  "page": "Beginner’s Guide",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_gzip_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_gzip_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_realip_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_realip_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/configuring_https_servers.html": {
+  "status": 200,
+  "page": "Configuring HTTPS servers",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/load_balancing.html": {
+  "status": 200,
+  "page": "Using nginx as HTTP load balancer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_limit_req_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_limit_req_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_ssl_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_ssl_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_proxy_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_proxy_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_v2_module.html": {
+  "status": 200,
+  "page": "Module ngx_http_v2_module",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_next_upstream": {
+  "status": 200,
+  "page": "Module ngx_http_proxy_module",
+  "final": "https://nginx.org/en/docs/http/ngx_http_proxy_module.html",
+  "at": "2026-11-26"
+ },
+ "https://nginx.org/en/docs/http/ngx_http_core_module.html#location": {
+  "status": 200,
+  "page": "Module ngx_http_core_module",
+  "final": "https://nginx.org/en/docs/http/ngx_http_core_module.html",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html": {
+  "status": 200,
+  "page": "What is Amazon S3? - Amazon Simple Storage Service",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://aws.amazon.com/compliance/shared-responsibility-model/": {
+  "status": 200,
+  "page": "Shared Responsibility Model - Amazon Web Services (AWS)",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://www.finops.org/introduction/what-is-finops/": {
+  "status": 200,
+  "page": "FinOps Foundation - What is FinOps?",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources": {
+  "status": 200,
+  "page": "Organize your Azure resources effectively - Cloud Adoption Framework | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview": {
+  "status": 200,
+  "page": "Managed identities for Azure resources - Managed identities for Azure resources | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/role-based-access-control/overview": {
+  "status": 200,
+  "page": "What is Azure role-based access control (Azure RBAC)? | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/well-architected/": {
+  "status": 200,
+  "page": "Azure Well-Architected Framework - Microsoft Azure Well-Architected Framework | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview": {
+  "status": 200,
+  "page": "What is Azure Virtual Network? | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html": {
+  "status": 200,
+  "page": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://csrc.nist.gov/pubs/sp/800/145/final": {
+  "status": 200,
+  "page": "SP 800-145, The NIST Definition of Cloud Computing | CSRC",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://azure.microsoft.com/en-us/pricing/calculator/": {
+  "status": 200,
+  "page": "Pricing Calculator | Microsoft Azure",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html": {
+  "status": 200,
+  "page": "What is Amazon VPC? - Amazon Virtual Private Cloud",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html": {
+  "status": 200,
+  "page": "Understanding the Lambda execution environment lifecycle - AWS Lambda",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html": {
+  "status": 200,
+  "page": "Security best practices in IAM - AWS Identity and Access Management",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://aws.amazon.com/pricing/": {
+  "status": 200,
+  "page": "AWS Product and Service Pricing | Amazon Web Services",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/app-service/overview": {
+  "status": 200,
+  "page": "Overview of Azure App Service - Azure App Service | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html": {
+  "status": 200,
+  "page": "Policy evaluation logic - AWS Identity and Access Management",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html": {
+  "status": 200,
+  "page": "Amazon SQS standard queues - Amazon Simple Queue Service",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview": {
+  "status": 200,
+  "page": "Azure Functions Overview | Microsoft Learn",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html": {
+  "status": 200,
+  "page": "What is AWS Lambda? - AWS Lambda",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html": {
+  "status": 200,
+  "page": "AWS Well-Architected Framework - AWS Well-Architected Framework",
+  "final": "https://docs.aws.amazon.com/wellarchitected/latest/framework/framework.html",
+  "at": "2026-11-26"
+ },
+ "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/": {
+  "status": 200,
+  "page": "Global Infrastructure Regions &amp; AZs",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/architecture/framework": {
+  "status": 200,
+  "page": "Google Cloud Well-Architected Framework &nbsp;|&nbsp; Cloud Architecture Center &nbsp;|&nbsp; Google Cloud Doc",
+  "final": "https://docs.cloud.google.com/architecture/framework",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/vpc/docs/vpc": {
+  "status": 200,
+  "page": "VPC networks &nbsp;|&nbsp; Virtual Private Cloud &nbsp;|&nbsp; Google Cloud Documentation",
+  "final": "https://docs.cloud.google.com/vpc/docs/vpc",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/iam/docs/service-account-overview": {
+  "status": 200,
+  "page": "Service accounts overview &nbsp;|&nbsp; Identity and Access Management (IAM) &nbsp;|&nbsp; Google Cloud Docume",
+  "final": "https://docs.cloud.google.com/iam/docs/service-account-overview",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/run/docs/overview/what-is-cloud-run": {
+  "status": 200,
+  "page": "What is Cloud Run &nbsp;|&nbsp; Google Cloud Documentation",
+  "final": "https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/iam/docs/overview": {
+  "status": 200,
+  "page": "IAM overview &nbsp;|&nbsp; Identity and Access Management (IAM) &nbsp;|&nbsp; Google Cloud Documentation",
+  "final": "https://docs.cloud.google.com/iam/docs/overview",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy": {
+  "status": 200,
+  "page": "資源階層結構簡介 &nbsp;|&nbsp; Resource Manager &nbsp;|&nbsp; Google Cloud Documentation",
+  "final": "https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy?hl=zh-tw",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/products": {
+  "status": 200,
+  "page": "Products and Services | Google Cloud",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://cloud.google.com/pricing": {
+  "status": 200,
+  "page": "Pricing Overview | Google Cloud",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://opentofu.org/docs/": {
+  "status": 200,
+  "page": "Documentation | OpenTofu",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/docs": {
+  "status": 200,
+  "page": "Terraform overview | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/state": {
+  "status": 200,
+  "page": "State | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://registry.terraform.io/providers/hashicorp/local/latest/docs": {
+  "status": 200,
+  "page": "Terraform Registry",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/cli/commands/plan": {
+  "status": 200,
+  "page": "terraform plan command reference | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://registry.terraform.io/providers/hashicorp/random/latest/docs": {
+  "status": 200,
+  "page": "Terraform Registry",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/modules": {
+  "status": 200,
+  "page": "Modules overview | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/backend": {
+  "status": 200,
+  "page": "Backend block configuration overview | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language": {
+  "status": 200,
+  "page": "Overview - Configuration Language | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/values/variables": {
+  "status": 200,
+  "page": "Use input variables to add module arguments | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/intro/core-workflow": {
+  "status": 200,
+  "page": "Overview of the core Terraform workflow | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/meta-arguments/for_each": {
+  "status": 200,
+  "page": "for_each meta-argument reference | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/files/dependency-lock": {
+  "status": 200,
+  "page": "Dependency Lock File (.terraform.lock.hcl) - Configuration Language | Terraform | HashiCorp Developer",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://developer.hashicorp.com/terraform/language/state/sensitive-data": {
+  "status": 200,
+  "page": "Manage sensitive data in your configuration | Terraform | HashiCorp Developer",
+  "final": "https://developer.hashicorp.com/terraform/language/manage-sensitive-data",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/functions/": {
+  "status": 200,
+  "page": "Query functions | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/practices/histograms/": {
+  "status": 200,
+  "page": "Histograms and summaries | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/querying/basics/": {
+  "status": 200,
+  "page": "Querying basics | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/alerting/latest/configuration/": {
+  "status": 200,
+  "page": "Configuration | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/practices/alerting/": {
+  "status": 200,
+  "page": "Alerting | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://opentelemetry.io/docs/concepts/signals/": {
+  "status": 200,
+  "page": "Signals | OpenTelemetry",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/": {
+  "status": 200,
+  "page": "Defining recording rules | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/practices/instrumentation/": {
+  "status": 200,
+  "page": "Instrumentation | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/practices/naming/": {
+  "status": 200,
+  "page": "Metric and label naming | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/concepts/metric_types/": {
+  "status": 200,
+  "page": "Metric types | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/unit_testing_rules/": {
+  "status": 200,
+  "page": "Unit testing for rules | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/instrumenting/exposition_formats/": {
+  "status": 200,
+  "page": "Exposition formats | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://grafana.com/docs/grafana/latest/": {
+  "status": 200,
+  "page": "Grafana OSS and Enterprise | Grafana documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://sre.google/sre-book/monitoring-distributed-systems/": {
+  "status": 200,
+  "page": "Google SRE: SRE Responsibilities and Management Frameworks",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://grafana.com/docs/grafana/latest/administration/provisioning/": {
+  "status": 200,
+  "page": "Provision Grafana | Grafana documentation",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/": {
+  "status": 200,
+  "page": "Alerting rules | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/prometheus/latest/configuration/configuration/": {
+  "status": 200,
+  "page": "Configuration | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/introduction/overview/": {
+  "status": 200,
+  "page": "Overview | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://grafana.com/docs/grafana/latest/developers/http_api/": {
+  "status": 200,
+  "page": "Legacy Grafana HTTP API | Grafana documentation",
+  "final": "https://grafana.com/docs/grafana/latest/developer-resources/api-reference/http-api/api-legacy/",
+  "at": "2026-11-26"
+ },
+ "https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/best-practices/": {
+  "status": 200,
+  "page": "Grafana dashboard best practices | Grafana documentation",
+  "final": "https://grafana.com/docs/grafana/latest/visualizations/dashboards/build-dashboards/best-practices/",
+  "at": "2026-11-26"
+ },
+ "https://grafana.com/docs/grafana/latest/dashboards/": {
+  "status": 200,
+  "page": "Dashboards | Grafana documentation",
+  "final": "https://grafana.com/docs/grafana/latest/visualizations/dashboards/",
+  "at": "2026-11-26"
+ },
+ "https://prometheus.io/docs/alerting/latest/alertmanager/": {
+  "status": 200,
+  "page": "Alertmanager | Prometheus",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://sre.google/workbook/alerting-on-slos/": {
+  "status": 200,
+  "page": "Google SRE - Prometheus Alerting: Turn SLOs into Alerts",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://sre.google/sre-book/being-on-call/": {
+  "status": 200,
+  "page": "Google SRE - On Call Engineer Best Practices for IT Services",
+  "final": "",
+  "at": "2026-11-26"
+ },
+ "https://sre.google/sre-book/postmortem-culture/": {
+  "status": 200,
+  "page": "Google SRE - Blameless Postmortem for System Resilience",
+  "final": "",
+  "at": "2026-11-26"
+ }
+}

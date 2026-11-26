@@ -1,0 +1,5 @@
+## DEPOIS da correção (ouvintes de erro no pool e no Redis)
+reinícios: 0
+pronto (sem banco): HTTP 503
+saude (liveness): HTTP 200
+banco de volta: pronto HTTP 200 após ~2s

@@ -1,0 +1,29 @@
+== 1. Vetores conhecidos e algoritmos
+SHA-256("abc") = ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad (esperado ba7816bf…15ad)
+tamanhos de saída (bytes): md5 16 | sha1 20 | sha256 32 | sha3-256 32 | blake2b512 64
+
+== 2. Efeito avalanche (inverter 1 bit de 1.000 entradas aleatórias de 32 bytes)
+média de bits diferentes na saída: 128.0 de 256 (50.0%; ideal ≈ 50%)
+
+== 3. Custo por tentativa (1 núcleo, esta máquina)
+SHA-256 simples (OpenSSL):  713.1 mil hashes/s por núcleo (1402 ns cada)
+SHA-256 via Node createHash: 79.6 mil hashes/s (a sobrecarga de criar o objeto domina; não use como taxa de quebra)
+scrypt N=2^14 r=8 p=1:     156.7 ms  → 6.4 tentativas/s
+scrypt N=2^17 r=8 p=1:     1442.4 ms  → 0.7 tentativas/s
+PBKDF2-SHA256 600.000 it.:  1190.9 ms  → 0.8 tentativas/s
+Argon2id m=19 MiB, t=2, p=1: 139.2 ms  → 7.2 tentativas/s
+razão SHA-256 simples / scrypt(2^14): 1.12e+5x mais tentativas por segundo
+
+== 4. Tempo para esgotar espaços de senha em 1 núcleo (estimativa = espaço / taxa medida; GPUs/ASICs são muito mais rápidos)
+8 minúsculas (26^8)        espaço 2.09e+11 | SHA-256: 3.4 dias | scrypt 2^14: 1.04e+3 anos | argon2id: 9.22e+2 anos
+8 alfanuméricas (62^8)     espaço 2.18e+14 | SHA-256: 9.71e+0 anos | scrypt 2^14: 1.09e+6 anos | argon2id: 9.64e+5 anos
+12 alfanuméricas (62^12)   espaço 3.23e+21 | SHA-256: 1.43e+8 anos | scrypt 2^14: 1.60e+13 anos | argon2id: 1.42e+13 anos
+
+== 5. Dicionário contra hash SEM salt x COM salt (senhas sintéticas fracas)
+SEM salt: tabela de 120000 candidatos construída em 1961 ms (reutilizável para TODOS os usuários); 3/3 senhas recuperadas em 0.20 ms de consulta
+COM salt+scrypt: 20 candidatos x 3 usuários = 60 tentativas em 9457 ms (157.6 ms por tentativa); tabela pré-computada não serve (cada usuário tem salt próprio); recuperadas nesse lote: 0
+extrapolação: os 120000 candidatos x 3 usuários levariam ≈ 15.7 h (1 núcleo), contra 0.20 ms da consulta na tabela sem salt (após 1961 ms para montá-la, uma única vez)
+
+== 6. HMAC e comparação em tempo constante
+HMAC confere para mensagem original: true | para mensagem adulterada: false
+hash(msg||x) não exige a chave (extensão de comprimento é ponto de atenção de SHA-256 puro); HMAC resolve: true

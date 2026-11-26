@@ -1,0 +1,45 @@
+    faixas de desconto
+
+
+[Survived] EqualityOperator
+analise/calculos.mjs:8:48
+-   export function ehMaiorDeIdade(idade) { return idade >= 18; }
++   export function ehMaiorDeIdade(idade) { return idade > 18; }
+Tests ran:
+    maioridade
+
+
+[Survived] ConditionalExpression
+analise/calculos.mjs:10:7
+-     if (peso <= 0) throw new Error('peso inválido');
++     if (false) throw new Error('peso inválido');
+Tests ran:
+    frete
+
+
+[Survived] EqualityOperator
+analise/calculos.mjs:10:7
+-     if (peso <= 0) throw new Error('peso inválido');
++     if (peso < 0) throw new Error('peso inválido');
+Tests ran:
+    frete
+
+
+[Survived] EqualityOperator
+analise/calculos.mjs:11:16
+-     const base = peso <= 5 ? 10 : 10 + (peso - 5) * 2;
++     const base = peso < 5 ? 10 : 10 + (peso - 5) * 2;
+Tests ran:
+    frete
+
+
+Ran 0.86 tests per mutant on average.
+--------------|------------------|----------|-----------|------------|----------|----------|
+              | % Mutation score |          |           |            |          |          |
+File          |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+All files     |  69.44 |   80.65 |       25 |         0 |          6 |        5 |        0 |
+ calculos.mjs |  69.44 |   80.65 |       25 |         0 |          6 |        5 |        0 |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+19:56:21 (219890) INFO JsonReporter Your report can be found at: file:///home/gabriel/Documentos/github/academia-v2/seed/c5/labs/testes-avancados/reports/mutation.json
+19:56:21 (219890) INFO MutationTestExecutor Done in 16 seconds.

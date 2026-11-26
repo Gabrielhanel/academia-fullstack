@@ -1,0 +1,91 @@
+{
+ "aviso": "DADOS SINTÉTICOS gerados para o curso; não representam nenhuma equipe real",
+ "inicio": "2026-01-05",
+ "fim": "2026-02-02",
+ "implantacoes": [
+  {
+   "id": "d1",
+   "commit": "2026-01-05T20:00:00.000Z",
+   "implantadoEm": "2026-01-06T00:00:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d2",
+   "commit": "2026-01-08T01:12:00.000Z",
+   "implantadoEm": "2026-01-08T07:12:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d3",
+   "commit": "2026-01-09T08:24:00.000Z",
+   "implantadoEm": "2026-01-10T14:24:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d4",
+   "commit": "2026-01-12T16:36:00.000Z",
+   "implantadoEm": "2026-01-12T21:36:00.000Z",
+   "falhou": true
+  },
+  {
+   "id": "d5",
+   "commit": "2026-01-14T20:48:00.000Z",
+   "implantadoEm": "2026-01-15T04:48:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d6",
+   "commit": "2026-01-17T09:00:00.000Z",
+   "implantadoEm": "2026-01-17T12:00:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d7",
+   "commit": "2026-01-17T17:12:00.000Z",
+   "implantadoEm": "2026-01-19T19:12:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d8",
+   "commit": "2026-01-21T19:24:00.000Z",
+   "implantadoEm": "2026-01-22T02:24:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d9",
+   "commit": "2026-01-24T00:36:00.000Z",
+   "implantadoEm": "2026-01-24T09:36:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d10",
+   "commit": "2026-01-26T14:48:00.000Z",
+   "implantadoEm": "2026-01-26T16:48:00.000Z",
+   "falhou": true
+  },
+  {
+   "id": "d11",
+   "commit": "2026-01-28T12:00:00.000Z",
+   "implantadoEm": "2026-01-29T00:00:00.000Z",
+   "falhou": false
+  },
+  {
+   "id": "d12",
+   "commit": "2026-01-31T02:12:00.000Z",
+   "implantadoEm": "2026-01-31T07:12:00.000Z",
+   "falhou": false
+  }
+ ],
+ "incidentes": [
+  {
+   "id": "i1",
+   "inicio": "2026-01-12T10:00:00Z",
+   "restaurado": "2026-01-12T11:30:00Z"
+  },
+  {
+   "id": "i2",
+   "inicio": "2026-01-27T14:00:00Z",
+   "restaurado": "2026-01-27T20:00:00Z"
+  }
+ ]
+}

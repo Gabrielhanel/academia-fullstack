@@ -1,0 +1,19 @@
+## vaza (--max-old-space-size=64)
+i = 0 | entradas 1 | heap usado 4 MB
+i = 200000 | entradas 200001 | heap usado 77 MB
+<--- Last few GCs --->
+[221961:0xb222000]     2405 ms: Mark-Compact 70.0 (98.4) -> 69.2 (98.4) MB, pooled: 8.2 MB, 290.04 / 0.00 ms (average mu = 0.106, current mu
+[221961:0xb222000]     2682 ms: Mark-Compact (reduce) 69.2 (98.4) -> 69.1 (73.1) MB, pooled: 0.0 MB, 272.71 / 0.00 ms (average mu = 0.064, c
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+ 1: 0x842e50  [node]
+ 2: 0x8430bd node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
+ 3: 0xcd716b  [node]
+ 4: 0xf46aa5  [node]
+ 5: 0xf44cac  [node]
+ 6: 0xf453d3  [node]
+ 7: 0xf37bec  [node]
+## limitado
+i = 1600000 | entradas 5000 | heap usado 43 MB
+i = 1800000 | entradas 5000 | heap usado 11 MB
+fim sem falha | entradas 5000 | heap usado 36 MB

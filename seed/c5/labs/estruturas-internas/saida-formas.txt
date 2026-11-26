@@ -1,0 +1,3 @@
+1 forma de objeto (monomórfico)                    35.5 ms
+5 formas de objeto (polimórfico/megamórfico)      148.8 ms
+razão polimórfico / monomórfico: 4.2x

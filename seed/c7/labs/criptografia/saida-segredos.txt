@@ -1,0 +1,35 @@
+$ node envelope.mjs 10000x1024
+10000 registros de 1024 B, cada um com sua DEK, embrulhada pela KEK v1
+decifrar o registro 0 com a DEK desembrulhada: 1024 B recuperados
+rotação da KEK (v1 → v2): reembrulhar 10000 DEKs em 789 ms; dados cifrados inalterados: true
+alternativa sem envelope (decifrar e recifrar todos os dados): 1063 ms para 10000 x 1024 B (1.3x mais lento que reembrulhar)
+após a rotação, decifra com a v2: 1024 B
+após destruir a KEK: impossível desembrulhar a DEK; os dados cifrados tornam-se ilegíveis
+
+$ node envelope.mjs 200x1048576
+200 registros de 1048576 B, cada um com sua DEK, embrulhada pela KEK v1
+decifrar o registro 0 com a DEK desembrulhada: 1048576 B recuperados
+rotação da KEK (v1 → v2): reembrulhar 200 DEKs em 63 ms; dados cifrados inalterados: true
+alternativa sem envelope (decifrar e recifrar todos os dados): 992 ms para 200 x 1048576 B (15.9x mais lento que reembrulhar)
+após a rotação, decifra com a v2: 1048576 B
+após destruir a KEK: impossível desembrulhar a DEK; os dados cifrados tornam-se ilegíveis
+
+$ bash repo-demo.sh
+commits: 2
+== scanner próprio na árvore de trabalho atual (após a correção)
+  total: 0 achado(s)
+== scanner próprio no histórico (git log -p --all)
+  linha 13: atribuicao-generica iFSF…**** (24 car.) entropia=3.92
+  linha 26: github-token ghp_…**** (40 car.) entropia=4.68
+  linha 26: atribuicao-generica ghp_…**** (40 car.) entropia=4.68
+  linha 42: atribuicao-generica iFSF…**** (24 car.) entropia=3.92
+  linha 49: github-token ghp_…**** (40 car.) entropia=4.68
+  linha 49: atribuicao-generica ghp_…**** (40 car.) entropia=4.68
+  total: 6 achado(s)
+== o segredo ainda é recuperável do primeiro commit? 1 linha(s) com o token
+== gitleaks (imagem zricethezav/gitleaks, v8.30.1) no histórico
+  RuleID:      generic-api-key | File:        .env | Line:        1 | Commit:      1438db01748a6d01a404aff04701cf44e687c566
+  RuleID:      github-pat | File:        app.js | Line:        1 | Commit:      1438db01748a6d01a404aff04701cf44e687c566
+1:42AM WRN leaks found: 2
+== gitleaks apenas na árvore de trabalho atual (--no-git)
+1:42AM INF no leaks found

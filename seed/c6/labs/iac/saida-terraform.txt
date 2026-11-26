@@ -1,0 +1,126 @@
+
+=== 1. versão ===
+Terraform v1.17.2
+on linux_amd64
++ provider registry.terraform.io/hashicorp/local v2.9.1
++ provider registry.terraform.io/hashicorp/random v3.9.1
+
+
+=== 2. fmt -check -diff em um arquivo mal formatado ===
+feio.tf
+--- old/feio.tf
++++ new/feio.tf
+@@ -1,4 +1,4 @@
+ variable "x" {
+-type=string
+-   default   =  "a"
++  type    = string
++  default = "a"
+ }
+exit=3
+
+=== 3. init ===
+- Reusing version 2.9.1 of hashicorp/local from the dependency lock file
+- Reusing version 3.9.1 of hashicorp/random from the dependency lock file
+- Installing hashicorp/local v2.9.1...
+- Installed hashicorp/local v2.9.1 (signed by HashiCorp)
+- Installing hashicorp/random v3.9.1...
+- Installed hashicorp/random v3.9.1 (signed by HashiCorp)
+Terraform has been successfully initialized!
+
+=== 4. validate (válido) ===
+Success! The configuration is valid.
+
+
+=== 5. validate (referência a variável inexistente) ===
+
+Error: Reference to undeclared input variable
+
+  on invalido.tf line 1, in output "x":
+   1: output "x" { value = var.nao_existe }
+
+An input variable with the name "nao_existe" has not been declared. This
+variable can be declared with a variable "nao_existe" {} block.
+exit=1
+
+=== 6. plan -out e resumo do plano em JSON ===
+  # random_password.db will be created
+  # random_pet.sufixo will be created
+  # module.servico["api"].local_file.config will be created
+  # module.servico["web"].local_file.config will be created
+Plan: 4 to add, 0 to change, 0 to destroy.
+Changes to Outputs:
+recursos no plano: 4 {"create":4}
+endereços: random_password.db, random_pet.sufixo, module.servico["api"].local_file.config, module.servico["web"].local_file.config
+
+=== 7. apply do plano salvo ===
+Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
+Outputs:
+-- arquivos gerados:
+api-dev.json
+web-dev.json
+-- conteúdo de api-dev.json:
+{"ambiente":"dev","nome":"api","porta":3000,"replicas":2,"sufixo":"massive-rodent"}
+-- state list:
+random_password.db
+random_pet.sufixo
+module.servico["api"].local_file.config
+module.servico["web"].local_file.config
+
+=== 8. plan novamente (idempotência) e código de saída com -detailed-exitcode ===
+No changes. Your infrastructure matches the configuration.
+plan -detailed-exitcode sem mudanças: exit=0
+
+=== 8b. segredo no state e na saída ===
+senha_db = <sensitive>
+tf output -raw senha_db tem 16 caracteres (valor não exibido aqui)
+state em texto claro: random_password.db.result tem 16 caracteres (primeiro e último ocultos: G…l)
+
+=== 9. mudança de réplicas da api (2 -> 5) ===
+  # module.servico["api"].local_file.config must be replaced
+              ~ replicas = 2 -> 5
+Plan: 1 to add, 0 to change, 1 to destroy.
+  ~ total_replicas = 5 -> 8
+
+=== 10. validação de variável: ambiente inválido ===
+Error: Invalid value for variable
+ambiente deve ser dev, homologacao ou producao.
+
+=== 11. validação de variável: réplicas zero ===
+Error: Invalid value for variable
+cada serviço precisa de replicas >= 1 e porta > 1023.
+
+=== 12. drift: arquivo alterado manualmente ===
+Note: Objects have changed outside of Terraform
+  # module.servico["api"].local_file.config will be created
+Plan: 1 to add, 0 to change, 0 to destroy.
+plan -detailed-exitcode com drift: exit=2
+
+=== 13. drift: arquivo apagado manualmente ===
+Note: Objects have changed outside of Terraform
+  # module.servico["api"].local_file.config has been deleted
+  # module.servico["web"].local_file.config has been deleted
+  # module.servico["api"].local_file.config will be created
+  # module.servico["web"].local_file.config will be created
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+=== 14. apply corrige o drift e o plan fica limpo ===
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+No changes. Your infrastructure matches the configuration.
+{"ambiente":"dev","nome":"api","porta":3000,"replicas":2,"sufixo":"massive-rodent"}
+
+=== 15. trocar de ambiente (producao): efeito dos keepers ===
+  # random_pet.sufixo must be replaced
+  # module.servico["api"].local_file.config must be replaced
+  # module.servico["web"].local_file.config must be replaced
+Plan: 3 to add, 0 to change, 3 to destroy.
+
+=== 16. destroy ===
+Destroy complete! Resources: 4 destroyed.
+arquivos restantes em saida: 0
+
+== lock file (versões dos provedores) ==
+provider "registry.terraform.io/hashicorp/local" {
+  version     = "2.9.1"
+provider "registry.terraform.io/hashicorp/random" {
+  version     = "3.9.1"
